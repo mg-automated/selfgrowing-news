@@ -90,6 +90,7 @@ body {
 }
 
 .center {
+  box-sizing: border-box;
   max-width: 860px;
   padding-left: clamp(1.4rem, 4vw, 4rem);
   padding-right: clamp(1.4rem, 4vw, 4rem);
