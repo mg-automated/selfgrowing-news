@@ -49,6 +49,8 @@ When creating a file, set `created` and `updated` to the same timestamp. When mo
 
 Each daily file must contain exactly 10 important news developments from the preceding 24 hours. Select stories by significance; do not enforce a fixed quota among International Politics, Swiss Politics, and Technology.
 
+After the daily title and coverage window, add an `## Overview` section before the first story. Write one concise paragraph of two to four sentences that synthesizes the day's 10 selected developments, highlights the most consequential themes, and connects related stories where useful. Base the overview exclusively on the selected stories: do not introduce unsupported claims, separate developments, or an implicit eleventh story. The overview must be written in English and should orient the reader rather than repeat all 10 headlines.
+
 Every story must contain:
 
 - a headline;
@@ -123,8 +125,9 @@ Before completing a daily archive task, confirm that:
 1. the target date uses Europe/Zurich local time and no second daily file exists for that date;
 2. existing daily files were reviewed for duplicate or developing stories;
 3. the file contains exactly 10 substantive developments from the preceding 24 hours;
-4. every entry has a headline, a two-to-four-sentence factual summary, a **Why it matters** explanation, topic links, and reliable source links;
-5. every linked topic file exists and duplicate topics were avoided;
-6. all internal Markdown links resolve;
-7. timestamps follow the creation/update rules; and
-8. the daily file is complete before it is committed.
+4. the `## Overview` section accurately synthesizes those 10 stories without introducing a separate development;
+5. every entry has a headline, a two-to-four-sentence factual summary, a **Why it matters** explanation, topic links, and reliable source links;
+6. every linked topic file exists and duplicate topics were avoided;
+7. all internal Markdown links resolve;
+8. timestamps follow the creation/update rules; and
+9. the daily file is complete before it is committed.
