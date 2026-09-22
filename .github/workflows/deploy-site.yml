@@ -1,9 +1,14 @@
 name: Deploy Quartz site to GitHub Pages
 
-# Intentionally manual-only. This workflow cannot publish until GitHub Pages is
-# explicitly enabled with GitHub Actions as its source in repository settings.
+# Deploy automatically when a daily note changes on main. Manual runs remain
+# available for testing and recovery.
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "News/Daily/**/*.md"
 
 permissions:
   contents: read
