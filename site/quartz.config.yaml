@@ -2,7 +2,7 @@
 configuration:
   pageTitle: Self-growing News
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics: null
   locale: en-US
@@ -213,4 +213,3 @@ layout:
         - reader-mode
       positions:
         right: []
-
