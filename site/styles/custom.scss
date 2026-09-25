@@ -207,6 +207,9 @@ article h2#referenced-stories ~ h3 + p {
 }
 
 footer {
+  box-sizing: border-box;
+  padding-left: clamp(1.4rem, 4vw, 4rem);
+  padding-right: clamp(1.4rem, 4vw, 4rem);
   color: var(--sgn-muted);
   border-top: 1px solid var(--sgn-border);
   font-size: 0.78rem;
@@ -239,7 +242,8 @@ footer a:hover {
 }
 
 @media all and ($mobile) {
-  .center {
+  .center,
+  footer {
     padding-left: 1.15rem;
     padding-right: 1.15rem;
   }
