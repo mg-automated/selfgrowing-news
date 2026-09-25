@@ -1,4 +1,4 @@
-# Self-growing News site
+# The Growing News Archive site
 
 This directory contains the Quartz configuration and presentation layer for the news archive. The archive itself remains in the repository-level `News/` and `Topics/` directories.
 

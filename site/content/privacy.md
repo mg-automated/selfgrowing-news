@@ -1,6 +1,6 @@
 # Privacy
 
-Self-growing News does not use advertising, behavioural analytics, user accounts, contact forms, or marketing trackers.
+The Growing News Archive does not use advertising, behavioural analytics, user accounts, contact forms, or marketing trackers.
 
 ## Hosting
 

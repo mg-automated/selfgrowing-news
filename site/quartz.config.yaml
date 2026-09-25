@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Self-growing News
+  pageTitle: The Growing News Archive
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: true

@@ -1,6 +1,6 @@
-# Self-Growing News
+# The Growing News Archive
 
-Self-Growing News is an automated, open Markdown archive of important daily developments in:
+The Growing News Archive is an automated, open Markdown archive of important daily developments in:
 
 - international politics;
 - Swiss politics; and

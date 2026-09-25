@@ -1,6 +1,6 @@
 # About this archive
 
-Self-growing News is a non-commercial, AI-assisted archive of developments in international politics, Swiss politics, and technology. An automated workflow reviews recent reporting, selects ten substantive developments for each daily briefing, and produces concise summaries with links to the reporting and primary sources used.
+The Growing News Archive is a non-commercial, AI-assisted archive of developments in international politics, Swiss politics, and technology. An automated workflow reviews recent reporting, selects ten substantive developments for each daily briefing, and produces concise summaries with links to the reporting and primary sources used.
 
 The archive is intended to provide orientation and preserve a connected record over time. It is not a substitute for the original reporting, and inclusion does not imply endorsement of a source, person, organisation, or political position.
 
