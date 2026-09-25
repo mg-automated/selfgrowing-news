@@ -15,15 +15,17 @@ git -C "${RUNTIME_DIR}" fetch --depth=1 origin "${QUARTZ_COMMIT}"
 git -C "${RUNTIME_DIR}" checkout --detach "${QUARTZ_COMMIT}"
 git -C "${RUNTIME_DIR}" clean -fdx
 
-mkdir -p "${RUNTIME_DIR}/content" "${RUNTIME_DIR}/quartz/styles"
+mkdir -p "${RUNTIME_DIR}/content" "${RUNTIME_DIR}/quartz/styles" "${RUNTIME_DIR}/scripts"
 cp "${SCRIPT_DIR}/quartz.config.yaml" "${RUNTIME_DIR}/quartz.config.yaml"
 cp "${SCRIPT_DIR}/quartz.ts" "${RUNTIME_DIR}/quartz.ts"
 cp "${SCRIPT_DIR}/styles/custom.scss" "${RUNTIME_DIR}/quartz/styles/custom.scss"
 cp "${SCRIPT_DIR}/content/index.md" "${RUNTIME_DIR}/content/index.md"
+cp "${SCRIPT_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/scripts/enrich-topics.mjs"
 cp -R "${REPOSITORY_ROOT}/News" "${RUNTIME_DIR}/content/News"
 cp -R "${REPOSITORY_ROOT}/Topics" "${RUNTIME_DIR}/content/Topics"
 
 find "${RUNTIME_DIR}/content" -name .gitkeep -delete
+node "${RUNTIME_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/content"
 
 npm --prefix "${RUNTIME_DIR}" ci
 (
@@ -33,4 +35,3 @@ npm --prefix "${RUNTIME_DIR}" ci
 )
 
 printf 'Quartz site built at %s\n' "${RUNTIME_DIR}/public"
-

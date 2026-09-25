@@ -175,6 +175,27 @@ blockquote,
   font-size: 0.84rem;
 }
 
+.referenced-stories {
+  margin-top: 3rem;
+}
+
+article h2#referenced-stories {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--sgn-border);
+}
+
+article h2#referenced-stories ~ h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+article h2#referenced-stories ~ h3 + p {
+  margin-top: 0;
+  color: var(--sgn-muted);
+  font-size: 0.84rem;
+}
+
 .toc a,
 .backlinks a {
   color: var(--sgn-muted);

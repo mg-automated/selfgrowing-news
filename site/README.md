@@ -28,6 +28,8 @@ site/.quartz-runtime/public/
 
 The runtime and generated output are ignored by Git.
 
+During the build, `site/scripts/enrich-topics.mjs` derives a **Referenced stories** section for each published topic page. It extracts only the matching story sections from daily briefings that link to that topic. These excerpts exist only in the generated site; the repository-level topic notes remain intentionally simple and continue to rely on normal Obsidian backlinks.
+
 ## Publish later with GitHub Pages
 
 Nothing in the repository publishes automatically. When publication is desired:
@@ -48,4 +50,3 @@ If a custom domain or Cloudflare Pages is used instead, update `configuration.ba
 ## Quartz version
 
 The build is pinned to Quartz commit `3dff48b5df6d84c9544a5ae19c8f2cbb01dc44e5` so an upstream change cannot silently alter or break the site. Updating Quartz should be done deliberately by changing `QUARTZ_COMMIT` in `site/build.sh`, then running and reviewing a local build.
-
