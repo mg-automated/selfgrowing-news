@@ -16,3 +16,13 @@ The purpose is not simply to collect daily headlines, but to create a connected 
 
 Use the explorer to browse the archive, search to find a specific development, or open the graph to see how daily stories connect to recurring topics.
 
+## Explore the archive
+
+<div class="homepage-global-graph">
+  <div
+    class="graph-container"
+    data-cfg='{"drag":true,"zoom":true,"depth":-1,"scale":0.9,"repelForce":0.5,"centerForce":0.2,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"removeTags":[],"showTags":true,"focusOnHover":true,"enableRadial":true}'
+  ></div>
+</div>
+
+<p class="homepage-graph-caption">Select a node to open its daily briefing or topic page.</p>

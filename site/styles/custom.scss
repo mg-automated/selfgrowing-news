@@ -154,6 +154,27 @@ blockquote,
   border-radius: var(--sgn-radius);
 }
 
+.homepage-global-graph {
+  box-sizing: border-box;
+  height: clamp(26rem, 58vw, 36rem);
+  margin-top: 0.75rem;
+  overflow: hidden;
+  background: var(--sgn-panel-raised);
+  border: 1px solid var(--sgn-border);
+  border-radius: calc(var(--sgn-radius) + 2px);
+}
+
+.homepage-global-graph > .graph-container {
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-graph-caption {
+  margin-top: 0.65rem;
+  color: var(--sgn-muted);
+  font-size: 0.84rem;
+}
+
 .toc a,
 .backlinks a {
   color: var(--sgn-muted);
@@ -178,5 +199,8 @@ footer {
   .article-title {
     font-size: 2rem;
   }
-}
 
+  .homepage-global-graph {
+    height: 24rem;
+  }
+}
