@@ -177,7 +177,10 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links: {}
+      links:
+        "AI-assisted summaries — verify important information using the linked sources.": "/selfgrowing-news/about"
+        Corrections: "/selfgrowing-news/about#corrections"
+        Privacy: "/selfgrowing-news/privacy"
     layout:
       position: footer
       priority: 50

@@ -209,6 +209,33 @@ article h2#referenced-stories ~ h3 + p {
 footer {
   color: var(--sgn-muted);
   border-top: 1px solid var(--sgn-border);
+  font-size: 0.78rem;
+}
+
+footer > p {
+  margin-bottom: 0.35rem;
+}
+
+footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer > ul > li {
+  margin: 0;
+}
+
+footer a {
+  color: var(--sgn-muted);
+  text-decoration-color: color-mix(in srgb, var(--sgn-muted) 55%, transparent);
+}
+
+footer a:hover {
+  color: var(--dark);
 }
 
 @media all and ($mobile) {

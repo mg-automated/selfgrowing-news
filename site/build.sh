@@ -19,7 +19,7 @@ mkdir -p "${RUNTIME_DIR}/content" "${RUNTIME_DIR}/quartz/styles" "${RUNTIME_DIR}
 cp "${SCRIPT_DIR}/quartz.config.yaml" "${RUNTIME_DIR}/quartz.config.yaml"
 cp "${SCRIPT_DIR}/quartz.ts" "${RUNTIME_DIR}/quartz.ts"
 cp "${SCRIPT_DIR}/styles/custom.scss" "${RUNTIME_DIR}/quartz/styles/custom.scss"
-cp "${SCRIPT_DIR}/content/index.md" "${RUNTIME_DIR}/content/index.md"
+cp "${SCRIPT_DIR}/content/"*.md "${RUNTIME_DIR}/content/"
 cp "${SCRIPT_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/scripts/enrich-topics.mjs"
 cp -R "${REPOSITORY_ROOT}/News" "${RUNTIME_DIR}/content/News"
 cp -R "${REPOSITORY_ROOT}/Topics" "${RUNTIME_DIR}/content/Topics"
