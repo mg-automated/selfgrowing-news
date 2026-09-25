@@ -175,25 +175,193 @@ blockquote,
   font-size: 0.84rem;
 }
 
-.referenced-stories {
+.topic-momentum {
+  margin-top: 3rem;
+  padding: 1.25rem;
+  background: var(--sgn-panel-raised);
+  border: 1px solid var(--sgn-border);
+  border-radius: calc(var(--sgn-radius) + 2px);
+}
+
+.topic-momentum-heading,
+.topic-timeline-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.topic-momentum-heading h2,
+.topic-timeline-heading h2 {
+  margin: 0 0 0.15rem;
+  font-size: 1.25rem;
+}
+
+.topic-momentum-heading p,
+.topic-timeline-heading p {
+  margin: 0;
+  color: var(--sgn-muted);
+  font-size: 0.78rem;
+}
+
+.topic-momentum-status {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
+.topic-momentum-status span {
+  display: block;
+  color: var(--sgn-accent);
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.topic-momentum-status strong {
+  font-size: 0.95rem;
+}
+
+.topic-momentum-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 7rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-bottom: 1px solid var(--sgn-border);
+}
+
+.topic-momentum-bar {
+  flex: 1 1 0;
+  min-width: 2px;
+  height: calc(var(--activity) * 100%);
+  background: color-mix(in srgb, var(--sgn-muted) 18%, transparent);
+  border-radius: 2px 2px 0 0;
+}
+
+.topic-momentum-bar.has-stories {
+  background: var(--sgn-accent);
+}
+
+.topic-momentum-axis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.35rem;
+  color: var(--sgn-muted);
+  font-size: 0.7rem;
+}
+
+.topic-momentum-comparison {
+  margin: 0.85rem 0 0;
+  padding-top: 0.75rem;
+  color: var(--sgn-muted);
+  border-top: 1px solid var(--sgn-border);
+  font-size: 0.78rem;
+}
+
+.topic-timeline {
   margin-top: 3rem;
 }
 
-article h2#referenced-stories {
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--sgn-border);
+.topic-timeline-heading {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--sgn-border);
 }
 
-article h2#referenced-stories ~ h3 {
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
+.topic-timeline-heading > span {
+  flex: 0 0 auto;
+  color: var(--sgn-muted);
+  font-size: 0.78rem;
+}
+
+.topic-timeline-entry {
+  display: grid;
+  grid-template-columns: 5.5rem 1.25rem minmax(0, 1fr);
+  column-gap: 0.45rem;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+.topic-timeline-date {
+  padding-top: 0.1rem;
+  color: var(--sgn-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.035em;
+}
+
+.topic-timeline-marker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.topic-timeline-marker::after {
+  position: absolute;
+  top: 0.8rem;
+  bottom: -1.5rem;
+  width: 1px;
+  background: var(--sgn-border);
+  content: "";
+}
+
+.topic-timeline-marker > span {
+  z-index: 1;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.3rem;
+  background: var(--light);
+  border: 2px solid var(--sgn-muted);
+  border-radius: 50%;
+}
+
+.topic-timeline-entry.is-latest .topic-timeline-marker > span {
+  background: var(--sgn-accent);
+  border-color: var(--sgn-accent);
+}
+
+.topic-timeline-content {
+  min-width: 0;
+  padding-bottom: 0.75rem;
+}
+
+.topic-timeline-label {
+  margin-bottom: 0.15rem;
+  color: var(--sgn-accent);
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.topic-timeline-content h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
   line-height: 1.4;
 }
 
-article h2#referenced-stories ~ h3 + p {
-  margin-top: 0;
-  color: var(--sgn-muted);
+.topic-timeline-content p {
+  margin: 0.55rem 0;
+}
+
+.topic-timeline-content .topic-timeline-daily-link {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+}
+
+.topic-timeline-earlier {
+  margin: 1rem 0 0 7.65rem;
+}
+
+.topic-timeline-earlier > summary {
+  color: var(--sgn-accent);
   font-size: 0.84rem;
+}
+
+.topic-timeline-earlier .topic-timeline-entry {
+  margin-left: -7.65rem;
+}
+
+.topic-timeline-earlier .topic-timeline-entry:last-child .topic-timeline-marker::after {
+  display: none;
 }
 
 .toc a,
@@ -254,5 +422,26 @@ footer a:hover {
 
   .homepage-global-graph {
     height: 24rem;
+  }
+
+  .topic-momentum-heading,
+  .topic-timeline-heading {
+    flex-direction: column;
+  }
+
+  .topic-momentum-status {
+    text-align: left;
+  }
+
+  .topic-timeline-entry {
+    grid-template-columns: 4.4rem 1rem minmax(0, 1fr);
+  }
+
+  .topic-timeline-earlier {
+    margin-left: 6.3rem;
+  }
+
+  .topic-timeline-earlier .topic-timeline-entry {
+    margin-left: -6.3rem;
   }
 }
