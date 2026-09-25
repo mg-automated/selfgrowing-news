@@ -2,3 +2,6 @@
 .obsidian/workspace*
 .obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/plugins/obsidian-git/data.json
+# Locally installed Obsidian plugins and themes
+.obsidian/plugins/
+.obsidian/themes/
