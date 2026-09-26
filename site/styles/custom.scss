@@ -186,13 +186,15 @@ blockquote,
 
 .homepage-graph-play,
 .homepage-graph-latest {
-  min-height: 2rem;
-  padding: 0.32rem 0.7rem;
+  min-height: 1.5rem;
+  padding: 0.24rem 0.525rem;
   color: var(--dark);
   background: var(--sgn-panel-raised);
   border: 1px solid var(--sgn-border);
   border-radius: var(--sgn-radius);
-  font: inherit;
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1;
 }
 
 .homepage-graph-play:hover,
