@@ -22,7 +22,7 @@
     if (window.d3) return Promise.resolve(window.d3)
 
     const source = "https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"
-    const existing = document.querySelector(`script[src^="${source}"]`)
+    const existing = document.querySelector( script[src^="${source}"]`)
     if (existing) {
       return new Promise((resolve, reject) => {
         existing.addEventListener("load", () => resolve(window.d3), { once: true })
@@ -104,6 +104,15 @@
     return 2000 / Number(speedSlider.value)
   }
 
+  function assignNodeRadii(nodes, links) {
+    const degreeById = new Map(nodes.map((node) => [node.id, 0]))
+    for (const link of links) {
+      degreeById.set(link.sourceId, (degreeById.get(link.sourceId) || 0) + 1)
+      degreeById.set(link.targetId, (degreeById.get(link.targetId) || 0) + 1)
+    }
+    for (const node of nodes) node.radius = 2 + Math.sqrt(degreeById.get(node.id) || 0)
+  }
+
   Promise.all([ensureD3(), fetch(contentIndexUrl).then((response) => {
     if (!response.ok) throw new Error(`Content index returned ${response.status}`)
     return response.json()
@@ -128,7 +137,7 @@
         .force("charge", d3.forceManyBody().strength(-85))
         .force("center", d3.forceCenter(width / 2, height / 2).strength(0.12))
         .force("link", d3.forceLink([]).id((node) => node.id).distance(46).strength(0.28))
-        .force("collision", d3.forceCollide().radius((node) => node.type === "topic" ? 12 : 7))
+        .force("collision", d3.forceCollide().radius((node) => node.radius || 2).iterations(3))
 
       svg.call(
         d3.zoom().scaleExtent([0.35, 4]).on("zoom", (event) => stage.attr("transform", event.transform)),
@@ -159,6 +168,7 @@
         currentIndex = Math.max(0, Math.min(indexValue, dates.length - 1))
         const date = dates[currentIndex]
         const { nodes, links } = activeState(date)
+        assignNodeRadii(nodes, links)
         seedNewNodes(nodes, links)
         dateSlider.value = String(currentIndex)
         dateLabel.textContent = `${date} · ${nodes.length} nodes · ${links.length} links`
@@ -201,13 +211,14 @@
                 event.subject.fy = null
               }),
           )
-        enteredNodes.append("circle").attr("r", (node) => node.type === "topic" ? 6 : 4)
+        enteredNodes.append("circle")
         enteredNodes.append("text").attr("x", 8).attr("y", 3).text((node) => node.label)
         enteredNodes.append("title").text((node) => `${node.label} · first linked ${node.firstSeen}`)
         if (!reducedMotion) enteredNodes.attr("opacity", 0).transition().duration(350).attr("opacity", 1)
 
         const allLinks = enteredLinks.merge(linkSelection)
         const allNodes = enteredNodes.merge(nodeSelection)
+        allNodes.select("circle").attr("r", (node) => node.radius)
         simulation.nodes(nodes)
         simulation.force("link").links(links)
         simulation.alpha(reducedMotion ? 0.15 : 0.45).restart()
