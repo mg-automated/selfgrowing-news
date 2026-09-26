@@ -18,11 +18,31 @@ Use the explorer to browse the archive, search to find a specific development, o
 
 ## Explore the archive
 
-<div class="homepage-global-graph">
-  <div
-    class="graph-container"
-    data-cfg='{"drag":true,"zoom":true,"depth":-1,"scale":0.9,"repelForce":0.5,"centerForce":0.2,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"removeTags":[],"showTags":true,"focusOnHover":true,"enableRadial":true}'
-  ></div>
+<div class="homepage-graph-timeline" data-graph-timeline>
+  <div class="homepage-graph-toolbar">
+    <button class="homepage-graph-play" type="button" aria-label="Play graph history" aria-pressed="false">
+      <span aria-hidden="true">▶</span>
+      <span class="homepage-graph-play-label">Play</span>
+    </button>
+    <div class="homepage-graph-date" aria-live="polite"></div>
+    <button class="homepage-graph-latest" type="button">Latest</button>
+  </div>
+  <div class="homepage-global-graph">
+    <div class="timeline-graph-container" role="region" aria-label="Interactive graph of daily briefings and topics"></div>
+  </div>
+  <div class="homepage-graph-controls">
+    <label class="homepage-graph-date-control">
+      <span>Archive date</span>
+      <input class="homepage-graph-date-slider" type="range" min="0" max="0" value="0" step="1">
+    </label>
+    <label class="homepage-graph-speed-control">
+      <span>Speed</span>
+      <input class="homepage-graph-speed" type="range" min="1" max="8" value="2" step="1">
+      <output class="homepage-graph-speed-value">1 day/s</output>
+    </label>
+  </div>
 </div>
 
-<p class="homepage-graph-caption">Select a node to open its daily briefing or topic page.</p>
+<p class="homepage-graph-caption">Play the archive from its first day, scrub to a date, or select a node to open its daily briefing or topic page.</p>
+
+<script src="/selfgrowing-news/static/graph-timeline.js" defer></script>

@@ -15,10 +15,11 @@ git -C "${RUNTIME_DIR}" fetch --depth=1 origin "${QUARTZ_COMMIT}"
 git -C "${RUNTIME_DIR}" checkout --detach "${QUARTZ_COMMIT}"
 git -C "${RUNTIME_DIR}" clean -fdx
 
-mkdir -p "${RUNTIME_DIR}/content" "${RUNTIME_DIR}/quartz/styles" "${RUNTIME_DIR}/scripts"
+mkdir -p "${RUNTIME_DIR}/content" "${RUNTIME_DIR}/quartz/styles" "${RUNTIME_DIR}/quartz/static" "${RUNTIME_DIR}/scripts"
 cp "${SCRIPT_DIR}/quartz.config.yaml" "${RUNTIME_DIR}/quartz.config.yaml"
 cp "${SCRIPT_DIR}/quartz.ts" "${RUNTIME_DIR}/quartz.ts"
 cp "${SCRIPT_DIR}/styles/custom.scss" "${RUNTIME_DIR}/quartz/styles/custom.scss"
+cp "${SCRIPT_DIR}/static/graph-timeline.js" "${RUNTIME_DIR}/quartz/static/graph-timeline.js"
 cp "${SCRIPT_DIR}/content/"*.md "${RUNTIME_DIR}/content/"
 cp "${SCRIPT_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/scripts/enrich-topics.mjs"
 cp -R "${REPOSITORY_ROOT}/News" "${RUNTIME_DIR}/content/News"
