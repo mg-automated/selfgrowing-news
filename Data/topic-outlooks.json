@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "settings": {
+    "maximumSupplementalReviews": 6,
+    "maximumNewOutlooksPerRun": 2,
+    "expiryReviewLeadDays": 3
+  },
+  "outlooks": {
+    "Russia.md": {
+      "topic": "Topics/Russia.md",
+      "volatility": "high",
+      "reviewed": "2026-09-26",
+      "materiallyUpdated": "2026-09-26",
+      "validUntil": "2026-10-26",
+      "nextReview": "2026-09-27",
+      "horizon": "the next 30 days",
+      "confidence": "medium",
+      "assessment": "Russia is likely to maintain military pressure on Ukraine while continuing hybrid activity against European countries. A broad ceasefire appears unlikely during this period, although Ukraine's proposal for a Black Sea maritime truce and protection for energy infrastructure leaves room for a narrower functional agreement.",
+      "likelyDevelopments": [
+        "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
+        "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
+        "Diplomatic activity may produce discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
+        "The Kremlin will use the parliamentary-election result to reinforce the appearance of domestic support and institutional stability."
+      ],
+      "upcomingEvents": [
+        {
+          "date": "2026-09-28",
+          "reviewFrom": "2026-09-27",
+          "description": "The UN General Assembly's general debate is scheduled to conclude, providing a near-term venue for diplomacy surrounding Ukraine.",
+          "source": {
+            "label": "United Nations",
+            "url": "https://www.un.org/en/ga/81/meetings/"
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "reviewFrom": "2026-09-27",
+          "description": "EU defence ministers are scheduled to meet, with military support for Ukraine and regional defence readiness remaining relevant agenda areas.",
+          "source": {
+            "label": "Council of the European Union",
+            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "reviewFrom": "2026-10-07",
+          "description": "EU restrictive measures addressing Russian hybrid activity are currently scheduled to expire, creating a decision point over renewal or replacement.",
+          "source": {
+            "label": "EU sanctions timeline",
+            "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/timeline-sanctions-against-russia/"
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "reviewFrom": "2026-10-12",
+          "description": "The European Council is scheduled to meet on 15–16 October and has said it will return to Ukraine and European defence readiness in October.",
+          "source": {
+            "label": "European Council",
+            "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/06/18-19/"
+          }
+        }
+      ],
+      "changeSignals": [
+        "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
+        "A substantial reduction or increase in long-range attacks on Ukrainian cities",
+        "New EU sanctions or military-support commitments",
+        "Confirmed escalation involving Russian and NATO aircraft or infrastructure",
+        "Evidence that post-election domestic pressure is affecting Kremlin policy"
+      ],
+      "sources": [
+        {
+          "label": "Russian parliamentary election coverage",
+          "url": "https://apnews.com/article/russia-election-parliament-duma-putin-ukraine-6f3df3716cbcf8c96711b688762b450b"
+        },
+        {
+          "label": "Black Sea truce proposal",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-ready-maritime-truce-puts-onus-russia-respond-2026-09-23/"
+        },
+        {
+          "label": "European warnings about hybrid operations",
+          "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
+        }
+      ]
+    }
+  }
+}

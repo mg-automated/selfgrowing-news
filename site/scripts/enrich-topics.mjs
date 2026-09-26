@@ -4,11 +4,27 @@ import { readdir, readFile, writeFile } from "node:fs/promises"
 import path from "node:path"
 
 const contentRoot = path.resolve(process.argv[2] ?? "content")
+const outlooksPath = path.resolve(process.argv[3] ?? "Data/topic-outlooks.json")
 const dailyDirectory = path.join(contentRoot, "News", "Daily")
 const topicsDirectory = path.join(contentRoot, "Topics")
 const generatedStart = "<!-- generated-topic-stories:start -->"
 const generatedEnd = "<!-- generated-topic-stories:end -->"
 const visibleTimelineEntries = 3
+
+function validateIsoDate(value, field, topicFile) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value ?? "") || Number.isNaN(Date.parse(`${value}T00:00:00Z`))) {
+    throw new Error(`${topicFile}: ${field} must be a valid YYYY-MM-DD date`)
+  }
+}
+
+function validateUrl(value, field, topicFile) {
+  try {
+    const url = new URL(value)
+    if (!/^https?:$/.test(url.protocol)) throw new Error()
+  } catch {
+    throw new Error(`${topicFile}: ${field} must be an HTTP(S) URL`)
+  }
+}
 
 function escapeHtml(value) {
   return value
@@ -53,6 +69,63 @@ function utcDay(date) {
 
 function dayDifference(later, earlier) {
   return Math.round((utcDay(later) - utcDay(earlier)) / 86_400_000)
+}
+
+function renderOutlook(outlook, topicFile, archiveDate) {
+  for (const field of ["reviewed", "materiallyUpdated", "validUntil"]) {
+    validateIsoDate(outlook[field], field, topicFile)
+  }
+  if (!["low", "medium", "high"].includes(outlook.confidence)) {
+    throw new Error(`${topicFile}: confidence must be low, medium, or high`)
+  }
+  if (!outlook.assessment?.trim()) throw new Error(`${topicFile}: assessment is required`)
+
+  const events = outlook.upcomingEvents ?? []
+  for (const [index, event] of events.entries()) {
+    validateIsoDate(event.date, `upcomingEvents[${index}].date`, topicFile)
+    validateUrl(event.source?.url, `upcomingEvents[${index}].source.url`, topicFile)
+  }
+  for (const [index, source] of (outlook.sources ?? []).entries()) {
+    validateUrl(source.url, `sources[${index}].url`, topicFile)
+  }
+
+  const stale = archiveDate > outlook.validUntil
+  const confidence = outlook.confidence[0].toUpperCase() + outlook.confidence.slice(1)
+  const likelyDevelopments = (outlook.likelyDevelopments ?? [])
+    .map((item) => `<li>${renderInline(item)}</li>`)
+    .join("")
+  const renderedEvents = events
+    .map(
+      (event) =>
+        `<li><strong>${escapeHtml(event.date)}:</strong> ${renderInline(event.description)} ` +
+        `<a class="external" href="${escapeHtml(event.source.url)}">${escapeHtml(event.source.label)}</a></li>`,
+    )
+    .join("")
+  const changeSignals = (outlook.changeSignals ?? [])
+    .map((item) => `<li>${renderInline(item)}</li>`)
+    .join("")
+  const sources = (outlook.sources ?? [])
+    .map((source) => `<a class="external" href="${escapeHtml(source.url)}">${escapeHtml(source.label)}</a>`)
+    .join(" · ")
+
+  return (
+    `<section class="topic-outlook${stale ? " is-stale" : ""}" aria-labelledby="topic-outlook-title">\n` +
+    `<div class="topic-outlook-heading"><div><h2 id="topic-outlook-title">Outlook</h2>` +
+    `<p>AI-assisted assessment for ${escapeHtml(outlook.horizon ?? "the next 30 days")}</p></div>` +
+    `<span class="topic-outlook-confidence">${escapeHtml(confidence)} confidence</span></div>\n` +
+    (stale
+      ? `<p class="topic-outlook-warning"><strong>Awaiting review:</strong> This outlook expired on ${escapeHtml(outlook.validUntil)} and should not be treated as current.</p>\n`
+      : "") +
+    `<p>${renderInline(outlook.assessment)}</p>\n` +
+    `<div class="topic-outlook-meta"><span>Reviewed ${escapeHtml(outlook.reviewed)}</span>` +
+    `<span>Valid through ${escapeHtml(outlook.validUntil)}</span></div>\n` +
+    `<details class="topic-outlook-details"><summary>Show detailed outlook</summary>\n` +
+    (likelyDevelopments ? `<h3>Most likely developments</h3><ul>${likelyDevelopments}</ul>\n` : "") +
+    (renderedEvents ? `<h3>Known upcoming events</h3><ul>${renderedEvents}</ul>\n` : "") +
+    (changeSignals ? `<h3>Signals that could change this outlook</h3><ul>${changeSignals}</ul>\n` : "") +
+    (sources ? `<p class="topic-outlook-sources"><strong>Sources:</strong> ${sources}</p>\n` : "") +
+    `</details>\n</section>`
+  )
 }
 
 function renderMomentum(stories, archiveDate) {
@@ -168,6 +241,11 @@ const dailyFiles = (await readdir(dailyDirectory))
   .filter((name) => /^\d{4}-\d{2}-\d{2}\.md$/.test(name))
   .sort()
 const archiveDate = dailyFiles.at(-1)?.slice(0, -3)
+const outlookDocument = JSON.parse(await readFile(outlooksPath, "utf8"))
+if (outlookDocument.version !== 1 || typeof outlookDocument.outlooks !== "object") {
+  throw new Error("Data/topic-outlooks.json must use schema version 1 and contain an outlooks object")
+}
+const outlooks = outlookDocument.outlooks
 
 const storiesByTopic = new Map()
 
@@ -194,8 +272,14 @@ for (const topicFile of topicFiles) {
     (a, b) => b.date.localeCompare(a.date),
   )
 
+  const outlook = outlooks[topicFile]
+  const renderedOutlook = outlook ? `${renderOutlook(outlook, topicFile, archiveDate)}\n\n` : ""
+
   if (stories.length === 0) {
-    await writeFile(topicPath, base + "\n", "utf8")
+    const generated = outlook
+      ? `${generatedStart}\n\n${renderedOutlook}${generatedEnd}\n`
+      : ""
+    await writeFile(topicPath, `${base}${generated ? `\n\n${generated}` : "\n"}`, "utf8")
     continue
   }
 
@@ -215,6 +299,7 @@ for (const topicFile of topicFiles) {
 
   const generated =
     `${generatedStart}\n\n` +
+    renderedOutlook +
     `${renderMomentum(stories, archiveDate)}\n\n` +
     `<section class="topic-timeline" aria-labelledby="topic-timeline-title">\n` +
     `<div class="topic-timeline-heading"><div><h2 id="topic-timeline-title">How the story developed</h2>` +
@@ -233,3 +318,4 @@ const renderedCount = [...storiesByTopic.values()].reduce(
 console.log(
   `Added ${renderedCount} timeline entr${renderedCount === 1 ? "y" : "ies"} across ${storiesByTopic.size} topic page(s).`,
 )
+console.log(`Rendered ${Object.keys(outlooks).length} structured topic outlook(s).`)

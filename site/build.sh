@@ -26,7 +26,9 @@ cp -R "${REPOSITORY_ROOT}/News" "${RUNTIME_DIR}/content/News"
 cp -R "${REPOSITORY_ROOT}/Topics" "${RUNTIME_DIR}/content/Topics"
 
 find "${RUNTIME_DIR}/content" -name .gitkeep -delete
-node "${RUNTIME_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/content"
+node "${RUNTIME_DIR}/scripts/enrich-topics.mjs" \
+  "${RUNTIME_DIR}/content" \
+  "${REPOSITORY_ROOT}/Data/topic-outlooks.json"
 
 npm --prefix "${RUNTIME_DIR}" ci
 (

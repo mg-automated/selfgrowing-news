@@ -84,6 +84,31 @@ Keep topic pages intentionally simple. After the standard frontmatter, include:
 
 Do not maintain manual lists of all news articles mentioning a topic. Obsidian backlinks provide that relationship automatically.
 
+## Topic outlooks
+
+Forward-looking topic assessments are stored separately from durable topic notes in `Data/topic-outlooks.json`. Quartz injects these structured Outlooks into topic pages at build time; do not paste generated Outlook prose into `Topics/*.md`.
+
+Keep Outlooks explicitly probabilistic and separate verified scheduled events from forecasts. Every Outlook must include its review date, validity date, next-review date, confidence, concise assessment, supporting sources, and any dated events used in the assessment. Describe future events as scheduled because they may be postponed or cancelled. Never present a predicted election result, military outcome, market movement, legal decision, or other uncertain development as fact.
+
+The daily task must not research every Outlook indiscriminately. After drafting the daily briefing, run:
+
+```text
+node site/scripts/select-outlooks.mjs --date YYYY-MM-DD
+```
+
+Use the Europe/Zurich briefing date. Research and update only the returned `selected` entries. Selection is deterministic and covers topics linked from the new briefing, reviews that are due, approaching or elapsed scheduled events, and forecasts nearing expiry. Supplemental reviews are capped; entries in `deferred` remain queued for a later run. At most two linked topics without Outlooks are returned per run with `action: consider-create`, allowing coverage to expand gradually without a large one-time research cost. Create one only when the existing story research plus verified forward-looking sources support a useful assessment.
+
+When an Outlook is actually verified against current sources:
+
+- update `reviewed` even if the assessment remains valid;
+- update `materiallyUpdated` only when substantive forecast content changes;
+- set a new `nextReview` appropriate to volatility: normally 1 day for active wars, elections, or crises; 3 days for active regulation, companies, or policy; 7 days for stable topics; and 14–30 days for dormant topics;
+- replace, remove, or reschedule events that occurred, were postponed, or were cancelled;
+- set `validUntil` to the end of the defensible forecast horizon; and
+- preserve source URLs that still support the assessment and add current sources for changed claims.
+
+An expired Outlook is rendered with an `Awaiting review` warning. Do not advance review dates without actual source verification. Create a new Outlook only when the topic has enough archived evidence for a useful forecast; it is acceptable for a topic to have no Outlook.
+
 ## Links
 
 Use standard Markdown links, not Obsidian wikilinks. From a file in `News/Daily/`, link to topic files with relative paths, for example:
@@ -130,4 +155,5 @@ Before completing a daily archive task, confirm that:
 6. every linked topic file exists and duplicate topics were avoided;
 7. all internal Markdown links resolve;
 8. timestamps follow the creation/update rules; and
-9. the daily file is complete before it is committed.
+9. the Outlook selector was run, only its selected entries were researched, and changed structured Outlooks were validated; and
+10. the daily file is complete before it is committed.
