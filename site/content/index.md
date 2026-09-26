@@ -37,8 +37,8 @@ Use the explorer to browse the archive, search to find a specific development, o
     </label>
     <label class="homepage-graph-speed-control">
       <span>Speed</span>
-      <input class="homepage-graph-speed" type="range" min="1" max="8" value="2" step="1">
-      <output class="homepage-graph-speed-value">1 day/s</output>
+      <input class="homepage-graph-speed" type="range" min="1" max="8" value="3" step="1">
+      <output class="homepage-graph-speed-value">1.5 days/s</output>
     </label>
   </div>
 </div>
