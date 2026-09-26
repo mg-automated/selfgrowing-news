@@ -81,6 +81,118 @@
           "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
         }
       ]
+    },
+    "Iran.md": {
+      "topic": "Topics/Iran.md",
+      "volatility": "high",
+      "reviewed": "2026-09-26",
+      "materiallyUpdated": "2026-09-26",
+      "validUntil": "2026-10-26",
+      "nextReview": "2026-09-27",
+      "horizon": "the next 30 days",
+      "confidence": "low",
+      "assessment": "Iran is likely to keep negotiations focused on a phased easing of pressure around the Strait of Hormuz while refusing to fold its nuclear programme into the initial bargain. A limited shipping arrangement remains possible, but the sequencing of US and Iranian concessions and Washington's demand that China reduce support for Tehran make a broad settlement unlikely in this period.",
+      "likelyDevelopments": [
+        "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
+        "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
+        "The United States will press China and regional partners to use their economic and diplomatic leverage over Tehran.",
+        "Talks may yield technical or phased proposals without immediately producing a durable end to the conflict."
+      ],
+      "upcomingEvents": [
+        {
+          "date": "2026-09-28",
+          "reviewFrom": "2026-09-27",
+          "description": "The UN General Assembly's general debate is scheduled to conclude, closing the principal near-term venue for high-level diplomacy involving Iran and the United States.",
+          "source": {
+            "label": "United Nations",
+            "url": "https://www.un.org/en/ga/81/meetings/"
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "reviewFrom": "2026-10-12",
+          "description": "The European Council is scheduled to meet on 15–16 October, providing a potential coordination point for European policy on Middle East security and shipping disruption.",
+          "source": {
+            "label": "Council of the European Union",
+            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+          }
+        }
+      ],
+      "changeSignals": [
+        "A verified agreement on sequencing the reopening of the Strait and easing US pressure",
+        "Any Iranian willingness to include nuclear limits in negotiations",
+        "Changes in Chinese economic or diplomatic support for Tehran",
+        "A sustained increase or decrease in attacks affecting Gulf shipping",
+        "New sanctions, blockades or direct military action"
+      ],
+      "sources": [
+        {
+          "label": "Iran rejects nuclear concessions",
+          "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+        },
+        {
+          "label": "US warning to China over Iran",
+          "url": "https://www.investing.com/news/world-news/trump-told-xi-that-china-helping-iran-is-unacceptable-us-ambassador-says-4917599"
+        },
+        {
+          "label": "US-Iran phased-deal discussions",
+          "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+        }
+      ]
+    },
+    "Strait-of-Hormuz.md": {
+      "topic": "Topics/Strait-of-Hormuz.md",
+      "volatility": "high",
+      "reviewed": "2026-09-26",
+      "materiallyUpdated": "2026-09-26",
+      "validUntil": "2026-10-26",
+      "nextReview": "2026-09-27",
+      "horizon": "the next 30 days",
+      "confidence": "low",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while Iran and the United States negotiate which side must make the first concession. A phased arrangement could restore some traffic, but Iran's refusal to make nuclear concessions and the continued US blockade of Iranian ports leave a high risk of renewed disruption.",
+      "likelyDevelopments": [
+        "Negotiators will continue exploring staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
+        "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
+        "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
+        "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
+      ],
+      "upcomingEvents": [
+        {
+          "date": "2026-09-28",
+          "reviewFrom": "2026-09-27",
+          "description": "The UN General Assembly's general debate is scheduled to end, creating a natural checkpoint for diplomacy conducted around the New York meetings.",
+          "source": {
+            "label": "United Nations",
+            "url": "https://www.un.org/en/ga/81/meetings/"
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "reviewFrom": "2026-10-12",
+          "description": "The European Council meets on 15–16 October, when the economic and security consequences of disrupted Gulf shipping may require further coordination.",
+          "source": {
+            "label": "Council of the European Union",
+            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+          }
+        }
+      ],
+      "changeSignals": [
+        "Verified restoration of regular commercial transit",
+        "US relief from the naval blockade or sanctions affecting Iranian ports",
+        "A new Iranian transit-fee or inspection regime",
+        "Attacks on tankers, ports or naval forces",
+        "Changes in insurance costs, rerouting or energy-market disruption"
+      ],
+      "sources": [
+        {
+          "label": "US-Iran phased-deal discussions",
+          "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+        },
+        {
+          "label": "Iran rejects nuclear concessions",
+          "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+        }
+      ]
     }
   }
 }
