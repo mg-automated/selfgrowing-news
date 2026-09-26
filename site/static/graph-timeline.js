@@ -22,7 +22,7 @@
     if (window.d3) return Promise.resolve(window.d3)
 
     const source = "https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"
-    const existing = document.querySelector( script[src^="${source}"]`)
+    const existing = document.querySelector(`script[src^="${source}"]`)
     if (existing) {
       return new Promise((resolve, reject) => {
         existing.addEventListener("load", () => resolve(window.d3), { once: true })
