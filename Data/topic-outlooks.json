@@ -9,17 +9,17 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-09-26",
-      "materiallyUpdated": "2026-09-26",
+      "reviewed": "2026-09-27",
+      "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-27",
+      "nextReview": "2026-09-28",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure on Ukraine while continuing hybrid activity against European countries. A broad ceasefire appears unlikely during this period, although Ukraine's proposal for a Black Sea maritime truce and protection for energy infrastructure leaves room for a narrower functional agreement.",
+      "assessment": "Russia is likely to maintain military pressure on Ukraine while using selective diplomatic contacts to test limited arrangements and manage relations with European governments. The first Russia–Germany foreign-minister talks since 2022 and discussion of Black Sea navigation create channels for narrow functional agreements, but a broad ceasefire remains unlikely during this period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
-        "Diplomatic activity may produce discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
+        "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
         "The Kremlin will use the parliamentary-election result to reinforce the appearance of domestic support and institutional stability."
       ],
       "upcomingEvents": [
@@ -79,24 +79,28 @@
         {
           "label": "European warnings about hybrid operations",
           "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
+        },
+        {
+          "label": "Russia–Germany foreign-minister talks",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-09-26",
-      "materiallyUpdated": "2026-09-26",
+      "reviewed": "2026-09-27",
+      "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-27",
+      "nextReview": "2026-09-28",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to keep negotiations focused on a phased easing of pressure around the Strait of Hormuz while refusing to fold its nuclear programme into the initial bargain. A limited shipping arrangement remains possible, but the sequencing of US and Iranian concessions and Washington's demand that China reduce support for Tehran make a broad settlement unlikely in this period.",
+      "assessment": "Iran is likely to keep advocating a diplomatic, phased easing of pressure around the Strait of Hormuz while refusing to fold its nuclear programme into the initial bargain. Trump's rejection of Tehran's current proposal makes an immediate shipping arrangement less likely, but further mediated offers remain plausible because both sides retain strong incentives to limit the conflict's economic costs.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
         "The United States will press China and regional partners to use their economic and diplomatic leverage over Tehran.",
-        "Talks may yield technical or phased proposals without immediately producing a durable end to the conflict."
+        "Iran is likely to revise or re-present phased proposals through mediators, but an immediate durable agreement is unlikely after Washington rejected the current offer."
       ],
       "upcomingEvents": [
         {
@@ -137,21 +141,25 @@
         {
           "label": "US-Iran phased-deal discussions",
           "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+        },
+        {
+          "label": "US rejection of Iran's proposal",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-09-26",
-      "materiallyUpdated": "2026-09-26",
+      "reviewed": "2026-09-27",
+      "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-27",
+      "nextReview": "2026-09-28",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while Iran and the United States negotiate which side must make the first concession. A phased arrangement could restore some traffic, but Iran's refusal to make nuclear concessions and the continued US blockade of Iranian ports leave a high risk of renewed disruption.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained after the United States rejected Iran's current reopening proposal. A revised phased arrangement could still restore some traffic, but Iran's refusal to make nuclear concessions and the continued US blockade of Iranian ports leave a high risk of prolonged or renewed disruption.",
       "likelyDevelopments": [
-        "Negotiators will continue exploring staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
+        "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
         "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
         "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
@@ -191,6 +199,10 @@
         {
           "label": "Iran rejects nuclear concessions",
           "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+        },
+        {
+          "label": "US rejection of Iran's proposal",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
         }
       ]
     }
