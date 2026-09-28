@@ -9,10 +9,10 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-09-27",
+      "reviewed": "2026-09-28",
       "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-28",
+      "nextReview": "2026-09-29",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "Russia is likely to maintain military pressure on Ukraine while using selective diplomatic contacts to test limited arrangements and manage relations with European governments. The first Russia–Germany foreign-minister talks since 2022 and discussion of Black Sea navigation create channels for narrow functional agreements, but a broad ceasefire remains unlikely during this period.",
@@ -83,24 +83,28 @@
         {
           "label": "Russia–Germany foreign-minister talks",
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022"
+        },
+        {
+          "label": "Russian strikes on Ukrainian cities and communications",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/russia-says-it-struck-military-infrastructure-vessels-in-ukraine"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-09-27",
-      "materiallyUpdated": "2026-09-27",
+      "reviewed": "2026-09-28",
+      "materiallyUpdated": "2026-09-28",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-28",
+      "nextReview": "2026-09-29",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to keep advocating a diplomatic, phased easing of pressure around the Strait of Hormuz while refusing to fold its nuclear programme into the initial bargain. Trump's rejection of Tehran's current proposal makes an immediate shipping arrangement less likely, but further mediated offers remain plausible because both sides retain strong incentives to limit the conflict's economic costs.",
+      "assessment": "Iran is likely to keep advocating a diplomatic, phased easing of pressure around the Strait of Hormuz while signalling readiness for renewed US attacks and refusing to fold its nuclear programme into the initial bargain. Trump's rejection of Tehran's current proposal makes an immediate shipping arrangement less likely, but further mediated offers remain plausible because both sides retain strong incentives to limit the conflict's economic costs.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
         "The United States will press China and regional partners to use their economic and diplomatic leverage over Tehran.",
-        "Iran is likely to revise or re-present phased proposals through mediators, but an immediate durable agreement is unlikely after Washington rejected the current offer."
+        "Iran is likely to revise or re-present phased proposals through mediators while maintaining military readiness, but an immediate durable agreement is unlikely after Washington rejected the current offer."
       ],
       "upcomingEvents": [
         {
@@ -145,16 +149,20 @@
         {
           "label": "US rejection of Iran's proposal",
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+        },
+        {
+          "label": "Iranian military readiness statement",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-s-army-voices-readiness-for-potential-renewed-us-attack"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-09-27",
+      "reviewed": "2026-09-28",
       "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-28",
+      "nextReview": "2026-09-29",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained after the United States rejected Iran's current reopening proposal. A revised phased arrangement could still restore some traffic, but Iran's refusal to make nuclear concessions and the continued US blockade of Iranian ports leave a high risk of prolonged or renewed disruption.",
