@@ -11,7 +11,7 @@ The purpose is not simply to collect daily headlines, but to create a connected 
 
 ## Browse the archive
 
-- [Daily news briefings](News/Daily)
+- [Daily news briefings](News/Daily/)
 - [Topics](Topics)
 
 Use the explorer to browse the archive, search to find a specific development, or open the graph to see how daily stories connect to recurring topics.
