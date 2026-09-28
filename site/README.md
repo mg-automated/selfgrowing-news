@@ -38,6 +38,8 @@ During the build, `site/scripts/enrich-topics.mjs` derives a chronological **How
 
 The homepage includes an animated archive graph generated from the daily briefings and topic links. Visitors can play the archive from its first day, scrub to a specific date or open a graph node directly.
 
+The left-hand explorer groups daily briefings into virtual year and month folders at build time. Daily Markdown files remain flat under `News/Daily/`, and their published URLs do not change. Archive folders are sorted newest first and display the number of contained briefings.
+
 ## GitHub Pages deployment
 
 The workflow in `.github/workflows/deploy-site.yml` builds and deploys the site when a Markdown file under `News/Daily/` changes on `main`. To run it manually:
