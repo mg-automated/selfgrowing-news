@@ -1,9 +1,142 @@
 {
   "version": 1,
   "settings": {
-    "maximumSupplementalReviews": 6,
-    "maximumNewOutlooksPerRun": 2,
+    "maximumOutlookResearchPerRun": 4,
+    "maximumCandidateChecksPerRun": 2,
+    "maximumNewOutlooksPerRun": 1,
+    "maximumCandidateAttempts": 3,
+    "candidateCooldownDays": 30,
     "expiryReviewLeadDays": 3
+  },
+  "candidates": {
+    "AI-Governance.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 8,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "AI-Infrastructure.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 7,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "AI-Safety.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 7,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Artificial-Intelligence.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 11,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "China-Technology.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 9,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "China.md": {
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-09-28",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "European-Security.md": {
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-28",
+      "mentions": 9,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Israel.md": {
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Semiconductors.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 6,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Serbia.md": {
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Swiss-Banking-Regulation.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Swiss-Direct-Democracy.md": {
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-09-28",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Swiss-Security-Policy.md": {
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-28",
+      "mentions": 4,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "UBS.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Ukraine.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-28",
+      "mentions": 10,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    },
+    "Venezuela.md": {
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-09-28",
+      "mentions": 3,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-28"
+    }
   },
   "outlooks": {
     "Russia.md": {

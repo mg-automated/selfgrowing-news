@@ -68,7 +68,7 @@ The website adds several ways to explore the Markdown archive:
 - search, navigation and an RSS feed; and
 - selected AI-assisted topic outlooks describing plausible near-term developments, scheduled events and signals that could change the assessment.
 
-Topic outlooks are explicitly probabilistic rather than statements of fact. Each one displays its confidence, review date and validity period, and an expired outlook is marked as awaiting review. To keep the daily workflow efficient, a deterministic selection process identifies only the outlooks that are due, relevant to the latest briefing or approaching expiry.
+Topic outlooks are explicitly probabilistic rather than statements of fact. Each one displays its confidence, review date and validity period, and an expired outlook is marked as awaiting review. To keep the daily workflow efficient, a deterministic selection process maintains a small candidate queue and limits each run to four Outlook-related research subjects, including at most one newly created Outlook. Recurring topics are prioritised, while unsuccessful candidates eventually enter a cooldown instead of being researched repeatedly.
 
 ## Sources and verification
 

@@ -96,7 +96,11 @@ The daily task must not research every Outlook indiscriminately. After drafting 
 node site/scripts/select-outlooks.mjs --date YYYY-MM-DD
 ```
 
-Use the Europe/Zurich briefing date. Research and update only the returned `selected` entries. Selection is deterministic and covers topics linked from the new briefing, reviews that are due, approaching or elapsed scheduled events, and forecasts nearing expiry. Supplemental reviews are capped; entries in `deferred` remain queued for a later run. At most two linked topics without Outlooks are returned per run with `action: consider-create`, allowing coverage to expand gradually without a large one-time research cost. Create one only when the existing story research plus verified forward-looking sources support a useful assessment.
+Use the Europe/Zurich briefing date. The selector records linked topics without Outlooks in the persistent `candidates` queue in `Data/topic-outlooks.json`; include that automatic queue update in the daily commit. Research and update only the returned `selected` entries. Selection is deterministic and prioritizes Outlooks linked from the new briefing, approaching or elapsed scheduled events, overdue reviews, forecasts nearing expiry, and then queued creation candidates. The total number of Outlook-related research subjects is capped at four per run, including reviews and creation candidates; entries in `deferred` remain queued for a later run.
+
+At most two queued topics may be evaluated per run and at most one new Outlook may be created. Prefer recurring topics with multiple archived mentions. First decide whether the briefing's existing research establishes an ongoing subject, a meaningful forecast horizon, and identifiable future events or change signals. Perform additional web research only when needed, and reuse already verified sources across related Outlooks. Create an Outlook only when the archived evidence and verified forward-looking sources support a useful assessment.
+
+After evaluating a `consider-create` entry, update its candidate metadata in `Data/topic-outlooks.json`. If an Outlook is created, remove its candidate entry. Otherwise increment `attempts`, set `lastAttempt` to the briefing date, and retain it in the queue. After every third unsuccessful attempt, set `eligibleAfter` to 30 days after the briefing date; topics encountered during cooldown may gain mentions but must not be researched. Do not increment attempts unless the candidate was actually evaluated.
 
 When an Outlook is actually verified against current sources:
 
