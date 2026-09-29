@@ -649,7 +649,15 @@ footer {
   padding-right: clamp(1.4rem, 4vw, 4rem);
   color: var(--sgn-muted);
   border-top: 1px solid var(--sgn-border);
-  font-size: 0.78rem;
+  // Match all footer lines to the current build-information typography.
+  font-size: 0.702rem;
+}
+
+footer > p,
+footer > ul {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
 }
 
 footer > p {
@@ -657,7 +665,6 @@ footer > p {
 }
 
 footer > .site-build-info {
-  font-size: 0.9em;
   opacity: 0.8;
 }
 
@@ -676,6 +683,13 @@ footer > ul {
 
 footer > ul > li {
   margin: 0;
+}
+
+footer > ul > li > a,
+footer > p > a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 footer a {
