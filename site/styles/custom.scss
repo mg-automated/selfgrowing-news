@@ -679,6 +679,23 @@ footer a:hover {
 }
 
 @media all and ($mobile) {
+  .explorer .folder-outer {
+    grid-template-columns: minmax(0, 1fr);
+    min-width: 0;
+  }
+
+  .explorer .folder-outer > ul {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .explorer a.topic-explorer-link {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 0.75rem;
+  }
+
   .center,
   footer {
     padding-left: 1.15rem;
