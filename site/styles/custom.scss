@@ -656,6 +656,12 @@ footer > p {
   margin-bottom: 0.35rem;
 }
 
+footer > .site-build-info {
+  margin-top: 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
 footer > ul {
   display: flex;
   flex-wrap: wrap;
