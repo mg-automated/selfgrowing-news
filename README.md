@@ -33,21 +33,27 @@ There is no fixed quota for the three subject areas. The balance depends on the 
 The archive moves from the scheduled ChatGPT Work run to the published site through the repository's normal GitHub Pages workflow:
 
 ```mermaid
-flowchart TD
-    A[ChatGPT Work scheduled run] --> B[Read AGENTS.md and inspect archive]
-    B --> C[Research preceding 24 hours]
-    C --> D[Select exactly 10 developments]
-    D --> E[Run outlook selector]
-    E --> F[Write daily briefing and topic data]
-    F --> G[Validate stories, sources and internal links]
-    G --> H[Commit and push to main]
-    H --> I[GitHub Actions deploy workflow]
-    I --> J[Build Quartz site]
-    J --> J1[Copy News and Topics]
-    J1 --> J2[Inject timelines, outlooks and topic badges]
-    J2 --> K[Upload Pages artifact]
-    K --> L[Deploy to GitHub Pages]
-    L --> M[Published archive]
+flowchart TB
+    subgraph archive["Research and archive"]
+        direction LR
+        A[Scheduled ChatGPT Work run] --> B[Read instructions and inspect archive]
+        B --> C[Research previous 24 hours]
+        C --> D[Select 10 developments]
+        D --> E[Run outlook selector]
+        E --> F[Write briefing and topic data]
+    end
+
+    subgraph publishing["Build and publish"]
+        direction RL
+        G[Validate content and links] --> H[Commit changes to main]
+        H --> I[GitHub Actions]
+        I --> J[Build Quartz and enrich pages]
+        J --> K[Upload Pages artifact]
+        K --> L[Deploy to GitHub Pages]
+        L --> M[Published archive]
+    end
+
+    F --> G
 ```
 
 The scheduled task is responsible for researching and archiving the news. A successful push to `main` triggers the deployment workflow, which rebuilds the Quartz site from the repository-level Markdown and structured data before publishing the resulting static site.
