@@ -18,5 +18,5 @@ if (index.split(marker).length !== 2) {
   throw new Error("Expected exactly one latest-briefing marker in index.md")
 }
 
-const link = `[${latest.slice(0, -3)}](News/Daily/${latest})`
+const link = `- [${latest.slice(0, -3)}](News/Daily/${latest})`
 await writeFile(indexPath, index.replace(marker, link))
