@@ -11,34 +11,34 @@
   "candidates": {
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 8,
+      "lastSeen": "2026-09-29",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 7,
+      "lastSeen": "2026-09-29",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 7,
+      "lastSeen": "2026-09-29",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Artificial-Intelligence.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 11,
-      "attempts": 0,
-      "lastAttempt": null,
+      "lastSeen": "2026-09-29",
+      "mentions": 12,
+      "attempts": 1,
+      "lastAttempt": "2026-09-29",
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
@@ -59,8 +59,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-28",
-      "mentions": 9,
+      "lastSeen": "2026-09-29",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -73,13 +73,29 @@
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
+    "Lebanon.md": {
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-29"
+    },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 6,
+      "lastSeen": "2026-09-29",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
+    },
+    "Robotics.md": {
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-09-29",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-29"
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
@@ -97,6 +113,22 @@
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
+    "Sweden.md": {
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-29",
+      "mentions": 4,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-29"
+    },
+    "Swiss-Cybersecurity.md": {
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-09-29",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-29"
+    },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
       "lastSeen": "2026-09-28",
@@ -104,6 +136,14 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
+    },
+    "Swiss-EU-Relations.md": {
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-29"
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
@@ -123,8 +163,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 10,
+      "lastSeen": "2026-09-29",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -142,10 +182,10 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-09-28",
+      "reviewed": "2026-09-29",
       "materiallyUpdated": "2026-09-27",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-29",
+      "nextReview": "2026-09-30",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "Russia is likely to maintain military pressure on Ukraine while using selective diplomatic contacts to test limited arrangements and manage relations with European governments. The first Russia–Germany foreign-minister talks since 2022 and discussion of Black Sea navigation create channels for narrow functional agreements, but a broad ceasefire remains unlikely during this period.",
@@ -156,24 +196,6 @@
         "The Kremlin will use the parliamentary-election result to reinforce the appearance of domestic support and institutional stability."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-09-28",
-          "reviewFrom": "2026-09-27",
-          "description": "The UN General Assembly's general debate is scheduled to conclude, providing a near-term venue for diplomacy surrounding Ukraine.",
-          "source": {
-            "label": "United Nations",
-            "url": "https://www.un.org/en/ga/81/meetings/"
-          }
-        },
-        {
-          "date": "2026-09-28",
-          "reviewFrom": "2026-09-27",
-          "description": "EU defence ministers are scheduled to meet, with military support for Ukraine and regional defence readiness remaining relevant agenda areas.",
-          "source": {
-            "label": "Council of the European Union",
-            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
-          }
-        },
         {
           "date": "2026-10-09",
           "reviewFrom": "2026-10-07",
@@ -226,13 +248,13 @@
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-09-28",
-      "materiallyUpdated": "2026-09-28",
+      "reviewed": "2026-09-29",
+      "materiallyUpdated": "2026-09-29",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-29",
+      "nextReview": "2026-09-30",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to keep advocating a diplomatic, phased easing of pressure around the Strait of Hormuz while signalling readiness for renewed US attacks and refusing to fold its nuclear programme into the initial bargain. Trump's rejection of Tehran's current proposal makes an immediate shipping arrangement less likely, but further mediated offers remain plausible because both sides retain strong incentives to limit the conflict's economic costs.",
+      "assessment": "Iran is likely to continue indirect negotiations through regional mediators while bargaining over sanctions, frozen assets, the Strait of Hormuz and a route back to nuclear talks. Separate discussions on an amended seven-day proposal make a limited de-escalation more plausible than it was after Washington rejected Tehran's earlier offer, but major differences still make a durable settlement uncertain.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
@@ -240,15 +262,6 @@
         "Iran is likely to revise or re-present phased proposals through mediators while maintaining military readiness, but an immediate durable agreement is unlikely after Washington rejected the current offer."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-09-28",
-          "reviewFrom": "2026-09-27",
-          "description": "The UN General Assembly's general debate is scheduled to conclude, closing the principal near-term venue for high-level diplomacy involving Iran and the United States.",
-          "source": {
-            "label": "United Nations",
-            "url": "https://www.un.org/en/ga/81/meetings/"
-          }
-        },
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
@@ -286,19 +299,23 @@
         {
           "label": "Iranian military readiness statement",
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-s-army-voices-readiness-for-potential-renewed-us-attack"
+        },
+        {
+          "label": "Latest US-Iran mediated talks",
+          "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-09-28",
-      "materiallyUpdated": "2026-09-27",
+      "reviewed": "2026-09-29",
+      "materiallyUpdated": "2026-09-29",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-29",
+      "nextReview": "2026-09-30",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained after the United States rejected Iran's current reopening proposal. A revised phased arrangement could still restore some traffic, but Iran's refusal to make nuclear concessions and the continued US blockade of Iranian ports leave a high risk of prolonged or renewed disruption.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while US and Iranian officials negotiate indirectly over an amended de-escalation proposal. The inclusion of reopening the strait in the mediated discussions raises the prospect of a limited operational arrangement, but unresolved sanctions, asset and nuclear issues leave a high risk of continued disruption.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -306,15 +323,6 @@
         "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-09-28",
-          "reviewFrom": "2026-09-27",
-          "description": "The UN General Assembly's general debate is scheduled to end, creating a natural checkpoint for diplomacy conducted around the New York meetings.",
-          "source": {
-            "label": "United Nations",
-            "url": "https://www.un.org/en/ga/81/meetings/"
-          }
-        },
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
@@ -344,6 +352,10 @@
         {
           "label": "US rejection of Iran's proposal",
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+        },
+        {
+          "label": "Latest US-Iran mediated talks",
+          "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
         }
       ]
     }
