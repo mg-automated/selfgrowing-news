@@ -21,10 +21,15 @@ cp "${SCRIPT_DIR}/quartz.ts" "${RUNTIME_DIR}/quartz.ts"
 cp "${SCRIPT_DIR}/styles/custom.scss" "${RUNTIME_DIR}/quartz/styles/custom.scss"
 cp "${SCRIPT_DIR}/static/graph-timeline.js" "${RUNTIME_DIR}/quartz/static/graph-timeline.js"
 cp "${SCRIPT_DIR}/static/icon.png" "${RUNTIME_DIR}/quartz/static/icon.png"
+cp "${SCRIPT_DIR}/static/topic-badges.js" "${RUNTIME_DIR}/quartz/static/topic-badges.js"
 cp "${SCRIPT_DIR}/content/"*.md "${RUNTIME_DIR}/content/"
 cp "${SCRIPT_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/scripts/enrich-topics.mjs"
 cp -R "${REPOSITORY_ROOT}/News" "${RUNTIME_DIR}/content/News"
 cp -R "${REPOSITORY_ROOT}/Topics" "${RUNTIME_DIR}/content/Topics"
+
+node "${SCRIPT_DIR}/scripts/generate-topic-badges.mjs" \
+  "${REPOSITORY_ROOT}" \
+  "${RUNTIME_DIR}/quartz/static/topic-badges.json"
 
 find "${RUNTIME_DIR}/content" -name .gitkeep -delete
 node "${SCRIPT_DIR}/scripts/latest-briefing.mjs" "${RUNTIME_DIR}/content"
@@ -38,5 +43,7 @@ npm --prefix "${RUNTIME_DIR}" ci
   npx quartz plugin install
   npx quartz build
 )
+
+node "${SCRIPT_DIR}/scripts/inject-topic-badges.mjs" "${RUNTIME_DIR}/public"
 
 printf 'Quartz site built at %s\n' "${RUNTIME_DIR}/public"
