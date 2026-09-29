@@ -73,6 +73,8 @@ Every news story must link to one or more relevant topic pages. Choose a small n
 
 Before creating a topic, inspect `Topics/` and reuse an existing page whenever it represents the same concept. Avoid duplicate or near-duplicate pages arising from spelling, capitalization, abbreviations, singular/plural forms, or naming differences. Codex is responsible for choosing and consolidating appropriate topics as the archive grows, without unnecessarily replacing valid existing topic pages.
 
+Create a new topic when it represents a durable subject likely to connect future developments. For an isolated story, use an existing broader topic if it accurately fits; if none exists, create a reusable broader topic rather than a page tied narrowly to that single story. Never force a story into an inaccurate topic.
+
 Use stable, readable, kebab-style filenames that preserve proper-name capitalization, such as `Artificial-Intelligence.md` or `Swiss-Federal-Council.md`.
 
 ## Topic files
