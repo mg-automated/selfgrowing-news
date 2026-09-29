@@ -34,6 +34,7 @@ The archive moves from the scheduled ChatGPT Work run to the published site thro
 
 ```mermaid
 flowchart TB
+
     subgraph archive["Research and archive"]
         direction LR
         A[Scheduled ChatGPT Work run] --> B[Read instructions and inspect archive]
@@ -44,7 +45,7 @@ flowchart TB
     end
 
     subgraph publishing["Build and publish"]
-        direction RL
+        direction LR
         G[Validate content and links] --> H[Commit changes to main]
         H --> I[GitHub Actions]
         I --> J[Build Quartz and enrich pages]
@@ -53,7 +54,7 @@ flowchart TB
         L --> M[Published archive]
     end
 
-    F --> G
+    archive --> publishing
 ```
 
 The scheduled task is responsible for researching and archiving the news. A successful push to `main` triggers the deployment workflow, which rebuilds the Quartz site from the repository-level Markdown and structured data before publishing the resulting static site.
