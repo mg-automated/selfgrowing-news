@@ -31,7 +31,6 @@
           count.textContent = String(topic.mentions);
           count.title = `${topic.mentions} daily briefing${topic.mentions === 1 ? "" : "s"} link to this topic`;
           count.setAttribute("aria-label", count.title);
-          badges.append(count);
           if (topic.outlook) {
             const outlook = document.createElement("span");
             outlook.className = "topic-explorer-badge topic-explorer-outlook";
@@ -40,6 +39,7 @@
             outlook.setAttribute("aria-label", outlook.title);
             badges.append(outlook);
           }
+          badges.append(count);
           link.append(badges);
         }
       }
