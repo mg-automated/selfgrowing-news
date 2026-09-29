@@ -9,6 +9,10 @@ The Growing News Archive is an AI-assisted daily archive of important developmen
 
 The purpose is not simply to collect daily headlines, but to create a connected record that becomes more useful over time. Stories are linked to recurring topics, previous coverage is considered to avoid unnecessary repetition, and continuing events return only when something meaningful has changed.
 
+## Latest briefing
+
+<!-- LATEST_BRIEFING_LINK -->
+
 ## Browse the archive
 
 - [Daily news briefings](News/Daily/)
