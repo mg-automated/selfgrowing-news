@@ -657,9 +657,12 @@ footer > p {
 }
 
 footer > .site-build-info {
-  margin-top: 0;
   font-size: 0.9em;
   opacity: 0.8;
+}
+
+footer > .site-build-info + p {
+  margin-top: 0;
 }
 
 footer > ul {

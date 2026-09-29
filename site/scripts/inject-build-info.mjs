@@ -17,7 +17,7 @@ const builtAt = new Date().toISOString();
 const escapeHtml = (value) =>
   value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const details = `<p class="site-build-info">Branch ${escapeHtml(branch)} · Commit <a href="https://github.com/mg-automated/selfgrowing-news/commit/${commit}" title="${commit}">${commit.slice(0, 7)}</a> · Built <time datetime="${builtAt}">${builtAt.slice(0, 16).replace("T", " ")} UTC</time></p>`;
-const footerOpening = /(<footer\b[^>]*>\s*<p\b[^>]*>[\s\S]*?<\/p>)/;
+const footerOpening = /(<footer\b[^>]*>)\s*<p\b/;
 
 async function inject(directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -28,7 +28,7 @@ async function inject(directory) {
       const html = await readFile(file, "utf8");
       if (!html.includes("<footer")) continue; // Quartz redirect stubs have no footer.
       if (!footerOpening.test(html)) throw new Error(`Cannot find footer attribution in ${file}`);
-      await writeFile(file, html.replace(footerOpening, `$1${details}`));
+      await writeFile(file, html.replace(footerOpening, `$1${details}<p`));
     }
   }
 }
