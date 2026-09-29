@@ -1,7 +1,7 @@
 name: Deploy Quartz site to GitHub Pages
 
-# Deploy automatically when a daily note changes on main. Manual runs remain
-# available for testing and recovery.
+# Deploy when published content or the site build changes on main. Manual runs
+# remain available for testing and recovery.
 on:
   workflow_dispatch:
   push:
@@ -9,6 +9,10 @@ on:
       - main
     paths:
       - "News/Daily/**/*.md"
+      - "Topics/**/*.md"
+      - "Data/topic-outlooks.json"
+      - "site/**"
+      - ".github/workflows/deploy-site.yml"
 
 permissions:
   contents: read
