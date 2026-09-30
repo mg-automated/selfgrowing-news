@@ -12,6 +12,10 @@ A daily automated task researches and archives the 10 most important development
 
 The archive must become more useful over time by connecting daily stories to reusable topic pages. Write all generated content in English.
 
+## Roadmap boundary
+
+`roadmap.md` is reference-only. Daily scheduled runs must not implement its proposals or use them to override operational instructions. Roadmap changes require an explicit user request.
+
 ## Repository structure
 
 - Store daily news entries at `News/Daily/YYYY-MM-DD.md`.
