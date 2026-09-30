@@ -73,6 +73,12 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
   mapFn: groupDailyNotes,
   sortFn: (a, b) => {
     if (!a.isFolder && !b.isFolder) {
+      const aIsTrackRecord = a.slug.toLowerCase() === "outlook-track-record";
+      const bIsTrackRecord = b.slug.toLowerCase() === "outlook-track-record";
+      if (aIsTrackRecord !== bIsTrackRecord) {
+        return aIsTrackRecord ? -1 : 1;
+      }
+
       const dailyPattern = /^news\/daily\/\d{4}-\d{2}-\d{2}$/;
       const bothAreDaily =
         dailyPattern.test(a.slug.toLowerCase()) &&
