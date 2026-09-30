@@ -46,5 +46,6 @@ npm --prefix "${RUNTIME_DIR}" ci
 
 node "${SCRIPT_DIR}/scripts/inject-topic-badges.mjs" "${RUNTIME_DIR}/public"
 node "${SCRIPT_DIR}/scripts/inject-build-info.mjs" "${REPOSITORY_ROOT}" "${RUNTIME_DIR}/public"
+node "${SCRIPT_DIR}/scripts/open-source-links-in-new-tab.mjs" "${RUNTIME_DIR}/public"
 
 printf 'Quartz site built at %s\n' "${RUNTIME_DIR}/public"
