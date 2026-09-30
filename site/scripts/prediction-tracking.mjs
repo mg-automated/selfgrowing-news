@@ -42,6 +42,19 @@ export function validate(document) {
     if (p.assessment) {
       validateAssessment(p, p.assessment)
     }
+    const correctionIDs = new Set()
+    let lastCorrection = p.assessment?.assessed ?? p.created
+    if (p.corrections !== undefined && !Array.isArray(p.corrections)) fail('Invalid corrections')
+    for (const c of p.corrections ?? []) {
+      if (!p.assessment || !text(c.id) || correctionIDs.has(c.id) || !text(c.reason)) fail('Correction requires a final assessment, unique ID and reason')
+      correctionIDs.add(c.id); date(c.corrected)
+      if (c.corrected < lastCorrection) fail('Corrections must be chronological')
+      lastCorrection = c.corrected; sources(c.sources)
+      if (c.assessment) {
+        if (c.assessment.assessed !== c.corrected) fail('Correction assessment date must match correction date')
+        validateAssessment(p, c.assessment)
+      }
+    }
   }
   return document
 }
@@ -61,6 +74,41 @@ export function migrate(document) {
   if (document.version !== 1 || !Array.isArray(document.predictions) || document.predictions.length) fail('Automatic migration requires empty version 1 history; existing predictions need explicit reviewed migration')
   return validate({...structuredClone(document), version: 2, attempts: []})
 }
+const canonical = value => JSON.stringify(stable(value))
+function stable(value) {
+  if (Array.isArray(value)) return value.map(stable)
+  if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map(key => [key, stable(value[key])]))
+  return value
+}
+export function validateHistory(previous, current) {
+  const before = previous.version === 1 ? migrate(previous) : validate(previous)
+  validate(current)
+  const original = p => Object.fromEntries(Object.entries(p).filter(([key]) => !['assessment', 'corrections'].includes(key)))
+  for (const old of before.predictions) {
+    const next = current.predictions.find(p => p.id === old.id)
+    if (!next) fail('Historical prediction deleted: ' + old.id)
+    if (canonical(original(old)) !== canonical(original(next))) fail('Original prediction changed: ' + old.id)
+    if (old.assessment && canonical(old.assessment) !== canonical(next.assessment)) fail('Final assessment changed: ' + old.id)
+    const priorCorrections = old.corrections ?? [], nextCorrections = next.corrections ?? []
+    if (canonical(priorCorrections) !== canonical(nextCorrections.slice(0, priorCorrections.length))) fail('Historical correction changed: ' + old.id)
+  }
+  return current
+}
+export function effectiveAssessment(p) {
+  return [...(p.corrections ?? [])].reverse().find(c => c.assessment)?.assessment ?? p.assessment
+}
+export function appendCorrections(document, batch) {
+  validate(document); date(batch.date)
+  if (!Array.isArray(batch.corrections) || !batch.corrections.length) fail('Explicit correction batch required')
+  const updated = structuredClone(document)
+  for (const change of batch.corrections) {
+    const p = updated.predictions.find(p => p.id === change.predictionId)
+    if (!p?.assessment || change.correction?.corrected !== batch.date) fail('Invalid correction target or date')
+    p.corrections ??= []
+    p.corrections.push(structuredClone(change.correction))
+  }
+  return validateHistory(document, updated)
+}
 export function select(document, outlooks, markdown, today) {
   date(today); validate(document)
   if (!document.settings.enabled) return { date: today, enabled: false, assessments: [], creations: [], deferred: [] }
@@ -78,6 +126,7 @@ export function select(document, outlooks, markdown, today) {
   return { date: today, enabled: true, assessments, creations, deferred: candidates.slice(s.maximumAssessmentsPerRun).map(p=>p.id) }
 }
 export function applyBatch(document, outlooks, markdown, batch) {
+  if ('corrections' in batch) fail('Corrections require the separate reviewed correction operation')
   const plan = select(document, outlooks, markdown, batch.date)
   if (!plan.enabled) fail('Prediction tracking is paused; no changes allowed')
   const updated = structuredClone(document)
@@ -97,8 +146,7 @@ export function applyBatch(document, outlooks, markdown, batch) {
   }
   // Budget applies to the entire day, including repeated invocations.
   if (updated.predictions.filter(p=>p.created === batch.date).length > updated.settings.maximumCreationsPerRun || updated.predictions.filter(p=>p.assessment?.assessed === batch.date).length > updated.settings.maximumAssessmentsPerRun) fail('Daily limit exceeded')
-  validate(updated)
-  return updated
+  return validateHistory(document, updated)
 }
 export async function run(args) {
   const option = (key, fallback) => args.includes(key) ? args[args.indexOf(key)+1] : fallback
@@ -112,6 +160,13 @@ export async function run(args) {
   }
   const document = validate(raw)
   if (args.includes('--validate')) return 'Prediction tracking data valid'
+  if (args.includes('--correct')) {
+    if (!args.includes('--reviewed')) fail('Corrections require --reviewed and an explicit user request; never use during daily runs')
+    const batch = JSON.parse(await readFile(option('--correct'), 'utf8'))
+    const updated = appendCorrections(document, batch)
+    await writeFile(file, JSON.stringify(updated, null, 2) + '\n')
+    return 'Reviewed corrections appended; originals preserved'
+  }
   // Exit before reading outlooks, briefings or performing any research when disabled.
   if (!document.settings.enabled) return JSON.stringify({enabled:false, assessments:[], creations:[]})
   const outlooks = JSON.parse(await readFile(path.join(root, 'Data/topic-outlooks.json'), 'utf8'))

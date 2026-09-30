@@ -19,7 +19,7 @@ This roadmap records future work. It is not an instruction for the daily automat
 | ID | Priority | Work | Timing | Status |
 | --- | --- | --- | --- | --- |
 | R01 | High | Make prediction assessment timing rigorous | Implemented 2026-09-30 | Complete |
-| R02 | High | Protect published prediction history | Next correctness work | Proposed |
+| R02 | High | Protect published prediction history | Implemented 2026-09-30 | Complete |
 | R03 | High | Add deterministic editorial validation | Next correctness work | Proposed |
 | R04 | Medium | Enforce and explain tracking research limits | Alongside tracking fixes | Proposed |
 | R05 | Medium | Fix freshness detection | Before relying on unattended operation | Proposed |
@@ -46,6 +46,8 @@ This roadmap records future work. It is not an instruction for the daily automat
 **Acceptance:** An occurrence claim can resolve early when verified; a persistence claim cannot be confirmed before its window closes. A failed claim requires evidence covering the necessary deadline. An unsupported deadline is rejected. Existing records have an explicit migration policy if the schema changes.
 
 ### R02 — Protect published prediction history
+
+**Implemented 2026-09-30:** Shared history validation rejects deleted/rewritten forecasts, snapshots, final results and prior corrections. CI checks every committed transition, including intermediate rewrites and merge parents, plus working changes. The reviewed correction operation appends source-linked amendments; visitors retain both original and corrected outcomes. Verified with Git-history fixtures, rendering tests, regression tests and a full Quartz build.
 
 **Finding:** The batch writer protects history, but direct JSON edits can bypass those protections. Current-file validation does not compare the proposed data with previously committed data.
 

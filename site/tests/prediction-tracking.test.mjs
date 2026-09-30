@@ -3,7 +3,9 @@ import assert from 'node:assert/strict'
 import {mkdtemp, mkdir, writeFile, readFile, cp} from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
-import {select, applyBatch, validate, migrate, run} from '../scripts/prediction-tracking.mjs'
+import {execFileSync} from 'node:child_process'
+import {select, applyBatch, validate, migrate, validateHistory, appendCorrections, effectiveAssessment, run} from '../scripts/prediction-tracking.mjs'
+import {validateGitHistory} from '../scripts/validate-prediction-history.mjs'
 import {renderTrack, enrich} from '../scripts/render-predictions.mjs'
 const source = {label:'Evidence',url:'https://example.org/evidence'}
 const outlook = {assessment:'A testable development is expected.',reviewed:'2026-09-30',validUntil:'2026-10-30',confidence:'medium'}
@@ -11,6 +13,41 @@ const outlooks = {outlooks:{'Russia.md':outlook}}
 const doc = () => ({version:2,settings:{enabled:true,topics:['Russia.md'],maximumTrackedTopics:4,maximumActivePerTopic:1,maximumAssessmentsPerRun:2,maximumCreationsPerRun:1,minimumDaysBetweenPredictions:30},predictions:[],attempts:[]})
 const prediction = () => ({id:'russia-2026-09-30',kind:'event',topicFile:'Russia.md',created:'2026-09-30',deadline:'2026-10-30',statement:'A measurable development will occur.',successCondition:'An official confirmation by deadline.',failureCondition:'No confirmation in the full window, established by verification.',confidence:'medium',sources:[source],outlookSnapshot:outlook})
 const assessment = (result='supported',assessed='2026-10-31')=>({result,assessed,evidenceThrough:'2026-10-30',explanation:'Evidence establishes the outcome.',sources:[source]})
+test('R02: history rejects deletion, condition/snapshot rewrites and overwritten final judgments',()=>{
+ const previous={...doc(),predictions:[{...prediction(),assessment:assessment()}]}
+ assert.throws(()=>validateHistory(previous,doc()),/deleted/)
+ for(const mutate of [p=>p.statement='Different',p=>p.successCondition='Easier',p=>p.outlookSnapshot.assessment='Changed',p=>p.assessment.result='not-supported']) {
+  const next=structuredClone(previous);mutate(next.predictions[0]);assert.throws(()=>validateHistory(previous,next),/changed/)
+ }
+ assert.doesNotThrow(()=>validateHistory(previous,JSON.parse(JSON.stringify(previous))))
+ const pending={...doc(),predictions:[prediction()]};assert.doesNotThrow(()=>validateHistory(pending,previous))
+})
+test('R02: reviewed corrections append and display both original and corrected outcomes',()=>{
+ const d={...doc(),predictions:[{...prediction(),assessment:assessment()}]}
+ const before=JSON.stringify(d),correction={id:'fix-1',corrected:'2026-11-01',reason:'Source correction <script>',sources:[source],assessment:assessment('not-supported','2026-11-01')}
+ const next=appendCorrections(d,{date:'2026-11-01',corrections:[{predictionId:prediction().id,correction}]})
+ assert.equal(JSON.stringify(d),before);assert.deepEqual(next.predictions[0].assessment,d.predictions[0].assessment)
+ assert.equal(effectiveAssessment(next.predictions[0]).result,'not-supported')
+ const html=renderTrack(next,'Russia.md');assert.match(html,/Original assessment/);assert.match(html,/Supported/);assert.match(html,/Not supported/);assert.match(html,/data-result="not-supported"/);assert.ok(!html.includes('<script>'))
+ const removed=structuredClone(next);removed.predictions[0].corrections=[];assert.throws(()=>validateHistory(next,removed),/correction changed/)
+ assert.throws(()=>appendCorrections(next,{date:'2026-11-01',corrections:[{predictionId:prediction().id,correction}]}),/unique ID/)
+ assert.throws(()=>appendCorrections({...doc(),predictions:[prediction()]},{date:'2026-11-01',corrections:[{predictionId:prediction().id,correction}]}),/target/)
+ assert.throws(()=>applyBatch(d,outlooks,'',{date:'2026-11-01',corrections:[]}),/separate reviewed/)
+})
+test('R02: Git validation catches working edits and an intermediate rewrite restored later',async()=>{
+ const root=await mkdtemp(path.join(os.tmpdir(),'tracking-history-'));await mkdir(path.join(root,'Data'))
+ const git=(...args)=>execFileSync('git',['-C',root,...args],{encoding:'utf8'})
+ git('init','-q');git('config','user.name','Test');git('config','user.email','test@example.org')
+ const file=path.join(root,'Data/prediction-tracking.json'),d={...doc(),predictions:[{...prediction(),assessment:assessment()}]}
+ const commit=async(data,message)=>{await writeFile(file,JSON.stringify(data));git('add','.');git('commit','-qm',message)}
+ await commit(d,'original');const base=git('rev-parse','HEAD').trim()
+ assert.match(validateGitHistory(root),/valid/)
+ const bad=structuredClone(d);bad.predictions[0].statement='A revised easier prediction'
+ await writeFile(file,JSON.stringify(bad));assert.throws(()=>validateGitHistory(root),/Original prediction changed/)
+ await commit(bad,'rewrite');await commit(d,'restore')
+ assert.throws(()=>validateGitHistory(root,base),/Original prediction changed/)
+ assert.throws(()=>validateGitHistory(root),/Original prediction changed/)
+})
 test('R01: persistence and partial verdicts require a closed, fully covered window',()=>{
  const p={...prediction(),kind:'persistence',partialCondition:'A predefined partial outcome.'}
  const verify=a=>validate({...doc(),predictions:[{...p,assessment:a}]})

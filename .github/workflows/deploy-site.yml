@@ -49,6 +49,11 @@ jobs:
       - name: Test prediction tracking
         run: node --test site/tests/prediction-tracking.test.mjs
 
+      - name: Validate prediction data and committed history
+        run: |
+          node site/scripts/prediction-tracking.mjs --validate
+          node site/scripts/validate-prediction-history.mjs
+
       - name: Build Quartz site
         run: bash site/build.sh
 

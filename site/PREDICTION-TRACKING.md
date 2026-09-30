@@ -20,11 +20,25 @@ node site/scripts/prediction-tracking.mjs --migrate
 
 Automatic migration rejects nonempty version 1 history rather than guessing prediction types or rewriting past results. Such a migration requires an explicit reviewed mapping and preservation of original records.
 
+## History protection and reviewed corrections
+
+`validate-prediction-history.mjs` checks every committed transition and current working changes. It catches intermediate rewrites even when the final version restores the original data, and checks every merge parent. Existing original records, final assessments and correction entries cannot be deleted or overwritten. This is a publishing safeguard, not an access-control system for repository owners.
+
+Corrections require an explicit user request, never a daily automation decision. Create a temporary batch with `date` and `corrections: [{predictionId, correction: {id, corrected, reason, sources, assessment}}]`. The revised `assessment` is optional for an explanatory annotation. A revised verdict must still satisfy the original prediction conditions and timing rules. `corrected` and revised `assessment.assessed` equal the batch date. Then run:
+
+```sh
+node site/scripts/prediction-tracking.mjs --correct /tmp/corrections.json --reviewed
+node site/scripts/validate-prediction-history.mjs
+```
+
+The original assessment remains intact. The published page shows the correction and original assessment; result filters use the most recent revised verdict. An annotation alone does not change that verdict. Do not commit the temporary batch.
+
 ## Checks
 
 ```sh
 node --test site/tests/prediction-tracking.test.mjs
 node site/scripts/prediction-tracking.mjs --validate
+node site/scripts/validate-prediction-history.mjs
 bash site/build.sh
 ```
 
