@@ -1,5 +1,14 @@
 # The Growing News Archive
 
+## TL;DR — 30 seconds
+
+- **What:** An open, automated archive of important international politics, Swiss politics, and technology news.
+- **How:** Each day, it selects ten significant developments from the previous 24 hours, summarizes what happened and why it matters, and links to original sources and reusable topic pages.
+- **Why:** Topic pages connect coverage across days, building a browsable record of continuing events.
+- **Explore:** [Read the live archive](https://mg-automated.github.io/selfgrowing-news/) for daily briefings, topic timelines, search, RSS, and an interactive graph.
+
+Summaries are AI-assisted. Follow the source links to verify details; errors or omissions can occur.
+
 The Growing News Archive is an automated, open Markdown archive of important daily developments in:
 
 - international politics;
