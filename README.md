@@ -88,6 +88,7 @@ Story selection inevitably involves judgment. Inclusion in a briefing does not i
 - [`News/Daily/`](News/Daily/) contains the daily briefings.
 - [`Topics/`](Topics/) contains reusable pages for countries, organisations, technologies and continuing subjects.
 - [`Data/topic-outlooks.json`](Data/topic-outlooks.json) contains structured, reviewable forward-looking assessments used by selected topic pages.
+- [`Data/prediction-tracking.json`](Data/prediction-tracking.json) contains prediction tracking settings, preserved predictions and Outlook snapshots, and source-linked outcome assessments.
 - [`site/`](site/) contains the Quartz configuration used to build the archive as a navigable website.
 - [`.github/workflows/deploy-site.yml`](.github/workflows/deploy-site.yml) automatically rebuilds and publishes the website after a new daily briefing is committed.
 
