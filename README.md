@@ -1,6 +1,6 @@
 # The Growing News Archive
 
-## TL;DR — 30 seconds
+## TL;DR
 
 - **What:** An open, automated archive of important international politics, Swiss politics, and technology news.
 - **How:** Each day, it selects ten significant developments from the previous 24 hours, summarizes what happened and why it matters, and links to original sources and reusable topic pages.
