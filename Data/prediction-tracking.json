@@ -7,6 +7,9 @@
     "maximumActivePerTopic": 1,
     "maximumAssessmentsPerRun": 2,
     "maximumCreationsPerRun": 1,
+    "maximumAssessmentAttemptsPerDay": 2,
+    "maximumCreationAttemptsPerDay": 2,
+    "maximumAdditionalLookupsPerAssessment": 3,
     "minimumDaysBetweenPredictions": 30
   },
   "predictions": [],

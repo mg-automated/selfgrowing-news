@@ -35,6 +35,7 @@ export function validateGitHistory(root = '.', base) {
       }
     }
     if (current) checked++
+    cache.clear() // Bound memory: do not retain growing JSON snapshots for all commits.
   }
   const committed = read('HEAD'), file = path.join(root, dataPath)
   if (committed && !existsSync(file)) throw new Error('Working-tree prediction history deleted')

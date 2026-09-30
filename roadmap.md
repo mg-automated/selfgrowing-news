@@ -21,7 +21,7 @@ This roadmap records future work. It is not an instruction for the daily automat
 | R01 | High | Make prediction assessment timing rigorous | Implemented 2026-09-30 | Complete |
 | R02 | High | Protect published prediction history | Implemented 2026-09-30 | Complete |
 | R03 | High | Add deterministic editorial validation | Next correctness work | Proposed |
-| R04 | Medium | Enforce and explain tracking research limits | Alongside tracking fixes | Proposed |
+| R04 | Medium | Enforce and explain tracking research limits | Implemented 2026-09-30 | Complete |
 | R05 | Medium | Fix freshness detection | Before relying on unattended operation | Proposed |
 | R06 | Medium | Publish a daily-briefing-only RSS feed | Next maintenance work | Proposed |
 | R07 | Medium | Define continuous news coverage windows | Next workflow review | Proposed |
@@ -68,6 +68,8 @@ This roadmap records future work. It is not an instruction for the daily automat
 **Acceptance:** Representative malformed briefings and data fail with actionable errors; valid content passes. Test tracking enabled, disabled, and malformed-data cases. Document whether a feature error blocks publication or uses a clearly identified safe fallback.
 
 ### R04 — Enforce and explain tracking research limits
+
+**Implemented 2026-09-30:** Durable pre-research reservations cap assessment attempts at two per day, count Pending/interrupted work, bound reported lookups, and permit two existing-research creation candidates for one new prediction. Candidates rotate by prior attempt date; deferred reporting uses the actual remaining allowance. Writers require prior committed reservations, protect attempt history, reject backdated CLI writes, and use locking/atomic replacement. The daily task now permits a tracking-only checkpoint before research. Verified by repeated-run, interruption, fallback, lookup-limit, off-switch, Git-checkpoint and regression tests, plus a full Quartz build. Lookup limits are audited records and agent instructions, not web-call interception.
 
 **Finding:** Limits on completed assessments do not necessarily limit research attempts. Selection can stop at an unsuitable first prediction candidate, and the deferred list can omit work when part of the daily assessment allowance has already been consumed.
 
@@ -170,6 +172,6 @@ No embeddings API or additional AI summarization is required. Markdown remains c
 
 Implement one approved work item at a time. For each item, record its decision, implementation commit, checks, and remaining limitations here. Recheck linked code before starting; archive growth and later fixes may change the priority.
 
-The suggested order is R01–R04, then R05–R08. Plan R09 before full-history reading becomes burdensome, and use measurements to decide when R10 is necessary. R11 and R12 can accompany related maintenance.
+R01, R02 and R04 were implemented as separately tested changes. R03 remains proposed, followed by R05–R08. Plan R09 before full-history reading becomes burdensome, and use measurements to decide when R10 is necessary. R11 and R12 can accompany related maintenance.
 
 No changes to production code, deployment, daily automation, or Outlook behavior are made by accepting this document as a planning record.

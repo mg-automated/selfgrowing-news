@@ -1,3 +1,7 @@
 **/.DS_Store
 # Local Obsidian configuration
 .obsidian/
+
+# Temporary prediction writer files
+Data/.prediction-tracking.lock
+Data/prediction-tracking.json.*.tmp
