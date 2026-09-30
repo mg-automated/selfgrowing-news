@@ -9,10 +9,58 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "Myanmar.md": {
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
+    "United-Nations.md": {
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-09-30",
+      "mentions": 6,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
+    "Houthis.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-30",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
+    "Yemen-Conflict.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-30",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
+    "Red-Sea-Shipping.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-09-30",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
+    "Swiss-Health-Policy.md": {
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-09-30"
+    },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 9,
+      "lastSeen": "2026-09-30",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -27,18 +75,10 @@
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 8,
+      "lastSeen": "2026-09-30",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
-      "eligibleAfter": "2026-09-28"
-    },
-    "Artificial-Intelligence.md": {
-      "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 12,
-      "attempts": 1,
-      "lastAttempt": "2026-09-29",
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
@@ -59,8 +99,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-29",
-      "mentions": 10,
+      "lastSeen": "2026-09-30",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -131,24 +171,24 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-09-28",
-      "mentions": 5,
+      "lastSeen": "2026-09-30",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-09-29",
-      "mentions": 1,
+      "lastSeen": "2026-09-30",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-28",
-      "mentions": 4,
+      "lastSeen": "2026-09-30",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -163,8 +203,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 11,
+      "lastSeen": "2026-09-30",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -179,16 +219,69 @@
     }
   },
   "outlooks": {
+    "Artificial-Intelligence.md": {
+      "topic": "Topics/Artificial-Intelligence.md",
+      "volatility": "medium",
+      "reviewed": "2026-09-30",
+      "materiallyUpdated": "2026-09-30",
+      "validUntil": "2026-10-30",
+      "nextReview": "2026-10-03",
+      "horizon": "the next 30 days",
+      "confidence": "medium",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and wider deployment of autonomous agents, accompanied by stronger voluntary safety controls and growing scrutiny of security and capital costs. The new US industry accord establishes a common review framework, but its voluntary character means implementation details and company-level safeguards will determine its practical effect.",
+      "likelyDevelopments": [
+        "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
+        "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
+        "Investment in chips, data centres and physical-AI capabilities will continue, while investors focus more closely on the cost and financing of frontier-model development.",
+        "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing and assurance practices."
+      ],
+      "upcomingEvents": [
+        {
+          "date": "2026-10-14",
+          "reviewFrom": "2026-10-12",
+          "description": "Ireland is scheduled to host the International AI Summit on 14 October as the official launch of European AI Innovation Month.",
+          "source": {
+            "label": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+          }
+        }
+      ],
+      "changeSignals": [
+        "Publication of enforceable requirements or audit mechanisms under the US AI accord",
+        "A major safety or cybersecurity incident involving an autonomous AI agent",
+        "Material changes to frontier-model release schedules or safety evaluations",
+        "Large new infrastructure commitments, cancellations or financing problems",
+        "New binding AI legislation or standards in a major market"
+      ],
+      "sources": [
+        {
+          "label": "US voluntary AI safety accord",
+          "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+        },
+        {
+          "label": "Associated Press account of the AI accord",
+          "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+        },
+        {
+          "label": "Visa warning on AI-powered cyber risk",
+          "url": "https://www.reuters.com/legal/government/visa-joins-growing-alarm-over-ai-powered-risks-2026-09-29/"
+        },
+        {
+          "label": "European AI Innovation Month",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+        }
+      ]
+    },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-09-29",
-      "materiallyUpdated": "2026-09-27",
+      "reviewed": "2026-09-30",
+      "materiallyUpdated": "2026-09-30",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-30",
+      "nextReview": "2026-10-01",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure on Ukraine while using selective diplomatic contacts to test limited arrangements and manage relations with European governments. The first Russia–Germany foreign-minister talks since 2022 and discussion of Black Sea navigation create channels for narrow functional agreements, but a broad ceasefire remains unlikely during this period.",
+      "assessment": "Russia is likely to maintain intensive air attacks on Ukraine while broadening economic retaliation against European governments through pressure on European-owned assets inside Russia. Selective diplomatic contacts may continue, but the accelerating strikes on Kyiv and the Kremlin's coercive posture toward European companies make a broad near-term de-escalation unlikely.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -242,19 +335,27 @@
         {
           "label": "Russian strikes on Ukrainian cities and communications",
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/russia-says-it-struck-military-infrastructure-vessels-in-ukraine"
+        },
+        {
+          "label": "Russian pressure on European corporate assets",
+          "url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+        },
+        {
+          "label": "Latest Russian strikes on Kyiv",
+          "url": "https://www.reuters.com/world/europe/russian-air-strikes-kill-one-injure-five-around-kyiv-officials-say-2026-09-30/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-09-29",
-      "materiallyUpdated": "2026-09-29",
+      "reviewed": "2026-09-30",
+      "materiallyUpdated": "2026-09-30",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-30",
+      "nextReview": "2026-10-01",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect negotiations through regional mediators while bargaining over sanctions, frozen assets, the Strait of Hormuz and a route back to nuclear talks. Separate discussions on an amended seven-day proposal make a limited de-escalation more plausible than it was after Washington rejected Tehran's earlier offer, but major differences still make a durable settlement uncertain.",
+      "assessment": "Iran is likely to continue indirect talks through Qatari and other regional mediators while resisting US demands for capitulation and nuclear concessions. Washington's denial that it offered sanctions relief, together with new sanctions on Iran's military procurement network, narrows the space for a near-term bargain even though both sides continue to communicate through intermediaries.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
@@ -303,16 +404,24 @@
         {
           "label": "Latest US-Iran mediated talks",
           "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+        },
+        {
+          "label": "Qatari shuttle diplomacy and US sanctions position",
+          "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+        },
+        {
+          "label": "New sanctions on Iran's military supply chain",
+          "url": "https://apnews.com/article/30db5eef515ed1d06591a0254292afdd"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-09-29",
+      "reviewed": "2026-09-30",
       "materiallyUpdated": "2026-09-29",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-09-30",
+      "nextReview": "2026-10-01",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while US and Iranian officials negotiate indirectly over an amended de-escalation proposal. The inclusion of reopening the strait in the mediated discussions raises the prospect of a limited operational arrangement, but unresolved sanctions, asset and nuclear issues leave a high risk of continued disruption.",
@@ -356,6 +465,10 @@
         {
           "label": "Latest US-Iran mediated talks",
           "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+        },
+        {
+          "label": "Qatari shuttle diplomacy and continued Strait restrictions",
+          "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
         }
       ]
     }
