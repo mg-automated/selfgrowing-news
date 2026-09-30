@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "settings": {
     "enabled": true,
     "topics": ["Artificial-Intelligence.md", "Russia.md", "Iran.md", "Strait-of-Hormuz.md"],
@@ -9,5 +9,6 @@
     "maximumCreationsPerRun": 1,
     "minimumDaysBetweenPredictions": 30
   },
-  "predictions": []
+  "predictions": [],
+  "attempts": []
 }

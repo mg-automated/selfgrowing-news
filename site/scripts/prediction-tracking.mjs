@@ -17,7 +17,7 @@ function sources(items) {
   }
 }
 export function validate(document) {
-  if (document.version !== 1 || typeof document.settings?.enabled !== 'boolean' || !Array.isArray(document.predictions)) fail('Invalid prediction document')
+  if (document.version !== 2 || typeof document.settings?.enabled !== 'boolean' || !Array.isArray(document.predictions) || !Array.isArray(document.attempts)) fail('Invalid prediction document; version 2 required')
   const s = document.settings
   for (const key of ['maximumTrackedTopics', 'maximumActivePerTopic', 'maximumAssessmentsPerRun', 'maximumCreationsPerRun', 'minimumDaysBetweenPredictions']) {
     if (!Number.isInteger(s[key]) || s[key] < 0) fail('Invalid limit: ' + key)
@@ -30,23 +30,36 @@ export function validate(document) {
     if (!/^[A-Za-z0-9-]+\.md$/.test(p.topicFile)) fail('Invalid topic filename')
     date(p.created); date(p.deadline)
     if (p.deadline <= p.created) fail('Deadline must follow creation')
+    if (!['event', 'persistence'].includes(p.kind)) fail('Prediction kind must be event or persistence')
     for (const field of ['statement', 'successCondition', 'failureCondition']) if (!text(p[field])) fail('Missing ' + field)
     if (!['low', 'medium', 'high'].includes(p.confidence)) fail('Invalid confidence')
     if (!text(p.outlookSnapshot?.assessment)) fail('Original outlook snapshot required')
     date(p.outlookSnapshot.reviewed)
     if (p.outlookSnapshot.reviewed > p.created) fail('Future outlook snapshot')
+    date(p.outlookSnapshot.validUntil)
+    if (p.deadline > p.outlookSnapshot.validUntil) fail('Deadline exceeds original Outlook horizon')
     sources(p.sources)
     if (p.assessment) {
-      const a = p.assessment
-      date(a.assessed); date(a.evidenceThrough)
-      if (!results.includes(a.result) || !text(a.explanation) || a.assessed < p.created || a.evidenceThrough < p.created || a.evidenceThrough > a.assessed) fail('Invalid assessment')
-      if (a.result === 'partly-supported' && !text(p.partialCondition)) fail('Partial result requires original partial condition')
-      if (['not-supported', 'unverifiable'].includes(a.result) && a.assessed <= p.deadline) fail('Wait until the deadline day has ended before a negative or unverifiable verdict')
-      if (a.result !== 'unverifiable' && a.evidenceThrough > p.deadline) fail('Only evidence within the prediction window can determine the outcome')
-      sources(a.sources)
+      validateAssessment(p, p.assessment)
     }
   }
   return document
+}
+export function validateAssessment(p, a) {
+  date(a.assessed); date(a.evidenceThrough)
+  if (!results.includes(a.result) || !text(a.explanation) || a.assessed < p.created || a.evidenceThrough < p.created || a.evidenceThrough > a.assessed) fail('Invalid assessment')
+  if (a.result === 'partly-supported' && !text(p.partialCondition)) fail('Partial result requires original partial condition')
+  if (a.evidenceThrough > p.deadline) fail('Only evidence within the prediction window can determine the outcome')
+  const wholeWindow = p.kind === 'persistence' || a.result !== 'supported'
+  if (wholeWindow && a.assessed <= p.deadline) fail('Wait until the deadline day has ended before a whole-window verdict')
+  if (wholeWindow && a.result !== 'unverifiable' && a.evidenceThrough !== p.deadline) fail('Evidence must cover the full prediction window')
+  sources(a.sources)
+  return a
+}
+export function migrate(document) {
+  if (document.version === 2) return validate(document)
+  if (document.version !== 1 || !Array.isArray(document.predictions) || document.predictions.length) fail('Automatic migration requires empty version 1 history; existing predictions need explicit reviewed migration')
+  return validate({...structuredClone(document), version: 2, attempts: []})
 }
 export function select(document, outlooks, markdown, today) {
   date(today); validate(document)
@@ -91,7 +104,13 @@ export async function run(args) {
   const option = (key, fallback) => args.includes(key) ? args[args.indexOf(key)+1] : fallback
   const root = path.resolve(option('--root', '.'))
   const file = path.join(root, 'Data/prediction-tracking.json')
-  const document = validate(JSON.parse(await readFile(file, 'utf8')))
+  const raw = JSON.parse(await readFile(file, 'utf8'))
+  if (args.includes('--migrate')) {
+    const migrated = migrate(raw)
+    await writeFile(file, JSON.stringify(migrated, null, 2) + '\n')
+    return 'Prediction data migrated to version 2; original settings preserved'
+  }
+  const document = validate(raw)
   if (args.includes('--validate')) return 'Prediction tracking data valid'
   // Exit before reading outlooks, briefings or performing any research when disabled.
   if (!document.settings.enabled) return JSON.stringify({enabled:false, assessments:[], creations:[]})

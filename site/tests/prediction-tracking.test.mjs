@@ -3,14 +3,36 @@ import assert from 'node:assert/strict'
 import {mkdtemp, mkdir, writeFile, readFile, cp} from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
-import {select, applyBatch, validate, run} from '../scripts/prediction-tracking.mjs'
+import {select, applyBatch, validate, migrate, run} from '../scripts/prediction-tracking.mjs'
 import {renderTrack, enrich} from '../scripts/render-predictions.mjs'
 const source = {label:'Evidence',url:'https://example.org/evidence'}
 const outlook = {assessment:'A testable development is expected.',reviewed:'2026-09-30',validUntil:'2026-10-30',confidence:'medium'}
 const outlooks = {outlooks:{'Russia.md':outlook}}
-const doc = () => ({version:1,settings:{enabled:true,topics:['Russia.md'],maximumTrackedTopics:4,maximumActivePerTopic:1,maximumAssessmentsPerRun:2,maximumCreationsPerRun:1,minimumDaysBetweenPredictions:30},predictions:[]})
-const prediction = () => ({id:'russia-2026-09-30',topicFile:'Russia.md',created:'2026-09-30',deadline:'2026-10-30',statement:'A measurable development will occur.',successCondition:'An official confirmation by deadline.',failureCondition:'No confirmation in the full window, established by verification.',confidence:'medium',sources:[source],outlookSnapshot:outlook})
+const doc = () => ({version:2,settings:{enabled:true,topics:['Russia.md'],maximumTrackedTopics:4,maximumActivePerTopic:1,maximumAssessmentsPerRun:2,maximumCreationsPerRun:1,minimumDaysBetweenPredictions:30},predictions:[],attempts:[]})
+const prediction = () => ({id:'russia-2026-09-30',kind:'event',topicFile:'Russia.md',created:'2026-09-30',deadline:'2026-10-30',statement:'A measurable development will occur.',successCondition:'An official confirmation by deadline.',failureCondition:'No confirmation in the full window, established by verification.',confidence:'medium',sources:[source],outlookSnapshot:outlook})
 const assessment = (result='supported',assessed='2026-10-31')=>({result,assessed,evidenceThrough:'2026-10-30',explanation:'Evidence establishes the outcome.',sources:[source]})
+test('R01: persistence and partial verdicts require a closed, fully covered window',()=>{
+ const p={...prediction(),kind:'persistence',partialCondition:'A predefined partial outcome.'}
+ const verify=a=>validate({...doc(),predictions:[{...p,assessment:a}]})
+ assert.throws(()=>verify({...assessment('supported','2026-10-01'),evidenceThrough:'2026-10-01'}),/deadline day/)
+ assert.throws(()=>verify(assessment('supported','2026-10-30')),/deadline day/)
+ assert.throws(()=>verify({...assessment(),evidenceThrough:'2026-10-29'}),/full prediction window/)
+ assert.doesNotThrow(()=>verify(assessment()))
+ assert.throws(()=>validate({...doc(),predictions:[{...prediction(),partialCondition:'Predefined',assessment:{...assessment('partly-supported','2026-10-01'),evidenceThrough:'2026-10-01'}}]}),/deadline day/)
+ assert.throws(()=>verify({...assessment('not-supported'),evidenceThrough:'2026-10-01'}),/full prediction window/)
+ assert.doesNotThrow(()=>verify({...assessment('unverifiable'),evidenceThrough:'2026-10-01'}))
+})
+test('R01: horizon, invalid kinds, event window and empty legacy migration',()=>{
+ assert.throws(()=>validate({...doc(),predictions:[{...prediction(),deadline:'2050-01-01'}]}),/horizon/)
+ assert.throws(()=>validate({...doc(),predictions:[{...prediction(),kind:'unknown'}]}),/kind/)
+ assert.throws(()=>validate({...doc(),predictions:[{...prediction(),assessment:{...assessment(),evidenceThrough:'2026-09-29'}}]}),/Invalid assessment/)
+ const old={...doc(),version:1};delete old.attempts
+ const original=JSON.stringify(old),upgraded=migrate(old)
+ assert.equal(JSON.stringify(old),original);assert.deepEqual(upgraded.settings,old.settings)
+ assert.equal(upgraded.version,2);assert.deepEqual(upgraded.attempts,[])
+ assert.deepEqual(migrate(upgraded),upgraded)
+ assert.throws(()=>migrate({...old,predictions:[prediction()]}),/explicit reviewed migration/)
+})
 test('off switch exits without requiring any outlook or daily files and changes nothing',async()=>{
  const root=await mkdtemp(path.join(os.tmpdir(),'tracking-off-'));await mkdir(path.join(root,'Data'))
  const d=doc();d.settings.enabled=false;const raw=JSON.stringify(d);await writeFile(path.join(root,'Data/prediction-tracking.json'),raw)

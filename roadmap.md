@@ -1,6 +1,6 @@
 # Project roadmap
 
-Status: **Draft for review — no implementation authorized by this document.**
+Status: **Planning record — implementation requires an explicit user request.**
 
 Review baseline: `mg-automated/selfgrowing-news`, commit `38f1630d54a44108206406867169d0946c804581`.
 
@@ -18,7 +18,7 @@ This roadmap records future work. It is not an instruction for the daily automat
 
 | ID | Priority | Work | Timing | Status |
 | --- | --- | --- | --- | --- |
-| R01 | High | Make prediction assessment timing rigorous | Next correctness work | Proposed |
+| R01 | High | Make prediction assessment timing rigorous | Implemented 2026-09-30 | Complete |
 | R02 | High | Protect published prediction history | Next correctness work | Proposed |
 | R03 | High | Add deterministic editorial validation | Next correctness work | Proposed |
 | R04 | Medium | Enforce and explain tracking research limits | Alongside tracking fixes | Proposed |
@@ -34,6 +34,8 @@ This roadmap records future work. It is not an instruction for the daily automat
 ## First: correctness and dependable operation
 
 ### R01 — Make prediction assessment timing rigorous
+
+**Implemented 2026-09-30:** Version 2 declares event/persistence types, bounds deadlines to the original Outlook horizon, and validates full-window evidence and Zurich deadline-day rules. Empty version 1 data migrates without changing settings; existing legacy records require reviewed migration. Covered by tracking regression tests and a full Quartz build.
 
 **Finding:** Validation permits window-wide claims to be marked supported before the window ends, insufficiently recent evidence for a failed prediction, and deadlines beyond the captured Outlook's validity horizon. These paths were reproduced with synthetic inputs; they are not evidence of incorrect published results.
 
