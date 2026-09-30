@@ -11,6 +11,7 @@ on:
       - "News/Daily/**/*.md"
       - "Topics/**/*.md"
       - "Data/topic-outlooks.json"
+      - "Data/prediction-tracking.json"
       - "site/**"
       - ".github/workflows/deploy-site.yml"
 
@@ -44,6 +45,9 @@ jobs:
           key: ${{ runner.os }}-quartz-${{ hashFiles('site/build.sh', 'site/quartz.config.yaml') }}
           restore-keys: |
             ${{ runner.os }}-quartz-
+
+      - name: Test prediction tracking
+        run: node --test site/tests/prediction-tracking.test.mjs
 
       - name: Build Quartz site
         run: bash site/build.sh

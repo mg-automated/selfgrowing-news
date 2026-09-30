@@ -129,3 +129,15 @@ The archive combines:
 - Obsidian compatibility for local exploration;
 - Quartz and GitHub Pages for the published website; and
 - ChatGPT for automated research, summarization, topic linking and repository maintenance.
+
+## Outlook track record
+
+A separate, prospective prediction pilot records measurable expectations derived from freshly verified Outlooks and later assesses them against linked evidence. Topic pages show the track record directly below Outlook; [the overview](https://mg-automated.github.io/selfgrowing-news/outlook-track-record) lets readers filter by topic, result and prediction date. Original predictions and complete Outlook snapshots are preserved. No old Outlooks are retrospectively scored, and scheduled events do not count as predictions.
+
+The existing Outlook factors, selector, confidence assessments and update cadence are unchanged. Tracking results do not feed back into that process. Records start empty; the daily task creates predictions only when existing verified research supports a useful testable expectation.
+
+Controls live in `Data/prediction-tracking.json`. Set `settings.enabled` to `false` to stop all prediction work while keeping the briefing and Outlook workflow running. Historical records remain visible with a paused notice. The default pilot tracks Artificial Intelligence, Russia, Iran and the Strait of Hormuz, with one active prediction per topic, at most one new prediction and two assessments per day, and at least 30 days between predictions for a topic. These are workload limits, not a guaranteed credit budget.
+
+Assessment runs after normal daily research and selected Outlook updates. New evidence can resolve a prediction early when conclusive; otherwise the deadline triggers verification. Deadlines cover the whole Zurich calendar day, so negative verdicts wait until the next run. Outcomes are Supported, Partly supported, Not supported, Unverifiable or Pending. Missing coverage is never automatic failure. Assessment is AI-assisted and can itself be mistaken; inspect the evidence. This evaluates this archive’s forecasting process, not AI generally.
+
+Validation: `node --test site/tests/prediction-tracking.test.mjs` and `node site/scripts/prediction-tracking.mjs --validate`. GitHub Pages deployment includes the tests and renders the records without live AI requests from visitors.

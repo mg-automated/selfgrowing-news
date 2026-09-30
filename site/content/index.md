@@ -20,6 +20,10 @@ The purpose is not simply to collect daily headlines, but to create a connected 
 
 Use the explorer to browse the archive, search to find a specific development, or open the graph to see how daily stories connect to recurring topics.
 
+## Outlook track record
+
+[Explore predictions and their outcomes](outlook-track-record.md) — see the original expectations, deadlines, and evidence behind each assessment.
+
 ## Explore the archive
 
 <div class="homepage-graph-timeline" data-graph-timeline>

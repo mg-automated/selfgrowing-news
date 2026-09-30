@@ -21,6 +21,7 @@ cp "${SCRIPT_DIR}/quartz.ts" "${RUNTIME_DIR}/quartz.ts"
 cp "${SCRIPT_DIR}/styles/custom.scss" "${RUNTIME_DIR}/quartz/styles/custom.scss"
 cp "${SCRIPT_DIR}/static/graph-timeline.js" "${RUNTIME_DIR}/quartz/static/graph-timeline.js"
 cp "${SCRIPT_DIR}/static/icon.png" "${RUNTIME_DIR}/quartz/static/icon.png"
+cp "${SCRIPT_DIR}/static/prediction-filters.js" "${RUNTIME_DIR}/quartz/static/prediction-filters.js"
 cp "${SCRIPT_DIR}/static/topic-badges.js" "${RUNTIME_DIR}/quartz/static/topic-badges.js"
 cp "${SCRIPT_DIR}/content/"*.md "${RUNTIME_DIR}/content/"
 cp "${SCRIPT_DIR}/scripts/enrich-topics.mjs" "${RUNTIME_DIR}/scripts/enrich-topics.mjs"
@@ -37,6 +38,10 @@ node "${RUNTIME_DIR}/scripts/enrich-topics.mjs" \
   "${RUNTIME_DIR}/content" \
   "${REPOSITORY_ROOT}/Data/topic-outlooks.json"
 
+node "${SCRIPT_DIR}/scripts/render-predictions.mjs" \
+  "${RUNTIME_DIR}/content" \
+  "${REPOSITORY_ROOT}/Data/prediction-tracking.json"
+
 npm --prefix "${RUNTIME_DIR}" ci
 (
   cd "${RUNTIME_DIR}"
@@ -44,6 +49,7 @@ npm --prefix "${RUNTIME_DIR}" ci
   npx quartz build
 )
 
+node "${SCRIPT_DIR}/scripts/inject-prediction-filters.mjs" "${RUNTIME_DIR}/public"
 node "${SCRIPT_DIR}/scripts/inject-topic-badges.mjs" "${RUNTIME_DIR}/public"
 node "${SCRIPT_DIR}/scripts/inject-build-info.mjs" "${REPOSITORY_ROOT}" "${RUNTIME_DIR}/public"
 node "${SCRIPT_DIR}/scripts/open-source-links-in-new-tab.mjs" "${RUNTIME_DIR}/public"

@@ -768,3 +768,43 @@ footer a:hover {
     margin-left: -6.3rem;
   }
 }
+
+.prediction-track {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
+  border-radius: 8px;
+  h2 { margin-top: 0; }
+}
+.prediction-entry {
+  padding: 1rem 0;
+  border-top: 1px solid var(--lightgray);
+  overflow-wrap: anywhere;
+  &[hidden] { display: none; }
+  summary { cursor: pointer; color: var(--secondary); }
+}
+.prediction-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+  h3 { flex: 1 1 15rem; margin: 0; }
+}
+.prediction-result {
+  border: 1px solid var(--lightgray);
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.result-supported { color: var(--dark); background: var(--highlight); }
+.result-not-supported { font-weight: 600; border-style: dashed; }
+.prediction-meta { font-size: 0.85rem; color: var(--darkgray); }
+.prediction-filters {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  label { display: flex; flex-direction: column; gap: 0.35rem; }
+  select, input { max-width: 100%; padding: 0.5rem; color: var(--dark); background: var(--light); border: 1px solid var(--lightgray); border-radius: 4px; }
+}

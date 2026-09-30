@@ -115,6 +115,33 @@ When an Outlook is actually verified against current sources:
 
 An expired Outlook is rendered with an `Awaiting review` warning. Do not advance review dates without actual source verification. Create a new Outlook only when the topic has enough archived evidence for a useful forecast; it is acceptable for a topic to have no Outlook.
 
+## Optional prediction tracking
+
+Prediction tracking is a separate, prospective record in `Data/prediction-tracking.json`. It must never alter Outlook factors, selection, confidence, wording, cadence or research limits. Results must not feed back into Outlook generation. Run it only after completing the normal briefing research and selected Outlook updates.
+
+First read `settings.enabled`. If false, skip all prediction generation, assessment, and additional research; preserve existing records and continue the normal daily workflow. When true, run:
+
+```text
+node site/scripts/prediction-tracking.mjs --date YYYY-MM-DD
+```
+
+Only work on the returned `creations` and `assessments`. The initial pilot tracks four existing Outlook topics, allows one active prediction per topic, at most one creation and two assessments across the entire day, and at least 30 days between predictions for a topic. Do not bypass these limits or retrospectively score earlier Outlooks.
+
+For a creation, use only an Outlook actually source-verified on this briefing date and the research already available. Additional research solely to create a prediction is prohibited. Skip if there is no useful, defensible, measurable expectation. A scheduled event occurring as announced is not a prediction. Record a unique `id`, `topicFile`, `created`, `deadline` (a future YYYY-MM-DD), `statement`, original `successCondition`, `failureCondition`, optional `partialCondition`, `confidence` (low/medium/high), `sources` (label/url objects), and `outlookSnapshot` (an exact copy of the complete current Outlook object). Make conditions explicit and limited to the forecast horizon; do not manufacture numerical thresholds or narrow claims unsupported by the Outlook. Preserve original wording and conditions permanently. New assessments attach to the record without replacing it.
+
+For an assessment, reuse verified briefing/Outlook research first. Before deadline, leave pending unless conclusive in-window evidence establishes the outcome. A deadline includes its entire Europe/Zurich calendar day: do not record `not-supported` or `unverifiable` until a subsequent run after that day ends. At deadline, targeted verification is permitted for selected records only; limit additional source lookups to three per assessment, then use `unverifiable` if evidence remains insufficient. No archived mention is not proof of failure. For negative predictions or conditions requiring persistence across the horizon, wait until the full window closes. Later publications may establish what happened within the window, but events after deadline must not count as successes.
+
+An assessment has `assessed` (actual run date), `evidenceThrough` (last day of the outcome window examined, not publication date), `result` (`supported`, `partly-supported`, `not-supported`, or `unverifiable`), `explanation` and `sources`. Partial support requires an original predefined partial condition; never invent one after seeing the outcome. Do not imply the AI independently graded itself without interpretation: source-linked judgments are AI-assisted. Never fabricate outcomes or silently remove failed predictions. A final assessment is preserved; factual corrections must be transparent and reviewed separately, not overwritten by the daily run.
+
+Apply additions and assessments through a temporary JSON batch with shape `{ "date": "YYYY-MM-DD", "additions": [], "assessments": [{ "id": "...", "assessment": { ... } }] }`, using:
+
+```text
+node site/scripts/prediction-tracking.mjs --date YYYY-MM-DD --apply /tmp/prediction-batch.json
+node site/scripts/prediction-tracking.mjs --validate
+```
+
+Do not commit the temporary batch. The writer enforces selection, dates, snapshots, append-only updates, and daily caps. Never change settings during a daily run. Commit changed prediction data with the normal atomic daily commit. When paused, overdue records remain unassessed; on resuming, resolve them against their original windows within the same limits. Website builds only render stored data and never perform AI calls or research.
+
 ## Links
 
 Use standard Markdown links, not Obsidian wikilinks. From a file in `News/Daily/`, link to topic files with relative paths, for example:
@@ -162,4 +189,5 @@ Before completing a daily archive task, confirm that:
 7. all internal Markdown links resolve;
 8. timestamps follow the creation/update rules; and
 9. the Outlook selector was run, only its selected entries were researched, and changed structured Outlooks were validated; and
-10. the daily file is complete before it is committed.
+10. optional prediction tracking obeyed its enabled switch, selection and daily caps; the original Outlook process was preserved; and
+11. the daily file is complete before it is committed.
