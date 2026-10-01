@@ -2,7 +2,12 @@
   "version": 2,
   "settings": {
     "enabled": true,
-    "topics": ["Artificial-Intelligence.md", "Russia.md", "Iran.md", "Strait-of-Hormuz.md"],
+    "topics": [
+      "Artificial-Intelligence.md",
+      "Russia.md",
+      "Iran.md",
+      "Strait-of-Hormuz.md"
+    ],
     "maximumTrackedTopics": 4,
     "maximumActivePerTopic": 1,
     "maximumAssessmentsPerRun": 2,
@@ -13,5 +18,34 @@
     "minimumDaysBetweenPredictions": 30
   },
   "predictions": [],
-  "attempts": []
+  "attempts": [
+    {
+      "id": "2026-10-01:creation:Artificial-Intelligence.md",
+      "date": "2026-10-01",
+      "kind": "creation",
+      "topicFile": "Artificial-Intelligence.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-01:creation:Russia.md",
+      "date": "2026-10-01",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    }
+  ]
 }
