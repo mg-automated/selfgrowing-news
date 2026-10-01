@@ -702,6 +702,13 @@ footer a:hover {
 }
 
 @media all and ($mobile) {
+  // Open folders set visibility: visible, overriding the closing panel's
+  // visibility: hidden. Hide the whole panel while it slides off screen.
+  .explorer.collapsed > .explorer-content {
+    opacity: 0;
+    pointer-events: none;
+  }
+
   .explorer .folder-outer {
     grid-template-columns: minmax(0, 1fr);
     min-width: 0;
