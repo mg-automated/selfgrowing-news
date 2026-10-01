@@ -9,6 +9,30 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "OpenAI.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-01",
+      "mentions": 5,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-01"
+    },
+    "Brazil.md": {
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-01",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-01"
+    },
+    "Swiss-Social-Policy.md": {
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-01",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-01"
+    },
     "Myanmar.md": {
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-09-30",
@@ -35,8 +59,8 @@
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 5,
+      "lastSeen": "2026-10-01",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -59,32 +83,32 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 10,
+      "lastSeen": "2026-10-01",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 8,
+      "lastSeen": "2026-10-01",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 9,
+      "lastSeen": "2026-10-01",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 9,
+      "lastSeen": "2026-10-01",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -99,8 +123,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-30",
-      "mentions": 11,
+      "lastSeen": "2026-10-01",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -123,8 +147,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-29",
-      "mentions": 7,
+      "lastSeen": "2026-10-01",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -171,16 +195,16 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-09-30",
-      "mentions": 6,
+      "lastSeen": "2026-10-01",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-09-30",
-      "mentions": 2,
+      "lastSeen": "2026-10-01",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -203,8 +227,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 12,
+      "lastSeen": "2026-10-01",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -222,13 +246,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-09-30",
-      "materiallyUpdated": "2026-09-30",
+      "reviewed": "2026-10-01",
+      "materiallyUpdated": "2026-10-01",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-03",
+      "nextReview": "2026-10-04",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and wider deployment of autonomous agents, accompanied by stronger voluntary safety controls and growing scrutiny of security and capital costs. The new US industry accord establishes a common review framework, but its voluntary character means implementation details and company-level safeguards will determine its practical effect.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory and security scrutiny. The FTC's industry-wide inquiry shows that US oversight is moving beyond voluntary commitments, while Google's controlled Gemini 4 rollout and Micron's supply constraints indicate that safety evaluation and infrastructure capacity will shape near-term competition.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -269,19 +293,31 @@
         {
           "label": "European AI Innovation Month",
           "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+        },
+        {
+          "label": "FTC inquiry into AI labs",
+          "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+        },
+        {
+          "label": "Google Gemini 4 announcement",
+          "url": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/"
+        },
+        {
+          "label": "Micron AI-memory demand",
+          "url": "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-09-30",
-      "materiallyUpdated": "2026-09-30",
+      "reviewed": "2026-10-01",
+      "materiallyUpdated": "2026-10-01",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-01",
+      "nextReview": "2026-10-02",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain intensive air attacks on Ukraine while broadening economic retaliation against European governments through pressure on European-owned assets inside Russia. Selective diplomatic contacts may continue, but the accelerating strikes on Kyiv and the Kremlin's coercive posture toward European companies make a broad near-term de-escalation unlikely.",
+      "assessment": "Russia is likely to maintain intensive attacks on Ukraine while broadening coercive pressure on European governments and companies. Moscow's new nuclear warning over any attempt to isolate Kaliningrad and its threat against European weapons factories raise escalation risks around NATO territory, making a broad near-term de-escalation still less likely despite selective diplomatic contacts.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -343,19 +379,23 @@
         {
           "label": "Latest Russian strikes on Kyiv",
           "url": "https://www.reuters.com/world/europe/russian-air-strikes-kill-one-injure-five-around-kyiv-officials-say-2026-09-30/"
+        },
+        {
+          "label": "Russian warning over Kaliningrad and European arms factories",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates-2026-09-30/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-09-30",
-      "materiallyUpdated": "2026-09-30",
+      "reviewed": "2026-10-01",
+      "materiallyUpdated": "2026-10-01",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-01",
+      "nextReview": "2026-10-02",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks through Qatari and other regional mediators while resisting US demands for capitulation and nuclear concessions. Washington's denial that it offered sanctions relief, together with new sanctions on Iran's military procurement network, narrows the space for a near-term bargain even though both sides continue to communicate through intermediaries.",
+      "assessment": "Iran is likely to continue indirect talks through Qatari and other regional mediators while resisting US demands for nuclear concessions. Tehran's receipt of a US response to its seven-day proposal confirms that the channel remains active, but negotiations still centre on sequencing rather than an agreed substance, leaving a near-term durable bargain uncertain.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
@@ -412,19 +452,23 @@
         {
           "label": "New sanctions on Iran's military supply chain",
           "url": "https://apnews.com/article/30db5eef515ed1d06591a0254292afdd"
+        },
+        {
+          "label": "US response to Iran's seven-day proposal",
+          "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-09-30",
-      "materiallyUpdated": "2026-09-29",
+      "reviewed": "2026-10-01",
+      "materiallyUpdated": "2026-10-01",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-01",
+      "nextReview": "2026-10-02",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while US and Iranian officials negotiate indirectly over an amended de-escalation proposal. The inclusion of reopening the strait in the mediated discussions raises the prospect of a limited operational arrangement, but unresolved sanctions, asset and nuclear issues leave a high risk of continued disruption.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while Iran studies Washington's response to a seven-day trust-building proposal. The continuing Qatari channel raises the prospect of a limited operational arrangement, but disagreement over the sequence of maritime access, sanctions relief and wider negotiations leaves a high risk of continued disruption.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -469,6 +513,10 @@
         {
           "label": "Qatari shuttle diplomacy and continued Strait restrictions",
           "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+        },
+        {
+          "label": "US response to seven-day trust-building proposal",
+          "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
         }
       ]
     }

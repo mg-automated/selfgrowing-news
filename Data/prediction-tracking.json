@@ -17,7 +17,90 @@
     "maximumAdditionalLookupsPerAssessment": 3,
     "minimumDaysBetweenPredictions": 30
   },
-  "predictions": [],
+  "predictions": [
+    {
+      "id": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "kind": "event",
+      "topicFile": "Artificial-Intelligence.md",
+      "created": "2026-10-01",
+      "deadline": "2026-10-30",
+      "statement": "The US Federal Trade Commission will issue at least one formal information demand or compel testimony from an organisation covered by its industry-wide AI-agent inquiry by 2026-10-30.",
+      "successCondition": "A regulator, covered organisation or reliable report confirms that the FTC issued a formal demand for information or compelled testimony in the inquiry on or before 2026-10-30.",
+      "failureCondition": "Reliable verification covering the full window establishes that no such formal demand or compelled testimony occurred by the end of 2026-10-30.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Reuters report on the FTC inquiry",
+          "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Artificial-Intelligence.md",
+        "volatility": "medium",
+        "reviewed": "2026-10-01",
+        "materiallyUpdated": "2026-10-01",
+        "validUntil": "2026-10-30",
+        "nextReview": "2026-10-04",
+        "horizon": "the next 30 days",
+        "confidence": "medium",
+        "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory and security scrutiny. The FTC's industry-wide inquiry shows that US oversight is moving beyond voluntary commitments, while Google's controlled Gemini 4 rollout and Micron's supply constraints indicate that safety evaluation and infrastructure capacity will shape near-term competition.",
+        "likelyDevelopments": [
+          "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
+          "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
+          "Investment in chips, data centres and physical-AI capabilities will continue, while investors focus more closely on the cost and financing of frontier-model development.",
+          "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing and assurance practices."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-10-14",
+            "reviewFrom": "2026-10-12",
+            "description": "Ireland is scheduled to host the International AI Summit on 14 October as the official launch of European AI Innovation Month.",
+            "source": {
+              "label": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+            }
+          }
+        ],
+        "changeSignals": [
+          "Publication of enforceable requirements or audit mechanisms under the US AI accord",
+          "A major safety or cybersecurity incident involving an autonomous AI agent",
+          "Material changes to frontier-model release schedules or safety evaluations",
+          "Large new infrastructure commitments, cancellations or financing problems",
+          "New binding AI legislation or standards in a major market"
+        ],
+        "sources": [
+          {
+            "label": "US voluntary AI safety accord",
+            "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+          },
+          {
+            "label": "Associated Press account of the AI accord",
+            "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+          },
+          {
+            "label": "Visa warning on AI-powered cyber risk",
+            "url": "https://www.reuters.com/legal/government/visa-joins-growing-alarm-over-ai-powered-risks-2026-09-29/"
+          },
+          {
+            "label": "European AI Innovation Month",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+          },
+          {
+            "label": "FTC inquiry into AI labs",
+            "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+          },
+          {
+            "label": "Google Gemini 4 announcement",
+            "url": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/"
+          },
+          {
+            "label": "Micron AI-memory demand",
+            "url": "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/"
+          }
+        ]
+      }
+    }
+  ],
   "attempts": [
     {
       "id": "2026-10-01:creation:Artificial-Intelligence.md",
@@ -31,6 +114,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     },
     {
@@ -45,6 +134,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The earlier Artificial Intelligence candidate yielded the day's permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
       }
     }
   ]
