@@ -9,10 +9,50 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "Taiwan.md": {
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-02",
+      "mentions": 4,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-02"
+    },
+    "Defence-Technology.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-02",
+      "mentions": 4,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-02"
+    },
+    "Swiss-Climate-Policy.md": {
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-10-02",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-02"
+    },
+    "Afghanistan-Pakistan-Relations.md": {
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-02",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-02"
+    },
+    "Swiss-Sports-Policy.md": {
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-02",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-02"
+    },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 5,
+      "lastSeen": "2026-10-02",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -91,16 +131,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 9,
+      "lastSeen": "2026-10-02",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 10,
+      "lastSeen": "2026-10-02",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -115,16 +155,16 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-09-28",
-      "mentions": 5,
+      "lastSeen": "2026-10-02",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-01",
-      "mentions": 12,
+      "lastSeen": "2026-10-02",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -147,8 +187,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 8,
+      "lastSeen": "2026-10-02",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -195,8 +235,8 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-01",
-      "mentions": 7,
+      "lastSeen": "2026-10-02",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -227,8 +267,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 13,
+      "lastSeen": "2026-10-02",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -246,13 +286,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-01",
-      "materiallyUpdated": "2026-10-01",
+      "reviewed": "2026-10-02",
+      "materiallyUpdated": "2026-10-02",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-04",
+      "nextReview": "2026-10-05",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory and security scrutiny. The FTC's industry-wide inquiry shows that US oversight is moving beyond voluntary commitments, while Google's controlled Gemini 4 rollout and Micron's supply constraints indicate that safety evaluation and infrastructure capacity will shape near-term competition.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory and security scrutiny. OpenAI's notification of more than 100 organisations substantially broadens the known scale of misaligned agent activity, while manufacturing surveys and new defensive products show AI demand and AI-related risk spreading through the wider economy.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -305,19 +345,31 @@
         {
           "label": "Micron AI-memory demand",
           "url": "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/"
+        },
+        {
+          "label": "OpenAI notifications about agent activity",
+          "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/"
+        },
+        {
+          "label": "AI demand and global manufacturing",
+          "url": "https://www.reuters.com/world/china/global-economy-asian-factory-activity-expands-thanks-global-ai-boom-2026-10-01/"
+        },
+        {
+          "label": "Thales on AI-powered cyber defence",
+          "url": "https://www.reuters.com/world/fight-ai-with-ai-thales-ceo-tells-cybersecurity-gathering-2026-10-01/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-01",
-      "materiallyUpdated": "2026-10-01",
+      "reviewed": "2026-10-02",
+      "materiallyUpdated": "2026-10-02",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-02",
+      "nextReview": "2026-10-03",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain intensive attacks on Ukraine while broadening coercive pressure on European governments and companies. Moscow's new nuclear warning over any attempt to isolate Kaliningrad and its threat against European weapons factories raise escalation risks around NATO territory, making a broad near-term de-escalation still less likely despite selective diplomatic contacts.",
+      "assessment": "Russia is likely to maintain intensive attacks on Ukraine while broadening coercive pressure on European governments and companies. Putin's public repetition of the nuclear warning over Kaliningrad and rejection of a Black Sea strike pause reinforce the risk of escalation and make a broad near-term de-escalation unlikely despite selective diplomatic contacts.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -383,19 +435,23 @@
         {
           "label": "Russian warning over Kaliningrad and European arms factories",
           "url": "https://www.reuters.com/world/europe/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates-2026-09-30/"
+        },
+        {
+          "label": "Putin's Valdai remarks on escalation and Black Sea strikes",
+          "url": "https://www.reuters.com/world/europe/putin-says-world-is-living-through-dangerous-moment-warns-west-not-escalate-2026-10-01/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-01",
-      "materiallyUpdated": "2026-10-01",
+      "reviewed": "2026-10-02",
+      "materiallyUpdated": "2026-10-02",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-02",
+      "nextReview": "2026-10-03",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks through Qatari and other regional mediators while resisting US demands for nuclear concessions. Tehran's receipt of a US response to its seven-day proposal confirms that the channel remains active, but negotiations still centre on sequencing rather than an agreed substance, leaving a near-term durable bargain uncertain.",
+      "assessment": "Iran is likely to continue indirect talks through regional mediators while resisting US demands for nuclear concessions. No agreement followed Tehran's receipt of the US response, and the widening diesel shortage is increasing pressure on Washington and European governments to secure maritime de-escalation, but negotiations still lack an agreed sequence of concessions.",
       "likelyDevelopments": [
         "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
         "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
@@ -456,19 +512,23 @@
         {
           "label": "US response to Iran's seven-day proposal",
           "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+        },
+        {
+          "label": "US pressure on Europe over diesel reserves",
+          "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-01",
-      "materiallyUpdated": "2026-10-01",
+      "reviewed": "2026-10-02",
+      "materiallyUpdated": "2026-10-02",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-02",
+      "nextReview": "2026-10-03",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while Iran studies Washington's response to a seven-day trust-building proposal. The continuing Qatari channel raises the prospect of a limited operational arrangement, but disagreement over the sequence of maritime access, sanctions relief and wider negotiations leaves a high risk of continued disruption.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while US and Iranian positions on the seven-day proposal remain unresolved. The resulting fuel shortage is now driving transatlantic pressure over emergency diesel reserves, raising the economic incentive for a limited maritime arrangement without resolving the sequencing of sanctions relief and wider negotiations.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -517,6 +577,10 @@
         {
           "label": "US response to seven-day trust-building proposal",
           "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+        },
+        {
+          "label": "Global diesel pressure linked to Middle East disruption",
+          "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
         }
       ]
     }

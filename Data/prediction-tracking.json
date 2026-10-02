@@ -99,6 +99,104 @@
           }
         ]
       }
+    },
+    {
+      "id": "iran-2026-10-02-mediated-contact",
+      "kind": "event",
+      "topicFile": "Iran.md",
+      "created": "2026-10-02",
+      "deadline": "2026-10-26",
+      "statement": "The United States or Iran will publicly confirm another substantive mediator-facilitated exchange or negotiation concerning Gulf de-escalation by 2026-10-26.",
+      "successCondition": "An official statement or reliable report confirms that US and Iranian representatives exchanged substantive proposals or held indirect or direct talks through a mediator about Gulf de-escalation on or before 2026-10-26.",
+      "failureCondition": "Reliable verification covering the full window establishes that no further substantive mediator-facilitated exchange or negotiation was publicly confirmed by the end of 2026-10-26.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "US response to Iran's seven-day proposal",
+          "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+        },
+        {
+          "label": "Economic pressure from disrupted fuel supplies",
+          "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Iran.md",
+        "volatility": "high",
+        "reviewed": "2026-10-02",
+        "materiallyUpdated": "2026-10-02",
+        "validUntil": "2026-10-26",
+        "nextReview": "2026-10-03",
+        "horizon": "the next 30 days",
+        "confidence": "low",
+        "assessment": "Iran is likely to continue indirect talks through regional mediators while resisting US demands for nuclear concessions. No agreement followed Tehran's receipt of the US response, and the widening diesel shortage is increasing pressure on Washington and European governments to secure maritime de-escalation, but negotiations still lack an agreed sequence of concessions.",
+        "likelyDevelopments": [
+          "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
+          "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
+          "The United States will press China and regional partners to use their economic and diplomatic leverage over Tehran.",
+          "Iran is likely to revise or re-present phased proposals through mediators while maintaining military readiness, but an immediate durable agreement is unlikely after Washington rejected the current offer."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-10-15",
+            "reviewFrom": "2026-10-12",
+            "description": "The European Council is scheduled to meet on 15–16 October, providing a potential coordination point for European policy on Middle East security and shipping disruption.",
+            "source": {
+              "label": "Council of the European Union",
+              "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+            }
+          }
+        ],
+        "changeSignals": [
+          "A verified agreement on sequencing the reopening of the Strait and easing US pressure",
+          "Any Iranian willingness to include nuclear limits in negotiations",
+          "Changes in Chinese economic or diplomatic support for Tehran",
+          "A sustained increase or decrease in attacks affecting Gulf shipping",
+          "New sanctions, blockades or direct military action"
+        ],
+        "sources": [
+          {
+            "label": "Iran rejects nuclear concessions",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          },
+          {
+            "label": "US warning to China over Iran",
+            "url": "https://www.investing.com/news/world-news/trump-told-xi-that-china-helping-iran-is-unacceptable-us-ambassador-says-4917599"
+          },
+          {
+            "label": "US-Iran phased-deal discussions",
+            "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+          },
+          {
+            "label": "US rejection of Iran's proposal",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+          },
+          {
+            "label": "Iranian military readiness statement",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-s-army-voices-readiness-for-potential-renewed-us-attack"
+          },
+          {
+            "label": "Latest US-Iran mediated talks",
+            "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+          },
+          {
+            "label": "Qatari shuttle diplomacy and US sanctions position",
+            "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+          },
+          {
+            "label": "New sanctions on Iran's military supply chain",
+            "url": "https://apnews.com/article/30db5eef515ed1d06591a0254292afdd"
+          },
+          {
+            "label": "US response to Iran's seven-day proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+          },
+          {
+            "label": "US pressure on Europe over diesel reserves",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -153,6 +251,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The briefing and Outlook research do not conclusively establish that the FTC issued a formal information demand or compelled testimony; the prediction remains open before its deadline.",
+        "additionalLookups": 0
       }
     },
     {
@@ -167,6 +270,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "iran-2026-10-02-mediated-contact",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     },
     {
@@ -181,6 +290,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The earlier Iran candidate yielded the day's permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
       }
     }
   ]
