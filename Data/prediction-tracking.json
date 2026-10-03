@@ -296,6 +296,62 @@
         "explanation": "The earlier Iran candidate yielded the day's permitted prediction, so this reserved candidate was not evaluated.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-03:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-03",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-03:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-03",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-03:creation:Russia.md",
+      "date": "2026-10-03",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-03:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-03",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
