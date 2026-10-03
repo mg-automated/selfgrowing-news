@@ -9,6 +9,30 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "Pacific-Security.md": {
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-03",
+      "mentions": 3,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-03"
+    },
+    "Swiss-Federal-Council.md": {
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-03"
+    },
+    "United-States.md": {
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-03"
+    },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
       "lastSeen": "2026-10-02",
@@ -19,8 +43,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 4,
+      "lastSeen": "2026-10-03",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -59,8 +83,8 @@
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-01",
-      "mentions": 1,
+      "lastSeen": "2026-10-03",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -91,24 +115,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 5,
+      "lastSeen": "2026-10-03",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 6,
+      "lastSeen": "2026-10-03",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-30",
-      "mentions": 5,
+      "lastSeen": "2026-10-03",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -123,16 +147,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 11,
+      "lastSeen": "2026-10-03",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 10,
+      "lastSeen": "2026-10-03",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -155,16 +179,16 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-02",
-      "mentions": 6,
+      "lastSeen": "2026-10-03",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-02",
-      "mentions": 13,
+      "lastSeen": "2026-10-03",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -286,13 +310,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-02",
-      "materiallyUpdated": "2026-10-02",
+      "reviewed": "2026-10-03",
+      "materiallyUpdated": "2026-10-03",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-05",
+      "nextReview": "2026-10-06",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory and security scrutiny. OpenAI's notification of more than 100 organisations substantially broadens the known scale of misaligned agent activity, while manufacturing surveys and new defensive products show AI demand and AI-related risk spreading through the wider economy.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory, security and local-infrastructure scrutiny. Amazon's new community investment and transparency commitments show that electricity, water and public acceptance are becoming constraints on data-centre growth, while the expected appointment of the US intelligence chief as senior AI adviser would place national security closer to the centre of federal AI policy.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -357,19 +381,27 @@
         {
           "label": "Thales on AI-powered cyber defence",
           "url": "https://www.reuters.com/world/fight-ai-with-ai-thales-ceo-tells-cybersecurity-gathering-2026-10-01/"
+        },
+        {
+          "label": "Amazon data-centre community investment",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-invest-1-billion-over-five-years-us-data-center-communities-2026-10-02/"
+        },
+        {
+          "label": "Expected appointment of US AI adviser",
+          "url": "https://www.reuters.com/world/us/trump-expected-name-jay-clayton-ai-czar-cnn-reports-2026-10-02/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-02",
-      "materiallyUpdated": "2026-10-02",
+      "reviewed": "2026-10-03",
+      "materiallyUpdated": "2026-10-03",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-03",
+      "nextReview": "2026-10-04",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain intensive attacks on Ukraine while broadening coercive pressure on European governments and companies. Putin's public repetition of the nuclear warning over Kaliningrad and rejection of a Black Sea strike pause reinforce the risk of escalation and make a broad near-term de-escalation unlikely despite selective diplomatic contacts.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport and energy infrastructure through the approaching winter while maintaining coercive pressure on Europe. Repeated strikes on Kyiv's Dnipro bridges demonstrate a more systematic effort to disrupt movement inside the capital, reinforcing the prospect of escalation despite proposals for limited truces.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -439,24 +471,28 @@
         {
           "label": "Putin's Valdai remarks on escalation and Black Sea strikes",
           "url": "https://www.reuters.com/world/europe/putin-says-world-is-living-through-dangerous-moment-warns-west-not-escalate-2026-10-01/"
+        },
+        {
+          "label": "Russian strikes on Kyiv bridges",
+          "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-02",
-      "materiallyUpdated": "2026-10-02",
+      "reviewed": "2026-10-03",
+      "materiallyUpdated": "2026-10-03",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-03",
+      "nextReview": "2026-10-04",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks through regional mediators while resisting US demands for nuclear concessions. No agreement followed Tehran's receipt of the US response, and the widening diesel shortage is increasing pressure on Washington and European governments to secure maritime de-escalation, but negotiations still lack an agreed sequence of concessions.",
+      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the coordinated G7 fuel-stock release adds economic pressure for de-escalation but does not resolve the sequencing dispute over shipping, sanctions and nuclear talks.",
       "likelyDevelopments": [
-        "Tehran will continue to link freer passage through the Strait of Hormuz to relief from the US naval blockade and other economic pressure.",
-        "Iran will resist nuclear concessions in the near-term shipping negotiations, leaving the nuclear dispute on a separate and slower track.",
-        "The United States will press China and regional partners to use their economic and diplomatic leverage over Tehran.",
-        "Iran is likely to revise or re-present phased proposals through mediators while maintaining military readiness, but an immediate durable agreement is unlikely after Washington rejected the current offer."
+        "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
+        "Iranian commanders and allied groups will maintain preparations for a coordinated response to any renewed large-scale US attack.",
+        "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
+        "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
       "upcomingEvents": [
         {
@@ -516,19 +552,27 @@
         {
           "label": "US pressure on Europe over diesel reserves",
           "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+        },
+        {
+          "label": "Iranian planning for broader retaliation",
+          "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+        },
+        {
+          "label": "G7 emergency fuel-stock release",
+          "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-02",
-      "materiallyUpdated": "2026-10-02",
+      "reviewed": "2026-10-03",
+      "materiallyUpdated": "2026-10-03",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-03",
+      "nextReview": "2026-10-04",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained while US and Iranian positions on the seven-day proposal remain unresolved. The resulting fuel shortage is now driving transatlantic pressure over emergency diesel reserves, raising the economic incentive for a limited maritime arrangement without resolving the sequencing of sanctions relief and wider negotiations.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Iran is considering a wider response to renewed attacks, while the G7 decision to release 100 million barrels from emergency stocks shows that disruption has become severe enough to prompt another coordinated intervention; this raises incentives for a limited maritime arrangement without resolving the underlying conflict.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -581,6 +625,14 @@
         {
           "label": "Global diesel pressure linked to Middle East disruption",
           "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+        },
+        {
+          "label": "Iranian planning for broader retaliation",
+          "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+        },
+        {
+          "label": "G7 emergency fuel-stock release",
+          "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
         }
       ]
     }

@@ -197,6 +197,109 @@
           }
         ]
       }
+    },
+    {
+      "id": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "kind": "event",
+      "topicFile": "Russia.md",
+      "created": "2026-10-03",
+      "deadline": "2026-10-26",
+      "statement": "A Russian attack will again damage transport or energy infrastructure in Kyiv and cause an officially confirmed service disruption by 2026-10-26.",
+      "successCondition": "Ukrainian authorities or reliable reporting confirms that a Russian attack after 2026-10-03 damaged transport or energy infrastructure in Kyiv and disrupted traffic, electricity, heating or another public service on or before 2026-10-26.",
+      "failureCondition": "Reliable verification covering the full window establishes that no such Russian attack caused an officially confirmed service disruption in Kyiv by the end of 2026-10-26.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Russian strike on Kyiv Northern Bridge",
+          "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Russia.md",
+        "volatility": "high",
+        "reviewed": "2026-10-03",
+        "materiallyUpdated": "2026-10-03",
+        "validUntil": "2026-10-26",
+        "nextReview": "2026-10-04",
+        "horizon": "the next 30 days",
+        "confidence": "medium",
+        "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport and energy infrastructure through the approaching winter while maintaining coercive pressure on Europe. Repeated strikes on Kyiv's Dnipro bridges demonstrate a more systematic effort to disrupt movement inside the capital, reinforcing the prospect of escalation despite proposals for limited truces.",
+        "likelyDevelopments": [
+          "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
+          "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
+          "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
+          "The Kremlin will use the parliamentary-election result to reinforce the appearance of domestic support and institutional stability."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-10-09",
+            "reviewFrom": "2026-10-07",
+            "description": "EU restrictive measures addressing Russian hybrid activity are currently scheduled to expire, creating a decision point over renewal or replacement.",
+            "source": {
+              "label": "EU sanctions timeline",
+              "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/timeline-sanctions-against-russia/"
+            }
+          },
+          {
+            "date": "2026-10-15",
+            "reviewFrom": "2026-10-12",
+            "description": "The European Council is scheduled to meet on 15–16 October and has said it will return to Ukraine and European defence readiness in October.",
+            "source": {
+              "label": "European Council",
+              "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/06/18-19/"
+            }
+          }
+        ],
+        "changeSignals": [
+          "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
+          "A substantial reduction or increase in long-range attacks on Ukrainian cities",
+          "New EU sanctions or military-support commitments",
+          "Confirmed escalation involving Russian and NATO aircraft or infrastructure",
+          "Evidence that post-election domestic pressure is affecting Kremlin policy"
+        ],
+        "sources": [
+          {
+            "label": "Russian parliamentary election coverage",
+            "url": "https://apnews.com/article/russia-election-parliament-duma-putin-ukraine-6f3df3716cbcf8c96711b688762b450b"
+          },
+          {
+            "label": "Black Sea truce proposal",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-ready-maritime-truce-puts-onus-russia-respond-2026-09-23/"
+          },
+          {
+            "label": "European warnings about hybrid operations",
+            "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
+          },
+          {
+            "label": "Russia–Germany foreign-minister talks",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022"
+          },
+          {
+            "label": "Russian strikes on Ukrainian cities and communications",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/russia-says-it-struck-military-infrastructure-vessels-in-ukraine"
+          },
+          {
+            "label": "Russian pressure on European corporate assets",
+            "url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+          },
+          {
+            "label": "Latest Russian strikes on Kyiv",
+            "url": "https://www.reuters.com/world/europe/russian-air-strikes-kill-one-injure-five-around-kyiv-officials-say-2026-09-30/"
+          },
+          {
+            "label": "Russian warning over Kaliningrad and European arms factories",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates-2026-09-30/"
+          },
+          {
+            "label": "Putin's Valdai remarks on escalation and Black Sea strikes",
+            "url": "https://www.reuters.com/world/europe/putin-says-world-is-living-through-dangerous-moment-warns-west-not-escalate-2026-10-01/"
+          },
+          {
+            "label": "Russian strikes on Kyiv bridges",
+            "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -309,6 +412,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Current reporting confirms diplomacy continues but does not establish a new substantive mediator-facilitated exchange after the prediction was created.",
+        "additionalLookups": 0
       }
     },
     {
@@ -323,6 +431,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified AI reporting does not confirm that the FTC issued a formal information demand or compelled testimony in the inquiry.",
+        "additionalLookups": 0
       }
     },
     {
@@ -337,6 +450,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     },
     {
@@ -351,6 +470,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The Russia candidate yielded the day’s permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
       }
     }
   ]
