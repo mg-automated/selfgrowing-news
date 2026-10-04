@@ -489,6 +489,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The verified reporting on Iran concerned a domestic execution and did not conclusively establish another substantive mediator-facilitated US-Iran exchange concerning Gulf de-escalation.",
+        "additionalLookups": 0
       }
     },
     {
@@ -503,6 +508,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The verified reporting concerned German support for Ukraine and planned Ukrainian strikes on Russian refineries; it did not conclusively establish a new Russian attack after 2026-10-03 that damaged Kyiv transport or energy infrastructure and caused an officially confirmed service disruption.",
+        "additionalLookups": 0
       }
     },
     {
@@ -517,6 +527,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "Today's verified sources support elevated maritime and energy-market risk but do not support a distinct, defensible and measurable Strait prediction without substantially duplicating the active Iran de-escalation prediction.",
+        "additionalLookups": 0
       }
     }
   ]

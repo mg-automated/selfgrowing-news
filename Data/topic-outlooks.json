@@ -9,6 +9,30 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "Cybersecurity.md": {
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-10-04",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-04"
+    },
+    "Ethiopia.md": {
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-04",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-04"
+    },
+    "Germany.md": {
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-04",
+      "mentions": 3,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-04"
+    },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
       "lastSeen": "2026-10-03",
@@ -27,8 +51,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-03",
-      "mentions": 1,
+      "lastSeen": "2026-10-04",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -43,8 +67,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 5,
+      "lastSeen": "2026-10-04",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -115,24 +139,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 6,
+      "lastSeen": "2026-10-04",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 7,
+      "lastSeen": "2026-10-04",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 6,
+      "lastSeen": "2026-10-04",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -147,8 +171,8 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 12,
+      "lastSeen": "2026-10-04",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -187,8 +211,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-03",
-      "mentions": 14,
+      "lastSeen": "2026-10-04",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,8 +275,8 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-09-29",
-      "mentions": 2,
+      "lastSeen": "2026-10-04",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -291,8 +315,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 14,
+      "lastSeen": "2026-10-04",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -310,13 +334,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-03",
-      "materiallyUpdated": "2026-10-03",
+      "reviewed": "2026-10-04",
+      "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-06",
+      "nextReview": "2026-10-07",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory, security and local-infrastructure scrutiny. Amazon's new community investment and transparency commitments show that electricity, water and public acceptance are becoming constraints on data-centre growth, while the expected appointment of the US intelligence chief as senior AI adviser would place national security closer to the centre of federal AI policy.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory, security and local-infrastructure scrutiny. Jay Clayton's confirmed appointment to lead a 120-day US intelligence task force places national security closer to the centre of federal AI policy, while the administration's continued preference for voluntary safeguards leaves incident response and industry commitments as the main near-term controls.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -389,19 +413,27 @@
         {
           "label": "Expected appointment of US AI adviser",
           "url": "https://www.reuters.com/world/us/trump-expected-name-jay-clayton-ai-czar-cnn-reports-2026-10-02/"
+        },
+        {
+          "label": "Confirmed US intelligence AI task force",
+          "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/"
+        },
+        {
+          "label": "US reliance on voluntary AI safeguards",
+          "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-03",
-      "materiallyUpdated": "2026-10-03",
+      "reviewed": "2026-10-04",
+      "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-04",
+      "nextReview": "2026-10-05",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport and energy infrastructure through the approaching winter while maintaining coercive pressure on Europe. Repeated strikes on Kyiv's Dnipro bridges demonstrate a more systematic effort to disrupt movement inside the capital, reinforcing the prospect of escalation despite proposals for limited truces.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport and energy infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. Germany's new military and energy-support package and joint drone-production plans point to deeper European backing for a reciprocal infrastructure campaign, reinforcing the prospect of escalation despite proposals for limited truces.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -475,19 +507,27 @@
         {
           "label": "Russian strikes on Kyiv bridges",
           "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+        },
+        {
+          "label": "German military and energy support for Ukraine",
+          "url": "https://www.reuters.com/world/europe/germanys-merz-arrives-kyiv-finalize-drone-deal-release-aid-2026-10-04/"
+        },
+        {
+          "label": "Ukraine plans increased strikes on Russian refineries",
+          "url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-03",
-      "materiallyUpdated": "2026-10-03",
+      "reviewed": "2026-10-04",
+      "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-04",
+      "nextReview": "2026-10-05",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the coordinated G7 fuel-stock release adds economic pressure for de-escalation but does not resolve the sequencing dispute over shipping, sanctions and nuclear talks.",
+      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the execution of a January protest detainee also shows the leadership maintaining domestic coercion while external pressure grows, without resolving the sequencing dispute over shipping, sanctions and nuclear talks.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups will maintain preparations for a coordinated response to any renewed large-scale US attack.",
@@ -560,19 +600,23 @@
         {
           "label": "G7 emergency fuel-stock release",
           "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+        },
+        {
+          "label": "Execution of Iranian protest detainee",
+          "url": "https://www.reuters.com/world/middle-east/iran-executes-detainee-over-january-protests-judiciary-says-2026-10-03/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-03",
-      "materiallyUpdated": "2026-10-03",
+      "reviewed": "2026-10-04",
+      "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-04",
+      "nextReview": "2026-10-05",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Iran is considering a wider response to renewed attacks, while the G7 decision to release 100 million barrels from emergency stocks shows that disruption has become severe enough to prompt another coordinated intervention; this raises incentives for a limited maritime arrangement without resolving the underlying conflict.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Saudi preparations for a new offensive against the Houthis and claimed Houthi strikes on Saudi oil infrastructure add pressure at the Red Sea's alternative chokepoint, while the G7 fuel-stock release shows that disruption is already severe enough to prompt coordinated intervention; this raises incentives for a limited maritime arrangement without resolving the underlying conflicts.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -633,6 +677,14 @@
         {
           "label": "G7 emergency fuel-stock release",
           "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+        },
+        {
+          "label": "Saudi planning for an offensive against the Houthis",
+          "url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+        },
+        {
+          "label": "Houthi claim of an attack on Saudi oil infrastructure",
+          "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
         }
       ]
     }
