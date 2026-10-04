@@ -476,6 +476,48 @@
         "explanation": "The Russia candidate yielded the day’s permitted prediction, so this reserved candidate was not evaluated.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-04:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-04",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-04:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-04",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-04:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-04",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
