@@ -9,6 +9,22 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "India.md": {
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-05",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-05"
+    },
+    "Japan-Monetary-Policy.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-05",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-05"
+    },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
       "lastSeen": "2026-10-04",
@@ -51,8 +67,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-04",
-      "mentions": 2,
+      "lastSeen": "2026-10-05",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -99,16 +115,16 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 6,
+      "lastSeen": "2026-10-05",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-03",
-      "mentions": 2,
+      "lastSeen": "2026-10-05",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -139,24 +155,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 7,
+      "lastSeen": "2026-10-05",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 8,
+      "lastSeen": "2026-10-05",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 7,
+      "lastSeen": "2026-10-05",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -171,24 +187,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 13,
+      "lastSeen": "2026-10-05",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-03",
-      "mentions": 11,
+      "lastSeen": "2026-10-05",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 11,
+      "lastSeen": "2026-10-05",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -211,8 +227,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-04",
-      "mentions": 15,
+      "lastSeen": "2026-10-05",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -299,8 +315,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-30",
-      "mentions": 5,
+      "lastSeen": "2026-10-05",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -315,8 +331,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 15,
+      "lastSeen": "2026-10-05",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -334,13 +350,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-04",
-      "materiallyUpdated": "2026-10-04",
+      "reviewed": "2026-10-05",
+      "materiallyUpdated": "2026-10-05",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-07",
+      "nextReview": "2026-10-08",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by closer regulatory, security and local-infrastructure scrutiny. Jay Clayton's confirmed appointment to lead a 120-day US intelligence task force places national security closer to the centre of federal AI policy, while the administration's continued preference for voluntary safeguards leaves incident response and industry commitments as the main near-term controls.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by unresolved regulatory and financial risks. OpenAI's public case for accepting some misuse in exchange for broad access reinforces the likelihood of lighter US controls, while the Bank of Japan's warning about inflation and a possible market correction shows that AI investment is becoming a macroeconomic-policy concern.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -421,19 +437,27 @@
         {
           "label": "US reliance on voluntary AI safeguards",
           "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/"
+        },
+        {
+          "label": "OpenAI's argument for lighter-touch AI regulation",
+          "url": "https://www.reuters.com/business/openais-altman-says-ai-benefits-warrant-accepting-some-risks-2026-10-04/"
+        },
+        {
+          "label": "Bank of Japan warning on AI financial risks",
+          "url": "https://www.reuters.com/technology/boj-says-ai-boom-may-have-eased-financial-conditions-warns-market-risks-2026-10-05/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-04",
-      "materiallyUpdated": "2026-10-04",
+      "reviewed": "2026-10-05",
+      "materiallyUpdated": "2026-10-05",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-05",
+      "nextReview": "2026-10-06",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport and energy infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. Germany's new military and energy-support package and joint drone-production plans point to deeper European backing for a reciprocal infrastructure campaign, reinforcing the prospect of escalation despite proposals for limited truces.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. Moscow's claimed strikes on cargo vessels and fuel storage at Chornomorsk widen the infrastructure campaign into Black Sea shipping, reinforcing the prospect of escalation despite proposals for limited truces.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -515,16 +539,24 @@
         {
           "label": "Ukraine plans increased strikes on Russian refineries",
           "url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/"
+        },
+        {
+          "label": "Russian strikes on Black Sea cargo vessels",
+          "url": "https://www.reuters.com/world/europe/russia-says-it-struck-two-ukrainian-cargo-vessels-black-sea-2026-10-05/"
+        },
+        {
+          "label": "Russian strikes on Odesa port infrastructure",
+          "url": "https://www.reuters.com/world/europe/russian-air-strikes-targeted-port-infrastructure-ukraines-odesa-region-governor-2026-10-05/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-04",
+      "reviewed": "2026-10-05",
       "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-05",
+      "nextReview": "2026-10-06",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the execution of a January protest detainee also shows the leadership maintaining domestic coercion while external pressure grows, without resolving the sequencing dispute over shipping, sanctions and nuclear talks.",
@@ -604,19 +636,23 @@
         {
           "label": "Execution of Iranian protest detainee",
           "url": "https://www.reuters.com/world/middle-east/iran-executes-detainee-over-january-protests-judiciary-says-2026-10-03/"
+        },
+        {
+          "label": "Yemeni government launches offensive against Iran-backed Houthis",
+          "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-04",
-      "materiallyUpdated": "2026-10-04",
+      "reviewed": "2026-10-05",
+      "materiallyUpdated": "2026-10-05",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-05",
+      "nextReview": "2026-10-06",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Saudi preparations for a new offensive against the Houthis and claimed Houthi strikes on Saudi oil infrastructure add pressure at the Red Sea's alternative chokepoint, while the G7 fuel-stock release shows that disruption is already severe enough to prompt coordinated intervention; this raises incentives for a limited maritime arrangement without resolving the underlying conflicts.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Yemen's government has now moved from planning to a declared counteroffensive against the Houthis at the Red Sea's alternative chokepoint, increasing the risk that pressure on both maritime routes persists even as emergency fuel releases create stronger incentives for limited operational agreements.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
@@ -685,6 +721,10 @@
         {
           "label": "Houthi claim of an attack on Saudi oil infrastructure",
           "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+        },
+        {
+          "label": "Yemeni government launches counteroffensive",
+          "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
         }
       ]
     }

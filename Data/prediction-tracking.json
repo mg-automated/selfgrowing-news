@@ -546,6 +546,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting concerns attacks on vessels and port infrastructure in the Odesa region, not a post-2026-10-03 attack that damaged Kyiv transport or energy infrastructure and caused an officially confirmed service disruption.",
+        "additionalLookups": 0
       }
     },
     {
@@ -560,6 +565,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified AI reporting covers OpenAI's regulatory position and the Bank of Japan's assessment of AI investment; it does not confirm that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
       }
     },
     {
@@ -574,6 +584,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "The verified Outlook supports persistent maritime risk, but the available research does not support a distinct measurable prediction without substantially duplicating the active Iran de-escalation prediction or manufacturing an unsupported threshold.",
+        "additionalLookups": 0
       }
     }
   ]
