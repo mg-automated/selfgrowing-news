@@ -533,6 +533,48 @@
         "explanation": "Today's verified sources support elevated maritime and energy-market risk but do not support a distinct, defensible and measurable Strait prediction without substantially duplicating the active Iran de-escalation prediction.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-05:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-05",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-05:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-05",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-05:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-05",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
