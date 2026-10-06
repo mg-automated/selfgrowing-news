@@ -590,6 +590,48 @@
         "explanation": "The verified Outlook supports persistent maritime risk, but the available research does not support a distinct measurable prediction without substantially duplicating the active Iran de-escalation prediction or manufacturing an unsupported threshold.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-06:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-06",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-06:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-06",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-06:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-06",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
