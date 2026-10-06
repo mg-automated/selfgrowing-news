@@ -300,6 +300,120 @@
           }
         ]
       }
+    },
+    {
+      "id": "strait-of-hormuz-2026-10-06-tanker-attack",
+      "kind": "event",
+      "topicFile": "Strait-of-Hormuz.md",
+      "created": "2026-10-06",
+      "deadline": "2026-10-26",
+      "statement": "A further attack on a commercial tanker in or near the Strait of Hormuz will be publicly confirmed by 2026-10-26.",
+      "successCondition": "A maritime authority, government or reliable report confirms that a commercial tanker was attacked in or near the Strait of Hormuz after 2026-10-06 and on or before 2026-10-26.",
+      "failureCondition": "Reliable verification covering the full window establishes that no commercial tanker was attacked in or near the Strait of Hormuz by the end of 2026-10-26.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Middle East oil exports recover while tanker attacks rise",
+          "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+        },
+        {
+          "label": "Iran reiterates seven conditions for reopening Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Strait-of-Hormuz.md",
+        "volatility": "high",
+        "reviewed": "2026-10-06",
+        "materiallyUpdated": "2026-10-06",
+        "validUntil": "2026-10-26",
+        "nextReview": "2026-10-07",
+        "horizon": "the next 30 days",
+        "confidence": "low",
+        "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Iran continues to condition a formal reopening on seven US steps, while rising tanker attacks, exceptional freight costs and weak refined-fuel flows show that higher export volumes have not restored normal maritime operations.",
+        "likelyDevelopments": [
+          "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
+          "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
+          "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
+          "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-10-15",
+            "reviewFrom": "2026-10-12",
+            "description": "The European Council meets on 15–16 October, when the economic and security consequences of disrupted Gulf shipping may require further coordination.",
+            "source": {
+              "label": "Council of the European Union",
+              "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+            }
+          }
+        ],
+        "changeSignals": [
+          "Verified restoration of regular commercial transit",
+          "US relief from the naval blockade or sanctions affecting Iranian ports",
+          "A new Iranian transit-fee or inspection regime",
+          "Attacks on tankers, ports or naval forces",
+          "Changes in insurance costs, rerouting, guarded transits or energy-market disruption"
+        ],
+        "sources": [
+          {
+            "label": "US-Iran phased-deal discussions",
+            "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+          },
+          {
+            "label": "Iran rejects nuclear concessions",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          },
+          {
+            "label": "US rejection of Iran's proposal",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+          },
+          {
+            "label": "Latest US-Iran mediated talks",
+            "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+          },
+          {
+            "label": "Qatari shuttle diplomacy and continued Strait restrictions",
+            "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+          },
+          {
+            "label": "US response to seven-day trust-building proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+          },
+          {
+            "label": "Global diesel pressure linked to Middle East disruption",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          },
+          {
+            "label": "Iranian planning for broader retaliation",
+            "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+          },
+          {
+            "label": "G7 emergency fuel-stock release",
+            "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+          },
+          {
+            "label": "Saudi planning for an offensive against the Houthis",
+            "url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+          },
+          {
+            "label": "Houthi claim of an attack on Saudi oil infrastructure",
+            "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+          },
+          {
+            "label": "Yemeni government launches counteroffensive",
+            "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+          },
+          {
+            "label": "Iran reiterates seven conditions for reopening Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+          },
+          {
+            "label": "Middle East oil exports recover while tanker attacks rise",
+            "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -603,6 +717,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified reporting strengthens the broader hybrid-threat assessment but does not conclusively establish a new post-2026-10-03 Russian attack that damaged Kyiv transport or energy infrastructure and caused a confirmed service disruption.",
+        "additionalLookups": 0
       }
     },
     {
@@ -617,6 +736,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified AI reporting covers watermarking, open-weight models and agent activity, but provides no conclusive evidence that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
       }
     },
     {
@@ -631,6 +755,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "strait-of-hormuz-2026-10-06-tanker-attack",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     }
   ]

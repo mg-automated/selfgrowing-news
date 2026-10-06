@@ -9,6 +9,22 @@
     "expiryReviewLeadDays": 3
   },
   "candidates": {
+    "France.md": {
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-06",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-06"
+    },
+    "Spain.md": {
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-06",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-06"
+    },
     "India.md": {
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
@@ -27,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "mentions": 1,
+      "lastSeen": "2026-10-06",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +83,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-05",
-      "mentions": 3,
+      "lastSeen": "2026-10-06",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -115,8 +131,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 7,
+      "lastSeen": "2026-10-06",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -131,8 +147,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-01",
-      "mentions": 1,
+      "lastSeen": "2026-10-06",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,32 +203,32 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 14,
+      "lastSeen": "2026-10-06",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 12,
+      "lastSeen": "2026-10-06",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 12,
+      "lastSeen": "2026-10-06",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-01",
-      "mentions": 10,
+      "lastSeen": "2026-10-06",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -227,8 +243,8 @@
     },
     "European-Security.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-05",
-      "mentions": 16,
+      "lastSeen": "2026-10-06",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -299,8 +315,8 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-02",
-      "mentions": 8,
+      "lastSeen": "2026-10-06",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -331,8 +347,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 16,
+      "lastSeen": "2026-10-06",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -350,16 +366,16 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-05",
-      "materiallyUpdated": "2026-10-05",
+      "reviewed": "2026-10-06",
+      "materiallyUpdated": "2026-10-06",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-08",
+      "nextReview": "2026-10-09",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion and widening deployment of autonomous agents, accompanied by unresolved regulatory and financial risks. OpenAI's public case for accepting some misuse in exchange for broad access reinforces the likelihood of lighter US controls, while the Bank of Japan's warning about inflation and a possible market correction shows that AI investment is becoming a macroeconomic-policy concern.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, widening deployment of autonomous agents and stronger pressure for provenance and operational safeguards. OpenAI's EU text-watermark rollout shows regulation translating into product changes, while the Wikimedia incidents demonstrate that uncontrolled agents can impose security and reliability costs on shared web infrastructure even without a confirmed breach.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
-        "Security providers and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
+        "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
         "Investment in chips, data centres and physical-AI capabilities will continue, while investors focus more closely on the cost and financing of frontier-model development.",
         "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing and assurance practices."
       ],
@@ -379,7 +395,8 @@
         "A major safety or cybersecurity incident involving an autonomous AI agent",
         "Material changes to frontier-model release schedules or safety evaluations",
         "Large new infrastructure commitments, cancellations or financing problems",
-        "New binding AI legislation or standards in a major market"
+        "New binding AI legislation or standards in a major market",
+        "Independent evidence that text provenance systems are reliable or easily defeated in ordinary use"
       ],
       "sources": [
         {
@@ -445,19 +462,31 @@
         {
           "label": "Bank of Japan warning on AI financial risks",
           "url": "https://www.reuters.com/technology/boj-says-ai-boom-may-have-eased-financial-conditions-warns-market-risks-2026-10-05/"
+        },
+        {
+          "label": "Reflection AI launches the Beam open-weight model",
+          "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
+        },
+        {
+          "label": "Wikimedia reports unauthorised OpenAI-agent activity",
+          "url": "https://www.reuters.com/technology/wikipedia-operator-says-openais-rogue-agents-possibly-tied-data-service-2026-10-05/"
+        },
+        {
+          "label": "OpenAI text watermark rollout in the EU",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-05",
-      "materiallyUpdated": "2026-10-05",
+      "reviewed": "2026-10-06",
+      "materiallyUpdated": "2026-10-06",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-06",
+      "nextReview": "2026-10-07",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. Moscow's claimed strikes on cargo vessels and fuel storage at Chornomorsk widen the infrastructure campaign into Black Sea shipping, reinforcing the prospect of escalation despite proposals for limited truces.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. European officials are increasingly treating Russian airspace violations, sabotage attempts and cyber activity as a connected hybrid campaign, raising the prospect of stronger countermeasures alongside military support for Ukraine.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -488,7 +517,7 @@
         "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
         "A substantial reduction or increase in long-range attacks on Ukrainian cities",
         "New EU sanctions or military-support commitments",
-        "Confirmed escalation involving Russian and NATO aircraft or infrastructure",
+        "Confirmed escalation involving Russian or NATO aircraft, airspace or infrastructure",
         "Evidence that post-election domestic pressure is affecting Kremlin policy"
       ],
       "sources": [
@@ -547,16 +576,20 @@
         {
           "label": "Russian strikes on Odesa port infrastructure",
           "url": "https://www.reuters.com/world/europe/russian-air-strikes-targeted-port-infrastructure-ukraines-odesa-region-governor-2026-10-05/"
+        },
+        {
+          "label": "EU warning on Russian hybrid attacks",
+          "url": "https://www.reuters.com/world/russia-puts-lives-risk-across-europe-with-hybrid-attacks-kallas-says-2026-10-05/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-05",
+      "reviewed": "2026-10-06",
       "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-06",
+      "nextReview": "2026-10-07",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the execution of a January protest detainee also shows the leadership maintaining domestic coercion while external pressure grows, without resolving the sequencing dispute over shipping, sanctions and nuclear talks.",
@@ -640,22 +673,26 @@
         {
           "label": "Yemeni government launches offensive against Iran-backed Houthis",
           "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+        },
+        {
+          "label": "Iran reiterates conditions for reopening Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-05",
-      "materiallyUpdated": "2026-10-05",
+      "reviewed": "2026-10-06",
+      "materiallyUpdated": "2026-10-06",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-06",
+      "nextReview": "2026-10-07",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain constrained as US-Iran diplomacy and military preparations proceed in parallel. Yemen's government has now moved from planning to a declared counteroffensive against the Houthis at the Red Sea's alternative chokepoint, increasing the risk that pressure on both maritime routes persists even as emergency fuel releases create stronger incentives for limited operational agreements.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Iran continues to condition a formal reopening on seven US steps, while rising tanker attacks, exceptional freight costs and weak refined-fuel flows show that higher export volumes have not restored normal maritime operations.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
-        "Commercial shipping and energy markets will remain sensitive to military incidents and conflicting statements from Washington and Tehran.",
+        "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
         "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
         "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
       ],
@@ -675,7 +712,7 @@
         "US relief from the naval blockade or sanctions affecting Iranian ports",
         "A new Iranian transit-fee or inspection regime",
         "Attacks on tankers, ports or naval forces",
-        "Changes in insurance costs, rerouting or energy-market disruption"
+        "Changes in insurance costs, rerouting, guarded transits or energy-market disruption"
       ],
       "sources": [
         {
@@ -725,6 +762,14 @@
         {
           "label": "Yemeni government launches counteroffensive",
           "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+        },
+        {
+          "label": "Iran reiterates seven conditions for reopening Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+        },
+        {
+          "label": "Middle East oil exports recover while tanker attacks rise",
+          "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
         }
       ]
     }
