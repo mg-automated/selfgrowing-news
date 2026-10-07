@@ -762,6 +762,34 @@
         "explanation": "Prediction recorded from existing verified Outlook research.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-07:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-07",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-07:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-07",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
