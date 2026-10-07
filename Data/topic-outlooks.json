@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-06",
-      "mentions": 1,
+      "lastSeen": "2026-10-07",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -75,24 +75,24 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-03",
-      "mentions": 1,
+      "lastSeen": "2026-10-07",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-06",
-      "mentions": 4,
+      "lastSeen": "2026-10-07",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-02",
-      "mentions": 4,
+      "lastSeen": "2026-10-07",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -107,8 +107,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-10-02",
-      "mentions": 2,
+      "lastSeen": "2026-10-07",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -161,6 +161,14 @@
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
+    "North-Korea.md": {
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-10-07",
+      "mentions": 3,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-07"
+    },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
       "lastSeen": "2026-09-30",
@@ -171,16 +179,16 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 8,
+      "lastSeen": "2026-10-07",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-05",
-      "mentions": 9,
+      "lastSeen": "2026-10-07",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -203,24 +211,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 15,
+      "lastSeen": "2026-10-07",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 13,
+      "lastSeen": "2026-10-07",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 13,
+      "lastSeen": "2026-10-07",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -235,16 +243,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-03",
-      "mentions": 7,
-      "attempts": 0,
-      "lastAttempt": null,
-      "eligibleAfter": "2026-09-28"
-    },
-    "European-Security.md": {
-      "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-06",
-      "mentions": 17,
+      "lastSeen": "2026-10-07",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -307,16 +307,16 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-10-04",
-      "mentions": 3,
+      "lastSeen": "2026-10-07",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-06",
-      "mentions": 9,
+      "lastSeen": "2026-10-07",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 17,
+      "lastSeen": "2026-10-07",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -366,13 +366,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-06",
-      "materiallyUpdated": "2026-10-06",
+      "reviewed": "2026-10-07",
+      "materiallyUpdated": "2026-10-07",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-09",
+      "nextReview": "2026-10-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, widening deployment of autonomous agents and stronger pressure for provenance and operational safeguards. OpenAI's EU text-watermark rollout shows regulation translating into product changes, while the Wikimedia incidents demonstrate that uncontrolled agents can impose security and reliability costs on shared web infrastructure even without a confirmed breach.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable open-weight models and stronger pressure for operational safeguards. Mistral's planned Large 4 release strengthens Europe's position in open-weight AI, while record US electricity-demand forecasts and new federal terminology rules show the technology reshaping both physical infrastructure and public policy.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -474,19 +474,84 @@
         {
           "label": "OpenAI text watermark rollout in the EU",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+        },
+        {
+          "label": "Mistral announces Large 4",
+          "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+        },
+        {
+          "label": "US electricity-demand forecast driven by AI data centres",
+          "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+        },
+        {
+          "label": "US Justice Department adopts 'super intelligence' terminology",
+          "url": "https://www.reuters.com/legal/litigation/us-justice-dept-tells-staff-call-ai-super-intelligence-under-trump-order-2026-10-06/"
+        }
+      ]
+    },
+    "European-Security.md": {
+      "topic": "Topics/European-Security.md",
+      "volatility": "high",
+      "reviewed": "2026-10-07",
+      "materiallyUpdated": "2026-10-07",
+      "validUntil": "2026-11-06",
+      "nextReview": "2026-10-08",
+      "horizon": "the next 30 days",
+      "confidence": "medium",
+      "assessment": "European governments are likely to strengthen maritime protection, air defence, attribution and sanctions responses as attacks linked to the Russia–Ukraine war increasingly affect NATO territory, commercial shipping and critical infrastructure. The immediate risk is continued coercion and accidental escalation below the threshold of a direct Russia–NATO conflict, rather than a deliberate conventional attack on the alliance.",
+      "likelyDevelopments": [
+        "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
+        "European authorities will place greater emphasis on rapid public attribution and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
+        "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
+        "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
+      ],
+      "upcomingEvents": [
+        {
+          "date": "2026-10-15",
+          "reviewFrom": "2026-10-12",
+          "description": "The European Council is scheduled to meet on 15–16 October with Ukraine and European defence and security on its provisional agenda.",
+          "source": {
+            "label": "European Council provisional agenda",
+            "url": "https://data.consilium.europa.eu/doc/document/CM-6-2026-INIT/en/pdf"
+          }
+        }
+      ],
+      "changeSignals": [
+        "Confirmed attribution of attacks on NATO territory or shipping to a state actor",
+        "New EU or NATO measures protecting airspace, ports, undersea infrastructure or commercial navigation",
+        "Additional sanctions or coordinated responses to hybrid operations",
+        "A sustained reduction in cross-border drone, cyber or sabotage incidents",
+        "Direct military contact between Russian and NATO forces"
+      ],
+      "sources": [
+        {
+          "label": "Drone attacks on commercial ships in Bulgaria's economic zone",
+          "url": "https://www.reuters.com/world/drones-strike-two-ships-bulgarias-black-sea-zone-president-2026-10-06/"
+        },
+        {
+          "label": "NATO assessment of intensified Russian hybrid actions",
+          "url": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-russia"
+        },
+        {
+          "label": "EU policy on hybrid threats",
+          "url": "https://www.consilium.europa.eu/en/policies/hybrid-threats/"
+        },
+        {
+          "label": "European Council provisional agenda",
+          "url": "https://data.consilium.europa.eu/doc/document/CM-6-2026-INIT/en/pdf"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-06",
-      "materiallyUpdated": "2026-10-06",
+      "reviewed": "2026-10-07",
+      "materiallyUpdated": "2026-10-07",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-07",
+      "nextReview": "2026-10-08",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian refining capacity. European officials are increasingly treating Russian airspace violations, sabotage attempts and cyber activity as a connected hybrid campaign, raising the prospect of stronger countermeasures alongside military support for Ukraine.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian fuel infrastructure. The latest large Ukrainian drone attack near Moscow and attacks on commercial ships in Bulgaria's Black Sea zone reinforce the risk of escalation affecting civilians, energy supplies and NATO-adjacent waters.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -580,16 +645,28 @@
         {
           "label": "EU warning on Russian hybrid attacks",
           "url": "https://www.reuters.com/world/russia-puts-lives-risk-across-europe-with-hybrid-attacks-kallas-says-2026-10-05/"
+        },
+        {
+          "label": "Large Ukrainian drone attack on the Moscow region",
+          "url": "https://www.reuters.com/world/europe/ukrainian-drones-kill-two-moscow-region-injure-nine-more-governor-says-2026-10-06/"
+        },
+        {
+          "label": "Drone attacks on commercial ships in Bulgaria's economic zone",
+          "url": "https://www.reuters.com/world/drones-strike-two-ships-bulgarias-black-sea-zone-president-2026-10-06/"
+        },
+        {
+          "label": "Ukraine warns of a possible large Russian attack",
+          "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-intelligence-shows-russia-is-preparing-massive-attack-2026-10-06/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-06",
+      "reviewed": "2026-10-07",
       "materiallyUpdated": "2026-10-04",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-07",
+      "nextReview": "2026-10-08",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the execution of a January protest detainee also shows the leadership maintaining domestic coercion while external pressure grows, without resolving the sequencing dispute over shipping, sanctions and nuclear talks.",
@@ -677,6 +754,10 @@
         {
           "label": "Iran reiterates conditions for reopening Hormuz",
           "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+        },
+        {
+          "label": "Escalation between Saudi Arabia and the Iran-backed Houthis",
+          "url": "https://www.reuters.com/business/energy/oil-prices-slip-traders-weigh-strong-mideast-exports-against-gulf-tensions-2026-10-06/"
         }
       ]
     },

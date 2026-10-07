@@ -775,6 +775,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting on Yemen and Gulf shipping does not conclusively establish a substantive mediator-facilitated exchange between the United States and Iran after 2026-10-02.",
+        "additionalLookups": 0
       }
     },
     {
@@ -789,6 +794,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting covers a warning of a possible Russian attack and attacks elsewhere, but does not conclusively establish a new post-2026-10-03 Russian strike that damaged Kyiv transport or energy infrastructure and caused a confirmed service disruption.",
+        "additionalLookups": 0
       }
     }
   ]
