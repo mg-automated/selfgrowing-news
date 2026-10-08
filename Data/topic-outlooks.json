@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-07",
-      "mentions": 2,
+      "lastSeen": "2026-10-08",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-06",
-      "mentions": 2,
+      "lastSeen": "2026-10-08",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -59,8 +59,8 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-04",
-      "mentions": 3,
+      "lastSeen": "2026-10-08",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -147,8 +147,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-06",
-      "mentions": 2,
+      "lastSeen": "2026-10-08",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -163,16 +163,16 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-07",
-      "mentions": 3,
+      "lastSeen": "2026-10-08",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-30",
-      "mentions": 6,
+      "lastSeen": "2026-10-08",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -211,32 +211,32 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-07",
-      "mentions": 16,
+      "lastSeen": "2026-10-08",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-07",
-      "mentions": 14,
+      "lastSeen": "2026-10-08",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-07",
-      "mentions": 14,
+      "lastSeen": "2026-10-08",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 11,
+      "lastSeen": "2026-10-08",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-02",
-      "mentions": 9,
+      "lastSeen": "2026-10-08",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -315,8 +315,8 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-07",
-      "mentions": 10,
+      "lastSeen": "2026-10-08",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -331,8 +331,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-05",
-      "mentions": 6,
+      "lastSeen": "2026-10-08",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-07",
-      "mentions": 18,
+      "lastSeen": "2026-10-08",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -492,16 +492,16 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-07",
-      "materiallyUpdated": "2026-10-07",
+      "reviewed": "2026-10-08",
+      "materiallyUpdated": "2026-10-08",
       "validUntil": "2026-11-06",
-      "nextReview": "2026-10-08",
+      "nextReview": "2026-10-09",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to strengthen maritime protection, air defence, attribution and sanctions responses as attacks linked to the Russia–Ukraine war increasingly affect NATO territory, commercial shipping and critical infrastructure. The immediate risk is continued coercion and accidental escalation below the threshold of a direct Russia–NATO conflict, rather than a deliberate conventional attack on the alliance.",
+      "assessment": "European governments are likely to strengthen maritime protection, air defence, attribution, sanctions and bilateral coordination as attacks linked to the Russia–Ukraine war increasingly affect NATO territory, commercial shipping and critical infrastructure. The EU's large new package of Russia-related listings and the UK–Germany partnership against sabotage and cyberattacks show that coordinated pressure and resilience measures are accelerating, while the immediate risk remains coercion and accidental escalation below the threshold of a direct Russia–NATO conflict.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
-        "European authorities will place greater emphasis on rapid public attribution and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
+        "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
         "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
         "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
       ],
@@ -539,19 +539,27 @@
         {
           "label": "European Council provisional agenda",
           "url": "https://data.consilium.europa.eu/doc/document/CM-6-2026-INIT/en/pdf"
+        },
+        {
+          "label": "EU envoys approve new Russia sanctions listings",
+          "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+        },
+        {
+          "label": "UK–Germany partnership against sabotage and cyberattacks",
+          "url": "https://www.reuters.com/world/uk/uk-germany-launch-new-partnership-counter-sabotage-cyberattacks-2026-10-07/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-07",
-      "materiallyUpdated": "2026-10-07",
+      "reviewed": "2026-10-08",
+      "materiallyUpdated": "2026-10-08",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-08",
+      "nextReview": "2026-10-09",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian fuel infrastructure. The latest large Ukrainian drone attack near Moscow and attacks on commercial ships in Bulgaria's Black Sea zone reinforce the risk of escalation affecting civilians, energy supplies and NATO-adjacent waters.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian fuel infrastructure. Russia's latest large combined barrage, which killed at least 28 people, and the EU's approval of extensive new missile-supply-chain sanctions reinforce both the expected tempo of attacks and Europe's effort to constrain the industrial base behind them.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -657,19 +665,27 @@
         {
           "label": "Ukraine warns of a possible large Russian attack",
           "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-intelligence-shows-russia-is-preparing-massive-attack-2026-10-06/"
+        },
+        {
+          "label": "Large Russian missile and drone barrage across Ukraine",
+          "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/"
+        },
+        {
+          "label": "EU envoys approve new Russia sanctions listings",
+          "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-07",
-      "materiallyUpdated": "2026-10-04",
+      "reviewed": "2026-10-08",
+      "materiallyUpdated": "2026-10-08",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-08",
+      "nextReview": "2026-10-09",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Reports that commanders are considering targets beyond US-linked assets and have alerted allied groups increase escalation risk; the execution of a January protest detainee also shows the leadership maintaining domestic coercion while external pressure grows, without resolving the sequencing dispute over shipping, sanctions and nuclear talks.",
+      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Emergency fuel releases are accelerating and Hormuz traffic has fallen to its lowest level in more than two months, showing that the unresolved sequencing dispute over shipping, sanctions and nuclear talks is producing widening economic costs even as alternative Gulf export routes keep some oil moving.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups will maintain preparations for a coordinated response to any renewed large-scale US attack.",
@@ -758,19 +774,27 @@
         {
           "label": "Escalation between Saudi Arabia and the Iran-backed Houthis",
           "url": "https://www.reuters.com/business/energy/oil-prices-slip-traders-weigh-strong-mideast-exports-against-gulf-tensions-2026-10-06/"
+        },
+        {
+          "label": "IEA accelerates emergency stock releases",
+          "url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/"
+        },
+        {
+          "label": "Hormuz traffic falls to a two-month low",
+          "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-06",
-      "materiallyUpdated": "2026-10-06",
+      "reviewed": "2026-10-08",
+      "materiallyUpdated": "2026-10-08",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-07",
+      "nextReview": "2026-10-09",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Iran continues to condition a formal reopening on seven US steps, while rising tanker attacks, exceptional freight costs and weak refined-fuel flows show that higher export volumes have not restored normal maritime operations.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Commodity-vessel passages have fallen to their lowest level in more than two months and tanker attacks remain elevated, confirming that alternative routes and stronger crude exports have not restored normal maritime operations while Iran continues to condition a formal reopening on US steps.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -851,6 +875,14 @@
         {
           "label": "Middle East oil exports recover while tanker attacks rise",
           "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+        },
+        {
+          "label": "Hormuz traffic falls to a two-month low",
+          "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+        },
+        {
+          "label": "Tanker attacks reach their highest weekly level of the war",
+          "url": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
         }
       ]
     }
