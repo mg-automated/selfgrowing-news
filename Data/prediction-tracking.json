@@ -800,6 +800,34 @@
         "explanation": "Today's verified reporting covers a warning of a possible Russian attack and attacks elsewhere, but does not conclusively establish a new post-2026-10-03 Russian strike that damaged Kyiv transport or energy infrastructure and caused a confirmed service disruption.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-08:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-08",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-08:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-08",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
