@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-08",
-      "mentions": 3,
+      "lastSeen": "2026-10-09",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-08",
-      "mentions": 3,
+      "lastSeen": "2026-10-09",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -59,8 +59,8 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-08",
-      "mentions": 4,
+      "lastSeen": "2026-10-09",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -83,8 +83,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-07",
-      "mentions": 5,
+      "lastSeen": "2026-10-09",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -112,6 +112,14 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
+    },
+    "Swiss-Wildlife-Policy.md": {
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-09",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-09"
     },
     "Afghanistan-Pakistan-Relations.md": {
       "firstSeen": "2026-10-02",
@@ -155,8 +163,8 @@
     },
     "Myanmar.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-09-30",
-      "mentions": 1,
+      "lastSeen": "2026-10-09",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -219,16 +227,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-08",
-      "mentions": 15,
+      "lastSeen": "2026-10-09",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-08",
-      "mentions": 15,
+      "lastSeen": "2026-10-09",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -307,8 +315,8 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-10-07",
-      "mentions": 4,
+      "lastSeen": "2026-10-09",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -347,8 +355,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-08",
-      "mentions": 19,
+      "lastSeen": "2026-10-09",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -492,13 +500,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-08",
-      "materiallyUpdated": "2026-10-08",
+      "reviewed": "2026-10-09",
+      "materiallyUpdated": "2026-10-09",
       "validUntil": "2026-11-06",
-      "nextReview": "2026-10-09",
+      "nextReview": "2026-10-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to strengthen maritime protection, air defence, attribution, sanctions and bilateral coordination as attacks linked to the Russia–Ukraine war increasingly affect NATO territory, commercial shipping and critical infrastructure. The EU's large new package of Russia-related listings and the UK–Germany partnership against sabotage and cyberattacks show that coordinated pressure and resilience measures are accelerating, while the immediate risk remains coercion and accidental escalation below the threshold of a direct Russia–NATO conflict.",
+      "assessment": "European governments are likely to strengthen air defence, sanctions and infrastructure resilience as Russia intensifies attacks on Ukrainian cities and essential services. Britain's new measures against Russia's shadow fleet and financial channels reinforce coordinated pressure, while reported US–Russian discussions about Nord Stream expose political tension between transatlantic commercial diplomacy and Europe's effort to reduce strategic dependence on Moscow.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -547,19 +555,27 @@
         {
           "label": "UK–Germany partnership against sabotage and cyberattacks",
           "url": "https://www.reuters.com/world/uk/uk-germany-launch-new-partnership-counter-sabotage-cyberattacks-2026-10-07/"
+        },
+        {
+          "label": "British sanctions on Russia's shadow fleet and financial channels",
+          "url": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+        },
+        {
+          "label": "US–Russian discussions about investment in Nord Stream",
+          "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-08",
-      "materiallyUpdated": "2026-10-08",
+      "reviewed": "2026-10-09",
+      "materiallyUpdated": "2026-10-09",
       "validUntil": "2026-10-26",
-      "nextReview": "2026-10-09",
+      "nextReview": "2026-10-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's urban, transport, energy and maritime infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian fuel infrastructure. Russia's latest large combined barrage, which killed at least 28 people, and the EU's approval of extensive new missile-supply-chain sanctions reinforce both the expected tempo of attacks and Europe's effort to constrain the industrial base behind them.",
+      "assessment": "Russia is likely to sustain intensive attacks on Ukraine's cities, transport and energy infrastructure through the approaching winter, while Ukraine expands retaliatory strikes on Russian facilities. The second consecutive day of mass-casualty attacks and service interruptions in Kyiv confirms the escalating air campaign, while new British sanctions and US–Russian Nord Stream discussions show economic pressure and selective diplomacy advancing in parallel without a near-term settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -673,22 +689,34 @@
         {
           "label": "EU envoys approve new Russia sanctions listings",
           "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+        },
+        {
+          "label": "Russian attacks kill 78 people across Ukraine in two days",
+          "url": "https://www.reuters.com/world/europe/russian-bomb-kills-12-street-east-ukraine-stronghold-2026-10-08/"
+        },
+        {
+          "label": "British sanctions on Russia's shadow fleet and financial channels",
+          "url": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+        },
+        {
+          "label": "US–Russian discussions about investment in Nord Stream",
+          "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-08",
-      "materiallyUpdated": "2026-10-08",
-      "validUntil": "2026-10-26",
-      "nextReview": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "materiallyUpdated": "2026-10-09",
+      "validUntil": "2026-11-08",
+      "nextReview": "2026-10-10",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to continue indirect talks while preparing a broader response if the United States resumes large-scale attacks. Emergency fuel releases are accelerating and Hormuz traffic has fallen to its lowest level in more than two months, showing that the unresolved sequencing dispute over shipping, sanctions and nuclear talks is producing widening economic costs even as alternative Gulf export routes keep some oil moving.",
+      "assessment": "Iran and the United States are likely to continue negotiations during a limited de-escalation window after President Donald Trump pledged not to attack Iran before the November 3 US midterm elections. The assurance reduces the immediate risk of renewed US strikes but does not resolve Iran's refusal to abandon uranium enrichment, the sequencing dispute over sanctions and shipping, or the possibility of renewed escalation after the election.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
-        "Iranian commanders and allied groups will maintain preparations for a coordinated response to any renewed large-scale US attack.",
+        "Iranian commanders and allied groups will maintain preparations for a coordinated response even while the US pre-election assurance lowers the immediate risk of attack.",
         "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
         "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
@@ -700,6 +728,15 @@
           "source": {
             "label": "Council of the European Union",
             "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "reviewFrom": "2026-11-01",
+          "description": "US midterm elections are scheduled for November 3; President Trump has said the United States will not attack Iran before that date.",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
           }
         }
       ],
@@ -782,19 +819,23 @@
         {
           "label": "Hormuz traffic falls to a two-month low",
           "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+        },
+        {
+          "label": "US rules out attacking Iran before November 3",
+          "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-08",
-      "materiallyUpdated": "2026-10-08",
-      "validUntil": "2026-10-26",
-      "nextReview": "2026-10-09",
+      "reviewed": "2026-10-09",
+      "materiallyUpdated": "2026-10-09",
+      "validUntil": "2026-11-08",
+      "nextReview": "2026-10-10",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Commodity-vessel passages have fallen to their lowest level in more than two months and tanker attacks remain elevated, confirming that alternative routes and stronger crude exports have not restored normal maritime operations while Iran continues to condition a formal reopening on US steps.",
+      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as the US pledge not to attack Iran before November 3 lowers one immediate escalation risk. Washington and Tehran describe continuing talks, but unresolved nuclear demands, low commercial traffic and recent tanker attacks mean a normal reopening remains unlikely without a narrow operational agreement.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -809,6 +850,15 @@
           "source": {
             "label": "Council of the European Union",
             "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "reviewFrom": "2026-11-01",
+          "description": "US midterm elections are scheduled for November 3; President Trump has pledged not to attack Iran before that date while talks continue.",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
           }
         }
       ],
@@ -883,6 +933,10 @@
         {
           "label": "Tanker attacks reach their highest weekly level of the war",
           "url": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
+        },
+        {
+          "label": "US rules out attacking Iran before November 3",
+          "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
         }
       ]
     }

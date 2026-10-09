@@ -299,6 +299,18 @@
             "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-10-09",
+        "evidenceThrough": "2026-10-08",
+        "result": "supported",
+        "explanation": "Ukrainian authorities reported that Russian attacks on Kyiv on October 8 killed four people and caused interruptions to water and electricity supplies, satisfying the prediction's requirement for post-October-3 damage to Kyiv energy infrastructure with an officially confirmed service disruption.",
+        "sources": [
+          {
+            "label": "Reuters report on Russian attacks and service interruptions in Kyiv",
+            "url": "https://www.reuters.com/world/europe/russian-bomb-kills-12-street-east-ukraine-stronghold-2026-10-08/"
+          }
+        ]
       }
     },
     {
@@ -851,6 +863,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "President Trump's statement confirms productive US-Iran discussions and recent proposal exchanges, but today's verified reporting does not conclusively establish a new substantive mediator-facilitated exchange after 2026-10-02.",
+        "additionalLookups": 0
       }
     },
     {
@@ -865,6 +882,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Ukrainian authorities reported that Russian attacks on Kyiv on October 8 killed four people and caused interruptions to water and electricity supplies, satisfying the prediction's requirement for post-October-3 damage to Kyiv energy infrastructure with an officially confirmed service disruption.",
+        "additionalLookups": 0
       }
     }
   ]
