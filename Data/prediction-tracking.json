@@ -838,6 +838,34 @@
         "explanation": "Today's verified reporting confirms a major Russian barrage and deaths near Kyiv, but does not conclusively establish that a post-2026-10-03 attack damaged transport or energy infrastructure in Kyiv and caused an officially confirmed service disruption.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-09:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-09",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-09:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-09",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
