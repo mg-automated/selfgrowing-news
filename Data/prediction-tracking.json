@@ -258,3 +258,702 @@
           "Evidence that post-election domestic pressure is affecting Kremlin policy"
         ],
         "sources": [
+          {
+            "label": "Russian parliamentary election coverage",
+            "url": "https://apnews.com/article/russia-election-parliament-duma-putin-ukraine-6f3df3716cbcf8c96711b688762b450b"
+          },
+          {
+            "label": "Black Sea truce proposal",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-ready-maritime-truce-puts-onus-russia-respond-2026-09-23/"
+          },
+          {
+            "label": "European warnings about hybrid operations",
+            "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
+          },
+          {
+            "label": "Russia–Germany foreign-minister talks",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022"
+          },
+          {
+            "label": "Russian strikes on Ukrainian cities and communications",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/russia-says-it-struck-military-infrastructure-vessels-in-ukraine"
+          },
+          {
+            "label": "Russian pressure on European corporate assets",
+            "url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+          },
+          {
+            "label": "Latest Russian strikes on Kyiv",
+            "url": "https://www.reuters.com/world/europe/russian-air-strikes-kill-one-injure-five-around-kyiv-officials-say-2026-09-30/"
+          },
+          {
+            "label": "Russian warning over Kaliningrad and European arms factories",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates-2026-09-30/"
+          },
+          {
+            "label": "Putin's Valdai remarks on escalation and Black Sea strikes",
+            "url": "https://www.reuters.com/world/europe/putin-says-world-is-living-through-dangerous-moment-warns-west-not-escalate-2026-10-01/"
+          },
+          {
+            "label": "Russian strikes on Kyiv bridges",
+            "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+          }
+        ]
+      },
+      "assessment": {
+        "assessed": "2026-10-09",
+        "evidenceThrough": "2026-10-08",
+        "result": "supported",
+        "explanation": "Ukrainian authorities reported that Russian attacks on Kyiv on October 8 killed four people and caused interruptions to water and electricity supplies, satisfying the prediction's requirement for post-October-3 damage to Kyiv energy infrastructure with an officially confirmed service disruption.",
+        "sources": [
+          {
+            "label": "Reuters report on Russian attacks and service interruptions in Kyiv",
+            "url": "https://www.reuters.com/world/europe/russian-bomb-kills-12-street-east-ukraine-stronghold-2026-10-08/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "strait-of-hormuz-2026-10-06-tanker-attack",
+      "kind": "event",
+      "topicFile": "Strait-of-Hormuz.md",
+      "created": "2026-10-06",
+      "deadline": "2026-10-26",
+      "statement": "A further attack on a commercial tanker in or near the Strait of Hormuz will be publicly confirmed by 2026-10-26.",
+      "successCondition": "A maritime authority, government or reliable report confirms that a commercial tanker was attacked in or near the Strait of Hormuz after 2026-10-06 and on or before 2026-10-26.",
+      "failureCondition": "Reliable verification covering the full window establishes that no commercial tanker was attacked in or near the Strait of Hormuz by the end of 2026-10-26.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Middle East oil exports recover while tanker attacks rise",
+          "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+        },
+        {
+          "label": "Iran reiterates seven conditions for reopening Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Strait-of-Hormuz.md",
+        "volatility": "high",
+        "reviewed": "2026-10-06",
+        "materiallyUpdated": "2026-10-06",
+        "validUntil": "2026-10-26",
+        "nextReview": "2026-10-07",
+        "horizon": "the next 30 days",
+        "confidence": "low",
+        "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as Gulf oil exports recover through adapted routes and guarded transits. Iran continues to condition a formal reopening on seven US steps, while rising tanker attacks, exceptional freight costs and weak refined-fuel flows show that higher export volumes have not restored normal maritime operations.",
+        "likelyDevelopments": [
+          "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
+          "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
+          "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
+          "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-10-15",
+            "reviewFrom": "2026-10-12",
+            "description": "The European Council meets on 15–16 October, when the economic and security consequences of disrupted Gulf shipping may require further coordination.",
+            "source": {
+              "label": "Council of the European Union",
+              "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
+            }
+          }
+        ],
+        "changeSignals": [
+          "Verified restoration of regular commercial transit",
+          "US relief from the naval blockade or sanctions affecting Iranian ports",
+          "A new Iranian transit-fee or inspection regime",
+          "Attacks on tankers, ports or naval forces",
+          "Changes in insurance costs, rerouting, guarded transits or energy-market disruption"
+        ],
+        "sources": [
+          {
+            "label": "US-Iran phased-deal discussions",
+            "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+          },
+          {
+            "label": "Iran rejects nuclear concessions",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          },
+          {
+            "label": "US rejection of Iran's proposal",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+          },
+          {
+            "label": "Latest US-Iran mediated talks",
+            "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+          },
+          {
+            "label": "Qatari shuttle diplomacy and continued Strait restrictions",
+            "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+          },
+          {
+            "label": "US response to seven-day trust-building proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+          },
+          {
+            "label": "Global diesel pressure linked to Middle East disruption",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          },
+          {
+            "label": "Iranian planning for broader retaliation",
+            "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+          },
+          {
+            "label": "G7 emergency fuel-stock release",
+            "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+          },
+          {
+            "label": "Saudi planning for an offensive against the Houthis",
+            "url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+          },
+          {
+            "label": "Houthi claim of an attack on Saudi oil infrastructure",
+            "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+          },
+          {
+            "label": "Yemeni government launches counteroffensive",
+            "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+          },
+          {
+            "label": "Iran reiterates seven conditions for reopening Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+          },
+          {
+            "label": "Middle East oil exports recover while tanker attacks rise",
+            "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+          }
+        ]
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "id": "2026-10-01:creation:Artificial-Intelligence.md",
+      "date": "2026-10-01",
+      "kind": "creation",
+      "topicFile": "Artificial-Intelligence.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-01:creation:Russia.md",
+      "date": "2026-10-01",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The earlier Artificial Intelligence candidate yielded the day's permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-02:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-02",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The briefing and Outlook research do not conclusively establish that the FTC issued a formal information demand or compelled testimony; the prediction remains open before its deadline.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-02:creation:Iran.md",
+      "date": "2026-10-02",
+      "kind": "creation",
+      "topicFile": "Iran.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "iran-2026-10-02-mediated-contact",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-02:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-02",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The earlier Iran candidate yielded the day's permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-03:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-03",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Current reporting confirms diplomacy continues but does not establish a new substantive mediator-facilitated exchange after the prediction was created.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-03:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-03",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified AI reporting does not confirm that the FTC issued a formal information demand or compelled testimony in the inquiry.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-03:creation:Russia.md",
+      "date": "2026-10-03",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-03:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-03",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The Russia candidate yielded the day’s permitted prediction, so this reserved candidate was not evaluated.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-04:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-04",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The verified reporting on Iran concerned a domestic execution and did not conclusively establish another substantive mediator-facilitated US-Iran exchange concerning Gulf de-escalation.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-04:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-04",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The verified reporting concerned German support for Ukraine and planned Ukrainian strikes on Russian refineries; it did not conclusively establish a new Russian attack after 2026-10-03 that damaged Kyiv transport or energy infrastructure and caused an officially confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-04:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-04",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "Today's verified sources support elevated maritime and energy-market risk but do not support a distinct, defensible and measurable Strait prediction without substantially duplicating the active Iran de-escalation prediction.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-05:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-05",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting concerns attacks on vessels and port infrastructure in the Odesa region, not a post-2026-10-03 attack that damaged Kyiv transport or energy infrastructure and caused an officially confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-05:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-05",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified AI reporting covers OpenAI's regulatory position and the Bank of Japan's assessment of AI investment; it does not confirm that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-05:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-05",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "The verified Outlook supports persistent maritime risk, but the available research does not support a distinct measurable prediction without substantially duplicating the active Iran de-escalation prediction or manufacturing an unsupported threshold.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-06:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-06",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified reporting strengthens the broader hybrid-threat assessment but does not conclusively establish a new post-2026-10-03 Russian attack that damaged Kyiv transport or energy infrastructure and caused a confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-06:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-06",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today’s verified AI reporting covers watermarking, open-weight models and agent activity, but provides no conclusive evidence that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-06:creation:Strait-of-Hormuz.md",
+      "date": "2026-10-06",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "strait-of-hormuz-2026-10-06-tanker-attack",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-07:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-07",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting on Yemen and Gulf shipping does not conclusively establish a substantive mediator-facilitated exchange between the United States and Iran after 2026-10-02.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-07:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-07",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting covers a warning of a possible Russian attack and attacks elsewhere, but does not conclusively establish a new post-2026-10-03 Russian strike that damaged Kyiv transport or energy infrastructure and caused a confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-08:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-08",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting on emergency fuel releases and reduced Strait of Hormuz traffic does not conclusively establish a new substantive mediator-facilitated exchange between the United States and Iran after 2026-10-02.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-08:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-08",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting confirms a major Russian barrage and deaths near Kyiv, but does not conclusively establish that a post-2026-10-03 attack damaged transport or energy infrastructure in Kyiv and caused an officially confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-09:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-09",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "President Trump's statement confirms productive US-Iran discussions and recent proposal exchanges, but today's verified reporting does not conclusively establish a new substantive mediator-facilitated exchange after 2026-10-02.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-09:assessment:russia-2026-10-03-kyiv-infrastructure-strike",
+      "date": "2026-10-09",
+      "kind": "assessment",
+      "predictionId": "russia-2026-10-03-kyiv-infrastructure-strike",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Ukrainian authorities reported that Russian attacks on Kyiv on October 8 killed four people and caused interruptions to water and electricity supplies, satisfying the prediction's requirement for post-October-3 damage to Kyiv energy infrastructure with an officially confirmed service disruption.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-10:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-10",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified reporting confirms escalating Houthi attacks and Saudi retaliation, but does not conclusively establish a new substantive mediator-facilitated US-Iran exchange after 2026-10-02.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-10:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-10",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified AI reporting concerns EU compliance requests and enforcement of chip-export controls; it does not confirm that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
+      }
+    },
+    {
+      "id": "2026-10-11:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-11",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-11:assessment:strait-of-hormuz-2026-10-06-tanker-attack",
+      "date": "2026-10-11",
+      "kind": "assessment",
+      "predictionId": "strait-of-hormuz-2026-10-06-tanker-attack",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    }
+  ]
+}
