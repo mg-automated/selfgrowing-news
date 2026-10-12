@@ -294,3 +294,32 @@ test('R02: exact October 11 recovery preserves records and rejects other corrupt
  git('add','Data/prediction-tracking.json');git('commit','-qm','restore unrelated truncation')
  assert.throws(()=>validateGitHistory(root),/JSON/)
 })
+
+test("new candidates retain archive counts and can be selected on repeated runs", async (t) => {
+  const selector = fileURLToPath(new URL("../scripts/select-outlooks.mjs", import.meta.url))
+  const root = await mkdtemp(path.join(os.tmpdir(), "outlook-selector-"))
+  t.after(() => rm(root, { recursive: true, force: true }))
+  await mkdir(path.join(root, "Data"))
+  await mkdir(path.join(root, "News", "Daily"), { recursive: true })
+  const dataPath = path.join(root, "Data", "topic-outlooks.json")
+  await writeFile(dataPath, JSON.stringify({ outlooks: {} }))
+  const link = "[New topic](../../Topics/New-Topic.md)\n"
+  await writeFile(path.join(root, "News", "Daily", "2026-10-10.md"), link)
+  await writeFile(path.join(root, "News", "Daily", "2026-10-11.md"), link.repeat(2))
+
+  const run = () => JSON.parse(execFileSync(process.execPath, [selector, "--root", root, "--date", "2026-10-11"], { encoding: "utf8" }))
+  const first = run()
+  const document = JSON.parse(await readFile(dataPath, "utf8"))
+  assert.deepEqual(document.candidates["New-Topic.md"], {
+    firstSeen: "2026-10-10",
+    lastSeen: "2026-10-11",
+    mentions: 2,
+    attempts: 0,
+    lastAttempt: null,
+    eligibleAfter: "2026-10-11",
+  })
+  assert.equal(first.selected[0].topicFile, "New-Topic.md")
+  assert.equal(first.selected[0].action, "consider-create")
+  assert.deepEqual(run(), first)
+  assert.deepEqual(JSON.parse(await readFile(dataPath, "utf8")), document)
+})

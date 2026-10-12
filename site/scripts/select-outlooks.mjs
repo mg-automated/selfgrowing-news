@@ -64,15 +64,16 @@ for (const topicFile of Object.keys(document.candidates)) {
 }
 for (const topicFile of [...linkedToday].sort()) {
   if (topicFile in (document.outlooks ?? {})) continue
-  const candidate = document.candidates[topicFile]
+  let candidate = document.candidates[topicFile]
   if (!candidate) {
     const archived = archivedTopicStats.get(topicFile) ?? { firstSeen: date, lastSeen: date, mentions: 1 }
-    document.candidates[topicFile] = {
+    candidate = {
       ...archived,
       attempts: 0,
       lastAttempt: null,
       eligibleAfter: date,
     }
+    document.candidates[topicFile] = candidate
   } else if (candidate.lastSeen !== date) {
     candidate.lastSeen = date
     candidate.mentions = (candidate.mentions ?? 0) + 1
