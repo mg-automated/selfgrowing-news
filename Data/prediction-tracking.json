@@ -954,6 +954,34 @@
         "creations": 1,
         "additionalLookups": 3
       }
+    },
+    {
+      "id": "2026-10-12:assessment:iran-2026-10-02-mediated-contact",
+      "date": "2026-10-12",
+      "kind": "assessment",
+      "predictionId": "iran-2026-10-02-mediated-contact",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-12:assessment:strait-of-hormuz-2026-10-06-tanker-attack",
+      "date": "2026-10-12",
+      "kind": "assessment",
+      "predictionId": "strait-of-hormuz-2026-10-06-tanker-attack",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
