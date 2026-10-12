@@ -19,8 +19,8 @@
     },
     "Spain.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-06",
-      "mentions": 1,
+      "lastSeen": "2026-10-11",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -51,8 +51,8 @@
     },
     "Ethiopia.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-04",
-      "mentions": 2,
+      "lastSeen": "2026-10-11",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,8 +75,8 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-10-10",
-      "mentions": 2,
+      "lastSeen": "2026-10-11",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-10",
-      "mentions": 7,
+      "lastSeen": "2026-10-11",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -187,24 +187,24 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-10",
-      "mentions": 8,
+      "lastSeen": "2026-10-11",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 10,
+      "lastSeen": "2026-10-11",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 11,
+      "lastSeen": "2026-10-11",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-10",
-      "mentions": 2,
+      "lastSeen": "2026-10-11",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 11,
+      "lastSeen": "2026-10-11",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 21,
+      "lastSeen": "2026-10-11",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -376,6 +376,30 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
+    },
+    "European-Union.md": {
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-11"
+    },
+    "Vatican.md": {
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-11"
+    },
+    "South-Korea.md": {
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-11"
     }
   },
   "outlooks": {
@@ -502,27 +526,27 @@
         {
           "label": "US Justice Department adopts 'super intelligence' terminology",
           "url": "https://www.reuters.com/legal/litigation/us-justice-dept-tells-staff-call-ai-super-intelligence-under-trump-order-2026-10-06/"
-      },
-      {
-        "label": "EU assessment of AI-company safety and compliance responses",
-        "url": "https://www.reuters.com/world/eu-tech-chief-says-bloc-well-equipped-fend-off-rogue-ai-risk-2026-10-09/"
-      },
-      {
-        "label": "Guilty plea in alleged diversion of AI servers to China",
-        "url": "https://www.reuters.com/legal/government/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-with-nvidia-chips-2026-10-09/"
+        },
+        {
+          "label": "EU assessment of AI-company safety and compliance responses",
+          "url": "https://www.reuters.com/world/eu-tech-chief-says-bloc-well-equipped-fend-off-rogue-ai-risk-2026-10-09/"
+        },
+        {
+          "label": "Guilty plea in alleged diversion of AI servers to China",
+          "url": "https://www.reuters.com/legal/government/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-with-nvidia-chips-2026-10-09/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-10",
-      "materiallyUpdated": "2026-10-10",
-      "validUntil": "2026-11-06",
-      "nextReview": "2026-10-11",
+      "reviewed": "2026-10-11",
+      "materiallyUpdated": "2026-10-11",
+      "validUntil": "2026-11-10",
+      "nextReview": "2026-10-12",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to strengthen air defence, sanctions and infrastructure resilience while trying to align with Washington on a negotiating position for Ukraine. The Miami talks create a possible diplomatic channel built around security guarantees and post-war planning, but Russia's dismissal of an immediate return to talks and a US deal for Russian diesel show that military pressure and contested economic engagement will continue in parallel.",
+      "assessment": "European governments are likely to maintain military support and sanctions while facing greater difficulty coordinating with Washington. Divergent responses to Russian energy exports make an agreed negotiating position less certain, increasing the importance of European security commitments during the forecast period.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -533,10 +557,10 @@
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on 15–16 October with Ukraine and European defence and security on its provisional agenda.",
+          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
           "source": {
-            "label": "European Council provisional agenda",
-            "url": "https://data.consilium.europa.eu/doc/document/CM-6-2026-INIT/en/pdf"
+            "label": "European Council meeting calendar",
+            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
           }
         }
       ],
@@ -579,37 +603,45 @@
         {
           "label": "US–Russian discussions about investment in Nord Stream",
           "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
-      },
-      {
-        "label": "US, Ukrainian and European talks on a unified peace proposal",
-        "url": "https://www.reuters.com/world/europe/us-ukraine-european-negotiators-meet-miami-trump-announces-diesel-deal-with-2026-10-10/"
+        },
+        {
+          "label": "US, Ukrainian and European talks on a unified peace proposal",
+          "url": "https://www.reuters.com/world/europe/us-ukraine-european-negotiators-meet-miami-trump-announces-diesel-deal-with-2026-10-10/"
+        },
+        {
+          "label": "European responses to US diesel agreement",
+          "url": "https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512"
+        },
+        {
+          "label": "US–Ukrainian dispute after the Zaporizhzhia strike",
+          "url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-10",
-      "materiallyUpdated": "2026-10-10",
-      "validUntil": "2026-10-26",
-      "nextReview": "2026-10-11",
+      "reviewed": "2026-10-11",
+      "materiallyUpdated": "2026-10-11",
+      "validUntil": "2026-11-10",
+      "nextReview": "2026-10-12",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain intensive attacks on Ukraine through the approaching winter while testing selective diplomacy and energy deals with Washington. US, Ukrainian and European negotiators are working on a unified proposal, but President Vladimir Putin's statement that immediate talks are unlikely and Russia's diesel agreement with the United States point to continued bargaining without a near-term settlement.",
+      "assessment": "Russia is likely to continue military pressure while pursuing selective economic engagement with Washington. The new dispute over Ukrainian leadership makes a coordinated negotiating position harder to sustain; these developments support continued bargaining and escalation rather than a near-term comprehensive settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
         "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
-        "The Kremlin will use the parliamentary-election result to reinforce the appearance of domestic support and institutional stability."
+        "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
       ],
       "upcomingEvents": [
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on 15–16 October and has said it will return to Ukraine and European defence readiness in October.",
+          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
           "source": {
-            "label": "European Council",
-            "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/06/18-19/"
+            "label": "European Council meeting calendar",
+            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
           }
         }
       ],
@@ -720,22 +752,30 @@
         {
           "label": "Putin downplays an immediate resumption of talks",
           "url": "https://www.reuters.com/world/europe/kremlin-says-putin-phone-call-with-trump-downplays-immediate-ukraine-talks-2026-10-09/"
+        },
+        {
+          "label": "US–Ukrainian dispute after the Zaporizhzhia strike",
+          "url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+        },
+        {
+          "label": "European responses to US diesel agreement",
+          "url": "https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-10",
-      "materiallyUpdated": "2026-10-10",
-      "validUntil": "2026-11-08",
-      "nextReview": "2026-10-11",
+      "reviewed": "2026-10-11",
+      "materiallyUpdated": "2026-10-11",
+      "validUntil": "2026-11-10",
+      "nextReview": "2026-10-12",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran and the United States are likely to continue negotiations during a limited de-escalation window before the November 3 US midterm elections, but regional escalation is weakening that window. Deadly Houthi attacks on Riyadh airport and expanded Saudi strikes in Yemen increase the risk that violence by Iran's allies will trigger broader retaliation even without a new direct US strike on Iran.",
+      "assessment": "Regional escalation is likely to keep a comprehensive US–Iran settlement difficult during the forecast period. Potential US participation in the Yemen conflict could weaken diplomatic restraint, while maritime enforcement remains an additional source of friction. A limited operational arrangement appears more plausible than a durable political settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
-        "Iranian commanders and allied groups will maintain preparations for a coordinated response even while the US pre-election assurance lowers the immediate risk of attack.",
+        "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
         "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
         "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
@@ -743,9 +783,9 @@
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on 15–16 October, providing a potential coordination point for European policy on Middle East security and shipping disruption.",
+          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
           "source": {
-            "label": "Council of the European Union",
+            "label": "European Council meeting calendar",
             "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
           }
         },
@@ -846,19 +886,27 @@
         {
           "label": "Deadly Houthi attacks on Riyadh airport and Saudi retaliation",
           "url": "https://www.reuters.com/world/middle-east/houthi-strikes-riyadh-airport-killed-three-saudis-war-escalates-2026-10-09/"
+        },
+        {
+          "label": "Further Riyadh airport attack and possible US involvement",
+          "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/"
+        },
+        {
+          "label": "US blockade enforcement in the Gulf of Oman",
+          "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-09",
-      "materiallyUpdated": "2026-10-09",
-      "validUntil": "2026-11-08",
-      "nextReview": "2026-10-10",
+      "reviewed": "2026-10-11",
+      "materiallyUpdated": "2026-10-11",
+      "validUntil": "2026-11-10",
+      "nextReview": "2026-10-12",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through the Strait of Hormuz is likely to remain selective and hazardous even as the US pledge not to attack Iran before November 3 lowers one immediate escalation risk. Washington and Tehran describe continuing talks, but unresolved nuclear demands, low commercial traffic and recent tanker attacks mean a normal reopening remains unlikely without a narrow operational agreement.",
+      "assessment": "Commercial navigation is likely to remain hazardous during the forecast period. The latest blockade enforcement strengthens the case for continued operational restrictions; a broad reopening still appears unlikely without an agreement addressing maritime security and access to Iranian ports.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -869,9 +917,9 @@
         {
           "date": "2026-10-15",
           "reviewFrom": "2026-10-12",
-          "description": "The European Council meets on 15–16 October, when the economic and security consequences of disrupted Gulf shipping may require further coordination.",
+          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
           "source": {
-            "label": "Council of the European Union",
+            "label": "European Council meeting calendar",
             "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
           }
         },
@@ -960,6 +1008,10 @@
         {
           "label": "US rules out attacking Iran before November 3",
           "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+        },
+        {
+          "label": "US blockade enforcement in the Gulf of Oman",
+          "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/"
         }
       ]
     }
