@@ -8,6 +8,7 @@ import {execFileSync} from 'node:child_process'
 import {select, applyBatch, validate, migrate, validateHistory, appendCorrections, effectiveAssessment, reserveAttempts, run} from '../scripts/prediction-tracking.mjs'
 import {validateGitHistory} from '../scripts/validate-prediction-history.mjs'
 import {renderTrack, enrich} from '../scripts/render-predictions.mjs'
+import {preparePublication, publishBundle} from '../scripts/connector-publication.mjs'
 const source = {label:'Evidence',url:'https://example.org/evidence'}
 const outlook = {assessment:'A testable development is expected.',reviewed:'2026-09-30',validUntil:'2026-10-30',confidence:'medium'}
 const outlooks = {outlooks:{'Russia.md':outlook}}
@@ -15,6 +16,39 @@ const doc = () => ({version:2,settings:{enabled:true,topics:['Russia.md'],maximu
 const prediction = () => ({id:'russia-2026-09-30',kind:'event',topicFile:'Russia.md',created:'2026-09-30',deadline:'2026-10-30',statement:'A measurable development will occur.',successCondition:'An official confirmation by deadline.',failureCondition:'No confirmation in the full window, established by verification.',confidence:'medium',sources:[source],outlookSnapshot:outlook})
 const assessment = (result='supported',assessed='2026-10-31')=>({result,assessed,evidenceThrough:'2026-10-30',explanation:'Evidence establishes the outcome.',sources:[source]})
 const budgetDoc = () => {const d=doc();Object.assign(d.settings,{maximumAssessmentAttemptsPerDay:2,maximumCreationAttemptsPerDay:2,maximumAdditionalLookupsPerAssessment:3});return d}
+test('cloud publication rejects truncated uploads, stale heads and wrong accounts before publishing',async()=>{
+ const entry={path:'Data/prediction-tracking.json',mode:'100644',sha:'a'.repeat(40),size:3,content:'abc'}
+ const bundle={repository:'mg-automated/selfgrowing-news',expectedHead:'b'.repeat(40),baseTree:'c'.repeat(40),message:'checkpoint',checkpoint:true,entries:[entry]}
+ const head='d'.repeat(40), tree='e'.repeat(40)
+ let published=false, current=bundle.expectedHead
+ const commit={tree:{sha:tree},parents:[{sha:bundle.expectedHead}],author:{name:'mg-automated'},committer:{name:'mg-automated'}}
+ const connector={login:async()=> 'mg-automated',head:async()=>current,createBlob:async()=>entry.sha,blob:async()=>entry.content,createTree:async(base,entries)=>{assert.equal(base,bundle.baseTree);assert.deepEqual(entries,[{path:entry.path,mode:entry.mode,type:'blob',sha:entry.sha}]);return tree},createCommit:async()=>head,commit:async()=>commit,updateHead:async(sha,expected)=>{assert.equal(expected,current);published=true;current=sha}}
+ await assert.rejects(publishBundle(bundle,{...connector,createBlob:async()=> 'f'.repeat(40)}),/Uploaded bytes differ/)
+ await assert.rejects(publishBundle(bundle,{...connector,blob:async()=> 'ab'}),/read-back differs/)
+ await assert.rejects(publishBundle(bundle,{...connector,head:async()=>head}),/Remote head changed/)
+ await assert.rejects(publishBundle(bundle,{...connector,login:async()=> 'personal-account'}),/requires mg-automated/)
+ await assert.rejects(publishBundle({...bundle,entries:[entry,{...entry,path:'News/Daily/test.md'}]},connector),/only tracking data/)
+ await assert.rejects(publishBundle(bundle,{...connector,updateHead:async()=>{throw new Error('Lease rejected')}}),/Lease rejected/)
+ assert.equal(published,false)
+ assert.equal(await publishBundle(bundle,connector),head)
+ assert.equal(published,true)
+})
+test('cloud publication prepares complete bytes from a validated checkout without credentials',async t=>{
+ const root=await mkdtemp(path.join(os.tmpdir(),'cloud-publication-'))
+ t.after(()=>rm(root,{recursive:true,force:true}))
+ await mkdir(path.join(root,'Data'))
+ const content=JSON.stringify(doc(),null,2)+'\n'
+ await writeFile(path.join(root,'Data/prediction-tracking.json'),content)
+ const git=(...args)=>execFileSync('git',['-C',root,...args],{encoding:'utf8'}).trim()
+ git('init','--quiet');git('add','.');git('-c','user.name=Test','-c','user.email=test@example.org','commit','--quiet','-m','fixture')
+ const head=git('rev-parse','HEAD')
+ const bundle=preparePublication(root,head,'tracking: reserve prediction work for 2026-10-12',['Data/prediction-tracking.json'],true)
+ assert.equal(bundle.entries[0].content,content)
+ assert.equal(bundle.entries[0].sha,git('hash-object','Data/prediction-tracking.json'))
+ assert.throws(()=>preparePublication(root,'0'.repeat(40),'test',['Data/prediction-tracking.json']),/match the remote head/)
+ await writeFile(path.join(root,'Data/prediction-tracking.json'),content.slice(0,-10))
+ assert.throws(()=>preparePublication(root,head,'test',['Data/prediction-tracking.json']))
+})
 test('R04: pending and interrupted attempts consume daily allowance; remaining deferrals are complete',()=>{
  const d=budgetDoc();d.predictions=[prediction(),{...prediction(),id:'second',topicFile:'Iran.md'},{...prediction(),id:'third',topicFile:'Strait-of-Hormuz.md'}]
  const {document:reserved,work}=reserveAttempts(d,outlooks,'','2026-10-31')

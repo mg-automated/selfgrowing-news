@@ -67,7 +67,7 @@ flowchart TB
     archive --> publishing
 ```
 
-The scheduled task is responsible for researching and archiving the news. A successful push to `main` triggers the deployment workflow, which rebuilds the Quartz site from the repository-level Markdown and structured data before publishing the resulting static site.
+The scheduled task researches and archives the news entirely in the cloud. It publishes through the `mg-automated` GitHub connector using [validated cloud publication](site/CLOUD-PUBLICATION.md), without personal-computer credentials. A successful push to `main` triggers the deployment workflow, which rebuilds the Quartz site from the repository-level Markdown and structured data before publishing the resulting static site.
 
 ## Editorial principles
 
