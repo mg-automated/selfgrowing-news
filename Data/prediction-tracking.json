@@ -196,6 +196,22 @@
             "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-10-12",
+        "evidenceThrough": "2026-10-11",
+        "result": "supported",
+        "explanation": "Iran publicly described the United States' response to its Strait-reopening proposal, and reliable reporting confirmed that the response was conveyed through Qatari intermediaries. This constitutes another substantive mediator-facilitated exchange concerning Gulf de-escalation within the prediction window.",
+        "sources": [
+          {
+            "label": "Reuters report on the mediated US response to Iran's Strait proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/"
+          },
+          {
+            "label": "Associated Press report on continuing mediated contact",
+            "url": "https://apnews.com/article/baa06588f3ebe6dad93695581f68d3c1"
+          }
+        ]
       }
     },
     {
@@ -967,6 +983,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Iran publicly described the United States' response to its Strait-reopening proposal, and reliable reporting confirmed that the response was conveyed through Qatari intermediaries. This constitutes another substantive mediator-facilitated exchange concerning Gulf de-escalation within the prediction window.",
+        "additionalLookups": 0
       }
     },
     {
@@ -981,6 +1002,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The verified briefing and Outlook sources available for this run do not conclusively establish an in-window tanker attack after the prediction's creation date. The deadline has not passed, and the reservation permits no additional lookup before then.",
+        "additionalLookups": 0
       }
     }
   ]

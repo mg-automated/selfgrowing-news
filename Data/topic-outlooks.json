@@ -27,8 +27,8 @@
     },
     "India.md": {
       "firstSeen": "2026-10-05",
-      "lastSeen": "2026-10-05",
-      "mentions": 1,
+      "lastSeen": "2026-10-12",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-05"
@@ -51,8 +51,8 @@
     },
     "Ethiopia.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-11",
-      "mentions": 3,
+      "lastSeen": "2026-10-12",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-10",
-      "mentions": 4,
+      "lastSeen": "2026-10-12",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-11",
-      "mentions": 8,
+      "lastSeen": "2026-10-12",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-06",
-      "mentions": 8,
+      "lastSeen": "2026-10-12",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -179,32 +179,32 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-08",
-      "mentions": 4,
+      "lastSeen": "2026-10-12",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-11",
-      "mentions": 9,
+      "lastSeen": "2026-10-12",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-11",
-      "mentions": 11,
+      "lastSeen": "2026-10-12",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-11",
-      "mentions": 12,
+      "lastSeen": "2026-10-12",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,24 +227,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-08",
-      "mentions": 17,
+      "lastSeen": "2026-10-12",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-09",
-      "mentions": 16,
+      "lastSeen": "2026-10-12",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-09",
-      "mentions": 16,
+      "lastSeen": "2026-10-12",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -291,8 +291,8 @@
     },
     "Robotics.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-29",
-      "mentions": 2,
+      "lastSeen": "2026-10-12",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-11",
-      "mentions": 22,
+      "lastSeen": "2026-10-12",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -395,24 +395,32 @@
     },
     "South-Korea.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-11",
-      "mentions": 1,
+      "lastSeen": "2026-10-12",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
+    },
+    "European-Migration.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-12",
+      "mentions": 4,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-12"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-10",
-      "materiallyUpdated": "2026-10-10",
+      "reviewed": "2026-10-12",
+      "materiallyUpdated": "2026-10-12",
       "validUntil": "2026-10-30",
       "nextReview": "2026-10-13",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and stronger regulatory scrutiny of operational safeguards. The European Commission's information requests to more than 30 AI companies show the AI Act moving into active supervision, while a guilty plea in a large alleged chip-diversion scheme demonstrates how infrastructure controls are becoming a national-security enforcement priority.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and stronger regulatory scrutiny of operational safeguards. The US reversal of restrictions on British testing of frontier models points to renewed international evaluation work, but also shows how access to safety testing can shift with government policy; regulatory scrutiny and infrastructure controls will therefore continue to develop unevenly across jurisdictions.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -534,19 +542,23 @@
         {
           "label": "Guilty plea in alleged diversion of AI servers to China",
           "url": "https://www.reuters.com/legal/government/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-with-nvidia-chips-2026-10-09/"
+        },
+        {
+          "label": "US reverses restrictions on British frontier-model testing",
+          "url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-11",
-      "materiallyUpdated": "2026-10-11",
+      "reviewed": "2026-10-12",
+      "materiallyUpdated": "2026-10-12",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-12",
+      "nextReview": "2026-10-13",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to maintain military support and sanctions while facing greater difficulty coordinating with Washington. Divergent responses to Russian energy exports make an agreed negotiating position less certain, increasing the importance of European security commitments during the forecast period.",
+      "assessment": "European governments are likely to maintain military support and sanctions while testing whether the announced Russia–Ukraine energy ceasefire exists in practice. Kyiv's conditional support and Moscow's initial silence make sustained compliance uncertain, while US pressure on Ukraine and divergent policies on Russian energy will complicate a coordinated European position ahead of the European Council.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -615,19 +627,23 @@
         {
           "label": "US–Ukrainian dispute after the Zaporizhzhia strike",
           "url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+        },
+        {
+          "label": "Unconfirmed Russia–Ukraine energy ceasefire announcement",
+          "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-11",
-      "materiallyUpdated": "2026-10-11",
+      "reviewed": "2026-10-12",
+      "materiallyUpdated": "2026-10-12",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-12",
+      "nextReview": "2026-10-13",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while pursuing selective economic engagement with Washington. The new dispute over Ukrainian leadership makes a coordinated negotiating position harder to sustain; these developments support continued bargaining and escalation rather than a near-term comprehensive settlement.",
+      "assessment": "Russia is likely to continue military pressure while testing an energy ceasefire announced by Washington but not initially confirmed by Moscow or Kyiv. The narrow proposal may reduce attacks on energy assets if reciprocally observed, yet continued strikes and the disruption of Yandex data centres show that escalation across military and dual-use infrastructure remains more likely than a near-term comprehensive settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -760,19 +776,27 @@
         {
           "label": "European responses to US diesel agreement",
           "url": "https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512"
+        },
+        {
+          "label": "Unconfirmed Russia–Ukraine energy ceasefire announcement",
+          "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
+        },
+        {
+          "label": "Drone attacks disrupt three Yandex data centres",
+          "url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-11",
-      "materiallyUpdated": "2026-10-11",
+      "reviewed": "2026-10-12",
+      "materiallyUpdated": "2026-10-12",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-12",
+      "nextReview": "2026-10-13",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Regional escalation is likely to keep a comprehensive US–Iran settlement difficult during the forecast period. Potential US participation in the Yemen conflict could weaken diplomatic restraint, while maritime enforcement remains an additional source of friction. A limited operational arrangement appears more plausible than a durable political settlement.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period after Tehran called Washington's latest response insufficient. The first publicly reported Saudi–Iranian ministerial contact since intensified Houthi attacks creates a separate de-escalation channel, but maritime enforcement and threats against regional infrastructure mean a limited operational arrangement remains more plausible than a durable political settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -894,6 +918,14 @@
         {
           "label": "US blockade enforcement in the Gulf of Oman",
           "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/"
+        },
+        {
+          "label": "Iran rejects latest US proposal",
+          "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1"
+        },
+        {
+          "label": "Saudi and Iranian foreign ministers discuss de-escalation",
+          "url": "https://www.reuters.com/world/middle-east/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says-2026-10-11/"
         }
       ]
     },
