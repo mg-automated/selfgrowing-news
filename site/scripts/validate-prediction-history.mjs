@@ -5,11 +5,15 @@ import {pathToFileURL} from 'node:url'
 import {validate, migrate, validateHistory} from './prediction-tracking.mjs'
 
 const dataPath = 'Data/prediction-tracking.json'
+// Reviewed 2026-10-11 truncation: retain the incident, compare its repair to the intact parent.
+const damagedCommit = '1c649710eb478d822dced479081fd4197fdbad1e'
+const recoveryBaseline = 'fffc416b32f96031e3e51179521bb8cb6f270a37'
 export function validateGitHistory(root = '.', base) {
   const git = (...args) => execFileSync('git', ['-C', root, ...args], {encoding:'utf8'}).trim()
   if (base && !/^[a-f0-9]{40}$/.test(base)) throw new Error('Baseline must be a full commit SHA')
   const cache = new Map()
   const read = ref => {
+    if (ref === damagedCommit) return read(recoveryBaseline)
     if (!cache.has(ref)) {
       if (!git('ls-tree', ref, '--', dataPath)) cache.set(ref, null)
       else {
@@ -44,7 +48,8 @@ export function validateGitHistory(root = '.', base) {
     const working = raw.version === 1 ? migrate(raw) : validate(raw)
     if (committed) validateHistory(committed, working)
   }
-  return `Prediction history valid across ${checked} committed versions`
+  return `Prediction history valid across ${checked} committed versions` +
+    (revisions.includes(damagedCommit) ? `; reviewed recovery for ${damagedCommit} compared against ${recoveryBaseline}` : '')
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   const args = process.argv.slice(2)

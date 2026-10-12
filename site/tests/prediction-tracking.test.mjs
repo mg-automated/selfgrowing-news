@@ -1,8 +1,9 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import {mkdtemp, mkdir, writeFile, readFile, cp} from 'node:fs/promises'
+import {mkdtemp, mkdir, writeFile, readFile, cp, rm} from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
+import {fileURLToPath} from 'node:url'
 import {execFileSync} from 'node:child_process'
 import {select, applyBatch, validate, migrate, validateHistory, appendCorrections, effectiveAssessment, reserveAttempts, run} from '../scripts/prediction-tracking.mjs'
 import {validateGitHistory} from '../scripts/validate-prediction-history.mjs'
@@ -250,4 +251,46 @@ test('overview filters combine topic, result and date and reveal entries again',
  controls['prediction-date'].value='2026-10-01';controls['prediction-date'].change();assert.ok(entries.every(e=>e.hidden));assert.match(count.textContent,/0 matching/)
  for(const control of Object.values(controls))control.value=''
  controls['prediction-result'].change();assert.ok(entries.every(e=>!e.hidden));assert.match(count.textContent,/2 matching/)
+})
+
+
+test('R02: exact October 11 recovery preserves records and rejects other corruption', async t => {
+ const sourceRoot=fileURLToPath(new URL('../../',import.meta.url))
+ const root=await mkdtemp(path.join(os.tmpdir(),'tracking-recovery-'))
+ t.after(()=>rm(root,{recursive:true,force:true}))
+ execFileSync('git',['clone','--quiet','--shared','--no-checkout',sourceRoot,root])
+ const git=(...args)=>execFileSync('git',['-C',root,...args],{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim()
+ const intact='fffc416b32f96031e3e51179521bb8cb6f270a37'
+ const damaged='1c649710eb478d822dced479081fd4197fdbad1e'
+ const restored='06d8b50f860d6a49654a11219627843b7eb0a5cb'
+ git('config','user.name','Test');git('config','user.email','test@example.org')
+ const file=path.join(root,'Data/prediction-tracking.json')
+ const before=JSON.parse(git('show',`${intact}:Data/prediction-tracking.json`))
+ const after=JSON.parse(git('show',`${restored}:Data/prediction-tracking.json`))
+ assert.deepEqual(after.settings,before.settings)
+ assert.deepEqual(after.predictions,before.predictions)
+ assert.deepEqual(after.attempts.slice(0,before.attempts.length),before.attempts)
+ assert.equal(after.attempts.length,before.attempts.length+2)
+ validateHistory(before,after)
+ git('checkout','--detach',damaged)
+ assert.throws(()=>validateGitHistory(root),/Unexpected end of JSON input/)
+ await writeFile(file,JSON.stringify(after))
+ assert.throws(()=>validateGitHistory(root),/Unexpected end of JSON input/)
+ git('checkout','--force','--detach',restored)
+ assert.match(validateGitHistory(root),/reviewed recovery/)
+ assert.match(validateGitHistory(root,intact),/reviewed recovery/)
+ const missing=structuredClone(after);missing.predictions.pop()
+ await writeFile(file,JSON.stringify(missing))
+ assert.throws(()=>validateGitHistory(root),/Historical prediction deleted|matching prediction|Unknown prediction/)
+ const rewritten=structuredClone(after);rewritten.predictions[0].statement='Changed prediction'
+ await writeFile(file,JSON.stringify(rewritten))
+ assert.throws(()=>validateGitHistory(root),/Original prediction changed/)
+ const missingAttempt=structuredClone(after);missingAttempt.attempts.splice(1,1)
+ await writeFile(file,JSON.stringify(missingAttempt))
+ assert.throws(()=>validateGitHistory(root),/Historical attempt deleted/)
+ await writeFile(file,'{"version":2,')
+ git('add','Data/prediction-tracking.json');git('commit','-qm','unrelated truncation')
+ await writeFile(file,JSON.stringify(after))
+ git('add','Data/prediction-tracking.json');git('commit','-qm','restore unrelated truncation')
+ assert.throws(()=>validateGitHistory(root),/JSON/)
 })

@@ -35,6 +35,14 @@ The original assessment remains intact. The published page shows the correction 
 
 ## Daily reservations and attempt accounting
 
+### Reviewed recovery on 2026-10-11
+
+Commit `1c649710eb478d822dced479081fd4197fdbad1e` truncated the tracking JSON, deleting 671 lines. Commit `06d8b50f860d6a49654a11219627843b7eb0a5cb` restored every existing prediction, snapshot, assessment and attempt from the last good commit `fffc416b32f96031e3e51179521bb8cb6f270a37`, adding only two unfinished assessment reservations for October 11. Those reservations remain spent; this recovery neither repeats research nor changes outcomes.
+
+The user authorized a specific recovery without rewriting Git history. History validation substitutes the intact parent document only when inspecting that exact damaged commit SHA, and compares the restoration and later changes against it with normal history rules. Current and working-tree JSON must still parse and validate; unrelated malformed commits, deleted records and rewritten results still fail. The validator reports the recovery when traversing the incident. Daily automation must never expand this exception.
+
+### Checkpoints
+
 The existing `maximumCreationsPerRun` and `maximumAssessmentsPerRun` settings remain compatible names, but apply across the entire day. Defaults remain one creation and two final assessments. New settings cap assessment attempts at two, creation-candidate evaluations at two, and additional lookups per assessment at three. They may be reduced within those ceilings. A recorded daily budget is immutable; lowering settings restricts new work without invalidating historical records. Raising settings cannot replenish an existing day’s reservation budget.
 
 After the normal briefing and selected Outlook research, run:
@@ -45,6 +53,8 @@ node site/scripts/prediction-tracking.mjs --date YYYY-MM-DD --reserve
 ```
 
 The first command is read-only. The second atomically records selected attempts and returns newly reserved `work`. Commit and push only the tracking JSON with `tracking: reserve prediction work for YYYY-MM-DD` before researching those entries. Keep unfinished briefing and Outlook edits out of that checkpoint. Ensure local HEAD represents the pushed tracking checkpoint; the writer and CI require the reservation to precede completion in Git history. The checkpoint may trigger an additional static site build, but no visitor or build AI calls.
+
+Use only the tracking writer to generate checkpoints. Before committing, run both data and history validators, stage only `Data/prediction-tracking.json`, and confirm `git diff --quiet -- Data/prediction-tracking.json` succeeds so the staged file matches the validated working copy. After committing, run both validators again before pushing. A failed check stops the push and tracking research. Never manually rebuild or replace reservation JSON through a GitHub API write.
 
 Every reservation spends an attempt immediately. A later invocation will not reselect it that day. Interrupted reservations are preserved without outcomes; never repeat their research that day. Pending predictions become eligible again on later days within the same limits. Creation candidates are ordered by oldest prior attempt, preventing an unsuitable first topic from permanently blocking others. Stop after one successful creation and mark unused candidate work `not-needed`.
 

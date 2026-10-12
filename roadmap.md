@@ -57,6 +57,8 @@ This roadmap records future work. It is not an instruction for the daily automat
 
 **Acceptance:** CI rejects rewritten or deleted historical records. A documented correction remains visible alongside the original record. Normal additions and valid pending assessments pass.
 
+**Maintenance 2026-10-11:** A user-reviewed exception for the exact truncated reservation commit preserves Git history and validates its restoration against the last intact predecessor. All prior records remain protected; unrelated corruption still blocks publishing. Reservation instructions now require validation before commit and before push. See `site/PREDICTION-TRACKING.md` for the incident and recovery checks.
+
 ### R03 — Add deterministic editorial validation
 
 **Finding:** A successful site build and the existing tracking tests do not verify the complete editorial contract.
