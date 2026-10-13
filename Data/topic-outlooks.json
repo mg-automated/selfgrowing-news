@@ -59,16 +59,16 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-09",
-      "mentions": 5,
+      "lastSeen": "2026-10-13",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-12",
-      "mentions": 5,
+      "lastSeen": "2026-10-13",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,16 +91,16 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-12",
-      "mentions": 9,
+      "lastSeen": "2026-10-13",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-10",
-      "mentions": 6,
+      "lastSeen": "2026-10-13",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -195,24 +195,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-12",
-      "mentions": 12,
+      "lastSeen": "2026-10-13",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-12",
-      "mentions": 13,
+      "lastSeen": "2026-10-13",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 9,
+      "lastSeen": "2026-10-13",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,32 +235,32 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-12",
-      "mentions": 17,
+      "lastSeen": "2026-10-13",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-12",
-      "mentions": 17,
+      "lastSeen": "2026-10-13",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-10",
-      "mentions": 13,
+      "lastSeen": "2026-10-13",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-10",
-      "mentions": 9,
+      "lastSeen": "2026-10-13",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-11",
-      "mentions": 12,
+      "lastSeen": "2026-10-13",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-08",
-      "mentions": 7,
+      "lastSeen": "2026-10-13",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-12",
-      "mentions": 23,
+      "lastSeen": "2026-10-13",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -414,13 +414,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-12",
-      "materiallyUpdated": "2026-10-12",
+      "reviewed": "2026-10-13",
+      "materiallyUpdated": "2026-10-13",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-13",
+      "nextReview": "2026-10-16",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and stronger regulatory scrutiny of operational safeguards. The US reversal of restrictions on British testing of frontier models points to renewed international evaluation work, but also shows how access to safety testing can shift with government policy; regulatory scrutiny and infrastructure controls will therefore continue to develop unevenly across jurisdictions.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and stronger safeguards around access and operation. Microsoft's plan to deploy more than one million custom Maia accelerators, Meta's new Muse Wonder models and Anthropic's reported reduction in distillation attacks show that competition is broadening across chips, models and capability protection; regulators and financial authorities are likely to scrutinise the resulting concentration, labour disruption and market risk more closely.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -444,7 +444,7 @@
         "Material changes to frontier-model release schedules or safety evaluations",
         "Large new infrastructure commitments, cancellations or financing problems",
         "New binding AI legislation or standards in a major market",
-        "Independent evidence that text provenance systems are reliable or easily defeated in ordinary use"
+        "Independent evidence that text provenance or anti-distillation systems are reliable or easily defeated in ordinary use"
       ],
       "sources": [
         {
@@ -546,19 +546,35 @@
         {
           "label": "US reverses restrictions on British frontier-model testing",
           "url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/"
+        },
+        {
+          "label": "Microsoft plans large-scale Maia 300 deployment",
+          "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/"
+        },
+        {
+          "label": "Anthropic reports reduced model-distillation attacks",
+          "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/"
+        },
+        {
+          "label": "Meta launches Muse Wonder models",
+          "url": "https://www.reuters.com/business/meta-releases-muse-wonder-ai-models-challenge-anthropic-openai-2026-10-12/"
+        },
+        {
+          "label": "IMF assessment of AI-led growth and financial risks",
+          "url": "https://www.imf.org/en/blogs/articles/2026/10/12/global-financial-markets-face-rising-risks-from-ai-bond-yields-and-cyberattacks"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-12",
-      "materiallyUpdated": "2026-10-12",
+      "reviewed": "2026-10-13",
+      "materiallyUpdated": "2026-10-13",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-13",
+      "nextReview": "2026-10-14",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to maintain military support and sanctions while testing whether the announced Russia–Ukraine energy ceasefire exists in practice. Kyiv's conditional support and Moscow's initial silence make sustained compliance uncertain, while US pressure on Ukraine and divergent policies on Russian energy will complicate a coordinated European position ahead of the European Council.",
+      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and counter-hybrid measures. NATO's operational commander has publicly described a forceful response to any Russian attack, while German and Czech officials warn that sabotage, disinformation and other covert activity may grow riskier; disputed US energy diplomacy with Moscow will further complicate coordination ahead of the European Council.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -631,19 +647,31 @@
         {
           "label": "Unconfirmed Russia–Ukraine energy ceasefire announcement",
           "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
+        },
+        {
+          "label": "NATO commander's deterrence warning",
+          "url": "https://www.reuters.com/world/nato-general-sets-out-tough-military-response-any-foolish-russian-attack-2026-10-12/"
+        },
+        {
+          "label": "German and Czech warnings about Russian hybrid operations",
+          "url": "https://www.reuters.com/world/germany-faces-shadow-war-that-goes-beyond-cold-war-threats-interior-minister-2026-10-12/"
+        },
+        {
+          "label": "Disclosed terms of US–Russia diesel diplomacy",
+          "url": "https://www.reuters.com/business/energy/us-hopes-diesel-deal-can-soften-moscow-peace-talks-sources-say-2026-10-12/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-12",
-      "materiallyUpdated": "2026-10-12",
+      "reviewed": "2026-10-13",
+      "materiallyUpdated": "2026-10-13",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-13",
+      "nextReview": "2026-10-14",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while testing an energy ceasefire announced by Washington but not initially confirmed by Moscow or Kyiv. The narrow proposal may reduce attacks on energy assets if reciprocally observed, yet continued strikes and the disruption of Yandex data centres show that escalation across military and dual-use infrastructure remains more likely than a near-term comprehensive settlement.",
+      "assessment": "Russia is likely to continue military pressure while using selective energy negotiations to seek economic and territorial concessions. New details of the US diesel proposal indicate that Moscow still wants Ukrainian withdrawal from the remaining Kyiv-held part of Donetsk, while Ukraine has not accepted a halt to refinery strikes; NATO and German warnings also point to continued escalation across conventional and hybrid domains rather than a near-term comprehensive settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -784,6 +812,18 @@
         {
           "label": "Drone attacks disrupt three Yandex data centres",
           "url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
+        },
+        {
+          "label": "Disclosed terms of US–Russia diesel diplomacy",
+          "url": "https://www.reuters.com/business/energy/us-hopes-diesel-deal-can-soften-moscow-peace-talks-sources-say-2026-10-12/"
+        },
+        {
+          "label": "NATO commander's deterrence warning",
+          "url": "https://www.reuters.com/world/nato-general-sets-out-tough-military-response-any-foolish-russian-attack-2026-10-12/"
+        },
+        {
+          "label": "German and Czech warnings about Russian hybrid operations",
+          "url": "https://www.reuters.com/world/germany-faces-shadow-war-that-goes-beyond-cold-war-threats-interior-minister-2026-10-12/"
         }
       ]
     },
@@ -932,10 +972,10 @@
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-13",
       "materiallyUpdated": "2026-10-11",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-12",
+      "nextReview": "2026-10-14",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Commercial navigation is likely to remain hazardous during the forecast period. The latest blockade enforcement strengthens the case for continued operational restrictions; a broad reopening still appears unlikely without an agreement addressing maritime security and access to Iranian ports.",
