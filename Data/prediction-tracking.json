@@ -441,6 +441,18 @@
             "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-10-14",
+        "evidenceThrough": "2026-10-13",
+        "result": "supported",
+        "explanation": "Reuters reported at least five incidents involving tankers and other commercial vessels around the Strait of Hormuz within the preceding 48 hours, including drone strikes. Those confirmed post-October-6 attacks satisfy the prediction's requirement for a further attack on a commercial tanker in or near the Strait before its deadline.",
+        "sources": [
+          {
+            "label": "Reuters report on Iran's expanded attacks against shipping",
+            "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/"
+          }
+        ]
       }
     }
   ],
@@ -1040,6 +1052,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Reuters reported at least five incidents involving tankers and other commercial vessels around the Strait of Hormuz within the preceding 48 hours, including drone strikes. Those confirmed post-October-6 attacks satisfy the prediction's requirement for a further attack on a commercial tanker in or near the Strait before its deadline.",
+        "additionalLookups": 0
       }
     },
     {
@@ -1054,6 +1071,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified AI reporting concerns autonomous-replication risk, independent model evaluations and European computing infrastructure; it does not conclusively establish that the FTC issued a formal information demand or compelled testimony in its inquiry.",
+        "additionalLookups": 0
       }
     }
   ]
