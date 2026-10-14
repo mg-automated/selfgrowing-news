@@ -1027,6 +1027,34 @@
         "explanation": "Today's verified AI reporting concerns new chips, model releases, model-distillation safeguards and systemic investment risks; it does not conclusively establish that the FTC issued a formal information demand or compelled testimony in its inquiry.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-14:assessment:strait-of-hormuz-2026-10-06-tanker-attack",
+      "date": "2026-10-14",
+      "kind": "assessment",
+      "predictionId": "strait-of-hormuz-2026-10-06-tanker-attack",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-10-14:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-14",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
