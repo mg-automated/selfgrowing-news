@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-14",
-      "mentions": 5,
+      "lastSeen": "2026-10-15",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-14",
-      "mentions": 3,
+      "lastSeen": "2026-10-15",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-14",
-      "mentions": 11,
+      "lastSeen": "2026-10-15",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-08",
-      "mentions": 3,
+      "lastSeen": "2026-10-15",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -227,24 +227,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 19,
+      "lastSeen": "2026-10-15",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 19,
+      "lastSeen": "2026-10-15",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 19,
+      "lastSeen": "2026-10-15",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-13",
-      "mentions": 10,
+      "lastSeen": "2026-10-15",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 14,
+      "lastSeen": "2026-10-15",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,16 +323,16 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-10-09",
-      "mentions": 5,
+      "lastSeen": "2026-10-15",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-14",
-      "mentions": 13,
+      "lastSeen": "2026-10-15",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-13",
-      "mentions": 8,
+      "lastSeen": "2026-10-15",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 25,
+      "lastSeen": "2026-10-15",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-14",
-      "mentions": 2,
+      "lastSeen": "2026-10-15",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -408,36 +408,34 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-12"
+    },
+    "Albania.md": {
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-15"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-13",
-      "materiallyUpdated": "2026-10-13",
+      "reviewed": "2026-10-15",
+      "materiallyUpdated": "2026-10-15",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-16",
+      "nextReview": "2026-10-18",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and stronger safeguards around access and operation. Microsoft's plan to deploy more than one million custom Maia accelerators, Meta's new Muse Wonder models and Anthropic's reported reduction in distillation attacks show that competition is broadening across chips, models and capability protection; regulators and financial authorities are likely to scrutinise the resulting concentration, labour disruption and market risk more closely.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and rising pressure for practical safeguards. ASML's order visibility into 2029 and 2030 and Anthropic's rapid revenue growth show that investment remains strong, while DeepMind's warning about agent-driven cyberattacks increases the likelihood of more specific security standards and regulatory scrutiny.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
         "Investment in chips, data centres and physical-AI capabilities will continue, while investors focus more closely on the cost and financing of frontier-model development.",
         "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-10-14",
-          "reviewFrom": "2026-10-12",
-          "description": "Ireland is scheduled to host the International AI Summit on 14 October as the official launch of European AI Innovation Month.",
-          "source": {
-            "label": "European Commission",
-            "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Publication of enforceable requirements or audit mechanisms under the US AI accord",
         "A major safety or cybersecurity incident involving an autonomous AI agent",
@@ -562,19 +560,31 @@
         {
           "label": "IMF assessment of AI-led growth and financial risks",
           "url": "https://www.imf.org/en/blogs/articles/2026/10/12/global-financial-markets-face-rising-risks-from-ai-bond-yields-and-cyberattacks"
+        },
+        {
+          "label": "ASML reports long-range demand for chipmaking equipment",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
+        },
+        {
+          "label": "Anthropic reports rapid quarterly revenue growth",
+          "url": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+        },
+        {
+          "label": "DeepMind warns about AI-agent cyberattacks",
+          "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-14",
-      "materiallyUpdated": "2026-10-14",
+      "reviewed": "2026-10-15",
+      "materiallyUpdated": "2026-10-15",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-15",
+      "nextReview": "2026-10-16",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and critical-infrastructure protection. Russia's renewed ballistic strikes on Kyiv's power network despite an announced energy ceasefire, combined with missing advance warnings from Ukraine's partners, will sharpen pressure for dependable intelligence sharing and a coordinated position at the European Council.",
+      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and critical-infrastructure protection. Russia's continued coordination with China on Ukraine and Iran, alongside the opening European Council dispute over a budget strained by defence, energy and Ukraine costs, will make unified European action harder even as security demands intensify.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -663,19 +673,27 @@
         {
           "label": "Russian missiles strike Kyiv energy infrastructure",
           "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+        },
+        {
+          "label": "EU leaders prepare for long-term budget dispute",
+          "url": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
+        },
+        {
+          "label": "Russia and China coordinate on Ukraine and Iran",
+          "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-14",
-      "materiallyUpdated": "2026-10-14",
+      "reviewed": "2026-10-15",
+      "materiallyUpdated": "2026-10-15",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-15",
+      "nextReview": "2026-10-16",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while using selective energy negotiations to seek economic and territorial concessions. Ballistic strikes on Kyiv's energy infrastructure after Washington announced a ceasefire demonstrate that operational escalation remains more likely than sustained compliance, while gaps in allied warning and intelligence sharing add pressure on Ukraine and complicate negotiations.",
+      "assessment": "Russia is likely to continue military pressure while using selective energy negotiations and closer coordination with China to improve its diplomatic position. Moscow and Beijing's October 14 talks on Ukraine, Iran and relations with the United States reinforce that Russia can pair battlefield pressure with strategic support outside Europe, while the opening European Council faces difficult choices over defence, Ukraine assistance and constrained budgets.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -832,16 +850,24 @@
         {
           "label": "Russian missiles strike Kyiv energy infrastructure",
           "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+        },
+        {
+          "label": "Russia and China coordinate on Ukraine and Iran",
+          "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+        },
+        {
+          "label": "EU leaders prepare for long-term budget dispute",
+          "url": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-14",
+      "reviewed": "2026-10-15",
       "materiallyUpdated": "2026-10-14",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-15",
+      "nextReview": "2026-10-16",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Tehran broadens attacks on shipping to increase leverage before the US midterm elections. Iranian officials describe faster, geographically wider operations using new targeting methods, while the United States maintains its blockade and military pressure; a limited operational arrangement remains possible, but deliberate maritime escalation now presents the stronger near-term risk.",
@@ -978,6 +1004,10 @@
         {
           "label": "Iran expands tactics and attacks against shipping",
           "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/"
+        },
+        {
+          "label": "Russia and China discuss the Iranian crisis",
+          "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
         }
       ]
     },
