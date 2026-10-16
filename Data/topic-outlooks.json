@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-15",
-      "mentions": 6,
+      "lastSeen": "2026-10-16",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-13",
-      "mentions": 6,
+      "lastSeen": "2026-10-16",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-15",
-      "mentions": 4,
+      "lastSeen": "2026-10-16",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-15",
-      "mentions": 12,
+      "lastSeen": "2026-10-16",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-04",
-      "mentions": 6,
+      "lastSeen": "2026-10-16",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -155,8 +155,8 @@
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-05",
-      "mentions": 3,
+      "lastSeen": "2026-10-16",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -227,24 +227,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-15",
-      "mentions": 20,
+      "lastSeen": "2026-10-16",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-15",
-      "mentions": 20,
+      "lastSeen": "2026-10-16",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-15",
-      "mentions": 20,
+      "lastSeen": "2026-10-16",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,16 +259,16 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-15",
-      "mentions": 11,
+      "lastSeen": "2026-10-16",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-11",
-      "mentions": 3,
+      "lastSeen": "2026-10-16",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-15",
-      "mentions": 9,
+      "lastSeen": "2026-10-16",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -422,13 +422,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-15",
-      "materiallyUpdated": "2026-10-15",
+      "reviewed": "2026-10-16",
+      "materiallyUpdated": "2026-10-16",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-18",
+      "nextReview": "2026-10-19",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and rising pressure for practical safeguards. ASML's order visibility into 2029 and 2030 and Anthropic's rapid revenue growth show that investment remains strong, while DeepMind's warning about agent-driven cyberattacks increases the likelihood of more specific security standards and regulatory scrutiny.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and rising pressure for practical safeguards. Anthropic's decision to give an independent evaluator employee-level model access supports more credible external testing, but delayed data-centre financing shows that higher rates and investor scrutiny could constrain the pace of infrastructure growth.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -572,36 +572,34 @@
         {
           "label": "DeepMind warns about AI-agent cyberattacks",
           "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/"
+        },
+        {
+          "label": "Anthropic expands independent evaluator access",
+          "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/"
+        },
+        {
+          "label": "Financing strain tests AI data-centre projects",
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-15",
-      "materiallyUpdated": "2026-10-15",
+      "reviewed": "2026-10-16",
+      "materiallyUpdated": "2026-10-16",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-16",
+      "nextReview": "2026-10-17",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and critical-infrastructure protection. Russia's continued coordination with China on Ukraine and Iran, alongside the opening European Council dispute over a budget strained by defence, energy and Ukraine costs, will make unified European action harder even as security demands intensify.",
+      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and critical-infrastructure protection. Renewed US discussion of nuclear restraint with Russia and China creates a possible diplomatic channel after New START's expiry, but does not yet reduce immediate European security pressures or the risk of hybrid and military escalation.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
         "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
         "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-10-15",
-          "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
-          "source": {
-            "label": "European Council meeting calendar",
-            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Confirmed attribution of attacks on NATO territory or shipping to a state actor",
         "New EU or NATO measures protecting airspace, ports, undersea infrastructure or commercial navigation",
@@ -681,36 +679,30 @@
         {
           "label": "Russia and China coordinate on Ukraine and Iran",
           "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+        },
+        {
+          "label": "US discusses denuclearization with Russia and China",
+          "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-15",
-      "materiallyUpdated": "2026-10-15",
+      "reviewed": "2026-10-16",
+      "materiallyUpdated": "2026-10-16",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-16",
+      "nextReview": "2026-10-17",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while using selective energy negotiations and closer coordination with China to improve its diplomatic position. Moscow and Beijing's October 14 talks on Ukraine, Iran and relations with the United States reinforce that Russia can pair battlefield pressure with strategic support outside Europe, while the opening European Council faces difficult choices over defence, Ukraine assistance and constrained budgets.",
+      "assessment": "Russia is likely to continue military pressure while using selective diplomacy and closer coordination with China to improve its position. Renewed US discussion of denuclearization with Moscow and Beijing creates a possible strategic channel after New START's expiry, but there is no verified indication that it will produce near-term limits or alter Russia's military pressure on Ukraine.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
         "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
         "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-10-15",
-          "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
-          "source": {
-            "label": "European Council meeting calendar",
-            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
         "A substantial reduction or increase in long-range attacks on Ukrainian cities",
@@ -858,19 +850,23 @@
         {
           "label": "EU leaders prepare for long-term budget dispute",
           "url": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
+        },
+        {
+          "label": "US discusses denuclearization with Russia and China",
+          "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-15",
-      "materiallyUpdated": "2026-10-14",
+      "reviewed": "2026-10-16",
+      "materiallyUpdated": "2026-10-16",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-16",
+      "nextReview": "2026-10-17",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Tehran broadens attacks on shipping to increase leverage before the US midterm elections. Iranian officials describe faster, geographically wider operations using new targeting methods, while the United States maintains its blockade and military pressure; a limited operational arrangement remains possible, but deliberate maritime escalation now presents the stronger near-term risk.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Washington adds sanctions and Tehran uses pressure on shipping to increase leverage before the US midterm elections. The new US designations reinforce the coercive track alongside indirect diplomacy, while a limited operational arrangement remains possible but deliberate maritime escalation presents the stronger near-term risk.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -878,15 +874,6 @@
         "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-10-15",
-          "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
-          "source": {
-            "label": "European Council meeting calendar",
-            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
-          }
-        },
         {
           "date": "2026-11-03",
           "reviewFrom": "2026-11-01",
@@ -1008,6 +995,10 @@
         {
           "label": "Russia and China discuss the Iranian crisis",
           "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+        },
+        {
+          "label": "United States imposes fresh Iran-related sanctions",
+          "url": "https://www.reuters.com/world/middle-east/us-issues-fresh-iran-related-sanctions-treasury-website-shows-2026-10-15/"
         }
       ]
     },
