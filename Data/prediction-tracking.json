@@ -1128,6 +1128,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The prediction deadline has not passed, and today's verified briefing and Outlook sources do not conclusively establish that the FTC issued a formal information demand or compelled testimony in the inquiry. The record remains pending without additional tracking research.",
+        "additionalLookups": 0
       }
     }
   ]

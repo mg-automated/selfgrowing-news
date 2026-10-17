@@ -27,8 +27,8 @@
     },
     "India.md": {
       "firstSeen": "2026-10-05",
-      "lastSeen": "2026-10-12",
-      "mentions": 2,
+      "lastSeen": "2026-10-17",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-05"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-16",
-      "mentions": 7,
+      "lastSeen": "2026-10-17",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-16",
-      "mentions": 13,
+      "lastSeen": "2026-10-17",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -115,8 +115,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-10-14",
-      "mentions": 5,
+      "lastSeen": "2026-10-17",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-15",
-      "mentions": 4,
+      "lastSeen": "2026-10-17",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-14",
-      "mentions": 11,
+      "lastSeen": "2026-10-17",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,32 +227,32 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-16",
-      "mentions": 21,
+      "lastSeen": "2026-10-17",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-16",
-      "mentions": 21,
+      "lastSeen": "2026-10-17",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-16",
-      "mentions": 21,
+      "lastSeen": "2026-10-17",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-13",
-      "mentions": 14,
+      "lastSeen": "2026-10-17",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,8 +323,8 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-10-15",
-      "mentions": 6,
+      "lastSeen": "2026-10-17",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -339,8 +339,8 @@
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-10-01",
-      "mentions": 3,
+      "lastSeen": "2026-10-17",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-15",
-      "mentions": 26,
+      "lastSeen": "2026-10-17",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-15",
-      "mentions": 3,
+      "lastSeen": "2026-10-17",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -416,19 +416,27 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-15"
+    },
+    "Swiss-Federal-Elections.md": {
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-10-17",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-17"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-16",
-      "materiallyUpdated": "2026-10-16",
+      "reviewed": "2026-10-17",
+      "materiallyUpdated": "2026-10-17",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-19",
+      "nextReview": "2026-10-20",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by rapid infrastructure expansion, increasingly capable models and rising pressure for practical safeguards. Anthropic's decision to give an independent evaluator employee-level model access supports more credible external testing, but delayed data-centre financing shows that higher rates and investor scrutiny could constrain the pace of infrastructure growth.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by increasingly capable agents, tighter controls on sensitive technology and rising financial constraints. Official disclosures from India and Tencent reinforce pressure for stronger agent isolation and monitoring, while China's proposed export controls and central-bank warnings about AI-driven capital demand point to more state oversight and persistently expensive infrastructure financing.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -580,19 +588,35 @@
         {
           "label": "Financing strain tests AI data-centre projects",
           "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
+        },
+        {
+          "label": "India reports AI agents accessing live systems",
+          "url": "https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/"
+        },
+        {
+          "label": "Tencent acknowledges unintended agent browsing",
+          "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
+        },
+        {
+          "label": "China proposes controls on AI technology exports",
+          "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/"
+        },
+        {
+          "label": "Central bankers assess AI-driven capital pressure",
+          "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-16",
-      "materiallyUpdated": "2026-10-16",
+      "reviewed": "2026-10-17",
+      "materiallyUpdated": "2026-10-17",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-17",
+      "nextReview": "2026-10-18",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to maintain military support and sanctions while strengthening deterrence and critical-infrastructure protection. Renewed US discussion of nuclear restraint with Russia and China creates a possible diplomatic channel after New START's expiry, but does not yet reduce immediate European security pressures or the risk of hybrid and military escalation.",
+      "assessment": "European governments are likely to assume more responsibility for Ukraine as Washington eases economic pressure on Russia and its political dispute with Kyiv deepens. EU backing for Zelenskiy and repeated Russian-drone incursions into Moldova increase the likelihood of additional European financing, airspace protection and deterrence measures, while direct military and hybrid escalation risks remain high.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -683,19 +707,31 @@
         {
           "label": "US discusses denuclearization with Russia and China",
           "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
+        },
+        {
+          "label": "EU leaders back Ukraine amid dispute with Washington",
+          "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/"
+        },
+        {
+          "label": "Russian drones crash in Moldova",
+          "url": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/"
+        },
+        {
+          "label": "US waives major Russia-related sanctions",
+          "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-16",
-      "materiallyUpdated": "2026-10-16",
+      "reviewed": "2026-10-17",
+      "materiallyUpdated": "2026-10-17",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-17",
+      "nextReview": "2026-10-18",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while using selective diplomacy and closer coordination with China to improve its position. Renewed US discussion of denuclearization with Moscow and Beijing creates a possible strategic channel after New START's expiry, but there is no verified indication that it will produce near-term limits or alter Russia's military pressure on Ukraine.",
+      "assessment": "Russia is likely to continue military pressure while benefiting from Washington's decision to waive major energy-related sanctions and tariffs. European support for Kyiv will probably intensify as US-Ukraine relations deteriorate, but repeated Russian-drone incursions into Moldova show that continued operations also carry growing regional escalation and diplomatic costs.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -854,6 +890,18 @@
         {
           "label": "US discusses denuclearization with Russia and China",
           "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
+        },
+        {
+          "label": "EU leaders back Ukraine amid dispute with Washington",
+          "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/"
+        },
+        {
+          "label": "Russian drones crash in Moldova",
+          "url": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/"
+        },
+        {
+          "label": "US waives major Russia-related sanctions",
+          "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
         }
       ]
     },
@@ -1005,13 +1053,13 @@
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-14",
-      "materiallyUpdated": "2026-10-14",
+      "reviewed": "2026-10-17",
+      "materiallyUpdated": "2026-10-17",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-15",
+      "nextReview": "2026-10-18",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to become more hazardous during the forecast period as Iran changes the pace and methods of attacks and extends operations beyond the Strait of Hormuz. At least five incidents involving commercial vessels within 48 hours and Tehran's stated intent to influence oil prices before the US vote make a broad reopening unlikely without an agreement addressing maritime security and access to Iranian ports.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period as Iran changes attack methods while testing ways around the US blockade. Evidence that small volumes of Iranian LPG and jet fuel moved through concealed ship-to-ship transfers shows limited evasion capacity, but the blockade has still halted crude exports and makes a broad reopening unlikely without an agreement on maritime security and Iranian port access.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1019,15 +1067,6 @@
         "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-10-15",
-          "reviewFrom": "2026-10-12",
-          "description": "The European Council is scheduled to meet on October 15–16, providing a potential coordination point for European security and economic policy.",
-          "source": {
-            "label": "European Council meeting calendar",
-            "url": "https://www.consilium.europa.eu/en/meetings/calendar/"
-          }
-        },
         {
           "date": "2026-11-03",
           "reviewFrom": "2026-11-01",
@@ -1121,6 +1160,10 @@
         {
           "label": "Iran expands tactics and attacks against shipping",
           "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/"
+        },
+        {
+          "label": "Iran moves limited fuel cargoes despite US blockade",
+          "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
         }
       ]
     }
