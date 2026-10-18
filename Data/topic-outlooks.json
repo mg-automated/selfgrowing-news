@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-17",
-      "mentions": 14,
+      "lastSeen": "2026-10-18",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -139,8 +139,8 @@
     },
     "Swiss-Sports-Policy.md": {
       "firstSeen": "2026-10-02",
-      "lastSeen": "2026-10-02",
-      "mentions": 1,
+      "lastSeen": "2026-10-18",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-17",
-      "mentions": 5,
+      "lastSeen": "2026-10-18",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -227,8 +227,8 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-17",
-      "mentions": 22,
+      "lastSeen": "2026-10-18",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -243,8 +243,8 @@
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-17",
-      "mentions": 22,
+      "lastSeen": "2026-10-18",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,16 +267,16 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-16",
-      "mentions": 4,
+      "lastSeen": "2026-10-18",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Lebanon.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-09-29",
-      "mentions": 1,
+      "lastSeen": "2026-10-18",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-17",
-      "mentions": 27,
+      "lastSeen": "2026-10-18",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-17",
-      "mentions": 4,
+      "lastSeen": "2026-10-18",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -411,8 +411,8 @@
     },
     "Albania.md": {
       "firstSeen": "2026-10-15",
-      "lastSeen": "2026-10-15",
-      "mentions": 1,
+      "lastSeen": "2026-10-18",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-15"
@@ -430,13 +430,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-17",
-      "materiallyUpdated": "2026-10-17",
+      "reviewed": "2026-10-18",
+      "materiallyUpdated": "2026-10-18",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-20",
+      "nextReview": "2026-10-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by increasingly capable agents, tighter controls on sensitive technology and rising financial constraints. Official disclosures from India and Tencent reinforce pressure for stronger agent isolation and monitoring, while China's proposed export controls and central-bank warnings about AI-driven capital demand point to more state oversight and persistently expensive infrastructure financing.",
+      "assessment": "Artificial-intelligence development is likely to remain dominated by increasingly capable agents, tighter controls on sensitive technology and rising financial constraints. Anthropic's warning that governments have only a small number of years to establish safeguards adds pressure for international rules and strict oversight of biological and cyber uses, while the sector's infrastructure costs keep financing and economic effects under scrutiny.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -604,19 +604,23 @@
         {
           "label": "Central bankers assess AI-driven capital pressure",
           "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+        },
+        {
+          "label": "Anthropic urges international rules for increasingly capable AI",
+          "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-17",
-      "materiallyUpdated": "2026-10-17",
+      "reviewed": "2026-10-18",
+      "materiallyUpdated": "2026-10-18",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-18",
+      "nextReview": "2026-10-19",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to assume more responsibility for Ukraine as Washington eases economic pressure on Russia and its political dispute with Kyiv deepens. EU backing for Zelenskiy and repeated Russian-drone incursions into Moldova increase the likelihood of additional European financing, airspace protection and deterrence measures, while direct military and hybrid escalation risks remain high.",
+      "assessment": "European governments are likely to assume more responsibility for Ukraine as Washington begins a 60-day review of waived Russia sanctions and its political dispute with Kyiv deepens. A large diplomatic walkout during Russia's IMF remarks underlines Europe's refusal to normalise relations, while continued Russian attacks and pressure on Black Sea trade increase the likelihood of additional European financing, logistics and deterrence measures.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -719,19 +723,27 @@
         {
           "label": "US waives major Russia-related sanctions",
           "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+        },
+        {
+          "label": "US begins 60-day review of waived Russia sanctions",
+          "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+        },
+        {
+          "label": "Delegates walk out during Russia's IMF remarks",
+          "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-17",
-      "materiallyUpdated": "2026-10-17",
+      "reviewed": "2026-10-18",
+      "materiallyUpdated": "2026-10-18",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-18",
+      "nextReview": "2026-10-19",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while benefiting from Washington's decision to waive major energy-related sanctions and tariffs. European support for Kyiv will probably intensify as US-Ukraine relations deteriorate, but repeated Russian-drone incursions into Moldova show that continued operations also carry growing regional escalation and diplomatic costs.",
+      "assessment": "Russia is likely to continue military pressure while benefiting from Washington's 60-day review of waived energy-related sanctions and tariffs. Moscow's new large-scale strikes and disputed territorial claims show no near-term operational restraint, while a large diplomatic walkout during Russia's IMF remarks suggests European governments will resist normalisation and strengthen support for Kyiv.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -902,19 +914,31 @@
         {
           "label": "US waives major Russia-related sanctions",
           "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+        },
+        {
+          "label": "US begins 60-day review of waived Russia sanctions",
+          "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+        },
+        {
+          "label": "Russia reports large-scale strikes on Ukrainian infrastructure",
+          "url": "https://www.reuters.com/world/russian-defence-ministry-says-it-hit-ukrainian-steel-plants-power-infrastructure-2026-10-17/"
+        },
+        {
+          "label": "Delegates walk out during Russia's IMF remarks",
+          "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-16",
-      "materiallyUpdated": "2026-10-16",
+      "reviewed": "2026-10-18",
+      "materiallyUpdated": "2026-10-18",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-17",
+      "nextReview": "2026-10-19",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Washington adds sanctions and Tehran uses pressure on shipping to increase leverage before the US midterm elections. The new US designations reinforce the coercive track alongside indirect diplomacy, while a limited operational arrangement remains possible but deliberate maritime escalation presents the stronger near-term risk.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Tehran intensifies pressure on shipping before the US midterm elections. Two oil tankers reportedly struck mines in the Strait of Hormuz while limited Iranian fuel cargoes continued to evade the US blockade, showing that both maritime disruption and sanctions circumvention are likely to persist even as a narrow operational arrangement remains possible.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1047,6 +1071,14 @@
         {
           "label": "United States imposes fresh Iran-related sanctions",
           "url": "https://www.reuters.com/world/middle-east/us-issues-fresh-iran-related-sanctions-treasury-website-shows-2026-10-15/"
+        },
+        {
+          "label": "Two tankers reportedly hit mines in the Strait of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/irans-guards-say-two-tankers-hit-mines-strait-hormuz-2026-10-17/"
+        },
+        {
+          "label": "Iran ships limited fuel cargoes despite US blockade",
+          "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
         }
       ]
     },
