@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-19",
-      "mentions": 5,
+      "lastSeen": "2026-10-20",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-17",
-      "mentions": 8,
+      "lastSeen": "2026-10-20",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-19",
-      "mentions": 16,
+      "lastSeen": "2026-10-20",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-16",
-      "mentions": 7,
+      "lastSeen": "2026-10-20",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-19",
-      "mentions": 24,
+      "lastSeen": "2026-10-20",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-17",
-      "mentions": 22,
+      "lastSeen": "2026-10-20",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-17",
-      "mentions": 15,
+      "lastSeen": "2026-10-20",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-16",
-      "mentions": 12,
+      "lastSeen": "2026-10-20",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-15",
-      "mentions": 15,
+      "lastSeen": "2026-10-20",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -299,8 +299,8 @@
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-09-28",
-      "mentions": 1,
+      "lastSeen": "2026-10-20",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-16",
-      "mentions": 10,
+      "lastSeen": "2026-10-20",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-19",
-      "mentions": 29,
+      "lastSeen": "2026-10-20",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-19",
-      "mentions": 6,
+      "lastSeen": "2026-10-20",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -626,13 +626,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-19",
-      "materiallyUpdated": "2026-10-19",
+      "reviewed": "2026-10-20",
+      "materiallyUpdated": "2026-10-20",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-20",
+      "nextReview": "2026-10-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to assume more responsibility for Ukraine even after Washington restored critical missile-warning intelligence. Russia's continued attacks on Ukrainian energy infrastructure and the possible diversion of Ukrainian drones into Lithuanian airspace show that air defence, electronic warfare and escalation control will remain urgent priorities while wider US policy stays uncertain.",
+      "assessment": "European governments are likely to assume more responsibility for Ukraine as Washington increases public pressure on President Zelenskiy while pursuing parallel talks in Oslo and Moscow. Russia's continuing military pressure, election-linked spyware in Serbia and uncertainty over US policy mean air defence, cyber security and diplomatic coordination will remain urgent priorities.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -751,19 +751,27 @@
         {
           "label": "Ukrainian drones may have entered Lithuanian airspace",
           "url": "https://www.reuters.com/world/ukraine-regrets-possible-diversion-its-drones-over-lithuania-foreign-ministry-2026-10-18/"
+        },
+        {
+          "label": "US plans talks in Oslo and Moscow",
+          "url": "https://www.reuters.com/world/europe/us-officials-plan-travel-norway-ukraine-talks-sources-say-2026-10-19/"
+        },
+        {
+          "label": "Spyware targets Serbian opposition figures",
+          "url": "https://www.reuters.com/technology/two-serbian-opposition-figures-targeted-with-spyware-research-group-says-2026-10-19/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-19",
-      "materiallyUpdated": "2026-10-19",
+      "reviewed": "2026-10-20",
+      "materiallyUpdated": "2026-10-20",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-20",
+      "nextReview": "2026-10-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while benefiting from Washington's 60-day review of waived energy-related sanctions and tariffs. Ukraine's report of 76 attacks on energy facilities despite an announced ceasefire and the possible electronic diversion of drones into Lithuanian airspace indicate that infrastructure strikes and regional spillover risks will remain high.",
+      "assessment": "Russia is likely to continue military pressure while exploiting the widening public dispute between Washington and Kyiv. Planned US contacts in both Oslo and Moscow and discussion of a possible Trump–Xi–Putin summit may increase diplomatic activity, but they do not yet indicate agreement on Ukraine or a broader settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -954,19 +962,27 @@
         {
           "label": "United States resumes intelligence-sharing with Ukraine",
           "url": "https://www.reuters.com/legal/government/us-resumes-intelligence-sharing-with-ukraine-after-pause-zelenskiy-says-2026-10-18/"
+        },
+        {
+          "label": "US plans talks in Oslo and Moscow",
+          "url": "https://www.reuters.com/world/europe/us-officials-plan-travel-norway-ukraine-talks-sources-say-2026-10-19/"
+        },
+        {
+          "label": "Possible Trump–Xi–Putin meeting",
+          "url": "https://www.reuters.com/world/china/trump-says-he-is-open-joining-trilateral-meeting-with-xi-putin-2026-10-19/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-19",
-      "materiallyUpdated": "2026-10-19",
+      "reviewed": "2026-10-20",
+      "materiallyUpdated": "2026-10-20",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-20",
+      "nextReview": "2026-10-21",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period as Tehran and allied groups intensify regional pressure before the US midterm elections. Egypt's offer to support Saudi Arabia against the Houthis could broaden the military coalition confronting an Iran-aligned actor, while Trump's intervention in Israel's election reinforces the political links between the Iran war and approaching votes in both countries.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely during the forecast period, but Tehran is continuing to present diplomacy and a regional security arrangement as alternatives to foreign military pressure. The latest tanker mine blast and Qatar's move toward local defence production show that both shipping hazards and regional rearmament will persist before the US midterm elections.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1115,19 +1131,27 @@
         {
           "label": "Trump endorses Netanyahu before Israel's election",
           "url": "https://www.reuters.com/world/middle-east/trump-endorses-netanyahu-israeli-election-2026-10-18/"
+        },
+        {
+          "label": "Iran calls for diplomacy on Hormuz",
+          "url": "https://www.reuters.com/world/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy-2026-10-19/"
+        },
+        {
+          "label": "Qatar plans defence production hub",
+          "url": "https://www.reuters.com/world/middle-east/qatar-will-soon-announce-local-defence-production-hub-minister-state-says-2026-10-19/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-17",
-      "materiallyUpdated": "2026-10-17",
+      "reviewed": "2026-10-20",
+      "materiallyUpdated": "2026-10-20",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-18",
+      "nextReview": "2026-10-21",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period as Iran changes attack methods while testing ways around the US blockade. Evidence that small volumes of Iranian LPG and jet fuel moved through concealed ship-to-ship transfers shows limited evasion capacity, but the blockade has still halted crude exports and makes a broad reopening unlikely without an agreement on maritime security and Iranian port access.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. A tanker mine blast and Iran's continuing seven-day reopening offer show that operational diplomacy remains possible, but repeated incidents and disagreement over security arrangements make a broad reopening unlikely without a verified maritime accord.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1232,6 +1256,14 @@
         {
           "label": "Iran moves limited fuel cargoes despite US blockade",
           "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
+        },
+        {
+          "label": "Tanker mine blast and continuing reopening offer",
+          "url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/"
+        },
+        {
+          "label": "Iran calls for regional diplomacy",
+          "url": "https://www.reuters.com/world/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy-2026-10-19/"
         }
       ]
     }
