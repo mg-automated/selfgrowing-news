@@ -1185,6 +1185,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified briefing and Outlook research did not conclusively establish that the FTC issued a formal information demand or compelled testimony. The deadline has not passed, and the reservation allowed no additional lookup before the deadline.",
+        "additionalLookups": 0
       }
     }
   ]
