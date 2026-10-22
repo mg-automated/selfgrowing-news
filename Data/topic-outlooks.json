@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-20",
-      "mentions": 6,
+      "lastSeen": "2026-10-22",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-20",
-      "mentions": 9,
+      "lastSeen": "2026-10-22",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -115,8 +115,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-10-17",
-      "mentions": 6,
+      "lastSeen": "2026-10-22",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-20",
-      "mentions": 25,
+      "lastSeen": "2026-10-22",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-21",
-      "mentions": 24,
+      "lastSeen": "2026-10-22",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,8 +251,8 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-20",
-      "mentions": 16,
+      "lastSeen": "2026-10-22",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -291,16 +291,16 @@
     },
     "Robotics.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-12",
-      "mentions": 3,
+      "lastSeen": "2026-10-22",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-20",
-      "mentions": 2,
+      "lastSeen": "2026-10-22",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -339,8 +339,8 @@
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-10-17",
-      "mentions": 4,
+      "lastSeen": "2026-10-22",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-21",
-      "mentions": 31,
+      "lastSeen": "2026-10-22",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-21",
-      "mentions": 8,
+      "lastSeen": "2026-10-22",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -446,13 +446,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-19",
-      "materiallyUpdated": "2026-10-18",
+      "reviewed": "2026-10-22",
+      "materiallyUpdated": "2026-10-22",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-22",
+      "nextReview": "2026-10-25",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Artificial-intelligence development is likely to remain dominated by increasingly capable agents, tighter controls on sensitive technology and rising financial constraints. Anthropic's warning that governments have only a small number of years to establish safeguards adds pressure for international rules and strict oversight of biological and cyber uses, while the sector's infrastructure costs keep financing and economic effects under scrutiny.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Meta's Muse strategy shows major platforms pushing agents toward mass use, while the PHP and ConnectWise incidents demonstrate that AI-assisted vulnerability discovery and exploitation are moving into operational cybersecurity at internet scale.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -628,19 +628,31 @@
         {
           "label": "Anthropic commits shares to a public-benefit fund",
           "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
+        },
+        {
+          "label": "AI-assisted discovery and exploitation of PHP flaws",
+          "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+        },
+        {
+          "label": "AI-driven ConnectWise intrusion campaign",
+          "url": "https://www.reuters.com/technology/chinese-linked-hackers-compromise-connectwise-target-hundreds-global-attack-microsoft-says-2026-10-21/"
+        },
+        {
+          "label": "Meta centres strategy on Muse agent",
+          "url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-21",
-      "materiallyUpdated": "2026-10-21",
+      "reviewed": "2026-10-22",
+      "materiallyUpdated": "2026-10-22",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-22",
+      "nextReview": "2026-10-23",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security even as Washington conducts sequential talks with Kyiv and Moscow. The Oslo discussion of security guarantees creates a diplomatic opening, but continuing Russian attacks and US pressure on Ukraine mean defence readiness and allied coordination will remain urgent.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. Election-related arrests in Serbia and widespread cyber disruption from PHP vulnerabilities add internal security and resilience pressures alongside the continuing military threat.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -771,19 +783,31 @@
         {
           "label": "Oslo talks and planned Witkoff–Putin meeting",
           "url": "https://www.reuters.com/business/media-telecom/zelenskiy-meet-witkoff-trump-praises-russia-rebukes-ukraine-2026-10-20/"
+        },
+        {
+          "label": "Russian strikes during peace diplomacy",
+          "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
+        },
+        {
+          "label": "Serbian election-violence arrests",
+          "url": "https://www.reuters.com/world/serbia-arrests-six-people-suspected-plotting-election-day-violence-2026-10-21/"
+        },
+        {
+          "label": "European sites taken offline over PHP flaws",
+          "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-21",
-      "materiallyUpdated": "2026-10-21",
+      "reviewed": "2026-10-22",
+      "materiallyUpdated": "2026-10-22",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-22",
+      "nextReview": "2026-10-23",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while engaging selectively with Washington. The Kremlin's interest in receiving Witkoff after his Oslo talks may increase diplomatic activity, but unresolved security guarantees, energy attacks and Washington's pressure on Kyiv make a comprehensive settlement unlikely during the forecast period.",
+      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-mediated diplomacy. New strikes that killed civilians immediately after the Oslo talks show that Moscow is not pausing battlefield coercion, making a comprehensive settlement unlikely without enforceable security arrangements and a sustained reduction in attacks.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -986,16 +1010,20 @@
         {
           "label": "Kremlin seeks Witkoff briefing after Oslo talks",
           "url": "https://www.reuters.com/world/europe/kremlin-hopes-witkoff-can-brief-putin-soon-latest-ukrainianeuropean-thinking-2026-10-20/"
+        },
+        {
+          "label": "Russian strikes kill civilians after Oslo talks",
+          "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-21",
+      "reviewed": "2026-10-22",
       "materiallyUpdated": "2026-10-21",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-22",
+      "nextReview": "2026-10-23",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Iranian officials' account that Tehran is prolonging negotiations while preparing for renewed attacks, together with continuing shipping incidents, indicates that tactical diplomacy and military pressure will coexist through the forecast period.",
@@ -1159,6 +1187,10 @@
         {
           "label": "Iranian officials describe deliberate negotiating delay",
           "url": "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/"
+        },
+        {
+          "label": "Israeli election unlikely to change Iran-war policy",
+          "url": "https://www.reuters.com/world/middle-east/israels-election-may-change-its-leader-not-iran-war-policy-2026-10-21/"
         }
       ]
     },
