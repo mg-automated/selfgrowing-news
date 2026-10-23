@@ -1210,6 +1210,20 @@
         "explanation": "Today's verified briefing and Outlook research did not conclusively establish a formal FTC information demand or compelled testimony. The deadline remains open and this pre-deadline reservation allowed no additional lookup.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-23:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-23",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
