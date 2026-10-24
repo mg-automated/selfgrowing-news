@@ -1242,6 +1242,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's verified AI reporting concerns model-security controls, telecom safeguards and biosecurity funding; it does not conclusively establish that the FTC issued a formal information demand or compelled testimony. The deadline remains open and this reservation permits no additional pre-deadline lookup.",
+        "additionalLookups": 0
       }
     }
   ]

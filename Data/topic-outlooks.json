@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-22",
-      "mentions": 7,
+      "lastSeen": "2026-10-24",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-23",
-      "mentions": 11,
+      "lastSeen": "2026-10-24",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,24 +75,24 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-10-11",
-      "mentions": 3,
+      "lastSeen": "2026-10-24",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-23",
-      "mentions": 6,
+      "lastSeen": "2026-10-24",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-23",
-      "mentions": 19,
+      "lastSeen": "2026-10-24",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-20",
-      "mentions": 8,
+      "lastSeen": "2026-10-24",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 10,
+      "lastSeen": "2026-10-24",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -227,8 +227,8 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 27,
+      "lastSeen": "2026-10-24",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -243,8 +243,8 @@
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-18",
-      "mentions": 23,
+      "lastSeen": "2026-10-24",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-19",
-      "mentions": 6,
+      "lastSeen": "2026-10-24",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-20",
-      "mentions": 11,
+      "lastSeen": "2026-10-24",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-22",
-      "mentions": 32,
+      "lastSeen": "2026-10-24",
+      "mentions": 33,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-22",
-      "mentions": 9,
+      "lastSeen": "2026-10-24",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -446,13 +446,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-23",
-      "materiallyUpdated": "2026-10-23",
+      "reviewed": "2026-10-24",
+      "materiallyUpdated": "2026-10-24",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-26",
+      "nextReview": "2026-10-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences, but financing and distribution risks are becoming more prominent. A sharp technology sell-off shows investors demanding clearer returns from the build-out, while the IMF and OECD warn that infrastructure and skills gaps could concentrate AI's economic benefits in richer countries and larger firms.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. OpenAI's security overhaul and telecom operators' tighter controls show that containment, monitoring and human oversight are becoming operational requirements as agents gain access to sensitive systems, while financing and distribution risks remain prominent.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -648,6 +648,14 @@
         {
           "label": "AI spending fears trigger technology sell-off",
           "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+        },
+        {
+          "label": "OpenAI resumes frontier training after security overhaul",
+          "url": "https://www.reuters.com/business/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-2026-10-23/"
+        },
+        {
+          "label": "Telecom operators tighten AI safeguards",
+          "url": "https://www.reuters.com/legal/litigation/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-2026-10-23/"
         }
       ]
     },
@@ -809,13 +817,13 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-22",
-      "materiallyUpdated": "2026-10-22",
+      "reviewed": "2026-10-24",
+      "materiallyUpdated": "2026-10-24",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-23",
+      "nextReview": "2026-10-25",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-mediated diplomacy. New strikes that killed civilians immediately after the Oslo talks show that Moscow is not pausing battlefield coercion, making a comprehensive settlement unlikely without enforceable security arrangements and a sustained reduction in attacks.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in US-mediated diplomacy. The planned Oleshky evacuation ceasefire is a concrete but narrowly humanitarian step, while intensified attacks on Ukrainian data centres show that a broader reduction in coercion remains unlikely without enforceable arrangements.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1022,19 +1030,27 @@
         {
           "label": "Russian strikes kill civilians after Oslo talks",
           "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
+        },
+        {
+          "label": "Local Oleshky ceasefire and planned peace talks",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-agree-ceasefire-embattled-town-hold-peace-talks-next-month-2026-10-23/"
+        },
+        {
+          "label": "Russia intensifies attacks on Ukrainian digital infrastructure",
+          "url": "https://www.reuters.com/business/aerospace-defense/russia-steps-up-attacks-ukraines-digital-infrastructure-kyiv-says-2026-10-23/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-23",
-      "materiallyUpdated": "2026-10-21",
+      "reviewed": "2026-10-24",
+      "materiallyUpdated": "2026-10-24",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-24",
+      "nextReview": "2026-10-25",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Iranian officials' account that Tehran is prolonging negotiations while preparing for renewed attacks, together with continuing shipping incidents, indicates that tactical diplomacy and military pressure will coexist through the forecast period.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. President Trump's renewed suggestion of another military operation raises escalation risk while Washington weighs a rapid conclusion against allowing the conflict to continue, so tactical diplomacy and military pressure are likely to coexist.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1199,19 +1215,23 @@
         {
           "label": "Israeli election unlikely to change Iran-war policy",
           "url": "https://www.reuters.com/world/middle-east/israels-election-may-change-its-leader-not-iran-war-policy-2026-10-21/"
+        },
+        {
+          "label": "Trump raises prospect of another operation against Iran",
+          "url": "https://www.reuters.com/world/middle-east/trump-says-us-may-do-another-military-operation-against-iran-2026-10-23/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-23",
-      "materiallyUpdated": "2026-10-21",
+      "reviewed": "2026-10-24",
+      "materiallyUpdated": "2026-10-24",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-24",
+      "nextReview": "2026-10-25",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Iranian officials' stated decision to delay a broader settlement and the spread of vessel attacks beyond the Strait into the Gulf of Oman make a verified reopening unlikely before the US midterms despite continued mediation.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Renewed US threats of military action against Iran and continuing energy-market disruption make a verified reopening unlikely before the US midterms despite continued mediation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1332,6 +1352,10 @@
         {
           "label": "Shipping attacks expand beyond the Strait",
           "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/"
+        },
+        {
+          "label": "Trump weighs escalation or an end to the Iran war",
+          "url": "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/"
         }
       ]
     }
