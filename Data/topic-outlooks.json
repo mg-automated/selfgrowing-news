@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-24",
-      "mentions": 12,
+      "lastSeen": "2026-10-25",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -59,16 +59,16 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-14",
-      "mentions": 7,
+      "lastSeen": "2026-10-25",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-23",
-      "mentions": 8,
+      "lastSeen": "2026-10-25",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-24",
-      "mentions": 20,
+      "lastSeen": "2026-10-25",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-24",
-      "mentions": 7,
+      "lastSeen": "2026-10-25",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -299,8 +299,8 @@
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-22",
-      "mentions": 3,
+      "lastSeen": "2026-10-25",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-24",
-      "mentions": 33,
+      "lastSeen": "2026-10-25",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-24",
-      "mentions": 10,
+      "lastSeen": "2026-10-25",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -440,6 +440,22 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-21"
+    },
+    "Nigeria.md": {
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-25"
+    },
+    "United-Kingdom.md": {
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-25"
     }
   },
   "outlooks": {
@@ -662,10 +678,10 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-23",
+      "reviewed": "2026-10-25",
       "materiallyUpdated": "2026-10-22",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-24",
+      "nextReview": "2026-10-26",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. Election-related arrests in Serbia and widespread cyber disruption from PHP vulnerabilities add internal security and resilience pressures alongside the continuing military threat.",
@@ -811,16 +827,20 @@
         {
           "label": "European sites taken offline over PHP flaws",
           "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+        },
+        {
+          "label": "Ukrainian strikes on Russian industrial facilities",
+          "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-24",
+      "reviewed": "2026-10-25",
       "materiallyUpdated": "2026-10-24",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-25",
+      "nextReview": "2026-10-26",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in US-mediated diplomacy. The planned Oleshky evacuation ceasefire is a concrete but narrowly humanitarian step, while intensified attacks on Ukrainian data centres show that a broader reduction in coercion remains unlikely without enforceable arrangements.",
@@ -1038,19 +1058,23 @@
         {
           "label": "Russia intensifies attacks on Ukrainian digital infrastructure",
           "url": "https://www.reuters.com/business/aerospace-defense/russia-steps-up-attacks-ukraines-digital-infrastructure-kyiv-says-2026-10-23/"
+        },
+        {
+          "label": "Ukrainian strikes on Russian industrial facilities",
+          "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-24",
-      "materiallyUpdated": "2026-10-24",
+      "reviewed": "2026-10-25",
+      "materiallyUpdated": "2026-10-25",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-25",
+      "nextReview": "2026-10-26",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. President Trump's renewed suggestion of another military operation raises escalation risk while Washington weighs a rapid conclusion against allowing the conflict to continue, so tactical diplomacy and military pressure are likely to coexist.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. New US intelligence warnings about advanced Iranian plots raise escalation risk, although President Massoud Pezeshkian's call for another attempt at an interim agreement leaves a narrow diplomatic channel open.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1219,19 +1243,27 @@
         {
           "label": "Trump raises prospect of another operation against Iran",
           "url": "https://www.reuters.com/world/middle-east/trump-says-us-may-do-another-military-operation-against-iran-2026-10-23/"
+        },
+        {
+          "label": "US intelligence warning about Iranian plots",
+          "url": "https://www.reuters.com/world/middle-east/iran-has-ramped-up-efforts-target-us-personnel-intelligence-memo-warns-2026-10-24/"
+        },
+        {
+          "label": "Pezeshkian calls for another interim-deal attempt",
+          "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-24",
-      "materiallyUpdated": "2026-10-24",
+      "reviewed": "2026-10-25",
+      "materiallyUpdated": "2026-10-25",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-25",
+      "nextReview": "2026-10-26",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Renewed US threats of military action against Iran and continuing energy-market disruption make a verified reopening unlikely before the US midterms despite continued mediation.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period after October attacks reached a record monthly level. Renewed US warnings about Iranian plots and continuing energy-market disruption make a verified reopening unlikely before the US midterms despite President Massoud Pezeshkian's call for another diplomatic attempt.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1356,6 +1388,14 @@
         {
           "label": "Trump weighs escalation or an end to the Iran war",
           "url": "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/"
+        },
+        {
+          "label": "October ship attacks reach a record monthly high",
+          "url": "https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/"
+        },
+        {
+          "label": "Pezeshkian calls for another interim-deal attempt",
+          "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
         }
       ]
     }
