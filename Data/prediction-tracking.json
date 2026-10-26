@@ -1267,6 +1267,20 @@
         "explanation": "The prediction deadline has not passed, and the reserved pre-deadline assessment permits no additional lookups. No conclusive in-window evidence available from today's briefing research establishes a final outcome.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-26:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-26",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
