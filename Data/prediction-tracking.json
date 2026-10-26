@@ -1280,6 +1280,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The prediction deadline has not passed, and the reserved pre-deadline assessment permits no additional lookups. Today's verified AI coverage does not conclusively establish whether the FTC inquiry outcome condition has been met.",
+        "additionalLookups": 0
       }
     }
   ]

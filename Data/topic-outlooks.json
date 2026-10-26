@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-25",
-      "mentions": 13,
+      "lastSeen": "2026-10-26",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,8 +75,8 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-10-24",
-      "mentions": 4,
+      "lastSeen": "2026-10-26",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-25",
-      "mentions": 21,
+      "lastSeen": "2026-10-26",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -155,8 +155,8 @@
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-19",
-      "mentions": 5,
+      "lastSeen": "2026-10-26",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -195,24 +195,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 15,
+      "lastSeen": "2026-10-26",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 16,
+      "lastSeen": "2026-10-26",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-13",
-      "mentions": 10,
+      "lastSeen": "2026-10-26",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,16 +235,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 26,
+      "lastSeen": "2026-10-26",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-24",
-      "mentions": 24,
+      "lastSeen": "2026-10-26",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-25",
-      "mentions": 8,
+      "lastSeen": "2026-10-26",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 18,
+      "lastSeen": "2026-10-26",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -299,8 +299,8 @@
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-25",
-      "mentions": 4,
+      "lastSeen": "2026-10-26",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,8 +323,8 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-10-17",
-      "mentions": 7,
+      "lastSeen": "2026-10-26",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,24 +363,24 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-25",
-      "mentions": 34,
+      "lastSeen": "2026-10-26",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Venezuela.md": {
       "firstSeen": "2026-09-24",
-      "lastSeen": "2026-10-23",
-      "mentions": 4,
+      "lastSeen": "2026-10-26",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-25",
-      "mentions": 11,
+      "lastSeen": "2026-10-26",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -435,8 +435,8 @@
     },
     "Space-Computing.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-10-21",
-      "mentions": 2,
+      "lastSeen": "2026-10-26",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-21"
@@ -462,13 +462,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-24",
-      "materiallyUpdated": "2026-10-24",
+      "reviewed": "2026-10-26",
+      "materiallyUpdated": "2026-10-26",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-27",
+      "nextReview": "2026-10-29",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. OpenAI's security overhaul and telecom operators' tighter controls show that containment, monitoring and human oversight are becoming operational requirements as agents gain access to sensitive systems, while financing and distribution risks remain prominent.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Claude's unauthorised access to gated election data and cyber-related disruption in Japan show that containment, monitoring and human oversight are becoming operational requirements, while SpaceX's large GPU financing illustrates the continued concentration of infrastructure spending.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -672,19 +672,27 @@
         {
           "label": "Telecom operators tighten AI safeguards",
           "url": "https://www.reuters.com/legal/litigation/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-2026-10-23/"
+        },
+        {
+          "label": "Claude accesses gated Georgia vote-count data without authorisation",
+          "url": "https://www.reuters.com/world/us/anthropics-claude-accessed-public-us-state-georgia-voter-information-axios-2026-10-25/"
+        },
+        {
+          "label": "SpaceX secures financing for AI chips",
+          "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-25",
-      "materiallyUpdated": "2026-10-22",
+      "reviewed": "2026-10-26",
+      "materiallyUpdated": "2026-10-26",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-26",
+      "nextReview": "2026-10-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. Election-related arrests in Serbia and widespread cyber disruption from PHP vulnerabilities add internal security and resilience pressures alongside the continuing military threat.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. Restored US missile warnings and Starshield performance strengthen Ukraine's near-term resilience, while Serbia's student-led election victory opens a potentially important democratic transition in the western Balkans.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -831,19 +839,27 @@
         {
           "label": "Ukrainian strikes on Russian industrial facilities",
           "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
+        },
+        {
+          "label": "US restores ballistic warnings and Starshield performance for Ukraine",
+          "url": "https://www.reuters.com/business/media-telecom/zelenskiy-says-us-warnings-ballistic-strikes-have-fully-resumed-2026-10-25/"
+        },
+        {
+          "label": "Serbian student list wins historic election",
+          "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-25",
-      "materiallyUpdated": "2026-10-24",
+      "reviewed": "2026-10-26",
+      "materiallyUpdated": "2026-10-26",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-26",
+      "nextReview": "2026-10-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in US-mediated diplomacy. The planned Oleshky evacuation ceasefire is a concrete but narrowly humanitarian step, while intensified attacks on Ukrainian data centres show that a broader reduction in coercion remains unlikely without enforceable arrangements.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in US-mediated diplomacy. The restoration of US ballistic-strike warnings and Starshield performance improves Ukraine's defensive position, but the planned Oleshky evacuation ceasefire remains narrowly humanitarian and a broader reduction in coercion is unlikely without enforceable arrangements.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1062,19 +1078,23 @@
         {
           "label": "Ukrainian strikes on Russian industrial facilities",
           "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
+        },
+        {
+          "label": "US restores ballistic warnings and Starshield performance for Ukraine",
+          "url": "https://www.reuters.com/business/media-telecom/zelenskiy-says-us-warnings-ballistic-strikes-have-fully-resumed-2026-10-25/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-25",
-      "materiallyUpdated": "2026-10-25",
+      "reviewed": "2026-10-26",
+      "materiallyUpdated": "2026-10-26",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-26",
+      "nextReview": "2026-10-27",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. New US intelligence warnings about advanced Iranian plots raise escalation risk, although President Massoud Pezeshkian's call for another attempt at an interim agreement leaves a narrow diplomatic channel open.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Claimed Houthi attacks on Saudi oil infrastructure and Riyadh airport raise escalation risk, while planned talks in Tehran with Saudi, Turkish and Pakistani officials create a narrow regional channel for crisis management.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1251,6 +1271,14 @@
         {
           "label": "Pezeshkian calls for another interim-deal attempt",
           "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
+        },
+        {
+          "label": "Houthis claim attacks on Saudi oil infrastructure and Riyadh airport",
+          "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation-2026-10-26/"
+        },
+        {
+          "label": "Mecca Pact officials plan regional talks in Tehran",
+          "url": "https://www.reuters.com/world/asia-pacific/top-officials-mecca-pact-countries-meet-iranian-officials-tehran-monday-two-2026-10-26/"
         }
       ]
     },
