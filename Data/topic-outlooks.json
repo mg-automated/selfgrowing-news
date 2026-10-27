@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-26",
-      "mentions": 14,
+      "lastSeen": "2026-10-27",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-24",
-      "mentions": 7,
+      "lastSeen": "2026-10-27",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-26",
-      "mentions": 22,
+      "lastSeen": "2026-10-27",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -179,32 +179,32 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-12",
-      "mentions": 5,
+      "lastSeen": "2026-10-27",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-17",
-      "mentions": 12,
+      "lastSeen": "2026-10-27",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-26",
-      "mentions": 16,
+      "lastSeen": "2026-10-27",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-26",
-      "mentions": 17,
+      "lastSeen": "2026-10-27",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,16 +235,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-26",
-      "mentions": 27,
+      "lastSeen": "2026-10-27",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-26",
-      "mentions": 25,
+      "lastSeen": "2026-10-27",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,16 +259,16 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-20",
-      "mentions": 13,
+      "lastSeen": "2026-10-27",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-26",
-      "mentions": 9,
+      "lastSeen": "2026-10-27",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-26",
-      "mentions": 19,
+      "lastSeen": "2026-10-27",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -315,8 +315,8 @@
     },
     "Sweden.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-14",
-      "mentions": 5,
+      "lastSeen": "2026-10-27",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -395,8 +395,8 @@
     },
     "South-Korea.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-21",
-      "mentions": 3,
+      "lastSeen": "2026-10-27",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -462,13 +462,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-26",
-      "materiallyUpdated": "2026-10-26",
+      "reviewed": "2026-10-27",
+      "materiallyUpdated": "2026-10-27",
       "validUntil": "2026-10-30",
-      "nextReview": "2026-10-29",
+      "nextReview": "2026-10-30",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Claude's unauthorised access to gated election data and cyber-related disruption in Japan show that containment, monitoring and human oversight are becoming operational requirements, while SpaceX's large GPU financing illustrates the continued concentration of infrastructure spending.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. A third-party software weakness exposing sensitive Anthropic systems reinforces the need for supply-chain controls, while Microsoft's broad voluntary-exit offer and Cadence's specialized chip-design models show AI investment reshaping both workforces and engineering tools.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -680,16 +680,28 @@
         {
           "label": "SpaceX secures financing for AI chips",
           "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+        },
+        {
+          "label": "Microsoft offers large-scale voluntary exits",
+          "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+        },
+        {
+          "label": "Cadence launches specialized AI models for chip design",
+          "url": "https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/"
+        },
+        {
+          "label": "Researchers expose third-party software risk at Anthropic",
+          "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-26",
+      "reviewed": "2026-10-27",
       "materiallyUpdated": "2026-10-26",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-27",
+      "nextReview": "2026-10-28",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. Restored US missile warnings and Starshield performance strengthen Ukraine's near-term resilience, while Serbia's student-led election victory opens a potentially important democratic transition in the western Balkans.",
@@ -847,6 +859,10 @@
         {
           "label": "Serbian student list wins historic election",
           "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/"
+        },
+        {
+          "label": "Swedish coalition talks return to the parliament speaker",
+          "url": "https://www.reuters.com/world/swedens-centre-leader-hands-task-forming-government-back-parliament-speaker-2026-10-26/"
         }
       ]
     },
@@ -1088,13 +1104,13 @@
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-26",
-      "materiallyUpdated": "2026-10-26",
+      "reviewed": "2026-10-27",
+      "materiallyUpdated": "2026-10-27",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-27",
+      "nextReview": "2026-10-28",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Claimed Houthi attacks on Saudi oil infrastructure and Riyadh airport raise escalation risk, while planned talks in Tehran with Saudi, Turkish and Pakistani officials create a narrow regional channel for crisis management.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Talks in Tehran involving Saudi, Turkish, Pakistani and Qatari intermediaries create a narrow regional channel for crisis management, but Israeli election rhetoric about renewed military action keeps escalation risk high.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1279,19 +1295,27 @@
         {
           "label": "Mecca Pact officials plan regional talks in Tehran",
           "url": "https://www.reuters.com/world/asia-pacific/top-officials-mecca-pact-countries-meet-iranian-officials-tehran-monday-two-2026-10-26/"
+        },
+        {
+          "label": "Regional delegations hold de-escalation talks in Tehran",
+          "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44"
+        },
+        {
+          "label": "Netanyahu raises prospect of restarting the Iran war",
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran-2026-10-26/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-25",
-      "materiallyUpdated": "2026-10-25",
+      "reviewed": "2026-10-27",
+      "materiallyUpdated": "2026-10-27",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-26",
+      "nextReview": "2026-10-28",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period after October attacks reached a record monthly level. Renewed US warnings about Iranian plots and continuing energy-market disruption make a verified reopening unlikely before the US midterms despite President Massoud Pezeshkian's call for another diplomatic attempt.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period after October attacks reached a record monthly level. Regional talks in Tehran may test another route toward de-escalation, but the lack of concrete terms and renewed Israeli threats make a verified reopening unlikely before the US midterms.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1424,6 +1448,10 @@
         {
           "label": "Pezeshkian calls for another interim-deal attempt",
           "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
+        },
+        {
+          "label": "Regional delegations hold de-escalation talks in Tehran",
+          "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44"
         }
       ]
     }
