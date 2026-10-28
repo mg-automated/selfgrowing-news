@@ -1305,6 +1305,20 @@
         "explanation": "The prediction deadline has not passed, and today's verified briefing and Outlook sources do not conclusively establish the outcome across the full prediction window.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-28:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-28",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
