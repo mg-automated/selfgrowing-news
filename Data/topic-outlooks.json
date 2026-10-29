@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-28",
-      "mentions": 16,
+      "lastSeen": "2026-10-29",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-28",
-      "mentions": 10,
+      "lastSeen": "2026-10-29",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,32 +83,32 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-27",
-      "mentions": 8,
+      "lastSeen": "2026-10-29",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-28",
-      "mentions": 24,
+      "lastSeen": "2026-10-29",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-13",
-      "mentions": 7,
+      "lastSeen": "2026-10-29",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 10,
+      "lastSeen": "2026-10-29",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -155,8 +155,8 @@
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-26",
-      "mentions": 6,
+      "lastSeen": "2026-10-29",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -179,8 +179,8 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-27",
-      "mentions": 6,
+      "lastSeen": "2026-10-29",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
@@ -227,24 +227,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-24",
-      "mentions": 28,
+      "lastSeen": "2026-10-29",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 29,
+      "lastSeen": "2026-10-29",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-27",
-      "mentions": 26,
+      "lastSeen": "2026-10-29",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-28",
-      "mentions": 15,
+      "lastSeen": "2026-10-29",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 21,
+      "lastSeen": "2026-10-29",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-24",
-      "mentions": 12,
+      "lastSeen": "2026-10-29",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 36,
+      "lastSeen": "2026-10-29",
+      "mentions": 37,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-26",
-      "mentions": 12,
+      "lastSeen": "2026-10-29",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -395,8 +395,8 @@
     },
     "South-Korea.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-27",
-      "mentions": 4,
+      "lastSeen": "2026-10-29",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -456,19 +456,27 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-25"
+    },
+    "Canada-European-Relations.md": {
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-29",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-10-29"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-27",
-      "materiallyUpdated": "2026-10-27",
-      "validUntil": "2026-10-30",
-      "nextReview": "2026-10-30",
+      "reviewed": "2026-10-29",
+      "materiallyUpdated": "2026-10-29",
+      "validUntil": "2026-11-12",
+      "nextReview": "2026-11-01",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. A third-party software weakness exposing sensitive Anthropic systems reinforces the need for supply-chain controls, while Microsoft's broad voluntary-exit offer and Cadence's specialized chip-design models show AI investment reshaping both workforces and engineering tools.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Google's restricted release of a cybersecurity model capable of vulnerability discovery and exploitation raises the stakes for staged access, while Samsung's capacity expansion shows memory supply remaining a major constraint through 2027.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -692,19 +700,27 @@
         {
           "label": "Researchers expose third-party software risk at Anthropic",
           "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
+        },
+        {
+          "label": "Google launches Gemini 4 Carbon for cybersecurity",
+          "url": "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+        },
+        {
+          "label": "Samsung forecasts a deeper AI memory shortage",
+          "url": "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-28",
-      "materiallyUpdated": "2026-10-28",
+      "reviewed": "2026-10-29",
+      "materiallyUpdated": "2026-10-29",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-29",
+      "nextReview": "2026-10-30",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite new US-mediated diplomacy. The Oleshky humanitarian ceasefire and rare joint contact with Vladimir Putin by Finnish and Norwegian leaders open limited channels, but neither yet indicates a broader reduction in military pressure.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite limited US-mediated diplomacy. Moscow's warning that proposed November talks may be delayed, and its rejection of European participation, reduce the near-term prospect that the Oleshky humanitarian ceasefire will lead to broader de-escalation.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -871,19 +887,23 @@
         {
           "label": "Finnish and Norwegian leaders contact Putin",
           "url": "https://www.investing.com/news/world-news/two-nordic-leaders-urge-putin-to-end-ukraine-war-in-rare-direct-contact-by-europeans-4976434"
+        },
+        {
+          "label": "Kremlin casts doubt on November Ukraine talks",
+          "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-28",
-      "materiallyUpdated": "2026-10-28",
+      "reviewed": "2026-10-29",
+      "materiallyUpdated": "2026-10-29",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-29",
+      "nextReview": "2026-10-30",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. The Oleshky evacuation ceasefire has now begun and Finnish and Norwegian leaders reopened direct European contact with Vladimir Putin, but continuing strikes elsewhere show that broader de-escalation remains unlikely without enforceable arrangements.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. Moscow now says proposed November talks may be delayed by the Middle East conflict and battlefield conditions, reinforcing that the Oleshky evacuation ceasefire is unlikely to produce broader de-escalation without enforceable arrangements.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1114,16 +1134,20 @@
         {
           "label": "Finnish and Norwegian leaders contact Putin",
           "url": "https://www.investing.com/news/world-news/two-nordic-leaders-urge-putin-to-end-ukraine-war-in-rare-direct-contact-by-europeans-4976434"
+        },
+        {
+          "label": "Kremlin casts doubt on November Ukraine talks",
+          "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-28",
+      "reviewed": "2026-10-29",
       "materiallyUpdated": "2026-10-28",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-29",
+      "nextReview": "2026-10-30",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Qatar's demand that Tehran stop threatening Gulf states and reopen the Strait creates a concrete diplomatic test, while the claimed Houthi strike on Ras Tanura and Israel's inconclusive election preserve substantial escalation risk.",
