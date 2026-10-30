@@ -20,6 +20,26 @@ node site/scripts/prediction-tracking.mjs --migrate
 
 Automatic migration rejects nonempty version 1 history rather than guessing prediction types or rewriting past results. Such a migration requires an explicit reviewed mapping and preservation of original records.
 
+## Rotating prediction pool
+
+Version 2 supports both the original fixed-topic settings in historical commits and the rotating pool selected by `settings.maximumActivePredictions`. The current pool cap is four, with at most one active prediction per topic. The obsolete `topics` and `maximumTrackedTopics` settings are removed from current data; predictions, snapshots, assessments, corrections and attempt budgets are preserved exactly.
+
+Only existing Outlooks actually verified on the run date and valid beyond that date can supply candidates. Prefer topics with no recorded predictions, then the least recently evaluated creation candidates, then filename. Use the existing attempt ledger rather than a separate queue. Keep the 30-day per-topic spacing, at most two candidate evaluations and one new prediction per day. No additional creation research is allowed, and tracking never influences normal Outlook review selection.
+
+A prediction without a final assessment occupies a slot, even when overdue. Any final result releases it; historical records are never removed. Selection respects available capacity and the writer independently rejects overfill. Two fallback candidates may share the last free slot because only one prediction may be created. A slot freed after selection is available at a subsequent selection; the workflow does not assume a pending assessment will succeed. Reruns preserve reservations and spend only the remaining daily allowance.
+
+The track-record topic filter is derived from recorded predictions. A newly eligible topic appears after its first actual prediction is recorded; eligibility does not generate a placeholder or retrospectively score its Outlook. Completed topics remain visible permanently.
+
+To migrate an existing fixed-topic version 2 document, explicit user-authorized maintenance is required:
+
+```sh
+node site/scripts/prediction-tracking.mjs --migrate-rotation --reviewed
+node site/scripts/prediction-tracking.mjs --validate
+node site/scripts/validate-prediction-history.mjs
+```
+
+The locked, atomic writer changes only the eligibility settings. The operation is idempotent and preserves spent daily attempts. It must never be invoked by a daily run. Historical fixed-topic documents remain valid, so full Git-history checks and archived results continue to work.
+
 ## History protection and reviewed corrections
 
 `validate-prediction-history.mjs` checks every committed transition and current working changes. It catches intermediate rewrites even when the final version restores the original data, and checks every merge parent. Existing original records, final assessments and correction entries cannot be deleted or overwritten. This is a publishing safeguard, not an access-control system for repository owners.
@@ -56,7 +76,7 @@ The first command is read-only. The second atomically records selected attempts 
 
 Use only the tracking writer to generate checkpoints. Follow [Cloud publication](CLOUD-PUBLICATION.md) to upload the complete validated file bytes through the connector; this API transport is authorized, while manual JSON reconstruction and partial replacement remain prohibited. The helper validates current data and history, checks uploaded hashes and full read-back bytes, restricts checkpoint scope, verifies commit identity, and updates the branch with a head lease without force. Synchronize the cloud checkout to the published checkpoint and rerun both validators before tracking research. No personal computer credentials or authenticated native Git push are required.
 
-Every reservation spends an attempt immediately. A later invocation will not reselect it that day. Interrupted reservations are preserved without outcomes; never repeat their research that day. Pending predictions become eligible again on later days within the same limits. Creation candidates are ordered by oldest prior attempt, preventing an unsuitable first topic from permanently blocking others. Stop after one successful creation and mark unused candidate work `not-needed`.
+Every reservation spends an attempt immediately. A later invocation will not reselect it that day. Interrupted reservations are preserved without outcomes; never repeat their research that day. Pending predictions become eligible again on later days within the same limits. Creation candidates prefer never-tracked topics, then the oldest prior creation attempt and filename, preventing an unsuitable first candidate from monopolizing evaluation. Stop after one successful creation and mark unused candidate work `not-needed`.
 
 The outcome batch accepts `additions`, `assessments: [{id, assessment, additionalLookups}]`, and `attemptOutcomes: [{attemptId, status, explanation, additionalLookups}]`. Status is `pending` for an unresolved assessment, `skipped` for an unsuitable creation candidate, or `not-needed` for unused work. Final predictions/assessments automatically complete their reservations. Lookup counts are required and must be actual additional tracking lookups; reused briefing research is not an additional lookup. Before deadline, assessment `lookupLimit` is zero. Creation lookup allowance is always zero. The ledger makes these counts auditable; scripts cannot intercept an agent’s web tool calls.
 

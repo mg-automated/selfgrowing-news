@@ -21,13 +21,17 @@ function sources(items) {
 export function validate(document) {
   if (document.version !== 2 || typeof document.settings?.enabled !== 'boolean' || !Array.isArray(document.predictions) || !Array.isArray(document.attempts)) fail('Invalid prediction document; version 2 required')
   const s = document.settings
-  for (const key of ['maximumTrackedTopics', 'maximumActivePerTopic', 'maximumAssessmentsPerRun', 'maximumCreationsPerRun', 'minimumDaysBetweenPredictions']) {
+  for (const key of ['maximumActivePerTopic', 'maximumAssessmentsPerRun', 'maximumCreationsPerRun', 'minimumDaysBetweenPredictions']) {
     if (!Number.isInteger(s[key]) || s[key] < 0) fail('Invalid limit: ' + key)
   }
   for (const [key, ceiling] of Object.entries({maximumAssessmentAttemptsPerDay:2, maximumCreationAttemptsPerDay:2, maximumAdditionalLookupsPerAssessment:3})) {
     if (s[key] !== undefined && (!Number.isInteger(s[key]) || s[key] < 0 || s[key] > ceiling)) fail('Invalid tracking budget: ' + key)
   }
-  if (!Array.isArray(s.topics) || new Set(s.topics).size !== s.topics.length || s.topics.length > s.maximumTrackedTopics || s.topics.some(t => !/^[A-Za-z0-9-]+\.md$/.test(t))) fail('Invalid tracked topics')
+  if (s.maximumActivePredictions !== undefined) {
+    if (!Number.isInteger(s.maximumActivePredictions) || s.maximumActivePredictions < 0 || s.maximumActivePredictions > 4 || s.topics !== undefined || s.maximumTrackedTopics !== undefined) fail('Invalid rotating prediction pool')
+    if (s.maximumActivePerTopic > 1) fail('At most one active prediction per topic')
+    if (document.predictions.filter(p=>!p.assessment).length > s.maximumActivePredictions) fail('Global active prediction cap exceeded')
+  } else if (!Number.isInteger(s.maximumTrackedTopics) || s.maximumTrackedTopics < 0 || !Array.isArray(s.topics) || new Set(s.topics).size !== s.topics.length || s.topics.length > s.maximumTrackedTopics || s.topics.some(t => !/^[A-Za-z0-9-]+\.md$/.test(t))) fail('Invalid tracked topics')
   const ids = new Set()
   for (const p of document.predictions) {
     if (!text(p.id) || ids.has(p.id)) fail('Duplicate or missing prediction ID')
@@ -60,6 +64,10 @@ export function validate(document) {
         validateAssessment(p, c.assessment)
       }
     }
+  }
+  if (s.maximumActivePredictions !== undefined) {
+    const active = document.predictions.filter(p=>!p.assessment)
+    if (active.some(p=>active.filter(q=>q.topicFile === p.topicFile).length > s.maximumActivePerTopic)) fail('Active prediction cap per topic exceeded')
   }
   validateAttempts(document)
   return document
@@ -128,6 +136,15 @@ export function migrate(document) {
   if (document.version !== 1 || !Array.isArray(document.predictions) || document.predictions.length) fail('Automatic migration requires empty version 1 history; existing predictions need explicit reviewed migration')
   return validate({...structuredClone(document), version: 2, attempts: []})
 }
+export function migrateRotation(document) {
+  validate(document)
+  const updated = structuredClone(document)
+  if (updated.settings.maximumActivePredictions !== undefined) return updated
+  updated.settings.maximumActivePredictions = Math.min(4, updated.settings.maximumTrackedTopics)
+  delete updated.settings.topics
+  delete updated.settings.maximumTrackedTopics
+  return validateHistory(document, updated)
+}
 const canonical = value => JSON.stringify(stable(value))
 function stable(value) {
   if (Array.isArray(value)) return value.map(stable)
@@ -156,6 +173,7 @@ export function validateHistory(previous, current) {
   }
   for (const next of current.attempts) if (!priorAttempts.has(next.id) && next.outcome) fail('New attempts must be committed as reservations before completion')
   for (const key of ['maximumAssessmentAttemptsPerDay','maximumCreationAttemptsPerDay','maximumAdditionalLookupsPerAssessment']) if (before.settings[key] !== undefined && current.settings[key] === undefined) fail('Tracking budget settings cannot be removed: ' + key)
+  if (before.settings.maximumActivePredictions !== undefined && current.settings.maximumActivePredictions === undefined) fail('Rotating prediction pool cap cannot be removed')
   if (current.settings.maximumAssessmentAttemptsPerDay !== undefined) {
     for (const p of current.predictions) {
       const old = priorPredictions.get(p.id)
@@ -192,17 +210,23 @@ export function select(document, outlooks, markdown, today) {
   const candidates = due.filter(p=>!todayAttempts.some(a=>a.kind === 'assessment' && a.predictionId === p.id))
   const remainingAssessments = Math.max(0,Math.min(budget.assessmentAttempts - todayAttempts.filter(a=>a.kind === 'assessment').length,budget.assessments - document.predictions.filter(p=>p.assessment?.assessed === today).length))
   const assessments = candidates.slice(0,remainingAssessments).map(p=>({id:p.id,topicFile:p.topicFile,reason:today >= p.deadline ? 'deadline reached' : 'new coverage; assess only if conclusive'}))
-  const creationCandidates = s.topics.filter(topic => {
+  const rotating = s.maximumActivePredictions !== undefined
+  const topicPool = rotating ? Object.keys(outlooks.outlooks ?? {}).filter(t=>/^[A-Za-z0-9-]+\.md$/.test(t)) : s.topics
+  const creationCandidates = topicPool.filter(topic => {
     const o = outlooks.outlooks?.[topic]
     const previous = document.predictions.filter(p => p.topicFile === topic).sort((a,b) => b.created.localeCompare(a.created))[0]
     const age = previous ? (new Date(today) - new Date(previous.created)) / 86400000 : Infinity
     return o?.reviewed === today && o.validUntil > today && pending.filter(p => p.topicFile === topic).length < s.maximumActivePerTopic && age >= s.minimumDaysBetweenPredictions && !todayAttempts.some(a=>a.kind === 'creation' && a.topicFile === topic)
   })
   const lastAttempt = topic => document.attempts.filter(a=>a.kind === 'creation' && a.topicFile === topic).map(a=>a.date).sort().at(-1) ?? ''
-  creationCandidates.sort((a,b)=>lastAttempt(a).localeCompare(lastAttempt(b)) || s.topics.indexOf(a)-s.topics.indexOf(b))
+  const tracked = new Set(document.predictions.map(p=>p.topicFile))
+  creationCandidates.sort((a,b)=>rotating
+    ? Number(tracked.has(a))-Number(tracked.has(b)) || lastAttempt(a).localeCompare(lastAttempt(b)) || a.localeCompare(b)
+    : lastAttempt(a).localeCompare(lastAttempt(b)) || s.topics.indexOf(a)-s.topics.indexOf(b))
   const remainingCreations = document.predictions.filter(p=>p.created === today).length >= budget.creations ? 0 : Math.max(0,budget.creationAttempts-todayAttempts.filter(a=>a.kind === 'creation').length)
-  const creations = creationCandidates.slice(0,remainingCreations).map(topicFile=>({topicFile,reason:'outlook verified today; use existing research only'}))
-  return {date:today,enabled:true,assessments,creations,deferred:due.filter(p=>!assessments.some(a=>a.id === p.id)).map(p=>p.id),deferredCreations:creationCandidates.slice(creations.length),reserved:todayAttempts.filter(a=>!a.outcome).map(a=>a.id),budget}
+  const availableSlots = rotating ? Math.max(0,s.maximumActivePredictions-pending.length) : Infinity
+  const creations = creationCandidates.slice(0,availableSlots > 0 ? remainingCreations : 0).map(topicFile=>({topicFile,reason:'outlook verified today; use existing research only'}))
+  return {date:today,enabled:true,assessments,creations,deferred:due.filter(p=>!assessments.some(a=>a.id === p.id)).map(p=>p.id),deferredCreations:creationCandidates.slice(creations.length),reserved:todayAttempts.filter(a=>!a.outcome).map(a=>a.id),budget,...(rotating ? {activePredictions:pending.length,availablePredictionSlots:availableSlots} : {})}
 }
 export function reserveAttempts(document, outlooks, markdown, today) {
   const plan = select(document,outlooks,markdown,today)
@@ -228,6 +252,7 @@ export function applyBatch(document, outlooks, markdown, batch) {
     attempt.outcome = structuredClone(outcome)
   }
   for (const p of additions) {
+    if (updated.settings.maximumActivePredictions !== undefined && updated.predictions.filter(q=>!q.assessment).length >= updated.settings.maximumActivePredictions) fail('Global active prediction cap exceeded')
     if (usedTopics.has(p.topicFile) || p.created !== batch.date || p.assessment || p.corrections?.length) fail('Unselected or invalid creation')
     usedTopics.add(p.topicFile)
     if (JSON.stringify(p.outlookSnapshot) !== JSON.stringify(outlooks.outlooks[p.topicFile])) fail('Snapshot must exactly preserve the current outlook')
@@ -267,8 +292,8 @@ async function save(file, document) {
   } finally {await unlink(temporary).catch(error=>{if(error.code !== 'ENOENT') throw error})}
 }
 export async function run(args, now = new Date()) {
-  if (args.filter(arg=>['--reserve','--apply','--correct','--migrate','--validate'].includes(arg)).length > 1) fail('Choose exactly one tracking operation')
-  if (!args.some(arg=>['--reserve','--apply','--correct','--migrate'].includes(arg))) return runInternal(args,now)
+  if (args.filter(arg=>['--reserve','--apply','--correct','--migrate','--migrate-rotation','--validate'].includes(arg)).length > 1) fail('Choose exactly one tracking operation')
+  if (!args.some(arg=>['--reserve','--apply','--correct','--migrate','--migrate-rotation'].includes(arg))) return runInternal(args,now)
   const root = path.resolve(args.includes('--root') ? args[args.indexOf('--root')+1] : '.')
   const lockPath = path.join(root,'Data','.prediction-tracking.lock')
   let lock
@@ -290,6 +315,12 @@ async function runInternal(args,now) {
   }
   const document = validate(raw)
   if (args.includes('--validate')) return 'Prediction tracking data valid'
+  if (args.includes('--migrate-rotation')) {
+    if (!args.includes('--reviewed')) fail('Rotation migration requires --reviewed and an explicit user request; never use during daily runs')
+    validateHistory(committedDocument(root),document)
+    await save(file,migrateRotation(document))
+    return 'Rotating prediction pool enabled; all historical records and daily attempts preserved'
+  }
   if (args.includes('--correct')) {
     if (!args.includes('--reviewed')) fail('Corrections require --reviewed and an explicit user request; never use during daily runs')
     const batch = JSON.parse(await readFile(option('--correct'), 'utf8'))

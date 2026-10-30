@@ -8,6 +8,7 @@ import {execFileSync} from 'node:child_process'
 import {select, applyBatch, validate, migrate, validateHistory, appendCorrections, effectiveAssessment, reserveAttempts, run} from '../scripts/prediction-tracking.mjs'
 import {validateGitHistory} from '../scripts/validate-prediction-history.mjs'
 import {renderTrack, enrich} from '../scripts/render-predictions.mjs'
+import './prediction-rotation.test.mjs'
 import {preparePublication, publishBundle} from '../scripts/connector-publication.mjs'
 const source = {label:'Evidence',url:'https://example.org/evidence'}
 const outlook = {assessment:'A testable development is expected.',reviewed:'2026-09-30',validUntil:'2026-10-30',confidence:'medium'}

@@ -136,6 +136,6 @@ The archive combines:
 
 Selected AI outlooks produce testable predictions that are later assessed against linked evidence. Each record preserves the original prediction, deadline and Outlook snapshot, showing where expectations held up, partly held up or fell short. Insufficient evidence is marked as unverifiable, and corrections remain visible alongside the original assessment.
 
-Track records appear on topic pages and in a [filterable overview](https://mg-automated.github.io/selfgrowing-news/outlook-track-record). The pilot allows at most one new prediction and two assessments per day, without changing how topic outlooks are selected or updated.
+Track records appear on topic pages and in a [filterable overview](https://mg-automated.github.io/selfgrowing-news/outlook-track-record). The rotating pool allows up to four active predictions across eligible Outlook topics, at most one new prediction and two assessment attempts per day, without changing how topic outlooks are selected or updated.
 
 Assessments are AI-assisted and can contain errors. This tracks the archive’s forecasting process, not AI performance generally. See [Tracking maintenance](site/PREDICTION-TRACKING.md) for configuration, safeguards and validation.

@@ -2,20 +2,14 @@
   "version": 2,
   "settings": {
     "enabled": true,
-    "topics": [
-      "Artificial-Intelligence.md",
-      "Russia.md",
-      "Iran.md",
-      "Strait-of-Hormuz.md"
-    ],
-    "maximumTrackedTopics": 4,
     "maximumActivePerTopic": 1,
     "maximumAssessmentsPerRun": 2,
     "maximumCreationsPerRun": 1,
     "maximumAssessmentAttemptsPerDay": 2,
     "maximumCreationAttemptsPerDay": 2,
     "maximumAdditionalLookupsPerAssessment": 3,
-    "minimumDaysBetweenPredictions": 30
+    "minimumDaysBetweenPredictions": 30,
+    "maximumActivePredictions": 4
   },
   "predictions": [
     {
