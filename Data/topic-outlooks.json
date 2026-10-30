@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-29",
-      "mentions": 17,
+      "lastSeen": "2026-10-30",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-29",
-      "mentions": 25,
+      "lastSeen": "2026-10-30",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-29",
-      "mentions": 11,
+      "lastSeen": "2026-10-30",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -179,8 +179,8 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-29",
-      "mentions": 7,
+      "lastSeen": "2026-10-30",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
@@ -195,24 +195,24 @@
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 18,
+      "lastSeen": "2026-10-30",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 19,
+      "lastSeen": "2026-10-30",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-28",
-      "mentions": 12,
+      "lastSeen": "2026-10-30",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,16 +235,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-29",
-      "mentions": 30,
+      "lastSeen": "2026-10-30",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-29",
-      "mentions": 27,
+      "lastSeen": "2026-10-30",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-29",
-      "mentions": 16,
+      "lastSeen": "2026-10-30",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-29",
-      "mentions": 22,
+      "lastSeen": "2026-10-30",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-29",
-      "mentions": 37,
+      "lastSeen": "2026-10-30",
+      "mentions": 38,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-29",
-      "mentions": 13,
+      "lastSeen": "2026-10-30",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -470,13 +470,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-29",
-      "materiallyUpdated": "2026-10-29",
-      "validUntil": "2026-11-12",
-      "nextReview": "2026-11-01",
+      "reviewed": "2026-10-30",
+      "materiallyUpdated": "2026-10-30",
+      "validUntil": "2026-11-15",
+      "nextReview": "2026-11-02",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Google's restricted release of a cybersecurity model capable of vulnerability discovery and exploitation raises the stakes for staged access, while Samsung's capacity expansion shows memory supply remaining a major constraint through 2027.",
+      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Mistral's downloadable cybersecurity model broadens access to dual-use capabilities, while cash burn at Amazon, Alphabet and other technology groups is increasing scrutiny of whether infrastructure investment can deliver adequate returns.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -708,19 +708,27 @@
         {
           "label": "Samsung forecasts a deeper AI memory shortage",
           "url": "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
+        },
+        {
+          "label": "Mistral publicly releases Large 4 for cybersecurity",
+          "url": "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/"
+        },
+        {
+          "label": "Amazon and Intel results expose AI infrastructure costs",
+          "url": "https://www.reuters.com/business/weak-quarter-intel-sends-shivers-through-cooling-chip-stocks-2026-10-29/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-29",
-      "materiallyUpdated": "2026-10-29",
+      "reviewed": "2026-10-30",
+      "materiallyUpdated": "2026-10-30",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-30",
+      "nextReview": "2026-10-31",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks continue despite limited US-mediated diplomacy. Moscow's warning that proposed November talks may be delayed, and its rejection of European participation, reduce the near-term prospect that the Oleshky humanitarian ceasefire will lead to broader de-escalation.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks and maritime disruption continue despite limited diplomatic contact. Putin's offer to restore relations was paired with warnings over Baltic navigation, while another ship sinking in the Black Sea strengthens pressure for protected commercial corridors.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -891,19 +899,27 @@
         {
           "label": "Kremlin casts doubt on November Ukraine talks",
           "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
+        },
+        {
+          "label": "Putin offers better European ties while warning against confrontation",
+          "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
+        },
+        {
+          "label": "Greece calls for a Black Sea shipping truce",
+          "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-29",
-      "materiallyUpdated": "2026-10-29",
+      "reviewed": "2026-10-30",
+      "materiallyUpdated": "2026-10-30",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-30",
+      "nextReview": "2026-10-31",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. Moscow now says proposed November talks may be delayed by the Middle East conflict and battlefield conditions, reinforcing that the Oleshky evacuation ceasefire is unlikely to produce broader de-escalation without enforceable arrangements.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. Putin's support for restoring European relations, coupled with warnings over Baltic navigation and readiness for confrontation, suggests tactical outreach rather than a near-term shift toward broad de-escalation.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1138,19 +1154,23 @@
         {
           "label": "Kremlin casts doubt on November Ukraine talks",
           "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
+        },
+        {
+          "label": "Putin offers better European ties while warning against confrontation",
+          "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-29",
-      "materiallyUpdated": "2026-10-28",
+      "reviewed": "2026-10-30",
+      "materiallyUpdated": "2026-10-30",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-30",
+      "nextReview": "2026-10-31",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Qatar's demand that Tehran stop threatening Gulf states and reopen the Strait creates a concrete diplomatic test, while the claimed Houthi strike on Ras Tanura and Israel's inconclusive election preserve substantial escalation risk.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Evidence that a large covert procurement network has continued importing missile, drone and dual-use components despite sanctions and the naval blockade indicates that Tehran can sustain military pressure while pursuing indirect diplomacy.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1351,6 +1371,10 @@
         {
           "label": "Houthis claim an attack on Ras Tanura",
           "url": "https://www.reuters.com/world/middle-east/gulf-bourses-rise-saudi-defence-pact-countries-push-peace-2026-10-27/"
+        },
+        {
+          "label": "Investigation into Iran's covert military procurement network",
+          "url": "https://www.reuters.com/world/iran/irans-hidden-web-military-agencies-is-slipping-hardware-past-us-blockade-2026-10-29/"
         }
       ]
     },

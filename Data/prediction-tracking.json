@@ -98,6 +98,22 @@
             "url": "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-10-30",
+        "evidenceThrough": "2026-10-15",
+        "result": "supported",
+        "explanation": "The FTC sent civil investigative demands to Anthropic and OpenAI on October 14, seeking documents about AI safety incidents and related consumer-protection issues. Those compulsory information demands were issued within the prediction window and satisfy the stated success condition.",
+        "sources": [
+          {
+            "label": "Reuters report on FTC subpoenas to Anthropic and OpenAI",
+            "url": "https://www.investing.com/news/stock-market-news/us-ftc-subpoenas-openai-and-anthropicover-consumer-harms-axios-reports-4950890"
+          },
+          {
+            "label": "CBS News confirmation of FTC civil investigative demands",
+            "url": "https://www.cbsnews.com/news/ftc-subpoenas-anthropic-openai-consumer-protection/"
+          }
+        ]
       }
     },
     {
@@ -1355,6 +1371,11 @@
         "creationAttempts": 2,
         "assessments": 2,
         "creations": 1,
+        "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "The FTC sent civil investigative demands to Anthropic and OpenAI on October 14, seeking documents about AI safety incidents and related consumer-protection issues. Those compulsory information demands were issued within the prediction window and satisfy the stated success condition.",
         "additionalLookups": 3
       }
     }
