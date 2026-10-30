@@ -1343,6 +1343,20 @@
         "explanation": "The prediction deadline includes the full Europe/Zurich day of 2026-10-30. Today's verified AI reporting does not conclusively establish whether the FTC inquiry will produce a public enforcement action or formal settlement within that window, and this pre-deadline reservation permits no additional tracking lookups.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-10-30:assessment:artificial-intelligence-2026-10-01-ftc-inquiry",
+      "date": "2026-10-30",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-10-01-ftc-inquiry",
+      "lookupLimit": 3,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
