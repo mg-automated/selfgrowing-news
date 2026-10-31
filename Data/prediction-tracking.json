@@ -464,6 +464,230 @@
           }
         ]
       }
+    },
+    {
+      "id": "european-security-2026-10-31-no-comprehensive-ukraine-ceasefire",
+      "kind": "persistence",
+      "topicFile": "European-Security.md",
+      "created": "2026-10-31",
+      "deadline": "2026-11-10",
+      "statement": "No comprehensive Russia–Ukraine ceasefire agreement will take effect by 2026-11-10.",
+      "successCondition": "No comprehensive ceasefire covering the wider Russia–Ukraine conflict takes effect at any point from 2026-10-31 through the end of 2026-11-10; local, humanitarian, maritime or infrastructure-specific pauses do not count as a comprehensive ceasefire.",
+      "failureCondition": "A comprehensive ceasefire covering the wider Russia–Ukraine conflict takes effect on or before 2026-11-10.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "G20 divisions over Russia and Ukraine",
+          "url": "https://www.reuters.com/world/china/rifts-over-wars-ukraine-middle-east-loom-over-g20-meeting-us-2026-10-30/"
+        },
+        {
+          "label": "Lavrov says Russia's Ukraine position is unchanged",
+          "url": "https://www.reuters.com/world/lavrov-says-zelenskiy-comments-are-unhelpful-russias-position-is-unchanged-2026-10-30/"
+        },
+        {
+          "label": "Poland calls for a Black Sea shipping ceasefire",
+          "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/European-Security.md",
+        "volatility": "high",
+        "reviewed": "2026-10-31",
+        "materiallyUpdated": "2026-10-31",
+        "validUntil": "2026-11-10",
+        "nextReview": "2026-11-01",
+        "horizon": "the next 30 days",
+        "confidence": "medium",
+        "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks and maritime disruption continue despite limited diplomatic contact. Sharp G20 divisions over Lavrov's participation and growing Polish and Greek support for a Black Sea shipping ceasefire point to stronger European coordination without evidence of a broader settlement.",
+        "likelyDevelopments": [
+          "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
+          "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
+          "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
+          "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
+        ],
+        "upcomingEvents": [],
+        "changeSignals": [
+          "Confirmed attribution of attacks on NATO territory or shipping to a state actor",
+          "New EU or NATO measures protecting airspace, ports, undersea infrastructure or commercial navigation",
+          "Additional sanctions or coordinated responses to hybrid operations",
+          "A sustained reduction in cross-border drone, cyber or sabotage incidents",
+          "Direct military contact between Russian and NATO forces"
+        ],
+        "sources": [
+          {
+            "label": "Drone attacks on commercial ships in Bulgaria's economic zone",
+            "url": "https://www.reuters.com/world/drones-strike-two-ships-bulgarias-black-sea-zone-president-2026-10-06/"
+          },
+          {
+            "label": "NATO assessment of intensified Russian hybrid actions",
+            "url": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-russia"
+          },
+          {
+            "label": "EU policy on hybrid threats",
+            "url": "https://www.consilium.europa.eu/en/policies/hybrid-threats/"
+          },
+          {
+            "label": "European Council provisional agenda",
+            "url": "https://data.consilium.europa.eu/doc/document/CM-6-2026-INIT/en/pdf"
+          },
+          {
+            "label": "EU envoys approve new Russia sanctions listings",
+            "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+          },
+          {
+            "label": "UK–Germany partnership against sabotage and cyberattacks",
+            "url": "https://www.reuters.com/world/uk/uk-germany-launch-new-partnership-counter-sabotage-cyberattacks-2026-10-07/"
+          },
+          {
+            "label": "British sanctions on Russia's shadow fleet and financial channels",
+            "url": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+          },
+          {
+            "label": "US–Russian discussions about investment in Nord Stream",
+            "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+          },
+          {
+            "label": "US, Ukrainian and European talks on a unified peace proposal",
+            "url": "https://www.reuters.com/world/europe/us-ukraine-european-negotiators-meet-miami-trump-announces-diesel-deal-with-2026-10-10/"
+          },
+          {
+            "label": "European responses to US diesel agreement",
+            "url": "https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512"
+          },
+          {
+            "label": "US–Ukrainian dispute after the Zaporizhzhia strike",
+            "url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+          },
+          {
+            "label": "Unconfirmed Russia–Ukraine energy ceasefire announcement",
+            "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
+          },
+          {
+            "label": "NATO commander's deterrence warning",
+            "url": "https://www.reuters.com/world/nato-general-sets-out-tough-military-response-any-foolish-russian-attack-2026-10-12/"
+          },
+          {
+            "label": "German and Czech warnings about Russian hybrid operations",
+            "url": "https://www.reuters.com/world/germany-faces-shadow-war-that-goes-beyond-cold-war-threats-interior-minister-2026-10-12/"
+          },
+          {
+            "label": "Disclosed terms of US–Russia diesel diplomacy",
+            "url": "https://www.reuters.com/business/energy/us-hopes-diesel-deal-can-soften-moscow-peace-talks-sources-say-2026-10-12/"
+          },
+          {
+            "label": "Russian missiles strike Kyiv energy infrastructure",
+            "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+          },
+          {
+            "label": "EU leaders prepare for long-term budget dispute",
+            "url": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
+          },
+          {
+            "label": "Russia and China coordinate on Ukraine and Iran",
+            "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+          },
+          {
+            "label": "US discusses denuclearization with Russia and China",
+            "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
+          },
+          {
+            "label": "EU leaders back Ukraine amid dispute with Washington",
+            "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/"
+          },
+          {
+            "label": "Russian drones crash in Moldova",
+            "url": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/"
+          },
+          {
+            "label": "US waives major Russia-related sanctions",
+            "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+          },
+          {
+            "label": "US begins 60-day review of waived Russia sanctions",
+            "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+          },
+          {
+            "label": "Delegates walk out during Russia's IMF remarks",
+            "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/"
+          },
+          {
+            "label": "United States resumes intelligence-sharing with Ukraine",
+            "url": "https://www.reuters.com/legal/government/us-resumes-intelligence-sharing-with-ukraine-after-pause-zelenskiy-says-2026-10-18/"
+          },
+          {
+            "label": "Ukrainian drones may have entered Lithuanian airspace",
+            "url": "https://www.reuters.com/world/ukraine-regrets-possible-diversion-its-drones-over-lithuania-foreign-ministry-2026-10-18/"
+          },
+          {
+            "label": "US plans talks in Oslo and Moscow",
+            "url": "https://www.reuters.com/world/europe/us-officials-plan-travel-norway-ukraine-talks-sources-say-2026-10-19/"
+          },
+          {
+            "label": "Spyware targets Serbian opposition figures",
+            "url": "https://www.reuters.com/technology/two-serbian-opposition-figures-targeted-with-spyware-research-group-says-2026-10-19/"
+          },
+          {
+            "label": "Oslo talks and planned Witkoff–Putin meeting",
+            "url": "https://www.reuters.com/business/media-telecom/zelenskiy-meet-witkoff-trump-praises-russia-rebukes-ukraine-2026-10-20/"
+          },
+          {
+            "label": "Russian strikes during peace diplomacy",
+            "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
+          },
+          {
+            "label": "Serbian election-violence arrests",
+            "url": "https://www.reuters.com/world/serbia-arrests-six-people-suspected-plotting-election-day-violence-2026-10-21/"
+          },
+          {
+            "label": "European sites taken offline over PHP flaws",
+            "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+          },
+          {
+            "label": "Ukrainian strikes on Russian industrial facilities",
+            "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
+          },
+          {
+            "label": "US restores ballistic warnings and Starshield performance for Ukraine",
+            "url": "https://www.reuters.com/business/media-telecom/zelenskiy-says-us-warnings-ballistic-strikes-have-fully-resumed-2026-10-25/"
+          },
+          {
+            "label": "Serbian student list wins historic election",
+            "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/"
+          },
+          {
+            "label": "Swedish coalition talks return to the parliament speaker",
+            "url": "https://www.reuters.com/world/swedens-centre-leader-hands-task-forming-government-back-parliament-speaker-2026-10-26/"
+          },
+          {
+            "label": "Oleshky humanitarian ceasefire begins",
+            "url": "https://theprint.in/world/russia-ukraine-begin-oleshky-ceasefire-but-keep-up-strikes-elsewhere/3082565/"
+          },
+          {
+            "label": "Finnish and Norwegian leaders contact Putin",
+            "url": "https://www.investing.com/news/world-news/two-nordic-leaders-urge-putin-to-end-ukraine-war-in-rare-direct-contact-by-europeans-4976434"
+          },
+          {
+            "label": "Kremlin casts doubt on November Ukraine talks",
+            "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
+          },
+          {
+            "label": "Putin offers better European ties while warning against confrontation",
+            "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
+          },
+          {
+            "label": "Greece calls for a Black Sea shipping truce",
+            "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/"
+          },
+          {
+            "label": "G20 divisions over Russia and Ukraine",
+            "url": "https://www.reuters.com/world/china/rifts-over-wars-ukraine-middle-east-loom-over-g20-meeting-us-2026-10-30/"
+          },
+          {
+            "label": "Poland calls for a Black Sea shipping ceasefire",
+            "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -1385,6 +1609,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "european-security-2026-10-31-no-comprehensive-ukraine-ceasefire",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     }
   ]

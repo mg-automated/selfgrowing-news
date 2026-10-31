@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-30",
-      "mentions": 26,
+      "lastSeen": "2026-10-31",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-30",
-      "mentions": 12,
+      "lastSeen": "2026-10-31",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-27",
-      "mentions": 13,
+      "lastSeen": "2026-10-31",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,32 +235,32 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-30",
-      "mentions": 31,
+      "lastSeen": "2026-10-31",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-30",
-      "mentions": 28,
+      "lastSeen": "2026-10-31",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-23",
-      "mentions": 18,
+      "lastSeen": "2026-10-31",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-30",
-      "mentions": 17,
+      "lastSeen": "2026-10-31",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-30",
-      "mentions": 23,
+      "lastSeen": "2026-10-31",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-30",
-      "mentions": 38,
+      "lastSeen": "2026-10-31",
+      "mentions": 39,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-10-30",
-      "mentions": 14,
+      "lastSeen": "2026-10-31",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -459,8 +459,8 @@
     },
     "Canada-European-Relations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-29",
-      "mentions": 2,
+      "lastSeen": "2026-10-31",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-29"
@@ -722,13 +722,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-10-30",
-      "materiallyUpdated": "2026-10-30",
+      "reviewed": "2026-10-31",
+      "materiallyUpdated": "2026-10-31",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-31",
+      "nextReview": "2026-11-01",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks and maritime disruption continue despite limited diplomatic contact. Putin's offer to restore relations was paired with warnings over Baltic navigation, while another ship sinking in the Black Sea strengthens pressure for protected commercial corridors.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks and maritime disruption continue despite limited diplomatic contact. Sharp G20 divisions over Lavrov's participation and growing Polish and Greek support for a Black Sea shipping ceasefire point to stronger European coordination without evidence of a broader settlement.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -907,19 +907,27 @@
         {
           "label": "Greece calls for a Black Sea shipping truce",
           "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/"
+        },
+        {
+          "label": "G20 divisions over Russia and Ukraine",
+          "url": "https://www.reuters.com/world/china/rifts-over-wars-ukraine-middle-east-loom-over-g20-meeting-us-2026-10-30/"
+        },
+        {
+          "label": "Poland calls for a Black Sea shipping ceasefire",
+          "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-10-30",
-      "materiallyUpdated": "2026-10-30",
+      "reviewed": "2026-10-31",
+      "materiallyUpdated": "2026-10-31",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-31",
+      "nextReview": "2026-11-01",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. Putin's support for restoring European relations, coupled with warnings over Baltic navigation and readiness for confrontation, suggests tactical outreach rather than a near-term shift toward broad de-escalation.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. Lavrov's rejection of Ukraine as a military threat, objections to European involvement and criticism of continued US arms supplies suggest that proposed November talks remain possible but are unlikely to produce broad de-escalation quickly.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1158,19 +1166,27 @@
         {
           "label": "Putin offers better European ties while warning against confrontation",
           "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
+        },
+        {
+          "label": "Lavrov says Russia's Ukraine position is unchanged",
+          "url": "https://www.reuters.com/world/lavrov-says-zelenskiy-comments-are-unhelpful-russias-position-is-unchanged-2026-10-30/"
+        },
+        {
+          "label": "G20 divisions over Russia and Ukraine",
+          "url": "https://www.reuters.com/world/china/rifts-over-wars-ukraine-middle-east-loom-over-g20-meeting-us-2026-10-30/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-10-30",
-      "materiallyUpdated": "2026-10-30",
+      "reviewed": "2026-10-31",
+      "materiallyUpdated": "2026-10-31",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-31",
+      "nextReview": "2026-11-01",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections. Evidence that a large covert procurement network has continued importing missile, drone and dual-use components despite sanctions and the naval blockade indicates that Tehran can sustain military pressure while pursuing indirect diplomacy.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections, but Qatar's return to Tehran confirms that the negotiating channel remains active. The central sequencing dispute persists: Washington wants nuclear issues included immediately, while Tehran demands an end to the port blockade and oil sanctions first.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1375,19 +1391,23 @@
         {
           "label": "Investigation into Iran's covert military procurement network",
           "url": "https://www.reuters.com/world/iran/irans-hidden-web-military-agencies-is-slipping-hardware-past-us-blockade-2026-10-29/"
+        },
+        {
+          "label": "Qatari mediators return to Tehran",
+          "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-10-28",
-      "materiallyUpdated": "2026-10-28",
+      "reviewed": "2026-10-31",
+      "materiallyUpdated": "2026-10-31",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-10-29",
+      "nextReview": "2026-11-01",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Qatar has made reopening the Strait an explicit test of Iranian good faith, but Tehran has maintained its conditions and the claimed attack on Ras Tanura shows that regional energy infrastructure remains exposed even while mediation continues.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Qatar's return to Tehran keeps a negotiated reopening route alive, but the unresolved sequencing dispute and another reported tanker attack show that shipping and energy markets remain exposed to rapid escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1532,6 +1552,14 @@
         {
           "label": "Houthis claim an attack on Ras Tanura",
           "url": "https://www.reuters.com/world/middle-east/gulf-bourses-rise-saudi-defence-pact-countries-push-peace-2026-10-27/"
+        },
+        {
+          "label": "Qatari mediators return to Tehran",
+          "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+        },
+        {
+          "label": "Fresh tanker attack highlights continuing supply risk",
+          "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
         }
       ]
     }
