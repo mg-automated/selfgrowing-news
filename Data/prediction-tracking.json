@@ -1372,6 +1372,20 @@
         "explanation": "The FTC sent civil investigative demands to Anthropic and OpenAI on October 14, seeking documents about AI safety incidents and related consumer-protection issues. Those compulsory information demands were issued within the prediction window and satisfy the stated success condition.",
         "additionalLookups": 3
       }
+    },
+    {
+      "id": "2026-10-31:creation:European-Security.md",
+      "date": "2026-10-31",
+      "kind": "creation",
+      "topicFile": "European-Security.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
