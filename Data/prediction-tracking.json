@@ -688,6 +688,252 @@
           }
         ]
       }
+    },
+    {
+      "id": "iran-2026-11-01-no-comprehensive-us-iran-settlement",
+      "kind": "persistence",
+      "topicFile": "Iran.md",
+      "created": "2026-11-01",
+      "deadline": "2026-11-10",
+      "statement": "No comprehensive US–Iran settlement will take effect by 2026-11-10.",
+      "successCondition": "No comprehensive agreement resolving the current US–Iran conflict and its central nuclear, sanctions, blockade and regional-security disputes takes effect at any point from 2026-11-01 through the end of 2026-11-10; limited humanitarian, shipping or confidence-building arrangements do not count as a comprehensive settlement.",
+      "failureCondition": "A comprehensive agreement resolving the current US–Iran conflict and its central nuclear, sanctions, blockade and regional-security disputes takes effect on or before 2026-11-10.",
+      "confidence": "low",
+      "sources": [
+        {
+          "label": "Iranian envoys meet Qatari mediators in Doha",
+          "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+        },
+        {
+          "label": "Qatari mediators return to Tehran",
+          "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Iran.md",
+        "volatility": "high",
+        "reviewed": "2026-11-01",
+        "materiallyUpdated": "2026-11-01",
+        "validUntil": "2026-11-10",
+        "nextReview": "2026-11-02",
+        "horizon": "the next 30 days",
+        "confidence": "low",
+        "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections, but the move from prolonged talks in Tehran to Qatari-mediated discussions in Doha confirms that the negotiating channel remains active. Washington still prefers diplomacy without ruling out strikes, while Tehran continues to demand relief on ports, assets and oil before a wider settlement and is preparing for rapid retaliation if attacked.",
+        "likelyDevelopments": [
+          "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
+          "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
+          "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
+          "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
+        ],
+        "upcomingEvents": [
+          {
+            "date": "2026-11-03",
+            "reviewFrom": "2026-11-01",
+            "description": "US midterm elections are scheduled for November 3; President Trump has said the United States will not attack Iran before that date.",
+            "source": {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+            }
+          }
+        ],
+        "changeSignals": [
+          "A verified agreement on sequencing the reopening of the Strait and easing US pressure",
+          "Any Iranian willingness to include nuclear limits in negotiations",
+          "Changes in Chinese economic or diplomatic support for Tehran",
+          "A sustained increase, geographical expansion or decrease in attacks affecting Gulf shipping",
+          "New sanctions, blockades or direct military action"
+        ],
+        "sources": [
+          {
+            "label": "Iran rejects nuclear concessions",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          },
+          {
+            "label": "US warning to China over Iran",
+            "url": "https://www.investing.com/news/world-news/trump-told-xi-that-china-helping-iran-is-unacceptable-us-ambassador-says-4917599"
+          },
+          {
+            "label": "US-Iran phased-deal discussions",
+            "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+          },
+          {
+            "label": "US rejection of Iran's proposal",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+          },
+          {
+            "label": "Iranian military readiness statement",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-s-army-voices-readiness-for-potential-renewed-us-attack"
+          },
+          {
+            "label": "Latest US-Iran mediated talks",
+            "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+          },
+          {
+            "label": "Qatari shuttle diplomacy and US sanctions position",
+            "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+          },
+          {
+            "label": "New sanctions on Iran's military supply chain",
+            "url": "https://apnews.com/article/30db5eef515ed1d06591a0254292afdd"
+          },
+          {
+            "label": "US response to Iran's seven-day proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+          },
+          {
+            "label": "US pressure on Europe over diesel reserves",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          },
+          {
+            "label": "Iranian planning for broader retaliation",
+            "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+          },
+          {
+            "label": "G7 emergency fuel-stock release",
+            "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+          },
+          {
+            "label": "Execution of Iranian protest detainee",
+            "url": "https://www.reuters.com/world/middle-east/iran-executes-detainee-over-january-protests-judiciary-says-2026-10-03/"
+          },
+          {
+            "label": "Yemeni government launches offensive against Iran-backed Houthis",
+            "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+          },
+          {
+            "label": "Iran reiterates conditions for reopening Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+          },
+          {
+            "label": "Escalation between Saudi Arabia and the Iran-backed Houthis",
+            "url": "https://www.reuters.com/business/energy/oil-prices-slip-traders-weigh-strong-mideast-exports-against-gulf-tensions-2026-10-06/"
+          },
+          {
+            "label": "IEA accelerates emergency stock releases",
+            "url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/"
+          },
+          {
+            "label": "Hormuz traffic falls to a two-month low",
+            "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+          },
+          {
+            "label": "US rules out attacking Iran before November 3",
+            "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+          },
+          {
+            "label": "Deadly Houthi attacks on Riyadh airport and Saudi retaliation",
+            "url": "https://www.reuters.com/world/middle-east/houthi-strikes-riyadh-airport-killed-three-saudis-war-escalates-2026-10-09/"
+          },
+          {
+            "label": "Further Riyadh airport attack and possible US involvement",
+            "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/"
+          },
+          {
+            "label": "US blockade enforcement in the Gulf of Oman",
+            "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/"
+          },
+          {
+            "label": "Iran rejects latest US proposal",
+            "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1"
+          },
+          {
+            "label": "Saudi and Iranian foreign ministers discuss de-escalation",
+            "url": "https://www.reuters.com/world/middle-east/saudi-iranian-foreign-ministers-discuss-regional-tensions-state-news-agency-says-2026-10-11/"
+          },
+          {
+            "label": "Iran expands tactics and attacks against shipping",
+            "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/"
+          },
+          {
+            "label": "Russia and China discuss the Iranian crisis",
+            "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+          },
+          {
+            "label": "United States imposes fresh Iran-related sanctions",
+            "url": "https://www.reuters.com/world/middle-east/us-issues-fresh-iran-related-sanctions-treasury-website-shows-2026-10-15/"
+          },
+          {
+            "label": "Two tankers reportedly hit mines in the Strait of Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/irans-guards-say-two-tankers-hit-mines-strait-hormuz-2026-10-17/"
+          },
+          {
+            "label": "Iran ships limited fuel cargoes despite US blockade",
+            "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
+          },
+          {
+            "label": "Egypt offers support to Saudi Arabia against the Houthis",
+            "url": "https://www.reuters.com/world/middle-east/egypt-says-ready-give-saudi-arabia-necessary-support-amid-houthi-conflict-2026-10-18/"
+          },
+          {
+            "label": "Trump endorses Netanyahu before Israel's election",
+            "url": "https://www.reuters.com/world/middle-east/trump-endorses-netanyahu-israeli-election-2026-10-18/"
+          },
+          {
+            "label": "Iran calls for diplomacy on Hormuz",
+            "url": "https://www.reuters.com/world/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy-2026-10-19/"
+          },
+          {
+            "label": "Qatar plans defence production hub",
+            "url": "https://www.reuters.com/world/middle-east/qatar-will-soon-announce-local-defence-production-hub-minister-state-says-2026-10-19/"
+          },
+          {
+            "label": "Iranian officials describe deliberate negotiating delay",
+            "url": "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/"
+          },
+          {
+            "label": "Israeli election unlikely to change Iran-war policy",
+            "url": "https://www.reuters.com/world/middle-east/israels-election-may-change-its-leader-not-iran-war-policy-2026-10-21/"
+          },
+          {
+            "label": "Trump raises prospect of another operation against Iran",
+            "url": "https://www.reuters.com/world/middle-east/trump-says-us-may-do-another-military-operation-against-iran-2026-10-23/"
+          },
+          {
+            "label": "US intelligence warning about Iranian plots",
+            "url": "https://www.reuters.com/world/middle-east/iran-has-ramped-up-efforts-target-us-personnel-intelligence-memo-warns-2026-10-24/"
+          },
+          {
+            "label": "Pezeshkian calls for another interim-deal attempt",
+            "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
+          },
+          {
+            "label": "Houthis claim attacks on Saudi oil infrastructure and Riyadh airport",
+            "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation-2026-10-26/"
+          },
+          {
+            "label": "Mecca Pact officials plan regional talks in Tehran",
+            "url": "https://www.reuters.com/world/asia-pacific/top-officials-mecca-pact-countries-meet-iranian-officials-tehran-monday-two-2026-10-26/"
+          },
+          {
+            "label": "Regional delegations hold de-escalation talks in Tehran",
+            "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44"
+          },
+          {
+            "label": "Netanyahu raises prospect of restarting the Iran war",
+            "url": "https://www.reuters.com/world/middle-east/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran-2026-10-26/"
+          },
+          {
+            "label": "Qatar sets conditions for successful mediation",
+            "url": "https://www.reuters.com/world/asia-pacific/qatar-says-iran-needs-show-good-intentions-mediation-efforts-succeed-2026-10-27/"
+          },
+          {
+            "label": "Houthis claim an attack on Ras Tanura",
+            "url": "https://www.reuters.com/world/middle-east/gulf-bourses-rise-saudi-defence-pact-countries-push-peace-2026-10-27/"
+          },
+          {
+            "label": "Investigation into Iran's covert military procurement network",
+            "url": "https://www.reuters.com/world/iran/irans-hidden-web-military-agencies-is-slipping-hardware-past-us-blockade-2026-10-29/"
+          },
+          {
+            "label": "Qatari mediators return to Tehran",
+            "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+          },
+          {
+            "label": "Iranian envoys meet Qatari mediators in Doha",
+            "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -1629,6 +1875,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "iran-2026-11-01-no-comprehensive-us-iran-settlement",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     }
   ]
