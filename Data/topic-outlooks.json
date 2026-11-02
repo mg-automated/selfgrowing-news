@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-01",
-      "mentions": 12,
+      "lastSeen": "2026-11-02",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,16 +91,16 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-10-31",
-      "mentions": 27,
+      "lastSeen": "2026-11-02",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-29",
-      "mentions": 8,
+      "lastSeen": "2026-11-02",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-19",
-      "mentions": 7,
+      "lastSeen": "2026-11-02",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-01",
-      "mentions": 15,
+      "lastSeen": "2026-11-02",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,8 +227,8 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-01",
-      "mentions": 30,
+      "lastSeen": "2026-11-02",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-01",
-      "mentions": 20,
+      "lastSeen": "2026-11-02",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-01",
-      "mentions": 19,
+      "lastSeen": "2026-11-02",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -291,8 +291,8 @@
     },
     "Robotics.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-01",
-      "mentions": 6,
+      "lastSeen": "2026-11-02",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-29",
-      "mentions": 13,
+      "lastSeen": "2026-11-02",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-01",
-      "mentions": 40,
+      "lastSeen": "2026-11-02",
+      "mentions": 41,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -480,23 +480,31 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
+    },
+    "Western-Sahara.md": {
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-02"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-10-30",
-      "materiallyUpdated": "2026-10-30",
+      "reviewed": "2026-11-02",
+      "materiallyUpdated": "2026-11-02",
       "validUntil": "2026-11-15",
-      "nextReview": "2026-11-02",
+      "nextReview": "2026-11-05",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to remain dominated by agent adoption, infrastructure spending and rapidly growing security consequences. Mistral's downloadable cybersecurity model broadens access to dual-use capabilities, while cash burn at Amazon, Alphabet and other technology groups is increasing scrutiny of whether infrastructure investment can deliver adequate returns.",
+      "assessment": "AI deployment is likely to broaden from software agents into physical systems and tightly regulated financial workflows. China's large embodied-AI investment push and Hong Kong's planned testing framework for financial agents show institutions moving toward deployment while reliability, accountability and trusted-agent standards remain unresolved.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
-        "Investment in chips, data centres and physical-AI capabilities will continue, while investors focus more closely on returns, leverage and the cost of frontier-model development.",
+        "Investment in chips, data centres and embodied-AI capabilities will continue, while developers compete to improve robot learning and reliable performance outside controlled settings.",
         "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices."
       ],
       "upcomingEvents": [],
@@ -732,19 +740,27 @@
         {
           "label": "Amazon and Intel results expose AI infrastructure costs",
           "url": "https://www.reuters.com/business/weak-quarter-intel-sends-shivers-through-cooling-chip-stocks-2026-10-29/"
+        },
+        {
+          "label": "China's robotics sector shifts investment toward embodied AI",
+          "url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/"
+        },
+        {
+          "label": "HSBC and Hong Kong regulator expand financial AI initiatives",
+          "url": "https://www.reuters.com/world/asia-pacific/hsbc-open-hong-kong-ai-institute-following-singapore-launch-2026-11-02/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-01",
-      "materiallyUpdated": "2026-11-01",
+      "reviewed": "2026-11-02",
+      "materiallyUpdated": "2026-11-02",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-02",
+      "nextReview": "2026-11-03",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russian attacks and maritime disruption continue despite limited diplomatic contact. US consideration of Turkish and Indian Black Sea ceasefire proposals broadens the diplomatic effort, but Russia has not indicated readiness to proceed and the G20 meeting ended without consensus.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite limited humanitarian cooperation. The successful Oleshky evacuation shows that narrow local arrangements can work, but renewed Russian strikes on Ukrainian power infrastructure and Ukrainian attacks on Russian industrial sites make a broader ceasefire unlikely in the immediate term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -935,19 +951,27 @@
         {
           "label": "US and Canada discuss broader support for a limited Black Sea ceasefire",
           "url": "https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/"
+        },
+        {
+          "label": "Oleshky ceasefire concludes after civilian evacuations",
+          "url": "https://www.reuters.com/world/europe/ukraine-evacuates-civilians-parts-kherson-region-expiry-oleshky-ceasefire-nears-2026-11-01/"
+        },
+        {
+          "label": "Russian strikes cut power across Ukrainian regions",
+          "url": "https://www.reuters.com/world/europe/russian-strikes-cut-power-thousands-ukraine-drones-damage-russian-facility-2026-11-01/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-01",
-      "materiallyUpdated": "2026-11-01",
+      "reviewed": "2026-11-02",
+      "materiallyUpdated": "2026-11-02",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-02",
+      "nextReview": "2026-11-03",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in diplomacy. International support is growing for a limited Black Sea shipping and energy ceasefire, but Russia has not shown willingness to proceed and Lavrov's unchanged position indicates that any near-term agreement would be narrow rather than a broad de-escalation.",
+      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in humanitarian and diplomatic contacts. The Oleshky truce ended after both sides fulfilled their evacuation commitments, but continued Russian strikes on Ukrainian energy systems and Ukrainian attacks on Russian industrial sites indicate that any near-term agreements will remain local and limited.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1198,19 +1222,27 @@
         {
           "label": "US and Canada discuss broader support for a limited Black Sea ceasefire",
           "url": "https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/"
+        },
+        {
+          "label": "Oleshky ceasefire concludes after civilian evacuations",
+          "url": "https://www.reuters.com/world/europe/ukraine-evacuates-civilians-parts-kherson-region-expiry-oleshky-ceasefire-nears-2026-11-01/"
+        },
+        {
+          "label": "Russian strikes cut power across Ukrainian regions",
+          "url": "https://www.reuters.com/world/europe/russian-strikes-cut-power-thousands-ukraine-drones-damage-russian-facility-2026-11-01/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-01",
-      "materiallyUpdated": "2026-11-01",
+      "reviewed": "2026-11-02",
+      "materiallyUpdated": "2026-11-02",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-02",
+      "nextReview": "2026-11-03",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections, but the move from prolonged talks in Tehran to Qatari-mediated discussions in Doha confirms that the negotiating channel remains active. Washington still prefers diplomacy without ruling out strikes, while Tehran continues to demand relief on ports, assets and oil before a wider settlement and is preparing for rapid retaliation if attacked.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections, but a third consecutive day of Qatari-mediated talks confirms that the negotiating channel remains active. Discussions on a possible two-day reopening mechanism for the Strait are progressing without a final decision, while new tanker explosions and continued military readiness preserve a high risk of escalation.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1423,6 +1455,14 @@
         {
           "label": "Iranian envoys meet Qatari mediators in Doha",
           "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+        },
+        {
+          "label": "Iran and Qatar hold a third day of mediated talks",
+          "url": "https://www.reuters.com/world/middle-east/iranian-negotiators-doha-continue-talks-end-us-iran-war-official-says-2026-11-01/"
+        },
+        {
+          "label": "Iran reports two tanker mine explosions in the Strait of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/"
         }
       ]
     },

@@ -1895,6 +1895,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "Today’s verified Outlook evidence does not support a sufficiently specific, measurable new prediction within the current forecast horizon.",
+        "additionalLookups": 0
       }
     },
     {
@@ -1909,6 +1914,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "A Russia prediction based on today’s evidence would duplicate the active European Security prediction about whether a comprehensive Russia–Ukraine ceasefire takes effect by 2026-11-10.",
+        "additionalLookups": 0
       }
     }
   ]
