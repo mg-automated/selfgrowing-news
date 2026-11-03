@@ -59,8 +59,8 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-10-25",
-      "mentions": 8,
+      "lastSeen": "2026-11-03",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-02",
-      "mentions": 28,
+      "lastSeen": "2026-11-03",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-01",
-      "mentions": 12,
+      "lastSeen": "2026-11-03",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-02",
-      "mentions": 16,
+      "lastSeen": "2026-11-03",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,8 +235,8 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-01",
-      "mentions": 33,
+      "lastSeen": "2026-11-03",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-10-28",
-      "mentions": 11,
+      "lastSeen": "2026-11-03",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-02",
-      "mentions": 14,
+      "lastSeen": "2026-11-03",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-02",
-      "mentions": 41,
+      "lastSeen": "2026-11-03",
+      "mentions": 42,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-01",
-      "mentions": 16,
+      "lastSeen": "2026-11-03",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -754,13 +754,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-02",
-      "materiallyUpdated": "2026-11-02",
+      "reviewed": "2026-11-03",
+      "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-03",
+      "nextReview": "2026-11-04",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite limited humanitarian cooperation. The successful Oleshky evacuation shows that narrow local arrangements can work, but renewed Russian strikes on Ukrainian power infrastructure and Ukrainian attacks on Russian industrial sites make a broader ceasefire unlikely in the immediate term.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite renewed diplomacy. The planned November 10–11 Abu Dhabi talks create a channel for security and humanitarian negotiations, but the deadly Russian bombing of a Ukrainian aid site shows that a comprehensive ceasefire remains unlikely in the immediate term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -965,13 +965,13 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-02",
-      "materiallyUpdated": "2026-11-02",
+      "reviewed": "2026-11-03",
+      "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-03",
+      "nextReview": "2026-11-04",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military and digital pressure while engaging selectively in humanitarian and diplomatic contacts. The Oleshky truce ended after both sides fulfilled their evacuation commitments, but continued Russian strikes on Ukrainian energy systems and Ukrainian attacks on Russian industrial sites indicate that any near-term agreements will remain local and limited.",
+      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Moscow has agreed to November 10–11 talks with Ukraine in Abu Dhabi, but the deadly bombing of an aid site in southern Ukraine indicates that negotiations will coexist with intensive combat and that any near-term agreement is more likely to be limited than comprehensive.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1236,13 +1236,13 @@
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-02",
-      "materiallyUpdated": "2026-11-02",
+      "reviewed": "2026-11-03",
+      "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-03",
+      "nextReview": "2026-11-04",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely before the US midterm elections, but a third consecutive day of Qatari-mediated talks confirms that the negotiating channel remains active. Discussions on a possible two-day reopening mechanism for the Strait are progressing without a final decision, while new tanker explosions and continued military readiness preserve a high risk of escalation.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely in the immediate period after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. Reports that Israel is pressing Washington for renewed strikes after the vote raise escalation risk while unresolved terms over the Strait of Hormuz and US pressure on Iranian ports continue to obstruct a settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1469,13 +1469,13 @@
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-01",
-      "materiallyUpdated": "2026-11-01",
+      "reviewed": "2026-11-03",
+      "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-02",
+      "nextReview": "2026-11-04",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained during the forecast period. Qatari-mediated talks in Doha and Iran's claim that a revised proposal could reopen the Strait within two days keep an operational agreement possible, but disputed conditions over routing, Iranian management and US pressure leave shipping and energy markets exposed to rapid escalation.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained after the US midterm elections. Qatari-mediated talks keep an operational agreement possible, but reports that Israel is pressing for renewed strikes on Iran and unresolved conditions over routing, Iranian management and US pressure leave shipping and energy markets exposed to rapid escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
