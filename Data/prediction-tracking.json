@@ -1939,6 +1939,20 @@
         "explanation": "The verified Russia outlook supports a near-term expectation that no comprehensive ceasefire will take effect, but that outcome is already covered by the active European Security persistence prediction through 2026-11-10. Creating another record would duplicate the same measurable event window.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-04:creation:Russia.md",
+      "date": "2026-11-04",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
