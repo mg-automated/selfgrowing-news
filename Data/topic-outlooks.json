@@ -19,8 +19,8 @@
     },
     "Spain.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-11",
-      "mentions": 2,
+      "lastSeen": "2026-11-04",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-02",
-      "mentions": 13,
+      "lastSeen": "2026-11-04",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-03",
-      "mentions": 29,
+      "lastSeen": "2026-11-04",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -155,8 +155,8 @@
     },
     "Brazil.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-29",
-      "mentions": 7,
+      "lastSeen": "2026-11-04",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -219,24 +219,24 @@
     },
     "Swiss-Health-Policy.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-09-30",
-      "mentions": 1,
+      "lastSeen": "2026-11-04",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-02",
-      "mentions": 31,
+      "lastSeen": "2026-11-04",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-03",
-      "mentions": 34,
+      "lastSeen": "2026-11-04",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-03",
-      "mentions": 42,
+      "lastSeen": "2026-11-04",
+      "mentions": 43,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-03",
-      "mentions": 17,
+      "lastSeen": "2026-11-04",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -754,10 +754,10 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-03",
+      "reviewed": "2026-11-04",
       "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-04",
+      "nextReview": "2026-11-05",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite renewed diplomacy. The planned November 10–11 Abu Dhabi talks create a channel for security and humanitarian negotiations, but the deadly Russian bombing of a Ukrainian aid site shows that a comprehensive ceasefire remains unlikely in the immediate term.",
@@ -965,10 +965,10 @@
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-03",
+      "reviewed": "2026-11-04",
       "materiallyUpdated": "2026-11-03",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-04",
+      "nextReview": "2026-11-05",
       "horizon": "the next 30 days",
       "confidence": "medium",
       "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Moscow has agreed to November 10–11 talks with Ukraine in Abu Dhabi, but the deadly bombing of an aid site in southern Ukraine indicates that negotiations will coexist with intensive combat and that any near-term agreement is more likely to be limited than comprehensive.",
@@ -1236,13 +1236,13 @@
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-03",
-      "materiallyUpdated": "2026-11-03",
+      "reviewed": "2026-11-04",
+      "materiallyUpdated": "2026-11-04",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-04",
+      "nextReview": "2026-11-05",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely in the immediate period after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. Reports that Israel is pressing Washington for renewed strikes after the vote raise escalation risk while unresolved terms over the Strait of Hormuz and US pressure on Iranian ports continue to obstruct a settlement.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely in the immediate period after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. President Trump's statement that the United States has no immediate plan to strike Iran reduces near-term escalation risk, but unresolved terms over the Strait of Hormuz and US pressure on Iranian ports continue to obstruct a settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1469,13 +1469,13 @@
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-03",
-      "materiallyUpdated": "2026-11-03",
+      "reviewed": "2026-11-04",
+      "materiallyUpdated": "2026-11-04",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-04",
+      "nextReview": "2026-11-05",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained after the US midterm elections. Qatari-mediated talks keep an operational agreement possible, but reports that Israel is pressing for renewed strikes on Iran and unresolved conditions over routing, Iranian management and US pressure leave shipping and energy markets exposed to rapid escalation.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained after the US midterm elections. President Trump's statement that the United States has no immediate plan to strike Iran lowers the immediate risk of a new military shock, while Qatari-mediated talks keep an operational agreement possible; unresolved transit conditions and US pressure still leave shipping and energy markets exposed to escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",

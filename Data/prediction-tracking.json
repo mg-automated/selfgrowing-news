@@ -1952,6 +1952,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "The verified Russia outlook still supports a measurable expectation that no comprehensive ceasefire will take effect before 2026-11-10, but that outcome is already covered by the active European Security persistence prediction through the same date. A second record would duplicate the active forecast.",
+        "additionalLookups": 0
       }
     }
   ]
