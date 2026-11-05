@@ -1958,6 +1958,34 @@
         "explanation": "The verified Russia outlook still supports a measurable expectation that no comprehensive ceasefire will take effect before 2026-11-10, but that outcome is already covered by the active European Security persistence prediction through the same date. A second record would duplicate the active forecast.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-05:creation:Strait-of-Hormuz.md",
+      "date": "2026-11-05",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-11-05:creation:Artificial-Intelligence.md",
+      "date": "2026-11-05",
+      "kind": "creation",
+      "topicFile": "Artificial-Intelligence.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
