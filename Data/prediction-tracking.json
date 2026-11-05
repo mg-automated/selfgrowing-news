@@ -1971,6 +1971,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "The topic was deferred by the Outlook selector and was not source-verified today, so it is ineligible for a prediction.",
+        "additionalLookups": 0
       }
     },
     {
@@ -1985,6 +1990,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "The verified sources did not support a measurable outcome before the current Outlook validity date without narrowing the claim beyond the evidence.",
+        "additionalLookups": 0
       }
     }
   ]
