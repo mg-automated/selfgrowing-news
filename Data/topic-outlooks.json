@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-01",
-      "mentions": 19,
+      "lastSeen": "2026-11-06",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-05",
-      "mentions": 31,
+      "lastSeen": "2026-11-06",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -227,32 +227,32 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-05",
-      "mentions": 33,
+      "lastSeen": "2026-11-06",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-05",
-      "mentions": 36,
+      "lastSeen": "2026-11-06",
+      "mentions": 37,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-31",
-      "mentions": 29,
+      "lastSeen": "2026-11-06",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-02",
-      "mentions": 21,
+      "lastSeen": "2026-11-06",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,24 +283,24 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-05",
-      "mentions": 26,
+      "lastSeen": "2026-11-06",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Robotics.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-02",
-      "mentions": 7,
+      "lastSeen": "2026-11-06",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Serbia.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-05",
-      "mentions": 6,
+      "lastSeen": "2026-11-06",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-05",
-      "mentions": 44,
+      "lastSeen": "2026-11-06",
+      "mentions": 45,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-05",
-      "mentions": 19,
+      "lastSeen": "2026-11-06",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -443,8 +443,8 @@
     },
     "Nigeria.md": {
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-10-25",
-      "mentions": 1,
+      "lastSeen": "2026-11-06",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-25"
@@ -496,6 +496,14 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-05"
+    },
+    "Iraq.md": {
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-06",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-06"
     }
   },
   "outlooks": {
@@ -762,13 +770,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-05",
-      "materiallyUpdated": "2026-11-03",
+      "reviewed": "2026-11-06",
+      "materiallyUpdated": "2026-11-06",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-06",
+      "nextReview": "2026-11-07",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite renewed diplomacy. The planned November 10–11 Abu Dhabi talks create a channel for security and humanitarian negotiations, but the deadly Russian bombing of a Ukrainian aid site shows that a comprehensive ceasefire remains unlikely in the immediate term.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite renewed diplomacy. President Trump's meeting with a Russian envoy while declining to meet visiting Ukrainian officials suggests that bilateral US–Russia contacts may shape the November 10–11 Abu Dhabi talks, but a comprehensive ceasefire remains unlikely in the immediate term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -967,19 +975,23 @@
         {
           "label": "Russian strikes cut power across Ukrainian regions",
           "url": "https://www.reuters.com/world/europe/russian-strikes-cut-power-thousands-ukraine-drones-damage-russian-facility-2026-11-01/"
+        },
+        {
+          "label": "Trump meets Russian envoy without parallel Ukrainian meeting",
+          "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-05",
-      "materiallyUpdated": "2026-11-03",
+      "reviewed": "2026-11-06",
+      "materiallyUpdated": "2026-11-06",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-06",
+      "nextReview": "2026-11-07",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Moscow has agreed to November 10–11 talks with Ukraine in Abu Dhabi, but the deadly bombing of an aid site in southern Ukraine indicates that negotiations will coexist with intensive combat and that any near-term agreement is more likely to be limited than comprehensive.",
+      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. President Trump's private meeting with envoy Kirill Dmitriev, without a parallel meeting with visiting Ukrainian officials, gives Moscow a direct channel before the November 10–11 Abu Dhabi talks, but any near-term agreement remains more likely to be limited than comprehensive.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1238,19 +1250,23 @@
         {
           "label": "Russian strikes cut power across Ukrainian regions",
           "url": "https://www.reuters.com/world/europe/russian-strikes-cut-power-thousands-ukraine-drones-damage-russian-facility-2026-11-01/"
+        },
+        {
+          "label": "Trump meets Russian envoy before Abu Dhabi talks",
+          "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-05",
-      "materiallyUpdated": "2026-11-05",
+      "reviewed": "2026-11-06",
+      "materiallyUpdated": "2026-11-06",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-06",
+      "nextReview": "2026-11-07",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. Democratic control of Congress increases political pressure on the administration, while South Korea's decision to expand naval operations toward the Strait of Hormuz shows that US allies are still preparing for a prolonged security crisis around the waterway.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. Three further tanker incidents around the Strait of Hormuz show that military pressure is continuing despite falling oil prices and stronger domestic US pressure to end the conflict.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1461,36 +1477,30 @@
         {
           "label": "Iran reports two tanker mine explosions in the Strait of Hormuz",
           "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/"
+        },
+        {
+          "label": "Three more tankers damaged as mediation continues",
+          "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-05",
-      "materiallyUpdated": "2026-11-04",
+      "reviewed": "2026-11-06",
+      "materiallyUpdated": "2026-11-06",
       "validUntil": "2026-11-10",
-      "nextReview": "2026-11-06",
+      "nextReview": "2026-11-07",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained after the US midterm elections. President Trump's statement that the United States has no immediate plan to strike Iran lowers the immediate risk of a new military shock, while Qatari-mediated talks keep an operational agreement possible; unresolved transit conditions and US pressure still leave shipping and energy markets exposed to escalation.",
+      "assessment": "Commercial navigation is likely to remain hazardous and constrained after three more tanker incidents brought the number reported since November 1 to at least five. Qatari-mediated talks keep a narrow operational agreement possible, but the continued attacks show that unresolved transit conditions and military pressure still expose shipping and energy markets to rapid escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
         "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
         "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-11-03",
-          "reviewFrom": "2026-11-01",
-          "description": "US midterm elections are scheduled for November 3; President Trump has pledged not to attack Iran before that date while talks continue.",
-          "source": {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Verified restoration of regular commercial transit",
         "US relief from the naval blockade or sanctions affecting Iranian ports",
@@ -1630,6 +1640,10 @@
         {
           "label": "Doha talks continue over reopening the Strait of Hormuz",
           "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+        },
+        {
+          "label": "Further tanker incidents keep Hormuz shipping at risk",
+          "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
         }
       ]
     }
