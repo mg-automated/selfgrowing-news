@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-06",
-      "mentions": 20,
+      "lastSeen": "2026-11-07",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-04",
-      "mentions": 14,
+      "lastSeen": "2026-11-07",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,16 +91,16 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-06",
-      "mentions": 32,
+      "lastSeen": "2026-11-07",
+      "mentions": 33,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-02",
-      "mentions": 9,
+      "lastSeen": "2026-11-07",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -115,8 +115,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-10-22",
-      "mentions": 7,
+      "lastSeen": "2026-11-07",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-11-02",
-      "mentions": 8,
+      "lastSeen": "2026-11-07",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -219,24 +219,24 @@
     },
     "Swiss-Health-Policy.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-04",
-      "mentions": 2,
+      "lastSeen": "2026-11-07",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 34,
+      "lastSeen": "2026-11-07",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 37,
+      "lastSeen": "2026-11-07",
+      "mentions": 38,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-05",
-      "mentions": 21,
+      "lastSeen": "2026-11-07",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 27,
+      "lastSeen": "2026-11-07",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -315,8 +315,8 @@
     },
     "Sweden.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-10-27",
-      "mentions": 6,
+      "lastSeen": "2026-11-07",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -339,8 +339,8 @@
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-11-01",
-      "mentions": 6,
+      "lastSeen": "2026-11-07",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 45,
+      "lastSeen": "2026-11-07",
+      "mentions": 46,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-06",
-      "mentions": 20,
+      "lastSeen": "2026-11-07",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -403,8 +403,8 @@
     },
     "European-Migration.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-14",
-      "mentions": 5,
+      "lastSeen": "2026-11-07",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-12"
@@ -504,24 +504,32 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-06"
+    },
+    "Legal-Technology.md": {
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-11-07",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-07"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-05",
-      "materiallyUpdated": "2026-11-05",
-      "validUntil": "2026-11-15",
-      "nextReview": "2026-11-08",
+      "reviewed": "2026-11-07",
+      "materiallyUpdated": "2026-11-07",
+      "validUntil": "2026-11-20",
+      "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to broaden from software agents into physical systems, communications networks and tightly regulated workflows. The US government's plan to clarify the laws applying to domestic AI laboratories later in November adds a concrete regulatory milestone, while major infrastructure partnerships and continued investment show deployment expanding despite unresolved reliability and accountability risks.",
+      "assessment": "AI deployment and infrastructure investment are likely to continue expanding, but political and financial scrutiny is rising. Incoming US congressional leaders plan model-safety, liability and data-centre legislation, while the race to expand advanced chip packaging shows that physical supply constraints will remain central even as regulation and market volatility challenge the sector.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
         "Investment in chips, data centres and embodied-AI capabilities will continue, while developers compete to improve robot learning and reliable performance outside controlled settings.",
-        "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices."
+        "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices, with US congressional committees likely to intensify scrutiny before legislation can take effect."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -764,26 +772,43 @@
         {
           "label": "HSBC and Hong Kong regulator expand financial AI initiatives",
           "url": "https://www.reuters.com/world/asia-pacific/hsbc-open-hong-kong-ai-institute-following-singapore-launch-2026-11-02/"
+        },
+        {
+          "label": "Incoming US Congress prepares AI and data-centre legislation",
+          "url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/"
+        },
+        {
+          "label": "Advanced packaging becomes an AI-chip bottleneck",
+          "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-06",
-      "materiallyUpdated": "2026-11-06",
-      "validUntil": "2026-11-10",
-      "nextReview": "2026-11-07",
+      "reviewed": "2026-11-07",
+      "materiallyUpdated": "2026-11-07",
+      "validUntil": "2026-11-14",
+      "nextReview": "2026-11-08",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as long-range attacks continue despite renewed diplomacy. President Trump's meeting with a Russian envoy while declining to meet visiting Ukrainian officials suggests that bilateral US–Russia contacts may shape the November 10–11 Abu Dhabi talks, but a comprehensive ceasefire remains unlikely in the immediate term.",
+      "assessment": "European governments are likely to remain central to Ukraine's security as Russia and Ukraine continue large-scale air attacks before the scheduled November 10–11 Abu Dhabi talks. Incoming Democratic control of the US Congress may improve the prospect of future Ukraine aid, but it cannot change policy immediately and a comprehensive ceasefire remains unlikely in the near term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
         "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
         "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
       ],
-      "upcomingEvents": [],
+      "upcomingEvents": [
+        {
+          "date": "2026-11-10",
+          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi.",
+          "source": {
+            "label": "Kremlin confirms November 10–11 Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+          }
+        }
+      ],
       "changeSignals": [
         "Confirmed attribution of attacks on NATO territory or shipping to a state actor",
         "New EU or NATO measures protecting airspace, ports, undersea infrastructure or commercial navigation",
@@ -979,26 +1004,43 @@
         {
           "label": "Trump meets Russian envoy without parallel Ukrainian meeting",
           "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3"
+        },
+        {
+          "label": "Air attacks continue before renewed security talks",
+          "url": "https://apnews.com/article/0b975a30f862731346e7e1d098a8d538"
+        },
+        {
+          "label": "US midterm result may improve prospects for future Ukraine aid",
+          "url": "https://www.reuters.com/legal/government/can-us-democrats-blue-wave-election-sweep-buoy-ukraine-2026-11-06/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-06",
-      "materiallyUpdated": "2026-11-06",
-      "validUntil": "2026-11-10",
-      "nextReview": "2026-11-07",
+      "reviewed": "2026-11-07",
+      "materiallyUpdated": "2026-11-07",
+      "validUntil": "2026-11-14",
+      "nextReview": "2026-11-08",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. President Trump's private meeting with envoy Kirill Dmitriev, without a parallel meeting with visiting Ukrainian officials, gives Moscow a direct channel before the November 10–11 Abu Dhabi talks, but any near-term agreement remains more likely to be limited than comprehensive.",
+      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Large-scale Russian and Ukrainian air attacks continued as Moscow confirmed its delegation for the scheduled November 10–11 Abu Dhabi talks; a limited humanitarian or security arrangement remains more plausible than a comprehensive settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
         "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
         "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
       ],
-      "upcomingEvents": [],
+      "upcomingEvents": [
+        {
+          "date": "2026-11-10",
+          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi.",
+          "source": {
+            "label": "Kremlin confirms November 10–11 Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+          }
+        }
+      ],
       "changeSignals": [
         "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
         "A substantial reduction or increase in long-range attacks on Ukrainian cities",
@@ -1254,19 +1296,27 @@
         {
           "label": "Trump meets Russian envoy before Abu Dhabi talks",
           "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3"
+        },
+        {
+          "label": "Russia and Ukraine exchange large-scale air attacks before talks",
+          "url": "https://apnews.com/article/0b975a30f862731346e7e1d098a8d538"
+        },
+        {
+          "label": "Putin confirms Russia's participation in Abu Dhabi talks",
+          "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-06",
-      "materiallyUpdated": "2026-11-06",
-      "validUntil": "2026-11-10",
-      "nextReview": "2026-11-07",
+      "reviewed": "2026-11-07",
+      "materiallyUpdated": "2026-11-07",
+      "validUntil": "2026-11-14",
+      "nextReview": "2026-11-08",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely after the US midterm elections, although Qatari mediation keeps a narrower operational agreement possible. Three further tanker incidents around the Strait of Hormuz show that military pressure is continuing despite falling oil prices and stronger domestic US pressure to end the conflict.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely, although Qatar says mediation is continuing and keeps a narrower operational agreement possible. Reports that two missiles struck Iran's Qeshm Island add a new escalation risk after repeated tanker incidents, leaving the conflict vulnerable to rapid military deterioration even as both sides continue negotiating.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1481,6 +1531,10 @@
         {
           "label": "Three more tankers damaged as mediation continues",
           "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
+        },
+        {
+          "label": "Missiles strike Qeshm Island as Qatar says mediation continues",
+          "url": "https://www.reuters.com/world/middle-east/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says-2026-11-06/"
         }
       ]
     },
