@@ -934,6 +934,299 @@
           }
         ]
       }
+    },
+    {
+      "id": "artificial-intelligence-2026-11-08-us-data-centre-restriction",
+      "kind": "event",
+      "topicFile": "Artificial-Intelligence.md",
+      "created": "2026-11-08",
+      "deadline": "2026-11-21",
+      "statement": "At least one US state government will formally propose a new restriction, moratorium or binding approval condition for data-centre development by 2026-11-21.",
+      "successCondition": "A US governor, state agency or state legislator publicly introduces or formally announces a proposed moratorium, permitting restriction, mandatory community-approval rule, ratepayer protection or comparable binding condition for new data-centre development on or before 2026-11-21.",
+      "failureCondition": "No qualifying US state-level proposal or formal announcement is reliably reported by the end of 2026-11-21.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "US election results strengthen pressure for data-centre restrictions",
+          "url": "https://apnews.com/article/63b33be8884d867d3ac831040d683a2c"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Artificial-Intelligence.md",
+        "volatility": "medium",
+        "reviewed": "2026-11-08",
+        "materiallyUpdated": "2026-11-08",
+        "validUntil": "2026-11-21",
+        "nextReview": "2026-11-11",
+        "horizon": "the next 30 days",
+        "confidence": "medium",
+        "assessment": "AI deployment and infrastructure investment are likely to continue expanding, but political, financial and environmental scrutiny is rising. US state and local election results strengthened pressure for data-centre restrictions, while conservation groups’ use of AI highlights the demand for useful applications alongside clearer accounting of energy, water and emissions costs.",
+        "likelyDevelopments": [
+          "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
+          "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
+          "Investment in chips, data centres and embodied-AI capabilities will continue, while developers compete to improve robot learning and reliable performance outside controlled settings.",
+          "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices, with US congressional committees likely to intensify scrutiny before legislation can take effect."
+        ],
+        "upcomingEvents": [],
+        "changeSignals": [
+          "Publication of enforceable requirements or audit mechanisms under the US AI accord",
+          "A major safety or cybersecurity incident involving an autonomous AI agent",
+          "Material changes to frontier-model release schedules or safety evaluations",
+          "Large new infrastructure commitments, cancellations or financing problems",
+          "New binding AI legislation or standards in a major market",
+          "Independent evidence that text provenance or anti-distillation systems are reliable or easily defeated in ordinary use"
+        ],
+        "sources": [
+          {
+            "label": "US voluntary AI safety accord",
+            "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+          },
+          {
+            "label": "Associated Press account of the AI accord",
+            "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+          },
+          {
+            "label": "Visa warning on AI-powered cyber risk",
+            "url": "https://www.reuters.com/legal/government/visa-joins-growing-alarm-over-ai-powered-risks-2026-09-29/"
+          },
+          {
+            "label": "European AI Innovation Month",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month"
+          },
+          {
+            "label": "FTC inquiry into AI labs",
+            "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+          },
+          {
+            "label": "Google Gemini 4 announcement",
+            "url": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/"
+          },
+          {
+            "label": "Micron AI-memory demand",
+            "url": "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/"
+          },
+          {
+            "label": "OpenAI notifications about agent activity",
+            "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/"
+          },
+          {
+            "label": "AI demand and global manufacturing",
+            "url": "https://www.reuters.com/world/china/global-economy-asian-factory-activity-expands-thanks-global-ai-boom-2026-10-01/"
+          },
+          {
+            "label": "Thales on AI-powered cyber defence",
+            "url": "https://www.reuters.com/world/fight-ai-with-ai-thales-ceo-tells-cybersecurity-gathering-2026-10-01/"
+          },
+          {
+            "label": "Amazon data-centre community investment",
+            "url": "https://www.reuters.com/business/retail-consumer/amazon-invest-1-billion-over-five-years-us-data-center-communities-2026-10-02/"
+          },
+          {
+            "label": "Expected appointment of US AI adviser",
+            "url": "https://www.reuters.com/world/us/trump-expected-name-jay-clayton-ai-czar-cnn-reports-2026-10-02/"
+          },
+          {
+            "label": "Confirmed US intelligence AI task force",
+            "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/"
+          },
+          {
+            "label": "US reliance on voluntary AI safeguards",
+            "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/"
+          },
+          {
+            "label": "OpenAI's argument for lighter-touch AI regulation",
+            "url": "https://www.reuters.com/business/openais-altman-says-ai-benefits-warrant-accepting-some-risks-2026-10-04/"
+          },
+          {
+            "label": "Bank of Japan warning on AI financial risks",
+            "url": "https://www.reuters.com/technology/boj-says-ai-boom-may-have-eased-financial-conditions-warns-market-risks-2026-10-05/"
+          },
+          {
+            "label": "Reflection AI launches the Beam open-weight model",
+            "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
+          },
+          {
+            "label": "Wikimedia reports unauthorised OpenAI-agent activity",
+            "url": "https://www.reuters.com/technology/wikipedia-operator-says-openais-rogue-agents-possibly-tied-data-service-2026-10-05/"
+          },
+          {
+            "label": "OpenAI text watermark rollout in the EU",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+          },
+          {
+            "label": "Mistral announces Large 4",
+            "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+          },
+          {
+            "label": "US electricity-demand forecast driven by AI data centres",
+            "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-10-06/"
+          },
+          {
+            "label": "US Justice Department adopts 'super intelligence' terminology",
+            "url": "https://www.reuters.com/legal/litigation/us-justice-dept-tells-staff-call-ai-super-intelligence-under-trump-order-2026-10-06/"
+          },
+          {
+            "label": "EU assessment of AI-company safety and compliance responses",
+            "url": "https://www.reuters.com/world/eu-tech-chief-says-bloc-well-equipped-fend-off-rogue-ai-risk-2026-10-09/"
+          },
+          {
+            "label": "Guilty plea in alleged diversion of AI servers to China",
+            "url": "https://www.reuters.com/legal/government/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-with-nvidia-chips-2026-10-09/"
+          },
+          {
+            "label": "US reverses restrictions on British frontier-model testing",
+            "url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/"
+          },
+          {
+            "label": "Microsoft plans large-scale Maia 300 deployment",
+            "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/"
+          },
+          {
+            "label": "Anthropic reports reduced model-distillation attacks",
+            "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/"
+          },
+          {
+            "label": "Meta launches Muse Wonder models",
+            "url": "https://www.reuters.com/business/meta-releases-muse-wonder-ai-models-challenge-anthropic-openai-2026-10-12/"
+          },
+          {
+            "label": "IMF assessment of AI-led growth and financial risks",
+            "url": "https://www.imf.org/en/blogs/articles/2026/10/12/global-financial-markets-face-rising-risks-from-ai-bond-yields-and-cyberattacks"
+          },
+          {
+            "label": "ASML reports long-range demand for chipmaking equipment",
+            "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
+          },
+          {
+            "label": "Anthropic reports rapid quarterly revenue growth",
+            "url": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+          },
+          {
+            "label": "DeepMind warns about AI-agent cyberattacks",
+            "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/"
+          },
+          {
+            "label": "Anthropic expands independent evaluator access",
+            "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/"
+          },
+          {
+            "label": "Financing strain tests AI data-centre projects",
+            "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
+          },
+          {
+            "label": "India reports AI agents accessing live systems",
+            "url": "https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/"
+          },
+          {
+            "label": "Tencent acknowledges unintended agent browsing",
+            "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
+          },
+          {
+            "label": "China proposes controls on AI technology exports",
+            "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/"
+          },
+          {
+            "label": "Central bankers assess AI-driven capital pressure",
+            "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+          },
+          {
+            "label": "Anthropic urges international rules for increasingly capable AI",
+            "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
+          },
+          {
+            "label": "Anthropic commits shares to a public-benefit fund",
+            "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
+          },
+          {
+            "label": "AI-assisted discovery and exploitation of PHP flaws",
+            "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+          },
+          {
+            "label": "AI-driven ConnectWise intrusion campaign",
+            "url": "https://www.reuters.com/technology/chinese-linked-hackers-compromise-connectwise-target-hundreds-global-attack-microsoft-says-2026-10-21/"
+          },
+          {
+            "label": "Meta centres strategy on Muse agent",
+            "url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+          },
+          {
+            "label": "IMF and OECD warn AI could widen global inequality",
+            "url": "https://www.reuters.com/business/finance/imf-oecd-warn-ai-could-widen-rich-poor-country-divide-2026-10-22/"
+          },
+          {
+            "label": "AI spending fears trigger technology sell-off",
+            "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+          },
+          {
+            "label": "OpenAI resumes frontier training after security overhaul",
+            "url": "https://www.reuters.com/business/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-2026-10-23/"
+          },
+          {
+            "label": "Telecom operators tighten AI safeguards",
+            "url": "https://www.reuters.com/legal/litigation/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-2026-10-23/"
+          },
+          {
+            "label": "Claude accesses gated Georgia vote-count data without authorisation",
+            "url": "https://www.reuters.com/world/us/anthropics-claude-accessed-public-us-state-georgia-voter-information-axios-2026-10-25/"
+          },
+          {
+            "label": "SpaceX secures financing for AI chips",
+            "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+          },
+          {
+            "label": "Microsoft offers large-scale voluntary exits",
+            "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+          },
+          {
+            "label": "Cadence launches specialized AI models for chip design",
+            "url": "https://www.reuters.com/business/cadence-unveils-nvidia-backed-ai-models-that-chipmakers-can-run-in-house-2026-10-26/"
+          },
+          {
+            "label": "Researchers expose third-party software risk at Anthropic",
+            "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
+          },
+          {
+            "label": "Google launches Gemini 4 Carbon for cybersecurity",
+            "url": "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+          },
+          {
+            "label": "Samsung forecasts a deeper AI memory shortage",
+            "url": "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
+          },
+          {
+            "label": "Mistral publicly releases Large 4 for cybersecurity",
+            "url": "https://www.reuters.com/legal/litigation/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/"
+          },
+          {
+            "label": "Amazon and Intel results expose AI infrastructure costs",
+            "url": "https://www.reuters.com/business/weak-quarter-intel-sends-shivers-through-cooling-chip-stocks-2026-10-29/"
+          },
+          {
+            "label": "China's robotics sector shifts investment toward embodied AI",
+            "url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/"
+          },
+          {
+            "label": "HSBC and Hong Kong regulator expand financial AI initiatives",
+            "url": "https://www.reuters.com/world/asia-pacific/hsbc-open-hong-kong-ai-institute-following-singapore-launch-2026-11-02/"
+          },
+          {
+            "label": "Incoming US Congress prepares AI and data-centre legislation",
+            "url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/"
+          },
+          {
+            "label": "Advanced packaging becomes an AI-chip bottleneck",
+            "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+          },
+          {
+            "label": "US election results strengthen pressure for data-centre restrictions",
+            "url": "https://apnews.com/article/63b33be8884d867d3ac831040d683a2c"
+          },
+          {
+            "label": "Environmental groups confront AI's climate trade-offs",
+            "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -2085,6 +2378,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "artificial-intelligence-2026-11-08-us-data-centre-restriction",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2099,6 +2398,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "A defensible near-term Russia expectation would duplicate the active European Security prediction about whether a comprehensive Russia–Ukraine ceasefire takes effect by 2026-11-10.",
+        "additionalLookups": 0
       }
     }
   ]

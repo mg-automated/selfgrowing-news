@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-07",
-      "mentions": 21,
+      "lastSeen": "2026-11-08",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,8 +75,8 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-05",
-      "mentions": 7,
+      "lastSeen": "2026-11-08",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-07",
-      "mentions": 33,
+      "lastSeen": "2026-11-08",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 35,
+      "lastSeen": "2026-11-08",
+      "mentions": 36,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 38,
+      "lastSeen": "2026-11-08",
+      "mentions": 39,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-05",
-      "mentions": 13,
+      "lastSeen": "2026-11-08",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -307,8 +307,8 @@
     },
     "Swiss-Banking-Regulation.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-21",
-      "mentions": 6,
+      "lastSeen": "2026-11-08",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -339,8 +339,8 @@
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-11-07",
-      "mentions": 7,
+      "lastSeen": "2026-11-08",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 46,
+      "lastSeen": "2026-11-08",
+      "mentions": 47,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-07",
-      "mentions": 21,
+      "lastSeen": "2026-11-08",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -467,8 +467,8 @@
     },
     "Biodiversity-Policy.md": {
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "mentions": 1,
+      "lastSeen": "2026-11-08",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
@@ -518,13 +518,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-07",
-      "materiallyUpdated": "2026-11-07",
-      "validUntil": "2026-11-20",
-      "nextReview": "2026-11-10",
+      "reviewed": "2026-11-08",
+      "materiallyUpdated": "2026-11-08",
+      "validUntil": "2026-11-21",
+      "nextReview": "2026-11-11",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment and infrastructure investment are likely to continue expanding, but political and financial scrutiny is rising. Incoming US congressional leaders plan model-safety, liability and data-centre legislation, while the race to expand advanced chip packaging shows that physical supply constraints will remain central even as regulation and market volatility challenge the sector.",
+      "assessment": "AI deployment and infrastructure investment are likely to continue expanding, but political, financial and environmental scrutiny is rising. US state and local election results strengthened pressure for data-centre restrictions, while conservation groups’ use of AI highlights the demand for useful applications alongside clearer accounting of energy, water and emissions costs.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -780,19 +780,27 @@
         {
           "label": "Advanced packaging becomes an AI-chip bottleneck",
           "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+        },
+        {
+          "label": "US election results strengthen pressure for data-centre restrictions",
+          "url": "https://apnews.com/article/63b33be8884d867d3ac831040d683a2c"
+        },
+        {
+          "label": "Environmental groups confront AI's climate trade-offs",
+          "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-07",
-      "materiallyUpdated": "2026-11-07",
-      "validUntil": "2026-11-14",
-      "nextReview": "2026-11-08",
+      "reviewed": "2026-11-08",
+      "materiallyUpdated": "2026-11-08",
+      "validUntil": "2026-11-15",
+      "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to remain central to Ukraine's security as Russia and Ukraine continue large-scale air attacks before the scheduled November 10–11 Abu Dhabi talks. Incoming Democratic control of the US Congress may improve the prospect of future Ukraine aid, but it cannot change policy immediately and a comprehensive ceasefire remains unlikely in the near term.",
+      "assessment": "European security authorities are likely to intensify protection against hybrid and extremist threats while governments prepare for the November 10–11 Ukraine talks. The leak targeting Italy's foreign minister and Poland's deadly mass shooting broaden the immediate agenda beyond the war itself, while a comprehensive Russia–Ukraine settlement remains unlikely in the near term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1012,19 +1020,31 @@
         {
           "label": "US midterm result may improve prospects for future Ukraine aid",
           "url": "https://www.reuters.com/legal/government/can-us-democrats-blue-wave-election-sweep-buoy-ukraine-2026-11-06/"
+        },
+        {
+          "label": "Poland begins national mourning after Krakow mass shooting",
+          "url": "https://www.reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/"
+        },
+        {
+          "label": "Italy investigates leak of foreign minister's personal data",
+          "url": "https://www.reuters.com/world/italy-foreign-minister-says-he-has-been-targeted-by-pro-russian-hackers-over-2026-11-07/"
+        },
+        {
+          "label": "Russia names senior delegation for Abu Dhabi talks",
+          "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-07",
-      "materiallyUpdated": "2026-11-07",
-      "validUntil": "2026-11-14",
-      "nextReview": "2026-11-08",
+      "reviewed": "2026-11-08",
+      "materiallyUpdated": "2026-11-08",
+      "validUntil": "2026-11-15",
+      "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Large-scale Russian and Ukrainian air attacks continued as Moscow confirmed its delegation for the scheduled November 10–11 Abu Dhabi talks; a limited humanitarian or security arrangement remains more plausible than a comprehensive settlement.",
+      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Moscow named a delegation combining senior diplomats, military intelligence and General Staff representation for the November 10–11 Abu Dhabi talks, strengthening the talks’ official weight but not making a comprehensive settlement likely during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1304,19 +1324,23 @@
         {
           "label": "Putin confirms Russia's participation in Abu Dhabi talks",
           "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+        },
+        {
+          "label": "Russia names senior military-diplomatic delegation for Abu Dhabi talks",
+          "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-07",
-      "materiallyUpdated": "2026-11-07",
-      "validUntil": "2026-11-14",
-      "nextReview": "2026-11-08",
+      "reviewed": "2026-11-08",
+      "materiallyUpdated": "2026-11-08",
+      "validUntil": "2026-11-15",
+      "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely, although Qatar says mediation is continuing and keeps a narrower operational agreement possible. Reports that two missiles struck Iran's Qeshm Island add a new escalation risk after repeated tanker incidents, leaving the conflict vulnerable to rapid military deterioration even as both sides continue negotiating.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely, although Qatari mediation and the incoming Democratic Congress keep pressure for a narrower operational agreement or an end to the war alive. Democratic leaders cannot take office until January and still face a presidential veto, while recent missile and tanker incidents leave the conflict vulnerable to rapid military deterioration.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1535,6 +1559,10 @@
         {
           "label": "Missiles strike Qeshm Island as Qatar says mediation continues",
           "url": "https://www.reuters.com/world/middle-east/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says-2026-11-06/"
+        },
+        {
+          "label": "Incoming House majority promises legislation to end the Iran war",
+          "url": "https://apnews.com/article/0658bbfc51d2bc23331714377cddb0d2"
         }
       ]
     },
