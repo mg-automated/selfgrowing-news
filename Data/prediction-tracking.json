@@ -2404,6 +2404,48 @@
         "explanation": "A defensible near-term Russia expectation would duplicate the active European Security prediction about whether a comprehensive Russia–Ukraine ceasefire takes effect by 2026-11-10.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-09:assessment:artificial-intelligence-2026-11-08-us-data-centre-restriction",
+      "date": "2026-11-09",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-11-08-us-data-centre-restriction",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-11-09:creation:Strait-of-Hormuz.md",
+      "date": "2026-11-09",
+      "kind": "creation",
+      "topicFile": "Strait-of-Hormuz.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-11-09:creation:Russia.md",
+      "date": "2026-11-09",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
