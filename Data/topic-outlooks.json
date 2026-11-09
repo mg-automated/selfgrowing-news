@@ -91,16 +91,16 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-08",
-      "mentions": 34,
+      "lastSeen": "2026-11-09",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-07",
-      "mentions": 10,
+      "lastSeen": "2026-11-09",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -115,8 +115,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-11-07",
-      "mentions": 8,
+      "lastSeen": "2026-11-09",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-03",
-      "mentions": 17,
+      "lastSeen": "2026-11-09",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-08",
-      "mentions": 36,
+      "lastSeen": "2026-11-09",
+      "mentions": 37,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-08",
-      "mentions": 39,
+      "lastSeen": "2026-11-09",
+      "mentions": 40,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 22,
+      "lastSeen": "2026-11-09",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-07",
-      "mentions": 22,
+      "lastSeen": "2026-11-09",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 28,
+      "lastSeen": "2026-11-09",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-08",
-      "mentions": 47,
+      "lastSeen": "2026-11-09",
+      "mentions": 48,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -512,6 +512,22 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-07"
+    },
+    "South-Africa.md": {
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-09"
+    },
+    "Sudan.md": {
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-09"
     }
   },
   "outlooks": {
@@ -794,13 +810,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-08",
-      "materiallyUpdated": "2026-11-08",
-      "validUntil": "2026-11-15",
+      "reviewed": "2026-11-09",
+      "materiallyUpdated": "2026-11-09",
+      "validUntil": "2026-11-16",
       "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security authorities are likely to intensify protection against hybrid and extremist threats while governments prepare for the November 10–11 Ukraine talks. The leak targeting Italy's foreign minister and Poland's deadly mass shooting broaden the immediate agenda beyond the war itself, while a comprehensive Russia–Ukraine settlement remains unlikely in the near term.",
+      "assessment": "European governments are likely to press for a direct role in shaping any Ukraine settlement after France confirmed European participation in the November 10–11 Abu Dhabi talks. The talks may clarify security guarantees and de-escalation options, but continuing Russian attacks, European air-defence shortages and unresolved territorial questions make a comprehensive ceasefire unlikely in the immediate term.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1032,19 +1048,27 @@
         {
           "label": "Russia names senior delegation for Abu Dhabi talks",
           "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/"
+        },
+        {
+          "label": "European governments secure a role in Abu Dhabi Ukraine talks",
+          "url": "https://www.reuters.com/world/europe/europeans-will-join-ukraine-talks-abu-dhabi-french-foreign-minister-says-2026-11-08/"
+        },
+        {
+          "label": "G7 ministers prepare to discuss Ukraine and European security",
+          "url": "https://www.reuters.com/world/americas/g7-allies-assess-impact-trumps-midterm-setback-paris-talks-2026-11-09/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-08",
-      "materiallyUpdated": "2026-11-08",
-      "validUntil": "2026-11-15",
+      "reviewed": "2026-11-09",
+      "materiallyUpdated": "2026-11-09",
+      "validUntil": "2026-11-16",
       "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging selectively in US-led diplomacy. Moscow named a delegation combining senior diplomats, military intelligence and General Staff representation for the November 10–11 Abu Dhabi talks, strengthening the talks’ official weight but not making a comprehensive settlement likely during the forecast period.",
+      "assessment": "Russia is likely to maintain military pressure while engaging in the November 10–11 Abu Dhabi talks with Ukraine, the United States and European representatives. Broader participation may advance discussion of security guarantees and de-escalation, but Moscow and Kyiv remain far apart and a comprehensive settlement remains unlikely during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1328,19 +1352,23 @@
         {
           "label": "Russia names senior military-diplomatic delegation for Abu Dhabi talks",
           "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/"
+        },
+        {
+          "label": "European governments secure a role in Abu Dhabi Ukraine talks",
+          "url": "https://www.reuters.com/world/europe/europeans-will-join-ukraine-talks-abu-dhabi-french-foreign-minister-says-2026-11-08/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-08",
-      "materiallyUpdated": "2026-11-08",
-      "validUntil": "2026-11-15",
+      "reviewed": "2026-11-09",
+      "materiallyUpdated": "2026-11-09",
+      "validUntil": "2026-11-16",
       "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely, although Qatari mediation and the incoming Democratic Congress keep pressure for a narrower operational agreement or an end to the war alive. Democratic leaders cannot take office until January and still face a presidential veto, while recent missile and tanker incidents leave the conflict vulnerable to rapid military deterioration.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely, but President Trump’s statement that new strikes are highly unlikely if talks progress lowers the immediate risk of a major US attack. Qatar’s mediation continues while Washington calls Iranian demands unacceptable, Task Force Iron Gate expands pressure on Iranian supply routes and vessel incidents keep the conflict vulnerable to rapid escalation.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1563,19 +1591,23 @@
         {
           "label": "Incoming House majority promises legislation to end the Iran war",
           "url": "https://apnews.com/article/0658bbfc51d2bc23331714377cddb0d2"
+        },
+        {
+          "label": "Trump says progress in talks makes new Iran strikes unlikely",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-06",
-      "materiallyUpdated": "2026-11-06",
-      "validUntil": "2026-11-10",
-      "nextReview": "2026-11-07",
+      "reviewed": "2026-11-09",
+      "materiallyUpdated": "2026-11-09",
+      "validUntil": "2026-11-16",
+      "nextReview": "2026-11-10",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial navigation is likely to remain hazardous and constrained after three more tanker incidents brought the number reported since November 1 to at least five. Qatari-mediated talks keep a narrow operational agreement possible, but the continued attacks show that unresolved transit conditions and military pressure still expose shipping and energy markets to rapid escalation.",
+      "assessment": "Shipping through and around the Strait of Hormuz is likely to remain dangerous and restricted while US–Iran negotiations continue without a breakthrough. President Trump said new strikes were highly unlikely if talks progress, but both sides reported fresh vessel incidents and Washington activated Task Force Iron Gate, leaving commercial traffic exposed to military enforcement, mines and rapid escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1726,6 +1758,10 @@
         {
           "label": "Further tanker incidents keep Hormuz shipping at risk",
           "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
+        },
+        {
+          "label": "Trump says progress in talks makes new Iran strikes unlikely",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
         }
       ]
     }

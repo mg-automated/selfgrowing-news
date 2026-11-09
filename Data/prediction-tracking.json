@@ -1227,6 +1227,190 @@
           }
         ]
       }
+    },
+    {
+      "id": "strait-of-hormuz-2026-11-09-shipping-remains-restricted",
+      "kind": "persistence",
+      "topicFile": "Strait-of-Hormuz.md",
+      "created": "2026-11-09",
+      "deadline": "2026-11-16",
+      "statement": "Commercial shipping through the Strait of Hormuz will remain materially restricted through 2026-11-16.",
+      "successCondition": "Reliable reporting shows that military enforcement, mine risk, vessel attacks or related security restrictions continue to materially constrain commercial shipping throughout 2026-11-09 to the end of 2026-11-16.",
+      "failureCondition": "Reliable reporting establishes that commercial shipping through the Strait of Hormuz returned to broadly normal, unrestricted operations at any point on or before 2026-11-16.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Trump says progress in talks makes new Iran strikes unlikely while vessel incidents continue",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Strait-of-Hormuz.md",
+        "volatility": "high",
+        "reviewed": "2026-11-09",
+        "materiallyUpdated": "2026-11-09",
+        "validUntil": "2026-11-16",
+        "nextReview": "2026-11-10",
+        "horizon": "the next 30 days",
+        "confidence": "low",
+        "assessment": "Shipping through and around the Strait of Hormuz is likely to remain dangerous and restricted while US–Iran negotiations continue without a breakthrough. President Trump said new strikes were highly unlikely if talks progress, but both sides reported fresh vessel incidents and Washington activated Task Force Iron Gate, leaving commercial traffic exposed to military enforcement, mines and rapid escalation.",
+        "likelyDevelopments": [
+          "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
+          "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
+          "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
+          "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
+        ],
+        "upcomingEvents": [],
+        "changeSignals": [
+          "Verified restoration of regular commercial transit",
+          "US relief from the naval blockade or sanctions affecting Iranian ports",
+          "A new Iranian transit-fee or inspection regime",
+          "Attacks on tankers, ports or naval forces inside or beyond the Strait",
+          "Changes in insurance costs, rerouting, guarded transits or energy-market disruption"
+        ],
+        "sources": [
+          {
+            "label": "US-Iran phased-deal discussions",
+            "url": "https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/"
+          },
+          {
+            "label": "Iran rejects nuclear concessions",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          },
+          {
+            "label": "US rejection of Iran's proposal",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan"
+          },
+          {
+            "label": "Latest US-Iran mediated talks",
+            "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+          },
+          {
+            "label": "Qatari shuttle diplomacy and continued Strait restrictions",
+            "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+          },
+          {
+            "label": "US response to seven-day trust-building proposal",
+            "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+          },
+          {
+            "label": "Global diesel pressure linked to Middle East disruption",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          },
+          {
+            "label": "Iranian planning for broader retaliation",
+            "url": "https://www.reuters.com/world/middle-east/iran-readies-harder-retaliation-if-attacked-diplomacy-faces-long-odds-2026-10-01/"
+          },
+          {
+            "label": "G7 emergency fuel-stock release",
+            "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+          },
+          {
+            "label": "Saudi planning for an offensive against the Houthis",
+            "url": "https://www.reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+          },
+          {
+            "label": "Houthi claim of an attack on Saudi oil infrastructure",
+            "url": "https://www.reuters.com/business/energy/fire-smoke-seen-near-aramco-facility-riyadh-witness-says-2026-10-03/"
+          },
+          {
+            "label": "Yemeni government launches counteroffensive",
+            "url": "https://www.reuters.com/world/asia-pacific/head-yemens-presidential-council-announces-military-operations-retake-territory-2026-10-04/"
+          },
+          {
+            "label": "Iran reiterates seven conditions for reopening Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+          },
+          {
+            "label": "Middle East oil exports recover while tanker attacks rise",
+            "url": "https://www.reuters.com/business/energy/middle-east-crude-oil-exports-exceed-pre-war-levels-tanker-attacks-increase-2026-10-05/"
+          },
+          {
+            "label": "Hormuz traffic falls to a two-month low",
+            "url": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
+          },
+          {
+            "label": "Tanker attacks reach their highest weekly level of the war",
+            "url": "https://www.reuters.com/world/middle-east/attacks-tankers-hormuz-hit-highest-any-week-since-start-iran-war-sources-say-2026-10-07/"
+          },
+          {
+            "label": "US rules out attacking Iran before November 3",
+            "url": "https://www.reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+          },
+          {
+            "label": "US blockade enforcement in the Gulf of Oman",
+            "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/"
+          },
+          {
+            "label": "Iran expands tactics and attacks against shipping",
+            "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/"
+          },
+          {
+            "label": "Iran moves limited fuel cargoes despite US blockade",
+            "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/"
+          },
+          {
+            "label": "Tanker mine blast and continuing reopening offer",
+            "url": "https://www.reuters.com/world/middle-east/gulf-bourses-subdued-regional-worries-weigh-2026-10-19/"
+          },
+          {
+            "label": "Iran calls for regional diplomacy",
+            "url": "https://www.reuters.com/world/irans-araqchi-blames-us-strait-hormuz-tensions-calls-diplomacy-2026-10-19/"
+          },
+          {
+            "label": "Iran prolongs talks before US midterms",
+            "url": "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/"
+          },
+          {
+            "label": "Shipping attacks expand beyond the Strait",
+            "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/"
+          },
+          {
+            "label": "Trump weighs escalation or an end to the Iran war",
+            "url": "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/"
+          },
+          {
+            "label": "October ship attacks reach a record monthly high",
+            "url": "https://www.reuters.com/business/energy/ship-attacks-strait-hormuz-hit-record-high-october-2026-10-23/"
+          },
+          {
+            "label": "Pezeshkian calls for another interim-deal attempt",
+            "url": "https://www.reuters.com/world/middle-east/irans-pezeshkian-blames-us-interim-deal-failure-urges-new-try-2026-10-24/"
+          },
+          {
+            "label": "Regional delegations hold de-escalation talks in Tehran",
+            "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44"
+          },
+          {
+            "label": "Qatar calls on Iran to reopen the Strait",
+            "url": "https://www.reuters.com/world/asia-pacific/qatar-says-iran-needs-show-good-intentions-mediation-efforts-succeed-2026-10-27/"
+          },
+          {
+            "label": "Houthis claim an attack on Ras Tanura",
+            "url": "https://www.reuters.com/world/middle-east/gulf-bourses-rise-saudi-defence-pact-countries-push-peace-2026-10-27/"
+          },
+          {
+            "label": "Qatari mediators return to Tehran",
+            "url": "https://www.reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+          },
+          {
+            "label": "Fresh tanker attack highlights continuing supply risk",
+            "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+          },
+          {
+            "label": "Doha talks continue over reopening the Strait of Hormuz",
+            "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+          },
+          {
+            "label": "Further tanker incidents keep Hormuz shipping at risk",
+            "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
+          },
+          {
+            "label": "Trump says progress in talks makes new Iran strikes unlikely",
+            "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -2417,6 +2601,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "Today's AI coverage did not conclusively establish that a US state government formally proposed a qualifying data-centre restriction; the prediction remains open before its deadline.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2431,6 +2620,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "strait-of-hormuz-2026-11-09-shipping-remains-restricted",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2445,6 +2640,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "not-needed",
+        "explanation": "The single daily creation allowance was used for the earlier defensible Strait of Hormuz candidate; no further prediction was evaluated.",
+        "additionalLookups": 0
       }
     }
   ]
