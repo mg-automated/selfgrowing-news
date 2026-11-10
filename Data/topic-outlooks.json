@@ -11,8 +11,8 @@
   "candidates": {
     "France.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-10-24",
-      "mentions": 8,
+      "lastSeen": "2026-11-10",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-08",
-      "mentions": 22,
+      "lastSeen": "2026-11-10",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -59,8 +59,8 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-03",
-      "mentions": 9,
+      "lastSeen": "2026-11-10",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-09",
-      "mentions": 35,
+      "lastSeen": "2026-11-10",
+      "mentions": 36,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-03",
-      "mentions": 13,
+      "lastSeen": "2026-11-10",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-09",
-      "mentions": 18,
+      "lastSeen": "2026-11-10",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,24 +227,24 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-09",
-      "mentions": 37,
+      "lastSeen": "2026-11-10",
+      "mentions": 38,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-09",
-      "mentions": 40,
+      "lastSeen": "2026-11-10",
+      "mentions": 41,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-06",
-      "mentions": 30,
+      "lastSeen": "2026-11-10",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-09",
-      "mentions": 29,
+      "lastSeen": "2026-11-10",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-09",
-      "mentions": 48,
+      "lastSeen": "2026-11-10",
+      "mentions": 49,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-08",
-      "mentions": 22,
+      "lastSeen": "2026-11-10",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -419,8 +419,8 @@
     },
     "Swiss-Federal-Elections.md": {
       "firstSeen": "2026-10-17",
-      "lastSeen": "2026-10-17",
-      "mentions": 1,
+      "lastSeen": "2026-11-10",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-17"
@@ -528,6 +528,14 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-09"
+    },
+    "Swiss-Cantonal-Politics.md": {
+      "firstSeen": "2026-11-10",
+      "lastSeen": "2026-11-10",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-10"
     }
   },
   "outlooks": {
@@ -810,13 +818,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-09",
-      "materiallyUpdated": "2026-11-09",
-      "validUntil": "2026-11-16",
-      "nextReview": "2026-11-10",
+      "reviewed": "2026-11-10",
+      "materiallyUpdated": "2026-11-10",
+      "validUntil": "2026-11-17",
+      "nextReview": "2026-11-11",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to press for a direct role in shaping any Ukraine settlement after France confirmed European participation in the November 10–11 Abu Dhabi talks. The talks may clarify security guarantees and de-escalation options, but continuing Russian attacks, European air-defence shortages and unresolved territorial questions make a comprehensive ceasefire unlikely in the immediate term.",
+      "assessment": "The November 10–11 Abu Dhabi talks are likely to clarify competing security-guarantee proposals without producing a comprehensive settlement. Ukraine seeks deterrence guarantees without territorial or military restrictions, Russia demands limits on Kyiv and no NATO membership, and European governments are pressing for a role; continuing attacks and unresolved territorial claims make an immediate ceasefire unlikely.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -826,10 +834,10 @@
       "upcomingEvents": [
         {
           "date": "2026-11-10",
-          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi.",
+          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi focused on competing security guarantees.",
           "source": {
-            "label": "Kremlin confirms November 10–11 Abu Dhabi talks",
-            "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+            "label": "Competing security guarantees ahead of Abu Dhabi talks",
+            "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
           }
         }
       ],
@@ -1056,19 +1064,23 @@
         {
           "label": "G7 ministers prepare to discuss Ukraine and European security",
           "url": "https://www.reuters.com/world/americas/g7-allies-assess-impact-trumps-midterm-setback-paris-talks-2026-11-09/"
+        },
+        {
+          "label": "Competing security guarantees ahead of Abu Dhabi talks",
+          "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-09",
-      "materiallyUpdated": "2026-11-09",
-      "validUntil": "2026-11-16",
-      "nextReview": "2026-11-10",
+      "reviewed": "2026-11-10",
+      "materiallyUpdated": "2026-11-10",
+      "validUntil": "2026-11-17",
+      "nextReview": "2026-11-11",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to maintain military pressure while engaging in the November 10–11 Abu Dhabi talks with Ukraine, the United States and European representatives. Broader participation may advance discussion of security guarantees and de-escalation, but Moscow and Kyiv remain far apart and a comprehensive settlement remains unlikely during the forecast period.",
+      "assessment": "Russia is likely to keep applying military pressure while using the November 10–11 Abu Dhabi talks to press demands for Ukrainian withdrawal from four claimed regions, limits on Kyiv's armed forces and no NATO membership. Ukraine rejects those terms and seeks deterrence guarantees, so humanitarian agreements or a framework for further talks remain more plausible than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1078,10 +1090,10 @@
       "upcomingEvents": [
         {
           "date": "2026-11-10",
-          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi.",
+          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi focused on competing security guarantees.",
           "source": {
-            "label": "Kremlin confirms November 10–11 Abu Dhabi talks",
-            "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+            "label": "Competing security guarantees ahead of Abu Dhabi talks",
+            "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
           }
         }
       ],
@@ -1356,19 +1368,23 @@
         {
           "label": "European governments secure a role in Abu Dhabi Ukraine talks",
           "url": "https://www.reuters.com/world/europe/europeans-will-join-ukraine-talks-abu-dhabi-french-foreign-minister-says-2026-11-08/"
+        },
+        {
+          "label": "Competing security guarantees ahead of Abu Dhabi talks",
+          "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-09",
-      "materiallyUpdated": "2026-11-09",
-      "validUntil": "2026-11-16",
-      "nextReview": "2026-11-10",
+      "reviewed": "2026-11-10",
+      "materiallyUpdated": "2026-11-10",
+      "validUntil": "2026-11-17",
+      "nextReview": "2026-11-11",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely, but President Trump’s statement that new strikes are highly unlikely if talks progress lowers the immediate risk of a major US attack. Qatar’s mediation continues while Washington calls Iranian demands unacceptable, Task Force Iron Gate expands pressure on Iranian supply routes and vessel incidents keep the conflict vulnerable to rapid escalation.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely, but direct appeals from Qatar and Saudi Arabia for a peaceful solution reinforce the near-term preference for diplomacy. President Trump says he is in no rush to resume strikes while keeping the US naval blockade in place, leaving a narrow operational arrangement more plausible than a broad agreement and the conflict vulnerable to rapid escalation.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1595,19 +1611,23 @@
         {
           "label": "Trump says progress in talks makes new Iran strikes unlikely",
           "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
+        },
+        {
+          "label": "Qatar and Saudi Arabia urge a peaceful Iran solution",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-09",
-      "materiallyUpdated": "2026-11-09",
-      "validUntil": "2026-11-16",
-      "nextReview": "2026-11-10",
+      "reviewed": "2026-11-10",
+      "materiallyUpdated": "2026-11-10",
+      "validUntil": "2026-11-17",
+      "nextReview": "2026-11-11",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through and around the Strait of Hormuz is likely to remain dangerous and restricted while US–Iran negotiations continue without a breakthrough. President Trump said new strikes were highly unlikely if talks progress, but both sides reported fresh vessel incidents and Washington activated Task Force Iron Gate, leaving commercial traffic exposed to military enforcement, mines and rapid escalation.",
+      "assessment": "Shipping through and around the Strait of Hormuz is likely to remain dangerous and restricted while Qatar and Saudi Arabia press for diplomacy but no agreement is imminent. President Trump says he is in no rush to resume strikes while maintaining the US naval blockade, so commercial traffic remains exposed to military enforcement, mines and rapid escalation.",
       "likelyDevelopments": [
         "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
         "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
@@ -1762,6 +1782,10 @@
         {
           "label": "Trump says progress in talks makes new Iran strikes unlikely",
           "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
+        },
+        {
+          "label": "Qatar and Saudi Arabia urge a peaceful Iran solution",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
         }
       ]
     }
