@@ -687,6 +687,22 @@
             "url": "https://www.reuters.com/world/europe/polands-sikorski-calls-rapid-ceasefire-black-sea-allow-food-shipments-2026-10-31/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-11-11",
+        "evidenceThrough": "2026-11-10",
+        "result": "supported",
+        "explanation": "The full prediction window ended without a comprehensive Russia–Ukraine ceasefire taking effect. Russia and Ukraine began renewed talks on November 10 while fighting continued, and reporting after the first session described major unresolved disputes and a second day of negotiations rather than an operative ceasefire.",
+        "sources": [
+          {
+            "label": "First day of renewed Russia–Ukraine talks",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+          },
+          {
+            "label": "Associated Press account of the Abu Dhabi talks",
+            "url": "https://apnews.com/article/3d878a3e56d5df5bd198a6d20c824d18"
+          }
+        ]
       }
     },
     {
@@ -931,6 +947,18 @@
           {
             "label": "Iranian envoys meet Qatari mediators in Doha",
             "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+          }
+        ]
+      },
+      "assessment": {
+        "assessed": "2026-11-11",
+        "evidenceThrough": "2026-11-10",
+        "result": "supported",
+        "explanation": "The full prediction window ended without a comprehensive US–Iran settlement taking effect. Qatar continued mediation and expressed cautious optimism, but the United States maintained its naval blockade and sanctions policy and described a comprehensive agreement as unattainable at that point.",
+        "sources": [
+          {
+            "label": "Rubio outlines continued Iran pressure as Qatar mediates",
+            "url": "https://www.reuters.com/world/middle-east/qatari-pm-makes-unscheduled-stop-g7-brief-europeans-post-trump-talks-2026-11-10/"
           }
         ]
       }
@@ -2678,6 +2706,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "The full prediction window ended without a comprehensive Russia–Ukraine ceasefire taking effect. Russia and Ukraine began renewed talks on November 10 while fighting continued, and reporting after the first session described major unresolved disputes and a second day of negotiations rather than an operative ceasefire.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2692,6 +2725,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "The full prediction window ended without a comprehensive US–Iran settlement taking effect. Qatar continued mediation and expressed cautious optimism, but the United States maintained its naval blockade and sanctions policy and described a comprehensive agreement as unattainable at that point.",
+        "additionalLookups": 0
       }
     }
   ]

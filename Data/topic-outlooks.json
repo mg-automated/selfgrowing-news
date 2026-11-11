@@ -59,8 +59,8 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-10",
-      "mentions": 10,
+      "lastSeen": "2026-11-11",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-10",
-      "mentions": 36,
+      "lastSeen": "2026-11-11",
+      "mentions": 37,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-10-31",
-      "mentions": 13,
+      "lastSeen": "2026-11-11",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-10",
-      "mentions": 14,
+      "lastSeen": "2026-11-11",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-10",
-      "mentions": 19,
+      "lastSeen": "2026-11-11",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,8 +235,8 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-10",
-      "mentions": 41,
+      "lastSeen": "2026-11-11",
+      "mentions": 42,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,8 +251,8 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-09",
-      "mentions": 23,
+      "lastSeen": "2026-11-11",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-08",
-      "mentions": 14,
+      "lastSeen": "2026-11-11",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-10",
-      "mentions": 30,
+      "lastSeen": "2026-11-11",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -315,8 +315,8 @@
     },
     "Sweden.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-07",
-      "mentions": 7,
+      "lastSeen": "2026-11-11",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-03",
-      "mentions": 15,
+      "lastSeen": "2026-11-11",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-10",
-      "mentions": 49,
+      "lastSeen": "2026-11-11",
+      "mentions": 50,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-10",
-      "mentions": 23,
+      "lastSeen": "2026-11-11",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -542,13 +542,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-08",
-      "materiallyUpdated": "2026-11-08",
-      "validUntil": "2026-11-21",
-      "nextReview": "2026-11-11",
+      "reviewed": "2026-11-11",
+      "materiallyUpdated": "2026-11-11",
+      "validUntil": "2026-11-24",
+      "nextReview": "2026-11-14",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment and infrastructure investment are likely to continue expanding, but political, financial and environmental scrutiny is rising. US state and local election results strengthened pressure for data-centre restrictions, while conservation groups’ use of AI highlights the demand for useful applications alongside clearer accounting of energy, water and emissions costs.",
+      "assessment": "AI infrastructure investment is likely to continue expanding despite sharper scrutiny of financing and local resource use. TSMC's proposed stakes in Anthropic and OpenAI and CoreWeave's rapidly growing backlog show sustained demand, while CoreWeave's debt load and 2028 profitability target illustrate the sector's exposure to high borrowing costs, execution delays and disappointing returns.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -812,19 +812,23 @@
         {
           "label": "Environmental groups confront AI's climate trade-offs",
           "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/"
+        },
+        {
+          "label": "TSMC plans investments in Anthropic and OpenAI",
+          "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-10",
-      "materiallyUpdated": "2026-11-10",
-      "validUntil": "2026-11-17",
-      "nextReview": "2026-11-11",
+      "reviewed": "2026-11-11",
+      "materiallyUpdated": "2026-11-11",
+      "validUntil": "2026-11-18",
+      "nextReview": "2026-11-12",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "The November 10–11 Abu Dhabi talks are likely to clarify competing security-guarantee proposals without producing a comprehensive settlement. Ukraine seeks deterrence guarantees without territorial or military restrictions, Russia demands limits on Kyiv and no NATO membership, and European governments are pressing for a role; continuing attacks and unresolved territorial claims make an immediate ceasefire unlikely.",
+      "assessment": "The first day of Abu Dhabi talks reopened direct Russia–Ukraine diplomacy and produced discussion of prisoner exchanges and long-term security guarantees, but no evidence of agreement on territory, NATO membership or a ceasefire sequence. Humanitarian arrangements and a framework for further negotiations remain more plausible than a comprehensive settlement, while European governments will keep pressing for involvement in any wider security architecture.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -833,11 +837,11 @@
       ],
       "upcomingEvents": [
         {
-          "date": "2026-11-10",
-          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi focused on competing security guarantees.",
+          "date": "2026-11-11",
+          "description": "Russia, Ukraine and the United States are scheduled to continue their Abu Dhabi talks for a second day.",
           "source": {
-            "label": "Competing security guarantees ahead of Abu Dhabi talks",
-            "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
+            "label": "First day of renewed Russia–Ukraine talks",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
           }
         }
       ],
@@ -1068,19 +1072,23 @@
         {
           "label": "Competing security guarantees ahead of Abu Dhabi talks",
           "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
+        },
+        {
+          "label": "First day of renewed Russia–Ukraine talks",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-10",
-      "materiallyUpdated": "2026-11-10",
-      "validUntil": "2026-11-17",
-      "nextReview": "2026-11-11",
+      "reviewed": "2026-11-11",
+      "materiallyUpdated": "2026-11-11",
+      "validUntil": "2026-11-18",
+      "nextReview": "2026-11-12",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to keep applying military pressure while using the November 10–11 Abu Dhabi talks to press demands for Ukrainian withdrawal from four claimed regions, limits on Kyiv's armed forces and no NATO membership. Ukraine rejects those terms and seeks deterrence guarantees, so humanitarian agreements or a framework for further talks remain more plausible than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue military pressure while using the renewed Abu Dhabi channel to seek a broader European security framework and restrictions on Ukraine's alignment and armed forces. The first session produced constructive language and humanitarian discussion but no sign Moscow will abandon its territorial demands, making prisoner exchanges or continued talks more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1089,11 +1097,11 @@
       ],
       "upcomingEvents": [
         {
-          "date": "2026-11-10",
-          "description": "Russia, Ukraine and the United States are scheduled to begin two days of talks in Abu Dhabi focused on competing security guarantees.",
+          "date": "2026-11-11",
+          "description": "Russia, Ukraine and the United States are scheduled to continue their Abu Dhabi talks for a second day.",
           "source": {
-            "label": "Competing security guarantees ahead of Abu Dhabi talks",
-            "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
+            "label": "First day of renewed Russia–Ukraine talks",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
           }
         }
       ],
@@ -1372,19 +1380,23 @@
         {
           "label": "Competing security guarantees ahead of Abu Dhabi talks",
           "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
+        },
+        {
+          "label": "First day of renewed Russia–Ukraine talks",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-10",
-      "materiallyUpdated": "2026-11-10",
-      "validUntil": "2026-11-17",
-      "nextReview": "2026-11-11",
+      "reviewed": "2026-11-11",
+      "materiallyUpdated": "2026-11-11",
+      "validUntil": "2026-11-18",
+      "nextReview": "2026-11-12",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely, but direct appeals from Qatar and Saudi Arabia for a peaceful solution reinforce the near-term preference for diplomacy. President Trump says he is in no rush to resume strikes while keeping the US naval blockade in place, leaving a narrow operational arrangement more plausible than a broad agreement and the conflict vulnerable to rapid escalation.",
+      "assessment": "A comprehensive US–Iran settlement remains unlikely as Washington combines Gulf-mediated diplomacy with continued sanctions and a naval blockade. Qatar expressed cautious optimism after talks with President Trump, but Secretary of State Marco Rubio told G7 partners that the United States would keep imposing severe economic costs, leaving a narrow de-escalation arrangement more plausible than a broad agreement and preserving the risk of renewed escalation.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1615,6 +1627,10 @@
         {
           "label": "Qatar and Saudi Arabia urge a peaceful Iran solution",
           "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
+        },
+        {
+          "label": "Rubio outlines continued Iran pressure as Qatar mediates",
+          "url": "https://www.reuters.com/world/middle-east/qatari-pm-makes-unscheduled-stop-g7-brief-europeans-post-trump-talks-2026-11-10/"
         }
       ]
     },
