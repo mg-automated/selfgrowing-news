@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-10",
-      "mentions": 23,
+      "lastSeen": "2026-11-12",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-07",
-      "mentions": 15,
+      "lastSeen": "2026-11-12",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,24 +83,24 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-05",
-      "mentions": 11,
+      "lastSeen": "2026-11-12",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-11",
-      "mentions": 37,
+      "lastSeen": "2026-11-12",
+      "mentions": 38,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-09",
-      "mentions": 11,
+      "lastSeen": "2026-11-12",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-10",
-      "mentions": 38,
+      "lastSeen": "2026-11-12",
+      "mentions": 39,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-11",
-      "mentions": 42,
+      "lastSeen": "2026-11-12",
+      "mentions": 43,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-09",
-      "mentions": 23,
+      "lastSeen": "2026-11-12",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-11",
-      "mentions": 31,
+      "lastSeen": "2026-11-12",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-11",
-      "mentions": 50,
+      "lastSeen": "2026-11-12",
+      "mentions": 51,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -403,8 +403,8 @@
     },
     "European-Migration.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 6,
+      "lastSeen": "2026-11-12",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-12"
@@ -451,8 +451,8 @@
     },
     "United-Kingdom.md": {
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-10-25",
-      "mentions": 1,
+      "lastSeen": "2026-11-12",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-25"
@@ -507,8 +507,8 @@
     },
     "Legal-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-07",
-      "mentions": 2,
+      "lastSeen": "2026-11-12",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-07"
@@ -822,13 +822,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-11",
-      "materiallyUpdated": "2026-11-11",
-      "validUntil": "2026-11-18",
-      "nextReview": "2026-11-12",
+      "reviewed": "2026-11-12",
+      "materiallyUpdated": "2026-11-12",
+      "validUntil": "2026-11-19",
+      "nextReview": "2026-11-13",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "The first day of Abu Dhabi talks reopened direct Russia–Ukraine diplomacy and produced discussion of prisoner exchanges and long-term security guarantees, but no evidence of agreement on territory, NATO membership or a ceasefire sequence. Humanitarian arrangements and a framework for further negotiations remain more plausible than a comprehensive settlement, while European governments will keep pressing for involvement in any wider security architecture.",
+      "assessment": "The Abu Dhabi round produced an agreement in principle on a major prisoner exchange and a commitment to continue talks, but core disputes over territory, security guarantees and European participation remain unresolved. Humanitarian exchanges and further diplomacy are more likely than a comprehensive ceasefire, while continued strikes and Russia's refusal to meet European representatives preserve escalation and coordination risks.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -837,11 +837,11 @@
       ],
       "upcomingEvents": [
         {
-          "date": "2026-11-11",
-          "description": "Russia, Ukraine and the United States are scheduled to continue their Abu Dhabi talks for a second day.",
+          "date": "2026-11-12",
+          "description": "US envoys are expected to meet President Vladimir Putin in Moscow before travelling to Ireland to meet President Volodymyr Zelenskiy.",
           "source": {
-            "label": "First day of renewed Russia–Ukraine talks",
-            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+            "label": "Outcome of Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
           }
         }
       ],
@@ -1076,19 +1076,23 @@
         {
           "label": "First day of renewed Russia–Ukraine talks",
           "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+        },
+        {
+          "label": "Prisoner-exchange agreement and unresolved peace issues",
+          "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-11",
-      "materiallyUpdated": "2026-11-11",
-      "validUntil": "2026-11-18",
-      "nextReview": "2026-11-12",
+      "reviewed": "2026-11-12",
+      "materiallyUpdated": "2026-11-12",
+      "validUntil": "2026-11-19",
+      "nextReview": "2026-11-13",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure while using the renewed Abu Dhabi channel to seek a broader European security framework and restrictions on Ukraine's alignment and armed forces. The first session produced constructive language and humanitarian discussion but no sign Moscow will abandon its territorial demands, making prisoner exchanges or continued talks more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to complete a major prisoner exchange and continue US-mediated talks while maintaining its territorial demands and military pressure on Ukraine. The Abu Dhabi round created a humanitarian opening but no compromise on Donbas, security guarantees or European participation, making further process and limited arrangements more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1097,11 +1101,11 @@
       ],
       "upcomingEvents": [
         {
-          "date": "2026-11-11",
-          "description": "Russia, Ukraine and the United States are scheduled to continue their Abu Dhabi talks for a second day.",
+          "date": "2026-11-12",
+          "description": "US envoys are expected to meet President Vladimir Putin in Moscow following the Abu Dhabi talks.",
           "source": {
-            "label": "First day of renewed Russia–Ukraine talks",
-            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+            "label": "Outcome of Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
           }
         }
       ],
@@ -1384,19 +1388,23 @@
         {
           "label": "First day of renewed Russia–Ukraine talks",
           "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+        },
+        {
+          "label": "Prisoner-exchange agreement and unresolved peace issues",
+          "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-11",
-      "materiallyUpdated": "2026-11-11",
-      "validUntil": "2026-11-18",
-      "nextReview": "2026-11-12",
+      "reviewed": "2026-11-12",
+      "materiallyUpdated": "2026-11-12",
+      "validUntil": "2026-11-19",
+      "nextReview": "2026-11-13",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "A comprehensive US–Iran settlement remains unlikely as Washington combines Gulf-mediated diplomacy with continued sanctions and a naval blockade. Qatar expressed cautious optimism after talks with President Trump, but Secretary of State Marco Rubio told G7 partners that the United States would keep imposing severe economic costs, leaving a narrow de-escalation arrangement more plausible than a broad agreement and preserving the risk of renewed escalation.",
+      "assessment": "Iran is likely to resist nuclear concessions while leaving regional mediation open enough to reduce the immediate risk of renewed large-scale US strikes. Tehran's refusal to let enriched material leave the country and continuing attacks around the Strait of Hormuz mean any near-term arrangement is more likely to be a limited de-escalation or maritime measure than a comprehensive settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1631,24 +1639,32 @@
         {
           "label": "Rubio outlines continued Iran pressure as Qatar mediates",
           "url": "https://www.reuters.com/world/middle-east/qatari-pm-makes-unscheduled-stop-g7-brief-europeans-post-trump-talks-2026-11-10/"
+        },
+        {
+          "label": "Iran rejects removal of enriched nuclear material",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-11/oil-2-iran-official-says-country-will-keep-enriched-nuclear-material"
+        },
+        {
+          "label": "Hormuz traffic and attacks both rise",
+          "url": "https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-attacks-2026-11-11/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-10",
-      "materiallyUpdated": "2026-11-10",
-      "validUntil": "2026-11-17",
-      "nextReview": "2026-11-11",
+      "reviewed": "2026-11-12",
+      "materiallyUpdated": "2026-11-12",
+      "validUntil": "2026-11-19",
+      "nextReview": "2026-11-13",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Shipping through and around the Strait of Hormuz is likely to remain dangerous and restricted while Qatar and Saudi Arabia press for diplomacy but no agreement is imminent. President Trump says he is in no rush to resume strikes while maintaining the US naval blockade, so commercial traffic remains exposed to military enforcement, mines and rapid escalation.",
+      "assessment": "Commercial traffic through the Strait of Hormuz is recovering because high charter rates are drawing ships back, but security is not improving at the same pace: October brought both the war's highest Gulf LNG exports and a record 37 vessel attacks. Diplomacy may reduce the risk of renewed large-scale US strikes, yet mines, tanker attacks, environmental damage and Iran's refusal to surrender enriched material make a durable reopening unlikely in the immediate forecast period.",
       "likelyDevelopments": [
-        "Negotiators and mediators will probably explore revised staged steps that exchange greater freedom of navigation for relief from US pressure on Iranian ports.",
-        "Commercial shipping and energy markets will remain sensitive to tanker attacks, insurance costs and conflicting statements from Washington and Tehran.",
-        "Regional states will seek additional security coordination while avoiding actions that could expand the conflict.",
-        "Any initial accord is more likely to be narrow and operational than a comprehensive political settlement."
+        "Commercial traffic will continue selectively at high insurance and charter costs, leaving more crews and vessels exposed to attacks.",
+        "Regional mediators will keep seeking narrow operational arrangements while the nuclear dispute limits prospects for a comprehensive settlement.",
+        "Gulf states and shipping operators will intensify mine countermeasures, escorts and environmental-response planning.",
+        "Energy markets will remain highly sensitive to fresh attacks, blockades or evidence of sustained safe passage."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1802,6 +1818,10 @@
         {
           "label": "Qatar and Saudi Arabia urge a peaceful Iran solution",
           "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
+        },
+        {
+          "label": "Hormuz traffic and attacks both rise",
+          "url": "https://www.reuters.com/world/middle-east/hormuz-traffic-is-up-so-are-attacks-2026-11-11/"
         }
       ]
     }

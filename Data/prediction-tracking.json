@@ -2744,6 +2744,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The prediction deadline is 2026-11-21. Today's verified briefing and Outlook research does not conclusively establish a qualifying US state-level proposal, and pre-deadline assessment permits no additional tracking lookups.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2758,6 +2763,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "No new prediction was created. The defensible expectation from today's verified Russia Outlook is continued talks without a comprehensive settlement, which substantially overlaps recently tracked Russia and European Security ceasefire predictions; the agreed prisoner exchange is a scheduled arrangement rather than a suitable prediction.",
+        "additionalLookups": 0
       }
     }
   ]
