@@ -2769,6 +2769,20 @@
         "explanation": "No new prediction was created. The defensible expectation from today's verified Russia Outlook is continued talks without a comprehensive settlement, which substantially overlaps recently tracked Russia and European Security ceasefire predictions; the agreed prisoner exchange is a scheduled arrangement rather than a suitable prediction.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-13:creation:Russia.md",
+      "date": "2026-11-13",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
