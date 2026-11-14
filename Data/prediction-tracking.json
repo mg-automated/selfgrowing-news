@@ -2788,6 +2788,34 @@
         "explanation": "No new prediction was created. Today's defensible expectation—continued negotiations without a comprehensive settlement—overlaps recently completed Russia and European Security ceasefire tracking, while European participation is an announced process step rather than a suitable uncertain outcome.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-14:assessment:artificial-intelligence-2026-11-08-us-data-centre-restriction",
+      "date": "2026-11-14",
+      "kind": "assessment",
+      "predictionId": "artificial-intelligence-2026-11-08-us-data-centre-restriction",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-11-14:creation:Russia.md",
+      "date": "2026-11-14",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
