@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-13",
-      "mentions": 25,
+      "lastSeen": "2026-11-14",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-13",
-      "mentions": 17,
+      "lastSeen": "2026-11-14",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-13",
-      "mentions": 13,
+      "lastSeen": "2026-11-14",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-12",
-      "mentions": 38,
+      "lastSeen": "2026-11-14",
+      "mentions": 39,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,8 +107,8 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-11",
-      "mentions": 14,
+      "lastSeen": "2026-11-14",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-11",
-      "mentions": 15,
+      "lastSeen": "2026-11-14",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -163,16 +163,16 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-11-13",
-      "mentions": 10,
+      "lastSeen": "2026-11-14",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
     },
     "Myanmar.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-10-09",
-      "mentions": 2,
+      "lastSeen": "2026-11-14",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 40,
+      "lastSeen": "2026-11-14",
+      "mentions": 41,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 44,
+      "lastSeen": "2026-11-14",
+      "mentions": 45,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 25,
+      "lastSeen": "2026-11-14",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-13",
-      "mentions": 25,
+      "lastSeen": "2026-11-14",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 33,
+      "lastSeen": "2026-11-14",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -331,8 +331,8 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-23",
-      "mentions": 15,
+      "lastSeen": "2026-11-14",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-11",
-      "mentions": 16,
+      "lastSeen": "2026-11-14",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-13",
-      "mentions": 25,
+      "lastSeen": "2026-11-14",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -542,13 +542,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-11",
-      "materiallyUpdated": "2026-11-11",
-      "validUntil": "2026-11-24",
-      "nextReview": "2026-11-14",
+      "reviewed": "2026-11-14",
+      "materiallyUpdated": "2026-11-14",
+      "validUntil": "2026-11-28",
+      "nextReview": "2026-11-17",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI infrastructure investment is likely to continue expanding despite sharper scrutiny of financing and local resource use. TSMC's proposed stakes in Anthropic and OpenAI and CoreWeave's rapidly growing backlog show sustained demand, while CoreWeave's debt load and 2028 profitability target illustrate the sector's exposure to high borrowing costs, execution delays and disappointing returns.",
+      "assessment": "AI deployment is likely to broaden from content generation into transactions and other agent-executed actions, increasing pressure for auditable consent, payment security and incident reporting. Europe's first leaders-level AI summit shows governments are also prioritising industrial capacity, but stalled gigafactories and chip-manufacturing targets mean infrastructure constraints will continue alongside rapid product expansion.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -816,19 +816,31 @@
         {
           "label": "TSMC plans investments in Anthropic and OpenAI",
           "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+        },
+        {
+          "label": "EU leaders hold first dedicated AI summit",
+          "url": "https://www.reuters.com/world/china/eu-leaders-seek-tackle-challenges-first-ever-ai-summit-2026-11-13/"
+        },
+        {
+          "label": "OpenAI launches ChatGPT Wallet",
+          "url": "https://www.reuters.com/technology/openai-launches-chatgpt-wallet-letting-ai-agents-pay-purchases-2026-11-13/"
+        },
+        {
+          "label": "Chinese AI projects reliant on restricted Nvidia chips",
+          "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-13",
-      "materiallyUpdated": "2026-11-13",
-      "validUntil": "2026-11-20",
-      "nextReview": "2026-11-14",
+      "reviewed": "2026-11-14",
+      "materiallyUpdated": "2026-11-14",
+      "validUntil": "2026-11-21",
+      "nextReview": "2026-11-15",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia's stated acceptance of European participation broadens the prospective negotiation format, but conflicting Kremlin signals and continuing disputes over territory, Western troops and security guarantees make rapid agreement unlikely. Further talks, humanitarian measures and limited ceasefires remain more plausible than a comprehensive settlement, while the EU is preparing additional sanctions to preserve leverage.",
+      "assessment": "European governments are likely to seek a formal role in Ukraine negotiations and define possible security guarantees while maintaining sanctions pressure on Russia. The planned Trump-Xi-Putin meeting adds a nuclear-arms channel that could reshape the broader security discussion, but unresolved territorial demands and competing negotiating formats still make a comprehensive settlement unlikely during the forecast period.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1088,19 +1100,27 @@
         {
           "label": "Planned EU Russia sanctions",
           "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+        },
+        {
+          "label": "EU leaders discuss Ukraine and possible security guarantees",
+          "url": "https://www.reuters.com/world/china/eu-leaders-seek-tackle-challenges-first-ever-ai-summit-2026-11-13/"
+        },
+        {
+          "label": "Planned Trump-Xi-Putin nuclear talks",
+          "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-13",
-      "materiallyUpdated": "2026-11-13",
-      "validUntil": "2026-11-20",
-      "nextReview": "2026-11-14",
+      "reviewed": "2026-11-14",
+      "materiallyUpdated": "2026-11-14",
+      "validUntil": "2026-11-21",
+      "nextReview": "2026-11-15",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue negotiations in an expanded format that may include European representatives while maintaining its territorial demands and opposition to Western troops in Ukraine. Moscow's mixed public signals mean participation and agenda remain unsettled; further diplomacy and limited humanitarian arrangements are more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to use both the expanded Ukraine negotiating process and the planned Trump-Xi-Putin meeting to press for a wider security bargain while maintaining its territorial demands. Nuclear-arms discussions may create a parallel diplomatic channel, but humanitarian arrangements and continued talks remain more likely than either an arms-control accord or a comprehensive Ukraine settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1114,6 +1134,14 @@
           "source": {
             "label": "Planned EU Russia sanctions",
             "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, with nuclear-arms reductions on the agenda.",
+          "source": {
+            "label": "Planned Trump-Xi-Putin nuclear talks",
+            "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
           }
         }
       ],
@@ -1408,26 +1436,39 @@
         {
           "label": "Planned EU Russia sanctions",
           "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+        },
+        {
+          "label": "Planned Trump-Xi-Putin nuclear talks",
+          "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-13",
-      "materiallyUpdated": "2026-11-12",
-      "validUntil": "2026-11-20",
-      "nextReview": "2026-11-14",
+      "reviewed": "2026-11-14",
+      "materiallyUpdated": "2026-11-14",
+      "validUntil": "2026-11-21",
+      "nextReview": "2026-11-15",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Iran is likely to resist nuclear concessions while leaving regional mediation open enough to reduce the immediate risk of renewed large-scale US strikes. Tehran's refusal to let enriched material leave the country and continuing attacks around the Strait of Hormuz mean any near-term arrangement is more likely to be a limited de-escalation or maritime measure than a comprehensive settlement.",
+      "assessment": "Regional appeals appear likely to keep the immediate risk of renewed large-scale US strikes on Iran lower, but Tehran's nuclear position and attacks affecting Gulf energy routes leave the underlying conflict unresolved. The upcoming US-China-Russia meeting and ASEAN diplomacy may provide additional channels for de-escalation, although any near-term outcome is more likely to be limited and provisional than a comprehensive settlement.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
         "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
         "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
-      "upcomingEvents": [],
+      "upcomingEvents": [
+        {
+          "date": "2026-11-19",
+          "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, where the Iran war may also be discussed.",
+          "source": {
+            "label": "Planned Trump-Xi-Putin summit",
+            "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
+          }
+        }
+      ],
       "changeSignals": [
         "A verified agreement on sequencing the reopening of the Strait and easing US pressure",
         "Any Iranian willingness to include nuclear limits in negotiations",
@@ -1667,6 +1708,14 @@
         {
           "label": "Houthi attacks threaten Saudi oil bypass route",
           "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west-oil-2026-11-12/"
+        },
+        {
+          "label": "ASEAN summit preview and regional appeals against renewed US strikes",
+          "url": "https://www.reuters.com/business/energy/asean-unity-faces-test-energy-crisis-regional-conflicts-loom-over-summit-2026-11-13/"
+        },
+        {
+          "label": "Planned Trump-Xi-Putin summit",
+          "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
         }
       ]
     },

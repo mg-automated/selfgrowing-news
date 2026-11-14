@@ -2801,6 +2801,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The prediction remains open through 2026-11-21. Today's verified reporting does not conclusively establish a qualifying US state-level proposal, and the pre-deadline reservation permits no additional tracking lookups.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2815,6 +2820,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "No new prediction was created. The defensible expectations in today's verified Russia Outlook—continued negotiations, a scheduled leaders' meeting and no rapid comprehensive settlement—either duplicate recently completed ceasefire tracking or describe an announced process rather than a suitable uncertain outcome.",
+        "additionalLookups": 0
       }
     }
   ]
