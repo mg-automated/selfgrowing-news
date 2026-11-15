@@ -2826,6 +2826,20 @@
         "explanation": "No new prediction was created. The defensible expectations in today's verified Russia Outlook—continued negotiations, a scheduled leaders' meeting and no rapid comprehensive settlement—either duplicate recently completed ceasefire tracking or describe an announced process rather than a suitable uncertain outcome.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-15:creation:Russia.md",
+      "date": "2026-11-15",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
