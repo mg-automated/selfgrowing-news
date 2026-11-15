@@ -2839,6 +2839,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "No new prediction was created. Today's Russia Outlook concerns continued negotiations, a proposed leaders' meeting and the low probability of a comprehensive settlement; these expectations overlap recently completed ceasefire tracking, while the announced meeting and negotiation proposals are process events rather than suitable uncertain outcomes.",
+        "additionalLookups": 0
       }
     }
   ]

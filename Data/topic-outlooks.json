@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-14",
-      "mentions": 26,
+      "lastSeen": "2026-11-15",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-14",
-      "mentions": 18,
+      "lastSeen": "2026-11-15",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-14",
-      "mentions": 14,
+      "lastSeen": "2026-11-15",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-14",
-      "mentions": 39,
+      "lastSeen": "2026-11-15",
+      "mentions": 40,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -163,16 +163,16 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-11-14",
-      "mentions": 11,
+      "lastSeen": "2026-11-15",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
     },
     "Myanmar.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-14",
-      "mentions": 3,
+      "lastSeen": "2026-11-15",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -187,7 +187,7 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-13",
+      "lastSeen": "2026-11-15",
       "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
@@ -219,24 +219,24 @@
     },
     "Swiss-Health-Policy.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-07",
-      "mentions": 3,
+      "lastSeen": "2026-11-15",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-14",
-      "mentions": 41,
+      "lastSeen": "2026-11-15",
+      "mentions": 42,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-14",
-      "mentions": 45,
+      "lastSeen": "2026-11-15",
+      "mentions": 46,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-14",
-      "mentions": 26,
+      "lastSeen": "2026-11-15",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,16 +323,16 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-11-01",
-      "mentions": 10,
+      "lastSeen": "2026-11-15",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-14",
-      "mentions": 16,
+      "lastSeen": "2026-11-15",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 52,
+      "lastSeen": "2026-11-15",
+      "mentions": 53,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -531,8 +531,8 @@
     },
     "Swiss-Cantonal-Politics.md": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-10",
-      "mentions": 1,
+      "lastSeen": "2026-11-15",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-10"
@@ -834,13 +834,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-14",
-      "materiallyUpdated": "2026-11-14",
-      "validUntil": "2026-11-21",
-      "nextReview": "2026-11-15",
+      "reviewed": "2026-11-15",
+      "materiallyUpdated": "2026-11-15",
+      "validUntil": "2026-11-22",
+      "nextReview": "2026-11-16",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to seek a formal role in Ukraine negotiations and define possible security guarantees while maintaining sanctions pressure on Russia. The planned Trump-Xi-Putin meeting adds a nuclear-arms channel that could reshape the broader security discussion, but unresolved territorial demands and competing negotiating formats still make a comprehensive settlement unlikely during the forecast period.",
+      "assessment": "Ukraine diplomacy is likely to intensify around territorial concessions, NATO membership and European security guarantees, but the new US proposal linking a Donbas withdrawal to NATO entry collides with red lines in both Kyiv and Moscow. Direct European participation and humanitarian arrangements remain plausible, while a comprehensive settlement is unlikely during the forecast period.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1108,19 +1108,27 @@
         {
           "label": "Planned Trump-Xi-Putin nuclear talks",
           "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
+        },
+        {
+          "label": "US proposal links Donbas withdrawal and NATO membership",
+          "url": "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/"
+        },
+        {
+          "label": "Divergent goals for proposed US-China-Russia meeting",
+          "url": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-14",
-      "materiallyUpdated": "2026-11-14",
-      "validUntil": "2026-11-21",
-      "nextReview": "2026-11-15",
+      "reviewed": "2026-11-15",
+      "materiallyUpdated": "2026-11-15",
+      "validUntil": "2026-11-22",
+      "nextReview": "2026-11-16",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to use both the expanded Ukraine negotiating process and the planned Trump-Xi-Putin meeting to press for a wider security bargain while maintaining its territorial demands. Nuclear-arms discussions may create a parallel diplomatic channel, but humanitarian arrangements and continued talks remain more likely than either an arms-control accord or a comprehensive Ukraine settlement during the forecast period.",
+      "assessment": "Russia is likely to keep pressing for territorial concessions and a wider European security bargain while resisting Ukrainian NATO membership. The proposed US-China-Russia meeting may give Moscow another diplomatic channel, but Beijing's reluctance and the incompatible Donbas-for-NATO idea make continued negotiations more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1440,19 +1448,27 @@
         {
           "label": "Planned Trump-Xi-Putin nuclear talks",
           "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
+        },
+        {
+          "label": "US proposal links Donbas withdrawal and NATO membership",
+          "url": "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/"
+        },
+        {
+          "label": "Divergent goals for proposed US-China-Russia meeting",
+          "url": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-14",
-      "materiallyUpdated": "2026-11-14",
-      "validUntil": "2026-11-21",
-      "nextReview": "2026-11-15",
+      "reviewed": "2026-11-15",
+      "materiallyUpdated": "2026-11-15",
+      "validUntil": "2026-11-22",
+      "nextReview": "2026-11-16",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Regional appeals appear likely to keep the immediate risk of renewed large-scale US strikes on Iran lower, but Tehran's nuclear position and attacks affecting Gulf energy routes leave the underlying conflict unresolved. The upcoming US-China-Russia meeting and ASEAN diplomacy may provide additional channels for de-escalation, although any near-term outcome is more likely to be limited and provisional than a comprehensive settlement.",
+      "assessment": "The immediate risk of renewed large-scale US strikes on Iran appears lower because President Trump is considering restraint absent new provocation and regional partners are urging de-escalation. The military option remains available, however, and continued Houthi attacks, the naval blockade and unresolved nuclear demands mean any near-term calm is likely to remain conditional and reversible.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1716,19 +1732,23 @@
         {
           "label": "Planned Trump-Xi-Putin summit",
           "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
+        },
+        {
+          "label": "Trump considers withholding new Iran strikes absent provocation",
+          "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-13",
-      "materiallyUpdated": "2026-11-13",
-      "validUntil": "2026-11-20",
-      "nextReview": "2026-11-14",
+      "reviewed": "2026-11-15",
+      "materiallyUpdated": "2026-11-15",
+      "validUntil": "2026-11-22",
+      "nextReview": "2026-11-16",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial traffic through the Strait of Hormuz may continue recovering selectively, but attacks and the extension of pressure to Saudi Arabia's East-West pipeline show that neither the Gulf route nor its main bypass is secure. Regional diplomacy may reduce the immediate risk of renewed large-scale US strikes, yet shipping costs, mines, tanker attacks and Houthi threats will keep energy flows vulnerable.",
+      "assessment": "Commercial traffic may continue recovering selectively as Washington considers holding off on further strikes, but US restraint is explicitly conditional on the absence of new Iranian or Houthi provocation. The naval blockade, mines, tanker attacks and threats to Saudi Arabia's bypass pipeline will keep energy flows, insurance costs and the risk of renewed disruption elevated.",
       "likelyDevelopments": [
         "Commercial traffic will continue selectively at high insurance and charter costs, leaving more crews and vessels exposed to attacks.",
         "Regional mediators will keep seeking narrow operational arrangements while the nuclear dispute limits prospects for a comprehensive settlement.",
@@ -1895,6 +1915,10 @@
         {
           "label": "Houthi attacks threaten Saudi oil bypass route",
           "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west-oil-2026-11-12/"
+        },
+        {
+          "label": "Trump considers withholding new Iran strikes absent provocation",
+          "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/"
         }
       ]
     }
