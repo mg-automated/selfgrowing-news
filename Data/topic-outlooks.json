@@ -51,8 +51,8 @@
     },
     "Ethiopia.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-10-14",
-      "mentions": 5,
+      "lastSeen": "2026-11-17",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-16",
-      "mentions": 41,
+      "lastSeen": "2026-11-17",
+      "mentions": 42,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -131,8 +131,8 @@
     },
     "Afghanistan-Pakistan-Relations.md": {
       "firstSeen": "2026-10-02",
-      "lastSeen": "2026-10-02",
-      "mentions": 1,
+      "lastSeen": "2026-11-17",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 43,
+      "lastSeen": "2026-11-17",
+      "mentions": 44,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 47,
+      "lastSeen": "2026-11-17",
+      "mentions": 48,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,8 +251,8 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 27,
+      "lastSeen": "2026-11-17",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,16 +283,16 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 35,
+      "lastSeen": "2026-11-17",
+      "mentions": 36,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Robotics.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-06",
-      "mentions": 8,
+      "lastSeen": "2026-11-17",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -331,24 +331,24 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-15",
-      "mentions": 17,
+      "lastSeen": "2026-11-17",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-11-13",
-      "mentions": 9,
+      "lastSeen": "2026-11-17",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-14",
-      "mentions": 17,
+      "lastSeen": "2026-11-17",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-15",
-      "mentions": 53,
+      "lastSeen": "2026-11-17",
+      "mentions": 54,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-14",
-      "mentions": 26,
+      "lastSeen": "2026-11-17",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -507,8 +507,8 @@
     },
     "Legal-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-13",
-      "mentions": 4,
+      "lastSeen": "2026-11-17",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-07"
@@ -523,8 +523,8 @@
     },
     "Sudan.md": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-09",
-      "mentions": 1,
+      "lastSeen": "2026-11-17",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-09"
@@ -544,19 +544,27 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-16"
+    },
+    "Swiss-Product-Regulation.md": {
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-11-17",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-17"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-14",
-      "materiallyUpdated": "2026-11-14",
-      "validUntil": "2026-11-28",
-      "nextReview": "2026-11-17",
+      "reviewed": "2026-11-17",
+      "materiallyUpdated": "2026-11-17",
+      "validUntil": "2026-12-01",
+      "nextReview": "2026-11-20",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment is likely to broaden from content generation into transactions and other agent-executed actions, increasing pressure for auditable consent, payment security and incident reporting. Europe's first leaders-level AI summit shows governments are also prioritising industrial capacity, but stalled gigafactories and chip-manufacturing targets mean infrastructure constraints will continue alongside rapid product expansion.",
+      "assessment": "AI adoption and infrastructure investment are likely to continue expanding, but governments and central banks are treating the sector as a source of geopolitical, financial and labour-market risk as well as productivity growth. Tighter US controls on overseas access to advanced chips, ECB warnings about concentrated debt-financed investment and the Federal Reserve’s focus on uncertain employment effects point toward more active oversight without an immediate halt to deployment.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -836,35 +844,38 @@
         {
           "label": "Chinese AI projects reliant on restricted Nvidia chips",
           "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
+        },
+        {
+          "label": "US tightens controls on overseas access to advanced AI chips",
+          "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/"
+        },
+        {
+          "label": "ECB identifies AI-related systemic financial risks",
+          "url": "https://www.reuters.com/legal/transactional/ecb-vp-says-ai-debt-have-become-prominent-stability-risks-2026-11-16/"
+        },
+        {
+          "label": "Federal Reserve examines AI productivity and employment outcomes",
+          "url": "https://www.reuters.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-2026-11-16/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-16",
-      "materiallyUpdated": "2026-11-15",
-      "validUntil": "2026-11-23",
-      "nextReview": "2026-11-17",
+      "reviewed": "2026-11-17",
+      "materiallyUpdated": "2026-11-17",
+      "validUntil": "2026-11-24",
+      "nextReview": "2026-11-18",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Ukraine diplomacy is likely to intensify around territorial concessions, NATO membership and European security guarantees, but the new US proposal linking a Donbas withdrawal to NATO entry collides with red lines in both Kyiv and Moscow. Direct European participation and humanitarian arrangements remain plausible, while a comprehensive settlement is unlikely during the forecast period.",
+      "assessment": "European governments are likely to keep tightening financial pressure on Russia while demanding a ceasefire before a broader settlement. The new sanctions on Russian banks and continued attacks on Ukrainian power infrastructure reinforce the likelihood of prolonged negotiations, stronger European participation and continued military support rather than a comprehensive agreement during the forecast period.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
         "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
         "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-11-16",
-          "description": "EU governments are expected to approve a new Russia sanctions package covering additional entities and banks.",
-          "source": {
-            "label": "Planned EU Russia sanctions",
-            "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Confirmed attribution of attacks on NATO territory or shipping to a state actor",
         "New EU or NATO measures protecting airspace, ports, undersea infrastructure or commercial navigation",
@@ -1132,19 +1143,23 @@
         {
           "label": "Trump begins Asia trip ahead of meetings with Xi and Putin",
           "url": "https://apnews.com/article/30ac0f6937301f36904808f278b79b1e"
+        },
+        {
+          "label": "EU sanctions Russian financial institutions and rejects new Russian demands",
+          "url": "https://apnews.com/article/cde686fba0e452b10ca613b3517e884e"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-16",
-      "materiallyUpdated": "2026-11-15",
-      "validUntil": "2026-11-23",
-      "nextReview": "2026-11-17",
+      "reviewed": "2026-11-17",
+      "materiallyUpdated": "2026-11-17",
+      "validUntil": "2026-11-24",
+      "nextReview": "2026-11-18",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to keep pressing for territorial concessions and a wider European security bargain while resisting Ukrainian NATO membership. The proposed US-China-Russia meeting may give Moscow another diplomatic channel, but Beijing's reluctance and the incompatible Donbas-for-NATO idea make continued negotiations more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue military pressure on Ukrainian energy infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. New EU sanctions increase economic pressure, but the planned US-China-Russia meeting provides Moscow another diplomatic channel; continued bargaining is more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1152,14 +1167,6 @@
         "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
       ],
       "upcomingEvents": [
-        {
-          "date": "2026-11-16",
-          "description": "EU governments are expected to approve additional sanctions against Russian entities and banks.",
-          "source": {
-            "label": "Planned EU Russia sanctions",
-            "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
-          }
-        },
         {
           "date": "2026-11-19",
           "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, with nuclear-arms reductions on the agenda.",
@@ -1480,16 +1487,20 @@
         {
           "label": "Trump begins Asia trip ahead of meetings with Xi and Putin",
           "url": "https://apnews.com/article/30ac0f6937301f36904808f278b79b1e"
+        },
+        {
+          "label": "EU sanctions Russian financial institutions and rejects new Russian demands",
+          "url": "https://apnews.com/article/cde686fba0e452b10ca613b3517e884e"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-16",
+      "reviewed": "2026-11-17",
       "materiallyUpdated": "2026-11-16",
-      "validUntil": "2026-11-23",
-      "nextReview": "2026-11-17",
+      "validUntil": "2026-11-24",
+      "nextReview": "2026-11-18",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "The immediate risk of broader US-Iran escalation has risen again after Iran launched drones at US-linked targets in Bahrain and Houthi forces intensified pressure on Saudi interests. Diplomatic contact through Oman may still support restraint, but the naval blockade, attacks around the Gulf and Red Sea, and unresolved nuclear demands make any calm conditional and easily reversible.",
@@ -1772,6 +1783,10 @@
         {
           "label": "Iranian and Houthi attacks alongside planned Oman talks",
           "url": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/"
+        },
+        {
+          "label": "Pakistan and ECO members continue US-Iran mediation",
+          "url": "https://apnews.com/article/fff3bfdcebb7ef084f0f29dd04d239ee"
         }
       ]
     },

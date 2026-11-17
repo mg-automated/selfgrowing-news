@@ -1438,6 +1438,22 @@
             "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
           }
         ]
+      },
+      "assessment": {
+        "assessed": "2026-11-17",
+        "evidenceThrough": "2026-11-16",
+        "result": "supported",
+        "explanation": "Reporting through the full outcome window showed materially restricted commercial transit throughout November 9–16. Kpler data reported only five commodity-vessel transits on November 14 and none on November 15, versus 31 the previous weekend, while Reuters reported another tanker mine incident and an Iranian warning to avoid restricted areas on November 16.",
+        "sources": [
+          {
+            "label": "Reuters shipping data shows Hormuz traffic slowed sharply over the final weekend",
+            "url": "https://www.gulf-times.com/article/731298/shopping/shipping-slows-through-strait-of-hormuz-after-tanker-attacks"
+          },
+          {
+            "label": "Reuters reports tanker mine incident and continuing restricted areas on November 16",
+            "url": "https://www.reuters.com/world/middle-east/gulf-stocks-dip-bahrain-attacks-hormuz-security-concerns-weigh-2026-11-16/"
+          }
+        ]
       }
     }
   ],
@@ -2877,6 +2893,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Reporting through the full outcome window showed materially restricted commercial transit throughout November 9–16. Kpler data reported only five commodity-vessel transits on November 14 and none on November 15, versus 31 the previous weekend, while Reuters reported another tanker mine incident and an Iranian warning to avoid restricted areas on November 16.",
+        "additionalLookups": 3
       }
     },
     {
@@ -2891,6 +2912,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "No new prediction was created. The verified Russia Outlook still centres on continued military pressure, sanctions and scheduled diplomacy; its defensible expectations either duplicate recently completed ceasefire tracking or describe announced process events rather than a distinct measurable uncertain outcome.",
+        "additionalLookups": 0
       }
     }
   ]
