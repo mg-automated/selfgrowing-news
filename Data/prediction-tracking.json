@@ -2864,6 +2864,34 @@
         "explanation": "No new prediction was created. Today's verified Russia Outlook continues to centre on negotiations, the scheduled leaders' meeting and the low probability of a comprehensive settlement; these expectations overlap recently completed ceasefire tracking or describe announced diplomatic process events rather than a suitable uncertain outcome.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-17:assessment:strait-of-hormuz-2026-11-09-shipping-remains-restricted",
+      "date": "2026-11-17",
+      "kind": "assessment",
+      "predictionId": "strait-of-hormuz-2026-11-09-shipping-remains-restricted",
+      "lookupLimit": 3,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
+    },
+    {
+      "id": "2026-11-17:creation:Russia.md",
+      "date": "2026-11-17",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
