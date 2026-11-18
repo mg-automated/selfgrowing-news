@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-15",
-      "mentions": 27,
+      "lastSeen": "2026-11-18",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-16",
-      "mentions": 20,
+      "lastSeen": "2026-11-18",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,24 +91,24 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-17",
-      "mentions": 42,
+      "lastSeen": "2026-11-18",
+      "mentions": 43,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-13",
-      "mentions": 13,
+      "lastSeen": "2026-11-18",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-14",
-      "mentions": 15,
+      "lastSeen": "2026-11-18",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -147,8 +147,8 @@
     },
     "OpenAI.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 17,
+      "lastSeen": "2026-11-18",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-15",
-      "mentions": 21,
+      "lastSeen": "2026-11-18",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -219,24 +219,24 @@
     },
     "Swiss-Health-Policy.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-15",
-      "mentions": 4,
+      "lastSeen": "2026-11-18",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-17",
-      "mentions": 44,
+      "lastSeen": "2026-11-18",
+      "mentions": 45,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-17",
-      "mentions": 48,
+      "lastSeen": "2026-11-18",
+      "mentions": 49,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-11",
-      "mentions": 15,
+      "lastSeen": "2026-11-18",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-17",
-      "mentions": 36,
+      "lastSeen": "2026-11-18",
+      "mentions": 37,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-17",
-      "mentions": 18,
+      "lastSeen": "2026-11-18",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-17",
-      "mentions": 54,
+      "lastSeen": "2026-11-18",
+      "mentions": 55,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -531,8 +531,8 @@
     },
     "Swiss-Cantonal-Politics.md": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-16",
-      "mentions": 3,
+      "lastSeen": "2026-11-18",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-10"
@@ -552,19 +552,27 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-17"
+    },
+    "Swiss-Housing-Policy.md": {
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-11-18",
+      "mentions": 2,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-18"
     }
   },
   "outlooks": {
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-17",
-      "materiallyUpdated": "2026-11-17",
+      "reviewed": "2026-11-18",
+      "materiallyUpdated": "2026-11-18",
       "validUntil": "2026-12-01",
-      "nextReview": "2026-11-20",
+      "nextReview": "2026-11-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI adoption and infrastructure investment are likely to continue expanding, but governments and central banks are treating the sector as a source of geopolitical, financial and labour-market risk as well as productivity growth. Tighter US controls on overseas access to advanced chips, ECB warnings about concentrated debt-financed investment and the Federal Reserve’s focus on uncertain employment effects point toward more active oversight without an immediate halt to deployment.",
+      "assessment": "AI adoption and infrastructure investment are likely to keep expanding despite tighter export controls, financial-risk concerns and leadership uncertainty. Nvidia’s revenue and guidance show exceptionally strong demand for computing capacity, while Microsoft’s specialised coding and cybersecurity models and the Geneva debate over autonomous weapons point toward more domain-specific systems paired with stronger safeguards and regulatory scrutiny.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -856,19 +864,31 @@
         {
           "label": "Federal Reserve examines AI productivity and employment outcomes",
           "url": "https://www.reuters.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-2026-11-16/"
+        },
+        {
+          "label": "Microsoft launches specialised coding and cybersecurity models",
+          "url": "https://www.reuters.com/legal/litigation/microsoft-unveils-ai-models-coding-cybersecurity-it-takes-anthropic-openai-2026-11-17/"
+        },
+        {
+          "label": "Nvidia third-quarter results and guidance",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/46a9c98c-87ae-40f5-acac-7d9264b18eb4.pdf"
+        },
+        {
+          "label": "UN Geneva review conference on autonomous weapons",
+          "url": "https://www.ungeneva.org/en/meetings-events/events/observances-special-events/2026/11/seventh-review-conference-high"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-17",
-      "materiallyUpdated": "2026-11-17",
+      "reviewed": "2026-11-18",
+      "materiallyUpdated": "2026-11-18",
       "validUntil": "2026-11-24",
-      "nextReview": "2026-11-18",
+      "nextReview": "2026-11-19",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to keep tightening financial pressure on Russia while demanding a ceasefire before a broader settlement. The new sanctions on Russian banks and continued attacks on Ukrainian power infrastructure reinforce the likelihood of prolonged negotiations, stronger European participation and continued military support rather than a comprehensive agreement during the forecast period.",
+      "assessment": "European governments are likely to keep tightening financial pressure on Russia while demanding a ceasefire before a broader settlement. Ukraine’s severe damage to the Kerch Bridge and renewed attacks on Kyiv infrastructure show that long-range strikes and escalation risks remain high, making prolonged negotiations, stronger European involvement and continued military support more likely than a comprehensive agreement during the forecast period.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1147,19 +1167,27 @@
         {
           "label": "EU sanctions Russian financial institutions and rejects new Russian demands",
           "url": "https://apnews.com/article/cde686fba0e452b10ca613b3517e884e"
+        },
+        {
+          "label": "Ukraine strikes and severely damages the Kerch Bridge",
+          "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c"
+        },
+        {
+          "label": "Russian aircraft activity around Japan and Taiwan",
+          "url": "https://www.reuters.com/business/aerospace-defense/taiwan-says-two-russian-military-aircraft-detected-off-its-east-coast-2026-11-17/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-17",
-      "materiallyUpdated": "2026-11-17",
+      "reviewed": "2026-11-18",
+      "materiallyUpdated": "2026-11-18",
       "validUntil": "2026-11-24",
-      "nextReview": "2026-11-18",
+      "nextReview": "2026-11-19",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue military pressure on Ukrainian energy infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. New EU sanctions increase economic pressure, but the planned US-China-Russia meeting provides Moscow another diplomatic channel; continued bargaining is more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue attacks on Ukrainian infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. Severe damage to the Kerch Bridge raises pressure on Russian logistics and the risk of retaliation, while Russian aircraft activity near Japan and Taiwan shows Moscow using wider military signalling before the Shenzhen summit; continued fighting and bargaining remain more likely than a comprehensive settlement.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1491,16 +1519,24 @@
         {
           "label": "EU sanctions Russian financial institutions and rejects new Russian demands",
           "url": "https://apnews.com/article/cde686fba0e452b10ca613b3517e884e"
+        },
+        {
+          "label": "Ukraine strikes and severely damages the Kerch Bridge",
+          "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c"
+        },
+        {
+          "label": "Russian aircraft activity around Japan and Taiwan",
+          "url": "https://www.reuters.com/business/aerospace-defense/taiwan-says-two-russian-military-aircraft-detected-off-its-east-coast-2026-11-17/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-17",
+      "reviewed": "2026-11-18",
       "materiallyUpdated": "2026-11-16",
       "validUntil": "2026-11-24",
-      "nextReview": "2026-11-18",
+      "nextReview": "2026-11-19",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "The immediate risk of broader US-Iran escalation has risen again after Iran launched drones at US-linked targets in Bahrain and Houthi forces intensified pressure on Saudi interests. Diplomatic contact through Oman may still support restraint, but the naval blockade, attacks around the Gulf and Red Sea, and unresolved nuclear demands make any calm conditional and easily reversible.",
@@ -1517,14 +1553,6 @@
           "source": {
             "label": "Planned Trump-Xi-Putin summit",
             "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
-          }
-        },
-        {
-          "date": "2026-11-17",
-          "description": "Iranian Foreign Minister Abbas Araqchi is scheduled to visit Oman for talks with his counterpart.",
-          "source": {
-            "label": "Iranian and Houthi attacks alongside planned Oman talks",
-            "url": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/"
           }
         }
       ],
@@ -1787,6 +1815,10 @@
         {
           "label": "Pakistan and ECO members continue US-Iran mediation",
           "url": "https://apnews.com/article/fff3bfdcebb7ef084f0f29dd04d239ee"
+        },
+        {
+          "label": "US Navy nominee details operational strain from Iran war",
+          "url": "https://apnews.com/article/c8857280ee38c402a81d5e58987fad06"
         }
       ]
     },

@@ -2931,6 +2931,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "pending",
+        "explanation": "The prediction remains open through 2026-11-21. Today's verified AI reporting concerns Microsoft models, Nvidia demand and autonomous-weapons governance, and does not conclusively establish a qualifying US state-level data-centre proposal; the pre-deadline reservation permits no additional tracking lookups.",
+        "additionalLookups": 0
       }
     },
     {
@@ -2945,6 +2950,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "skipped",
+        "explanation": "No new prediction was created. Today's verified Russia Outlook adds severe Kerch Bridge damage and military signalling in East Asia, but the defensible near-term expectations concern retaliation, continued fighting and scheduled summit diplomacy; they are either insufficiently measurable within the Outlook horizon or overlap recently completed ceasefire tracking.",
+        "additionalLookups": 0
       }
     }
   ]
