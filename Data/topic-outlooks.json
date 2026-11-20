@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-18",
-      "mentions": 28,
+      "lastSeen": "2026-11-20",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,48 +67,48 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-18",
-      "mentions": 21,
+      "lastSeen": "2026-11-20",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-19",
-      "mentions": 9,
+      "lastSeen": "2026-11-20",
+      "mentions": 10,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-19",
-      "mentions": 16,
+      "lastSeen": "2026-11-20",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-18",
-      "mentions": 43,
+      "lastSeen": "2026-11-20",
+      "mentions": 44,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-18",
-      "mentions": 14,
+      "lastSeen": "2026-11-20",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-18",
-      "mentions": 16,
+      "lastSeen": "2026-11-20",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -251,40 +251,40 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 29,
+      "lastSeen": "2026-11-20",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-16",
-      "mentions": 28,
+      "lastSeen": "2026-11-20",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-19",
-      "mentions": 17,
+      "lastSeen": "2026-11-20",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Lebanon.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-10-18",
-      "mentions": 2,
+      "lastSeen": "2026-11-20",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 38,
+      "lastSeen": "2026-11-20",
+      "mentions": 39,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,8 +323,8 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-11-15",
-      "mentions": 11,
+      "lastSeen": "2026-11-20",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-19",
-      "mentions": 20,
+      "lastSeen": "2026-11-20",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 56,
+      "lastSeen": "2026-11-20",
+      "mentions": 57,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -451,8 +451,8 @@
     },
     "United-Kingdom.md": {
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-12",
-      "mentions": 2,
+      "lastSeen": "2026-11-20",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-25"
@@ -507,8 +507,8 @@
     },
     "Legal-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 6,
+      "lastSeen": "2026-11-20",
+      "mentions": 7,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-07"
@@ -894,13 +894,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-19",
-      "materiallyUpdated": "2026-11-18",
-      "validUntil": "2026-11-24",
-      "nextReview": "2026-11-20",
+      "reviewed": "2026-11-20",
+      "materiallyUpdated": "2026-11-20",
+      "validUntil": "2026-11-27",
+      "nextReview": "2026-11-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to keep tightening financial pressure on Russia while demanding a ceasefire before a broader settlement. Ukraine’s severe damage to the Kerch Bridge and renewed attacks on Kyiv infrastructure show that long-range strikes and escalation risks remain high, making prolonged negotiations, stronger European involvement and continued military support more likely than a comprehensive agreement during the forecast period.",
+      "assessment": "European governments are likely to keep tightening pressure on Russia while seeking a direct role in any Ukraine settlement and preserving regional security institutions. Moscow has invited European envoys to clarify their negotiating position but rejected a Black Sea and energy truce after the Kerch Bridge strikes; meanwhile Switzerland’s broadly supported three-year OSCE chairmanship package creates a concrete test of whether all 57 states can preserve the organisation’s continuity.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -909,11 +909,11 @@
       ],
       "upcomingEvents": [
         {
-          "date": "2026-11-19",
-          "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, with Ukraine and nuclear arms expected on the agenda.",
+          "date": "2026-12-03",
+          "description": "The OSCE Ministerial Council is scheduled to meet in Lugano on 3–4 December, with agreement on future chairpersonships still requiring consensus.",
           "source": {
-            "label": "Planned Trump-Xi-Putin summit",
-            "url": "https://apnews.com/article/a04dc76ed8e786b087e2c1ea9598783a"
+            "label": "Swiss proposal for future OSCE chairpersonships",
+            "url": "https://www.admin.ch/en/newnsb/FdToHy268dEJ"
           }
         }
       ],
@@ -1200,35 +1200,34 @@
         {
           "label": "Switzerland supports Ukraine demining projects",
           "url": "https://www.swissinfo.ch/eng/foreign-affairs/129000-square-kilometres-in-ukraine-are-potentially-mined/92399345"
+        },
+        {
+          "label": "Russia invites European envoys to Moscow",
+          "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
+        },
+        {
+          "label": "Swiss proposal for future OSCE chairpersonships",
+          "url": "https://www.admin.ch/en/newnsb/FdToHy268dEJ"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-18",
-      "materiallyUpdated": "2026-11-18",
-      "validUntil": "2026-11-24",
-      "nextReview": "2026-11-19",
+      "reviewed": "2026-11-20",
+      "materiallyUpdated": "2026-11-20",
+      "validUntil": "2026-11-27",
+      "nextReview": "2026-11-21",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue attacks on Ukrainian infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. Severe damage to the Kerch Bridge raises pressure on Russian logistics and the risk of retaliation, while Russian aircraft activity near Japan and Taiwan shows Moscow using wider military signalling before the Shenzhen summit; continued fighting and bargaining remain more likely than a comprehensive settlement.",
+      "assessment": "Russia is likely to continue attacks on Ukrainian infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. The Shenzhen summit produced only a narrow declaration, and Moscow rejected a Black Sea and energy-infrastructure truce after strikes on the Kerch Bridge, making retaliation, prolonged bargaining and continued fighting more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
         "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
         "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-11-19",
-          "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, with nuclear-arms reductions on the agenda.",
-          "source": {
-            "label": "Planned Trump-Xi-Putin nuclear talks",
-            "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
         "A substantial reduction or increase in long-range attacks on Ukrainian cities",
@@ -1552,35 +1551,34 @@
         {
           "label": "Russian aircraft activity around Japan and Taiwan",
           "url": "https://www.reuters.com/business/aerospace-defense/taiwan-says-two-russian-military-aircraft-detected-off-its-east-coast-2026-11-17/"
+        },
+        {
+          "label": "Russia rejects a Black Sea and energy truce",
+          "url": "https://www.reuters.com/world/china/putin-rules-out-black-sea-energy-truce-after-crimea-bridge-strike-2026-11-19/"
+        },
+        {
+          "label": "Russia invites European envoys to Moscow",
+          "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-19",
-      "materiallyUpdated": "2026-11-19",
-      "validUntil": "2026-11-26",
-      "nextReview": "2026-11-20",
+      "reviewed": "2026-11-20",
+      "materiallyUpdated": "2026-11-20",
+      "validUntil": "2026-11-27",
+      "nextReview": "2026-11-21",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The immediate risk of broader US-Iran escalation has increased after Iran struck US-linked installations in Kuwait and again targeted Bahrain following an American strike on Qeshm Island. The planned US-China-Russia summit may preserve a diplomatic channel, but widening attacks across the Gulf, continued shipping hazards and unresolved nuclear demands make a narrow operational arrangement more plausible than a comprehensive settlement.",
+      "assessment": "The US–Iran war is likely to continue through a mix of attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. The US Senate blocked another war-powers effort even after the conflict hurt Republicans in the midterms, while the Shenzhen declaration omitted the Iran war and continuing tanker mine incidents show that military and economic pressure remain active.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
         "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
         "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
       ],
-      "upcomingEvents": [
-        {
-          "date": "2026-11-19",
-          "description": "The leaders of the United States, China and Russia are scheduled to meet in Shenzhen, where the Iran war may also be discussed.",
-          "source": {
-            "label": "Planned Trump-Xi-Putin summit",
-            "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
-          }
-        }
-      ],
+      "upcomingEvents": [],
       "changeSignals": [
         "A verified agreement on sequencing the reopening of the Strait and easing US pressure",
         "Any Iranian willingness to include nuclear limits in negotiations",
@@ -1848,16 +1846,24 @@
         {
           "label": "Iran widens attacks to Kuwait and Bahrain",
           "url": "https://theprint.in/world/iran-fires-at-kuwait-widening-strikes-after-us-hit-iranian-island/3102012/"
+        },
+        {
+          "label": "US Senate blocks another Iran war-powers effort",
+          "url": "https://apnews.com/article/bcbb331cd6c847bf5d0bcb7446344714"
+        },
+        {
+          "label": "Shenzhen declaration omits the Iran war",
+          "url": "https://apnews.com/article/25e17ec8d9c55fbff960d5631eaba71d"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-19",
+      "reviewed": "2026-11-20",
       "materiallyUpdated": "2026-11-19",
-      "validUntil": "2026-11-26",
-      "nextReview": "2026-11-20",
+      "validUntil": "2026-11-27",
+      "nextReview": "2026-11-21",
       "horizon": "the next 30 days",
       "confidence": "low",
       "assessment": "Commercial traffic has recovered toward pre-war levels, but Iran’s first renewed strike on Kuwait since September, repeated attacks on Bahrain and additional tanker mine incidents show that navigation remains exposed to abrupt disruption. Gulf defences and selective transit may keep oil moving, while the widening exchange of strikes makes any de-escalation fragile and insurance and security costs likely to stay elevated.",
@@ -2043,6 +2049,10 @@
         {
           "label": "Shipping recovery and continued mine risk",
           "url": "https://www.reuters.com/business/energy/oil-prices-steady-supply-surplus-softens-sentiment-though-gulf-war-supports-2026-11-19/"
+        },
+        {
+          "label": "Fresh tanker mine incidents and regional strikes",
+          "url": "https://apnews.com/article/e72472c557057943cab32010666b29bf"
         }
       ]
     }

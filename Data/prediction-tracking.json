@@ -1455,6 +1455,378 @@
           }
         ]
       }
+    },
+    {
+      "id": "russia-2026-11-20-no-comprehensive-ceasefire",
+      "kind": "persistence",
+      "topicFile": "Russia.md",
+      "created": "2026-11-20",
+      "deadline": "2026-11-27",
+      "statement": "Russia and Ukraine will not enter a comprehensive nationwide ceasefire through 2026-11-27.",
+      "successCondition": "Reliable reporting shows that nationwide fighting and long-range attacks continue without a comprehensive Russia–Ukraine ceasefire taking effect throughout 2026-11-20 to the end of 2026-11-27.",
+      "failureCondition": "A comprehensive nationwide Russia–Ukraine ceasefire takes effect at any point on or before 2026-11-27.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "label": "Russia rejects a Black Sea and energy truce",
+          "url": "https://www.reuters.com/world/china/putin-rules-out-black-sea-energy-truce-after-crimea-bridge-strike-2026-11-19/"
+        },
+        {
+          "label": "Russia invites European envoys to Moscow",
+          "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
+        }
+      ],
+      "outlookSnapshot": {
+        "topic": "Topics/Russia.md",
+        "volatility": "high",
+        "reviewed": "2026-11-20",
+        "materiallyUpdated": "2026-11-20",
+        "validUntil": "2026-11-27",
+        "nextReview": "2026-11-21",
+        "horizon": "the next 30 days",
+        "confidence": "medium",
+        "assessment": "Russia is likely to continue attacks on Ukrainian infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. The Shenzhen summit produced only a narrow declaration, and Moscow rejected a Black Sea and energy-infrastructure truce after strikes on the Kerch Bridge, making retaliation, prolonged bargaining and continued fighting more likely than a comprehensive settlement during the forecast period.",
+        "likelyDevelopments": [
+          "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
+          "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
+          "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
+          "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
+        ],
+        "upcomingEvents": [],
+        "changeSignals": [
+          "Russian acceptance of talks on a Black Sea or energy-infrastructure truce",
+          "A substantial reduction or increase in long-range attacks on Ukrainian cities",
+          "New EU sanctions or military-support commitments",
+          "Confirmed escalation involving Russian or NATO aircraft, airspace or infrastructure",
+          "Evidence that post-election domestic pressure is affecting Kremlin policy"
+        ],
+        "sources": [
+          {
+            "label": "Russian parliamentary election coverage",
+            "url": "https://apnews.com/article/russia-election-parliament-duma-putin-ukraine-6f3df3716cbcf8c96711b688762b450b"
+          },
+          {
+            "label": "Black Sea truce proposal",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-ready-maritime-truce-puts-onus-russia-respond-2026-09-23/"
+          },
+          {
+            "label": "European warnings about hybrid operations",
+            "url": "https://www.reuters.com/business/aerospace-defense/europeans-warn-rising-russian-sabotage-see-no-imminent-nato-attack-2026-09-23/"
+          },
+          {
+            "label": "Russia–Germany foreign-minister talks",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022"
+          },
+          {
+            "label": "Russian strikes on Ukrainian cities and communications",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/27/russia-says-it-struck-military-infrastructure-vessels-in-ukraine"
+          },
+          {
+            "label": "Russian pressure on European corporate assets",
+            "url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+          },
+          {
+            "label": "Latest Russian strikes on Kyiv",
+            "url": "https://www.reuters.com/world/europe/russian-air-strikes-kill-one-injure-five-around-kyiv-officials-say-2026-09-30/"
+          },
+          {
+            "label": "Russian warning over Kaliningrad and European arms factories",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-war-strikes-zelenskyy-putin-poland-romania-macron-sanchez-spain-europe-latest-news-updates-2026-09-30/"
+          },
+          {
+            "label": "Putin's Valdai remarks on escalation and Black Sea strikes",
+            "url": "https://www.reuters.com/world/europe/putin-says-world-is-living-through-dangerous-moment-warns-west-not-escalate-2026-10-01/"
+          },
+          {
+            "label": "Russian strikes on Kyiv bridges",
+            "url": "https://www.reuters.com/world/europe/bridge-across-dnipro-river-kyiv-hit-during-russian-attack-mayor-says-2026-10-03/"
+          },
+          {
+            "label": "German military and energy support for Ukraine",
+            "url": "https://www.reuters.com/world/europe/germanys-merz-arrives-kyiv-finalize-drone-deal-release-aid-2026-10-04/"
+          },
+          {
+            "label": "Ukraine plans increased strikes on Russian refineries",
+            "url": "https://www.reuters.com/business/aerospace-defense/ukraine-will-hit-russian-refineries-response-moscows-new-doctrine-airstrikes-2026-10-03/"
+          },
+          {
+            "label": "Russian strikes on Black Sea cargo vessels",
+            "url": "https://www.reuters.com/world/europe/russia-says-it-struck-two-ukrainian-cargo-vessels-black-sea-2026-10-05/"
+          },
+          {
+            "label": "Russian strikes on Odesa port infrastructure",
+            "url": "https://www.reuters.com/world/europe/russian-air-strikes-targeted-port-infrastructure-ukraines-odesa-region-governor-2026-10-05/"
+          },
+          {
+            "label": "EU warning on Russian hybrid attacks",
+            "url": "https://www.reuters.com/world/russia-puts-lives-risk-across-europe-with-hybrid-attacks-kallas-says-2026-10-05/"
+          },
+          {
+            "label": "Large Ukrainian drone attack on the Moscow region",
+            "url": "https://www.reuters.com/world/europe/ukrainian-drones-kill-two-moscow-region-injure-nine-more-governor-says-2026-10-06/"
+          },
+          {
+            "label": "Drone attacks on commercial ships in Bulgaria's economic zone",
+            "url": "https://www.reuters.com/world/drones-strike-two-ships-bulgarias-black-sea-zone-president-2026-10-06/"
+          },
+          {
+            "label": "Ukraine warns of a possible large Russian attack",
+            "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-intelligence-shows-russia-is-preparing-massive-attack-2026-10-06/"
+          },
+          {
+            "label": "Large Russian missile and drone barrage across Ukraine",
+            "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-fresh-wave-attacks-2026-10-07/"
+          },
+          {
+            "label": "EU envoys approve new Russia sanctions listings",
+            "url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+          },
+          {
+            "label": "Russian attacks kill 78 people across Ukraine in two days",
+            "url": "https://www.reuters.com/world/europe/russian-bomb-kills-12-street-east-ukraine-stronghold-2026-10-08/"
+          },
+          {
+            "label": "British sanctions on Russia's shadow fleet and financial channels",
+            "url": "https://www.reuters.com/world/uk/uk-announces-new-round-russia-sanctions-targeting-financial-services-shadow-2026-10-08/"
+          },
+          {
+            "label": "US–Russian discussions about investment in Nord Stream",
+            "url": "https://www.reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+          },
+          {
+            "label": "US, Ukrainian and European talks on a unified peace proposal",
+            "url": "https://www.reuters.com/world/europe/us-ukraine-european-negotiators-meet-miami-trump-announces-diesel-deal-with-2026-10-10/"
+          },
+          {
+            "label": "Putin downplays an immediate resumption of talks",
+            "url": "https://www.reuters.com/world/europe/kremlin-says-putin-phone-call-with-trump-downplays-immediate-ukraine-talks-2026-10-09/"
+          },
+          {
+            "label": "US–Ukrainian dispute after the Zaporizhzhia strike",
+            "url": "https://www.reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+          },
+          {
+            "label": "European responses to US diesel agreement",
+            "url": "https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512"
+          },
+          {
+            "label": "Unconfirmed Russia–Ukraine energy ceasefire announcement",
+            "url": "https://www.reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
+          },
+          {
+            "label": "Drone attacks disrupt three Yandex data centres",
+            "url": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
+          },
+          {
+            "label": "Disclosed terms of US–Russia diesel diplomacy",
+            "url": "https://www.reuters.com/business/energy/us-hopes-diesel-deal-can-soften-moscow-peace-talks-sources-say-2026-10-12/"
+          },
+          {
+            "label": "NATO commander's deterrence warning",
+            "url": "https://www.reuters.com/world/nato-general-sets-out-tough-military-response-any-foolish-russian-attack-2026-10-12/"
+          },
+          {
+            "label": "German and Czech warnings about Russian hybrid operations",
+            "url": "https://www.reuters.com/world/germany-faces-shadow-war-that-goes-beyond-cold-war-threats-interior-minister-2026-10-12/"
+          },
+          {
+            "label": "Russian missiles strike Kyiv energy infrastructure",
+            "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+          },
+          {
+            "label": "Russia and China coordinate on Ukraine and Iran",
+            "url": "https://www.reuters.com/world/china/russias-lavrov-chinas-wang-discuss-cooperation-ukraine-iran-asia-security-2026-10-14/"
+          },
+          {
+            "label": "EU leaders prepare for long-term budget dispute",
+            "url": "https://www.reuters.com/business/eu-leaders-clash-over-long-term-budget-no-quick-deal-sight-2026-10-14/"
+          },
+          {
+            "label": "US discusses denuclearization with Russia and China",
+            "url": "https://www.reuters.com/world/china/trump-says-he-is-talking-russia-china-about-denuclearization-2026-10-16/"
+          },
+          {
+            "label": "EU leaders back Ukraine amid dispute with Washington",
+            "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/"
+          },
+          {
+            "label": "Russian drones crash in Moldova",
+            "url": "https://www.reuters.com/world/moldova-condemns-russia-after-five-drones-crash-its-territory-2026-10-16/"
+          },
+          {
+            "label": "US waives major Russia-related sanctions",
+            "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+          },
+          {
+            "label": "US begins 60-day review of waived Russia sanctions",
+            "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+          },
+          {
+            "label": "Russia reports large-scale strikes on Ukrainian infrastructure",
+            "url": "https://www.reuters.com/world/russian-defence-ministry-says-it-hit-ukrainian-steel-plants-power-infrastructure-2026-10-17/"
+          },
+          {
+            "label": "Delegates walk out during Russia's IMF remarks",
+            "url": "https://www.reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/"
+          },
+          {
+            "label": "Ukraine reports 76 Russian attacks on its energy sector",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-says-russia-attacked-ukrainian-energy-sector-76-times-past-week-2026-10-18/"
+          },
+          {
+            "label": "United States resumes intelligence-sharing with Ukraine",
+            "url": "https://www.reuters.com/legal/government/us-resumes-intelligence-sharing-with-ukraine-after-pause-zelenskiy-says-2026-10-18/"
+          },
+          {
+            "label": "US plans talks in Oslo and Moscow",
+            "url": "https://www.reuters.com/world/europe/us-officials-plan-travel-norway-ukraine-talks-sources-say-2026-10-19/"
+          },
+          {
+            "label": "Possible Trump–Xi–Putin meeting",
+            "url": "https://www.reuters.com/world/china/trump-says-he-is-open-joining-trilateral-meeting-with-xi-putin-2026-10-19/"
+          },
+          {
+            "label": "Kremlin seeks Witkoff briefing after Oslo talks",
+            "url": "https://www.reuters.com/world/europe/kremlin-hopes-witkoff-can-brief-putin-soon-latest-ukrainianeuropean-thinking-2026-10-20/"
+          },
+          {
+            "label": "Russian strikes kill civilians after Oslo talks",
+            "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
+          },
+          {
+            "label": "Local Oleshky ceasefire and planned peace talks",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-agree-ceasefire-embattled-town-hold-peace-talks-next-month-2026-10-23/"
+          },
+          {
+            "label": "Russia intensifies attacks on Ukrainian digital infrastructure",
+            "url": "https://www.reuters.com/business/aerospace-defense/russia-steps-up-attacks-ukraines-digital-infrastructure-kyiv-says-2026-10-23/"
+          },
+          {
+            "label": "Ukrainian strikes on Russian industrial facilities",
+            "url": "https://www.reuters.com/business/aerospace-defense/russia-says-drone-attack-damages-togliatti-facilities-ukraine-says-petrochemical-2026-10-24/"
+          },
+          {
+            "label": "US restores ballistic warnings and Starshield performance for Ukraine",
+            "url": "https://www.reuters.com/business/media-telecom/zelenskiy-says-us-warnings-ballistic-strikes-have-fully-resumed-2026-10-25/"
+          },
+          {
+            "label": "Oleshky humanitarian ceasefire begins",
+            "url": "https://theprint.in/world/russia-ukraine-begin-oleshky-ceasefire-but-keep-up-strikes-elsewhere/3082565/"
+          },
+          {
+            "label": "Finnish and Norwegian leaders contact Putin",
+            "url": "https://www.investing.com/news/world-news/two-nordic-leaders-urge-putin-to-end-ukraine-war-in-rare-direct-contact-by-europeans-4976434"
+          },
+          {
+            "label": "Kremlin casts doubt on November Ukraine talks",
+            "url": "https://www.reuters.com/world/next-round-ukraine-talks-depends-middle-east-other-factors-kremlin-aide-says-2026-10-28/"
+          },
+          {
+            "label": "Putin offers better European ties while warning against confrontation",
+            "url": "https://www.reuters.com/world/europe/putin-says-moscow-seeks-better-european-ties-conflict-will-produce-no-winners-2026-10-29/"
+          },
+          {
+            "label": "Lavrov says Russia's Ukraine position is unchanged",
+            "url": "https://www.reuters.com/world/lavrov-says-zelenskiy-comments-are-unhelpful-russias-position-is-unchanged-2026-10-30/"
+          },
+          {
+            "label": "G20 divisions over Russia and Ukraine",
+            "url": "https://www.reuters.com/world/china/rifts-over-wars-ukraine-middle-east-loom-over-g20-meeting-us-2026-10-30/"
+          },
+          {
+            "label": "US and Canada discuss broader support for a limited Black Sea ceasefire",
+            "url": "https://www.reuters.com/world/us-sees-growing-interest-limited-ceasefire-black-sea-2026-10-31/"
+          },
+          {
+            "label": "Oleshky ceasefire concludes after civilian evacuations",
+            "url": "https://www.reuters.com/world/europe/ukraine-evacuates-civilians-parts-kherson-region-expiry-oleshky-ceasefire-nears-2026-11-01/"
+          },
+          {
+            "label": "Russian strikes cut power across Ukrainian regions",
+            "url": "https://www.reuters.com/world/europe/russian-strikes-cut-power-thousands-ukraine-drones-damage-russian-facility-2026-11-01/"
+          },
+          {
+            "label": "Trump meets Russian envoy before Abu Dhabi talks",
+            "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3"
+          },
+          {
+            "label": "Russia and Ukraine exchange large-scale air attacks before talks",
+            "url": "https://apnews.com/article/0b975a30f862731346e7e1d098a8d538"
+          },
+          {
+            "label": "Putin confirms Russia's participation in Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/kremlin-confirms-trilateral-ukraine-peace-talks-abu-dhabi-next-week-2026-11-03/"
+          },
+          {
+            "label": "Russia names senior military-diplomatic delegation for Abu Dhabi talks",
+            "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/"
+          },
+          {
+            "label": "European governments secure a role in Abu Dhabi Ukraine talks",
+            "url": "https://www.reuters.com/world/europe/europeans-will-join-ukraine-talks-abu-dhabi-french-foreign-minister-says-2026-11-08/"
+          },
+          {
+            "label": "Competing security guarantees ahead of Abu Dhabi talks",
+            "url": "https://apnews.com/article/81537cce8daf84b24bf73a91addb6e9b"
+          },
+          {
+            "label": "First day of renewed Russia–Ukraine talks",
+            "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+          },
+          {
+            "label": "Prisoner-exchange agreement and unresolved peace issues",
+            "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+          },
+          {
+            "label": "Russia accepts European participation in future talks",
+            "url": "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+          },
+          {
+            "label": "Planned EU Russia sanctions",
+            "url": "https://www.reuters.com/world/europe/eu-approve-more-sanctions-russia-monday-france-says-2026-11-12/"
+          },
+          {
+            "label": "Planned Trump-Xi-Putin nuclear talks",
+            "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/"
+          },
+          {
+            "label": "US proposal links Donbas withdrawal and NATO membership",
+            "url": "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/"
+          },
+          {
+            "label": "Divergent goals for proposed US-China-Russia meeting",
+            "url": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
+          },
+          {
+            "label": "Gagauzia election proceeds to a Russia-friendly runoff",
+            "url": "https://www.reuters.com/world/restive-pro-russian-moldovan-region-holds-elections-2026-11-15/"
+          },
+          {
+            "label": "Trump begins Asia trip ahead of meetings with Xi and Putin",
+            "url": "https://apnews.com/article/30ac0f6937301f36904808f278b79b1e"
+          },
+          {
+            "label": "EU sanctions Russian financial institutions and rejects new Russian demands",
+            "url": "https://apnews.com/article/cde686fba0e452b10ca613b3517e884e"
+          },
+          {
+            "label": "Ukraine strikes and severely damages the Kerch Bridge",
+            "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c"
+          },
+          {
+            "label": "Russian aircraft activity around Japan and Taiwan",
+            "url": "https://www.reuters.com/business/aerospace-defense/taiwan-says-two-russian-military-aircraft-detected-off-its-east-coast-2026-11-17/"
+          },
+          {
+            "label": "Russia rejects a Black Sea and energy truce",
+            "url": "https://www.reuters.com/world/china/putin-rules-out-black-sea-energy-truce-after-crimea-bridge-strike-2026-11-19/"
+          },
+          {
+            "label": "Russia invites European envoys to Moscow",
+            "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
+          }
+        ]
+      }
     }
   ],
   "attempts": [
@@ -2988,6 +3360,12 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "created",
+        "predictionId": "russia-2026-11-20-no-comprehensive-ceasefire",
+        "explanation": "Prediction recorded from existing verified Outlook research.",
+        "additionalLookups": 0
       }
     }
   ]
