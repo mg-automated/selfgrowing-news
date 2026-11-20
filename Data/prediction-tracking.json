@@ -2975,6 +2975,20 @@
         "explanation": "The prediction remains open through 2026-11-21. Today's verified reporting concerns Anthropic's IPO, Nvidia's China shipments and alleged rogue-agent activity in banks, and does not conclusively establish a qualifying US state-level data-centre restriction; the pre-deadline reservation permits no additional tracking lookups.",
         "additionalLookups": 0
       }
+    },
+    {
+      "id": "2026-11-20:creation:Russia.md",
+      "date": "2026-11-20",
+      "kind": "creation",
+      "topicFile": "Russia.md",
+      "lookupLimit": 0,
+      "budget": {
+        "assessmentAttempts": 2,
+        "creationAttempts": 2,
+        "assessments": 2,
+        "creations": 1,
+        "additionalLookups": 3
+      }
     }
   ]
 }
