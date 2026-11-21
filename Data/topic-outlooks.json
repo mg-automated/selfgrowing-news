@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-20",
-      "mentions": 29,
+      "lastSeen": "2026-11-21",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-20",
-      "mentions": 17,
+      "lastSeen": "2026-11-21",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-20",
-      "mentions": 44,
+      "lastSeen": "2026-11-21",
+      "mentions": 45,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -171,8 +171,8 @@
     },
     "Myanmar.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-19",
-      "mentions": 5,
+      "lastSeen": "2026-11-21",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -187,40 +187,40 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-18",
-      "mentions": 22,
+      "lastSeen": "2026-11-21",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 21,
+      "lastSeen": "2026-11-21",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 22,
+      "lastSeen": "2026-11-21",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-16",
-      "mentions": 15,
+      "lastSeen": "2026-11-21",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Swiss-Health-Policy.md": {
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-18",
-      "mentions": 5,
+      "lastSeen": "2026-11-21",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -235,16 +235,16 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 50,
+      "lastSeen": "2026-11-21",
+      "mentions": 51,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-19",
-      "mentions": 33,
+      "lastSeen": "2026-11-21",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -259,8 +259,8 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-20",
-      "mentions": 29,
+      "lastSeen": "2026-11-21",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-20",
-      "mentions": 39,
+      "lastSeen": "2026-11-21",
+      "mentions": 40,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-20",
-      "mentions": 57,
+      "lastSeen": "2026-11-21",
+      "mentions": 58,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -435,8 +435,8 @@
     },
     "Space-Computing.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-05",
-      "mentions": 4,
+      "lastSeen": "2026-11-21",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-21"
@@ -566,13 +566,13 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-19",
-      "materiallyUpdated": "2026-11-19",
-      "validUntil": "2026-12-03",
-      "nextReview": "2026-11-22",
+      "reviewed": "2026-11-21",
+      "materiallyUpdated": "2026-11-21",
+      "validUntil": "2026-12-05",
+      "nextReview": "2026-11-24",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI adoption and infrastructure investment are likely to keep expanding, but legal and financial scrutiny is accelerating alongside commercial growth. Anthropic’s record IPO demonstrates extraordinary investor demand while exposing vast compute commitments, Arizona’s criminal inquiry into alleged rogue agents raises developer-liability risks, and Nvidia’s halt to licensed China shipments reinforces geopolitical fragmentation of advanced computing.",
+      "assessment": "AI adoption and infrastructure investment are likely to keep expanding, while privacy, national-control and financing concerns increasingly determine where and how systems are built. Signal’s new screenshot restrictions expose conflicts between operating-system agents and encrypted apps, Trump’s proposed penalty on overseas data centres adds geographic policy risk, and SpaceX’s record GPU financing shows that frontier-scale computing remains extraordinarily capital intensive.",
       "likelyDevelopments": [
         "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
         "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
@@ -888,19 +888,31 @@
         {
           "label": "Nvidia halts licensed AI-chip shipments to China",
           "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+        },
+        {
+          "label": "Signal restricts screenshots to block AI-agent access",
+          "url": "https://www.reuters.com/legal/litigation/signal-restricts-screenshots-block-ai-agents-reading-messages-2026-11-20/"
+        },
+        {
+          "label": "Trump proposes penalties for overseas US data centres",
+          "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/"
+        },
+        {
+          "label": "Record SpaceX GPU debt financing",
+          "url": "https://www.marketscreener.com/news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-ce785ed3dd8bf12c/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-20",
-      "materiallyUpdated": "2026-11-20",
-      "validUntil": "2026-11-27",
-      "nextReview": "2026-11-21",
+      "reviewed": "2026-11-21",
+      "materiallyUpdated": "2026-11-21",
+      "validUntil": "2026-11-28",
+      "nextReview": "2026-11-22",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European governments are likely to keep tightening pressure on Russia while seeking a direct role in any Ukraine settlement and preserving regional security institutions. Moscow has invited European envoys to clarify their negotiating position but rejected a Black Sea and energy truce after the Kerch Bridge strikes; meanwhile Switzerland’s broadly supported three-year OSCE chairmanship package creates a concrete test of whether all 57 states can preserve the organisation’s continuity.",
+      "assessment": "European security risks are likely to remain acute as Russia intensifies long-range attacks on Ukraine and is accused of increasingly aggressive covert operations inside NATO countries. The large strike on Ukrainian bridges and energy systems, reported Russian objects entering Polish airspace, and Denmark’s attribution of a foiled assassination plot all make stronger counter-intelligence, air defence and infrastructure protection more likely while peace talks remain fragile.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1208,19 +1220,27 @@
         {
           "label": "Swiss proposal for future OSCE chairpersonships",
           "url": "https://www.admin.ch/en/newnsb/FdToHy268dEJ"
+        },
+        {
+          "label": "Large Russian attack on Ukraine and reported Polish airspace violations",
+          "url": "https://www.reuters.com/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/"
+        },
+        {
+          "label": "Denmark attributes a foiled assassination plot to Russian intelligence",
+          "url": "https://www.reuters.com/world/europe/two-danes-suspected-being-hired-by-russia-kill-us-ukrainian-rapper-2026-11-20/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-20",
-      "materiallyUpdated": "2026-11-20",
-      "validUntil": "2026-11-27",
-      "nextReview": "2026-11-21",
+      "reviewed": "2026-11-21",
+      "materiallyUpdated": "2026-11-21",
+      "validUntil": "2026-11-28",
+      "nextReview": "2026-11-22",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue attacks on Ukrainian infrastructure while seeking territorial concessions and a wider European security bargain in negotiations. The Shenzhen summit produced only a narrow declaration, and Moscow rejected a Black Sea and energy-infrastructure truce after strikes on the Kerch Bridge, making retaliation, prolonged bargaining and continued fighting more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and rejecting arrangements it sees as NATO membership by another name. One of the war’s largest missile-and-drone attacks followed Moscow’s rejection of a limited infrastructure truce, and Denmark’s attribution of an assassination plot adds pressure for stronger European security measures; continued fighting remains more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1559,19 +1579,27 @@
         {
           "label": "Russia invites European envoys to Moscow",
           "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
+        },
+        {
+          "label": "Large Russian attack on Ukraine",
+          "url": "https://www.reuters.com/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/"
+        },
+        {
+          "label": "Denmark attributes a foiled assassination plot to Russian intelligence",
+          "url": "https://www.reuters.com/world/europe/two-danes-suspected-being-hired-by-russia-kill-us-ukrainian-rapper-2026-11-20/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-20",
-      "materiallyUpdated": "2026-11-20",
-      "validUntil": "2026-11-27",
-      "nextReview": "2026-11-21",
+      "reviewed": "2026-11-21",
+      "materiallyUpdated": "2026-11-21",
+      "validUntil": "2026-11-28",
+      "nextReview": "2026-11-22",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran war is likely to continue through a mix of attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. The US Senate blocked another war-powers effort even after the conflict hurt Republicans in the midterms, while the Shenzhen declaration omitted the Iran war and continuing tanker mine incidents show that military and economic pressure remain active.",
+      "assessment": "The US–Iran war is likely to continue through intermittent attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. Both sides now acknowledge continuing indirect exchanges, but Washington rejects Tehran’s current terms and Iran still demands guarantees and retention of its enriched uranium, while renewed Saudi–Houthi fighting keeps the wider regional conflict active.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1854,6 +1882,14 @@
         {
           "label": "Shenzhen declaration omits the Iran war",
           "url": "https://apnews.com/article/25e17ec8d9c55fbff960d5631eaba71d"
+        },
+        {
+          "label": "US and Iran acknowledge diplomacy but remain divided on terms",
+          "url": "https://www.reuters.com/world/middle-east/araqchi-says-iran-wants-diplomacy-end-war-trump-says-terms-unacceptable-2026-11-20/"
+        },
+        {
+          "label": "Saudi-led forces and Houthis intensify cross-border attacks",
+          "url": "https://apnews.com/article/16c39c487a23b53b73c5eabb7f0fd57a"
         }
       ]
     },
