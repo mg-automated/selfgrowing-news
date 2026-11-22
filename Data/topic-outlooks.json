@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-20",
-      "mentions": 22,
+      "lastSeen": "2026-11-22",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-21",
-      "mentions": 18,
+      "lastSeen": "2026-11-22",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-21",
-      "mentions": 45,
+      "lastSeen": "2026-11-22",
+      "mentions": 46,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -107,16 +107,16 @@
     },
     "Defence-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-20",
-      "mentions": 17,
+      "lastSeen": "2026-11-22",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-11-19",
-      "mentions": 11,
+      "lastSeen": "2026-11-22",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-11-19",
-      "mentions": 14,
+      "lastSeen": "2026-11-22",
+      "mentions": 15,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-21",
-      "mentions": 23,
+      "lastSeen": "2026-11-22",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,16 +227,16 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-18",
-      "mentions": 45,
+      "lastSeen": "2026-11-22",
+      "mentions": 46,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 51,
+      "lastSeen": "2026-11-22",
+      "mentions": 52,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-20",
-      "mentions": 30,
+      "lastSeen": "2026-11-22",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-21",
-      "mentions": 30,
+      "lastSeen": "2026-11-22",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,8 +347,8 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-20",
-      "mentions": 21,
+      "lastSeen": "2026-11-22",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 58,
+      "lastSeen": "2026-11-22",
+      "mentions": 59,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-17",
-      "mentions": 27,
+      "lastSeen": "2026-11-22",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -419,8 +419,8 @@
     },
     "Swiss-Federal-Elections.md": {
       "firstSeen": "2026-10-17",
-      "lastSeen": "2026-11-10",
-      "mentions": 2,
+      "lastSeen": "2026-11-22",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-17"
@@ -906,13 +906,13 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-21",
-      "materiallyUpdated": "2026-11-21",
-      "validUntil": "2026-11-28",
-      "nextReview": "2026-11-22",
+      "reviewed": "2026-11-22",
+      "materiallyUpdated": "2026-11-22",
+      "validUntil": "2026-11-29",
+      "nextReview": "2026-11-23",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute as Russia intensifies long-range attacks on Ukraine and is accused of increasingly aggressive covert operations inside NATO countries. The large strike on Ukrainian bridges and energy systems, reported Russian objects entering Polish airspace, and Denmark’s attribution of a foiled assassination plot all make stronger counter-intelligence, air defence and infrastructure protection more likely while peace talks remain fragile.",
+      "assessment": "European security risks are likely to remain acute as Russia sustains long-range attacks on Ukraine while negotiations remain divided over territory, timing and Moscow's willingness to compromise. Kyiv's scepticism, recent Russian objects entering Polish airspace and allegations of aggressive covert operations inside NATO countries make stronger air defence, counter-intelligence and infrastructure protection more likely even as the United States pushes for another round of talks.",
       "likelyDevelopments": [
         "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
         "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
@@ -1228,19 +1228,23 @@
         {
           "label": "Denmark attributes a foiled assassination plot to Russian intelligence",
           "url": "https://www.reuters.com/world/europe/two-danes-suspected-being-hired-by-russia-kill-us-ukrainian-rapper-2026-11-20/"
+        },
+        {
+          "label": "Zelenskyy questions Russian willingness to compromise",
+          "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-21",
-      "materiallyUpdated": "2026-11-21",
-      "validUntil": "2026-11-28",
-      "nextReview": "2026-11-22",
+      "reviewed": "2026-11-22",
+      "materiallyUpdated": "2026-11-22",
+      "validUntil": "2026-11-29",
+      "nextReview": "2026-11-23",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and rejecting arrangements it sees as NATO membership by another name. One of the war’s largest missile-and-drone attacks followed Moscow’s rejection of a limited infrastructure truce, and Denmark’s attribution of an assassination plot adds pressure for stronger European security measures; continued fighting remains more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and using the pace of negotiations to preserve leverage. Ukraine welcomed European participation in renewed diplomacy but remains sceptical that Moscow will compromise and expects Russia to delay another round; continued fighting therefore remains more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
         "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
         "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
@@ -1587,19 +1591,23 @@
         {
           "label": "Denmark attributes a foiled assassination plot to Russian intelligence",
           "url": "https://www.reuters.com/world/europe/two-danes-suspected-being-hired-by-russia-kill-us-ukrainian-rapper-2026-11-20/"
+        },
+        {
+          "label": "Ukraine remains sceptical of Russian compromises in peace process",
+          "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-21",
-      "materiallyUpdated": "2026-11-21",
-      "validUntil": "2026-11-28",
-      "nextReview": "2026-11-22",
+      "reviewed": "2026-11-22",
+      "materiallyUpdated": "2026-11-22",
+      "validUntil": "2026-11-29",
+      "nextReview": "2026-11-23",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran war is likely to continue through intermittent attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. Both sides now acknowledge continuing indirect exchanges, but Washington rejects Tehran’s current terms and Iran still demands guarantees and retention of its enriched uranium, while renewed Saudi–Houthi fighting keeps the wider regional conflict active.",
+      "assessment": "The US–Iran war is likely to continue through intermittent attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. A Qatari delegation's Tehran talks confirm that indirect channels remain active, but Washington still rejects Iran's current terms and Tehran demands guarantees and retention of enriched uranium, while the wider regional conflict keeps escalation risks high.",
       "likelyDevelopments": [
         "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
         "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
@@ -1890,19 +1898,23 @@
         {
           "label": "Saudi-led forces and Houthis intensify cross-border attacks",
           "url": "https://apnews.com/article/16c39c487a23b53b73c5eabb7f0fd57a"
+        },
+        {
+          "label": "Qatari delegation visits Tehran as mediation continues",
+          "url": "https://www.reuters.com/world/middle-east/qatari-delegation-visits-tehran-talks-iranian-official-says-2026-11-21/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-20",
-      "materiallyUpdated": "2026-11-19",
-      "validUntil": "2026-11-27",
-      "nextReview": "2026-11-21",
+      "reviewed": "2026-11-22",
+      "materiallyUpdated": "2026-11-22",
+      "validUntil": "2026-11-29",
+      "nextReview": "2026-11-23",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial traffic has recovered toward pre-war levels, but Iran’s first renewed strike on Kuwait since September, repeated attacks on Bahrain and additional tanker mine incidents show that navigation remains exposed to abrupt disruption. Gulf defences and selective transit may keep oil moving, while the widening exchange of strikes makes any de-escalation fragile and insurance and security costs likely to stay elevated.",
+      "assessment": "Commercial traffic remains possible but volatile, with recent tanker attacks, mine incidents and Iranian strikes leaving navigation exposed to abrupt disruption. Gulf defences and selective transit may keep oil moving, while Qatar's continuing mediation offers a channel for de-escalation; insurance and security costs are nevertheless likely to stay elevated without a broader US–Iran agreement.",
       "likelyDevelopments": [
         "Commercial traffic will continue selectively at high insurance and charter costs, leaving more crews and vessels exposed to attacks.",
         "Regional mediators will keep seeking narrow operational arrangements while the nuclear dispute limits prospects for a comprehensive settlement.",
@@ -2089,6 +2101,10 @@
         {
           "label": "Fresh tanker mine incidents and regional strikes",
           "url": "https://apnews.com/article/e72472c557057943cab32010666b29bf"
+        },
+        {
+          "label": "Qatari mediation continues between Iran and the United States",
+          "url": "https://www.reuters.com/world/middle-east/qatari-delegation-visits-tehran-talks-iranian-official-says-2026-11-21/"
         }
       ]
     }
