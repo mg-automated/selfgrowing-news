@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-21",
-      "mentions": 30,
+      "lastSeen": "2026-11-23",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,8 +75,8 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-20",
-      "mentions": 10,
+      "lastSeen": "2026-11-23",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
@@ -91,8 +91,8 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-22",
-      "mentions": 46,
+      "lastSeen": "2026-11-23",
+      "mentions": 47,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -115,8 +115,8 @@
     },
     "Swiss-Climate-Policy.md": {
       "firstSeen": "2026-09-27",
-      "lastSeen": "2026-11-22",
-      "mentions": 12,
+      "lastSeen": "2026-11-23",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -163,8 +163,8 @@
     },
     "Swiss-Social-Policy.md": {
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-11-22",
-      "mentions": 15,
+      "lastSeen": "2026-11-23",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-01"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-22",
-      "mentions": 24,
+      "lastSeen": "2026-11-23",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -251,8 +251,8 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-22",
-      "mentions": 31,
+      "lastSeen": "2026-11-23",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -267,8 +267,8 @@
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-20",
-      "mentions": 18,
+      "lastSeen": "2026-11-23",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 40,
+      "lastSeen": "2026-11-23",
+      "mentions": 41,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-22",
-      "mentions": 59,
+      "lastSeen": "2026-11-23",
+      "mentions": 60,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-22",
-      "mentions": 28,
+      "lastSeen": "2026-11-23",
+      "mentions": 29,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -475,8 +475,8 @@
     },
     "Global-Health.md": {
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "mentions": 1,
+      "lastSeen": "2026-11-23",
+      "mentions": 2,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
@@ -491,8 +491,8 @@
     },
     "Swiss-Media-Freedom.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-05",
-      "mentions": 2,
+      "lastSeen": "2026-11-23",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-05"
@@ -523,8 +523,8 @@
     },
     "Sudan.md": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-19",
-      "mentions": 3,
+      "lastSeen": "2026-11-23",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-09"
@@ -906,18 +906,18 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-22",
-      "materiallyUpdated": "2026-11-22",
-      "validUntil": "2026-11-29",
-      "nextReview": "2026-11-23",
+      "reviewed": "2026-11-23",
+      "materiallyUpdated": "2026-11-23",
+      "validUntil": "2026-11-30",
+      "nextReview": "2026-11-24",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute as Russia sustains long-range attacks on Ukraine while negotiations remain divided over territory, timing and Moscow's willingness to compromise. Kyiv's scepticism, recent Russian objects entering Polish airspace and allegations of aggressive covert operations inside NATO countries make stronger air defence, counter-intelligence and infrastructure protection more likely even as the United States pushes for another round of talks.",
+      "assessment": "European security risks are likely to remain acute as Russia sustains long-range attacks on Ukraine while maritime incidents spread beyond the Black Sea. A suspected drone attack on a Russian warship in Libya and the towing of a drone-damaged Russian cargo ship from Finnish waters increase the probability of tighter monitoring of ports, shipping and critical infrastructure, even as negotiations remain divided over territory and Moscow's willingness to compromise.",
       "likelyDevelopments": [
-        "EU and NATO members will increase monitoring and protection of Black Sea shipping, airspace and critical infrastructure.",
-        "European authorities will place greater emphasis on rapid public attribution, bilateral operational cooperation and coordinated penalties for sabotage, cyber operations and other hybrid activity.",
-        "Military support for Ukraine and European defence readiness will remain central to EU leaders' deliberations.",
-        "Incidents involving civilian shipping, drones or airspace will continue to create escalation risks even if all sides seek to avoid a direct NATO–Russia war."
+        "EU and NATO members will increase monitoring and protection of maritime routes, ports, airspace and critical infrastructure.",
+        "European authorities will place greater emphasis on rapid attribution and coordinated responses to drone, sabotage, cyber and other hybrid incidents.",
+        "Military support for Ukraine and European defence readiness will remain central to EU deliberations.",
+        "Incidents involving Russian military or commercial vessels will continue to create escalation and attribution risks even if all sides seek to avoid direct NATO–Russia conflict."
       ],
       "upcomingEvents": [
         {
@@ -1232,24 +1232,32 @@
         {
           "label": "Zelenskyy questions Russian willingness to compromise",
           "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/"
+        },
+        {
+          "label": "Suspected drone attack sinks Russian warship in Libya",
+          "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+        },
+        {
+          "label": "Drone-damaged Russian cargo ship towed from Finnish waters",
+          "url": "https://www.reuters.com/world/europe/russian-cargo-ship-still-fire-off-finland-after-attack-2026-11-22/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-22",
-      "materiallyUpdated": "2026-11-22",
-      "validUntil": "2026-11-29",
-      "nextReview": "2026-11-23",
+      "reviewed": "2026-11-23",
+      "materiallyUpdated": "2026-11-23",
+      "validUntil": "2026-11-30",
+      "nextReview": "2026-11-24",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and using the pace of negotiations to preserve leverage. Ukraine welcomed European participation in renewed diplomacy but remains sceptical that Moscow will compromise and expects Russia to delay another round; continued fighting therefore remains more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and preserving leverage in negotiations. The loss of a Russian warship in Benghazi in a suspected drone attack and damage to a Russian cargo ship near Finland show that pressure on Russian-linked maritime assets is widening geographically; continued fighting and contested attribution therefore remain more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
-        "Russian drone and missile operations against Ukraine will continue, with jet-powered drones placing additional pressure on Ukrainian air defences.",
-        "European governments will strengthen their response to Russian sabotage, cyber activity and military movements around NATO airspace.",
-        "Diplomatic activity will probably continue through selective bilateral contacts and discussions about maritime security or energy infrastructure, but a comprehensive settlement remains unlikely during the forecast period.",
-        "Disputes over Russian energy exports are likely to complicate Western coordination over sanctions and negotiations."
+        "Russian drone and missile operations against Ukraine will continue, placing sustained pressure on Ukrainian air defences.",
+        "Russia will strengthen protection of military and commercial vessels as drone threats extend across the Mediterranean and northern European waters.",
+        "Diplomatic activity will probably continue through selective contacts, but a comprehensive settlement remains unlikely during the forecast period.",
+        "Moscow will use disputed attribution of maritime incidents to shape escalation narratives and justify additional security measures."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1595,24 +1603,32 @@
         {
           "label": "Ukraine remains sceptical of Russian compromises in peace process",
           "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/"
+        },
+        {
+          "label": "Suspected drone attack sinks Russian warship in Libya",
+          "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+        },
+        {
+          "label": "Drone-damaged Russian cargo ship towed from Finnish waters",
+          "url": "https://www.reuters.com/world/europe/russian-cargo-ship-still-fire-off-finland-after-attack-2026-11-22/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-22",
-      "materiallyUpdated": "2026-11-22",
-      "validUntil": "2026-11-29",
-      "nextReview": "2026-11-23",
+      "reviewed": "2026-11-23",
+      "materiallyUpdated": "2026-11-23",
+      "validUntil": "2026-11-30",
+      "nextReview": "2026-11-24",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran war is likely to continue through intermittent attacks, sanctions pressure and mediated diplomacy rather than a near-term comprehensive settlement. A Qatari delegation's Tehran talks confirm that indirect channels remain active, but Washington still rejects Iran's current terms and Tehran demands guarantees and retention of enriched uranium, while the wider regional conflict keeps escalation risks high.",
+      "assessment": "The US–Iran conflict is likely to continue through intermittent attacks and mediated diplomacy rather than a near-term comprehensive settlement. Multiple attacks on Gulf shipping over the weekend and a Houthi claim against a Saudi refinery show that Tehran and aligned forces retain escalation leverage, while Qatari contacts keep a narrow diplomatic channel open; operational pauses remain more plausible than a durable political settlement.",
       "likelyDevelopments": [
-        "Tehran will continue indirect diplomacy while insisting that shipping and economic conditions be addressed before separate nuclear talks.",
-        "Iranian commanders and allied groups are likely to maintain operational preparations while regional military involvement remains uncertain.",
-        "The United States and its partners will reinforce regional deterrence while trying to limit fuel-price pressure and disruption to Gulf shipping.",
-        "A narrow operational arrangement remains more plausible than a comprehensive settlement, but the risk of rapid escalation has increased."
+        "Tehran will continue indirect diplomacy while retaining pressure through shipping disruption and regional partners.",
+        "Iranian forces and aligned groups are likely to maintain intermittent attacks designed to raise economic and security costs without guaranteeing full-scale escalation.",
+        "The United States and Gulf partners will reinforce maritime protection while trying to limit fuel-price pressure.",
+        "A narrow shipping or sanctions arrangement remains more plausible than a comprehensive nuclear and regional settlement."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1902,24 +1918,28 @@
         {
           "label": "Qatari delegation visits Tehran as mediation continues",
           "url": "https://www.reuters.com/world/middle-east/qatari-delegation-visits-tehran-talks-iranian-official-says-2026-11-21/"
+        },
+        {
+          "label": "Gulf shipping attacks continue to support oil-risk premium",
+          "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-22",
-      "materiallyUpdated": "2026-11-22",
-      "validUntil": "2026-11-29",
-      "nextReview": "2026-11-23",
+      "reviewed": "2026-11-23",
+      "materiallyUpdated": "2026-11-23",
+      "validUntil": "2026-11-30",
+      "nextReview": "2026-11-24",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial traffic remains possible but volatile, with recent tanker attacks, mine incidents and Iranian strikes leaving navigation exposed to abrupt disruption. Gulf defences and selective transit may keep oil moving, while Qatar's continuing mediation offers a channel for de-escalation; insurance and security costs are nevertheless likely to stay elevated without a broader US–Iran agreement.",
+      "assessment": "Commercial traffic remains possible but highly volatile after multiple weekend attacks on Gulf shipping and renewed Houthi pressure on Saudi energy infrastructure. Selective transit and alternative routes may keep oil moving, but growing numbers of empty vessels relative to laden ships point to mounting flow constraints; insurance and security costs are likely to remain elevated without a verified operational agreement.",
       "likelyDevelopments": [
-        "Commercial traffic will continue selectively at high insurance and charter costs, leaving more crews and vessels exposed to attacks.",
-        "Regional mediators will keep seeking narrow operational arrangements while the nuclear dispute limits prospects for a comprehensive settlement.",
-        "Gulf states and shipping operators will intensify mine countermeasures, escorts and environmental-response planning.",
-        "Energy markets will remain highly sensitive to fresh attacks, blockades or evidence of sustained safe passage."
+        "Commercial traffic will continue selectively at high insurance and charter costs, with laden flows more vulnerable than ballast movements.",
+        "Regional mediators will keep seeking narrow arrangements while attacks and the nuclear dispute limit prospects for normalization.",
+        "Gulf states and shipping operators will intensify mine countermeasures, escorts and route monitoring.",
+        "Energy prices will remain highly sensitive to fresh attacks or evidence that loaded-vessel movements are falling."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -2105,6 +2125,10 @@
         {
           "label": "Qatari mediation continues between Iran and the United States",
           "url": "https://www.reuters.com/world/middle-east/qatari-delegation-visits-tehran-talks-iranian-official-says-2026-11-21/"
+        },
+        {
+          "label": "Weekend Gulf shipping attacks limit oil-price losses",
+          "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
         }
       ]
     }
