@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-23",
-      "mentions": 31,
+      "lastSeen": "2026-11-24",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-22",
-      "mentions": 23,
+      "lastSeen": "2026-11-24",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-22",
-      "mentions": 19,
+      "lastSeen": "2026-11-24",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-23",
-      "mentions": 47,
+      "lastSeen": "2026-11-24",
+      "mentions": 48,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-23",
-      "mentions": 25,
+      "lastSeen": "2026-11-24",
+      "mentions": 26,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -211,8 +211,8 @@
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 16,
+      "lastSeen": "2026-11-24",
+      "mentions": 17,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -227,8 +227,8 @@
     },
     "AI-Governance.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-22",
-      "mentions": 46,
+      "lastSeen": "2026-11-24",
+      "mentions": 47,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -243,24 +243,24 @@
     },
     "AI-Safety.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 34,
+      "lastSeen": "2026-11-24",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-23",
-      "mentions": 32,
+      "lastSeen": "2026-11-24",
+      "mentions": 33,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-22",
-      "mentions": 31,
+      "lastSeen": "2026-11-24",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-23",
-      "mentions": 41,
+      "lastSeen": "2026-11-24",
+      "mentions": 42,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-23",
-      "mentions": 60,
+      "lastSeen": "2026-11-24",
+      "mentions": 61,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-23",
-      "mentions": 29,
+      "lastSeen": "2026-11-24",
+      "mentions": 30,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -403,8 +403,8 @@
     },
     "European-Migration.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-12",
-      "mentions": 7,
+      "lastSeen": "2026-11-24",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-12"
@@ -419,8 +419,8 @@
     },
     "Swiss-Federal-Elections.md": {
       "firstSeen": "2026-10-17",
-      "lastSeen": "2026-11-22",
-      "mentions": 3,
+      "lastSeen": "2026-11-24",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-17"
@@ -443,8 +443,8 @@
     },
     "Nigeria.md": {
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-06",
-      "mentions": 2,
+      "lastSeen": "2026-11-24",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-25"
@@ -475,8 +475,8 @@
     },
     "Global-Health.md": {
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-23",
-      "mentions": 2,
+      "lastSeen": "2026-11-24",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
@@ -566,18 +566,18 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-21",
-      "materiallyUpdated": "2026-11-21",
-      "validUntil": "2026-12-05",
-      "nextReview": "2026-11-24",
+      "reviewed": "2026-11-24",
+      "materiallyUpdated": "2026-11-24",
+      "validUntil": "2026-12-08",
+      "nextReview": "2026-11-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI adoption and infrastructure investment are likely to keep expanding, while privacy, national-control and financing concerns increasingly determine where and how systems are built. Signal’s new screenshot restrictions expose conflicts between operating-system agents and encrypted apps, Trump’s proposed penalty on overseas data centres adds geographic policy risk, and SpaceX’s record GPU financing shows that frontier-scale computing remains extraordinarily capital intensive.",
+      "assessment": "AI deployment and strategic investment are likely to keep expanding while governments tighten oversight of infrastructure, exports and democratic risks. Australia’s decision to make AI a foreign-policy priority, US scrutiny of Nvidia’s China-chip controls and CrowdStrike’s planned acquisition of Zscaler all point toward stronger links between AI adoption, national security and consolidated cyber-defence platforms.",
       "likelyDevelopments": [
-        "Major AI developers will publish or clarify how they intend to implement the US accord's internal controls and external reviews.",
-        "Security providers, infrastructure operators and large technology companies will expand runtime controls and automated cyber defences for autonomous agents.",
-        "Investment in chips, data centres and embodied-AI capabilities will continue, while developers compete to improve robot learning and reliable performance outside controlled settings.",
-        "Governments and standards bodies will continue translating broad AI-safety principles into more specific auditing, information requests and enforcement practices, with US congressional committees likely to intensify scrutiny before legislation can take effect."
+        "Governments will increasingly treat frontier AI, advanced chips and cyber resilience as connected foreign-policy and national-security issues.",
+        "US lawmakers will press Nvidia and other chipmakers for stronger location tracking and export-control compliance.",
+        "Security vendors and large technology companies will expand runtime controls and automated defences for AI agents, with further platform consolidation likely.",
+        "Investment in chips, data centres and AI capabilities will continue, while policy disputes increasingly shape where systems can be built and sold."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -900,24 +900,36 @@
         {
           "label": "Record SpaceX GPU debt financing",
           "url": "https://www.marketscreener.com/news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-ce785ed3dd8bf12c/"
+        },
+        {
+          "label": "Australia makes AI a foreign-policy priority",
+          "url": "https://www.reuters.com/world/asia-pacific/australia-treat-ai-key-foreign-policy-challenge-2026-11-23/"
+        },
+        {
+          "label": "US lawmakers press Nvidia over China-chip controls",
+          "url": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
+        },
+        {
+          "label": "CrowdStrike agrees to acquire Zscaler",
+          "url": "https://crowdstrike.gcs-web.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-23",
-      "materiallyUpdated": "2026-11-23",
-      "validUntil": "2026-11-30",
-      "nextReview": "2026-11-24",
+      "reviewed": "2026-11-24",
+      "materiallyUpdated": "2026-11-24",
+      "validUntil": "2026-12-01",
+      "nextReview": "2026-11-25",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute as Russia sustains long-range attacks on Ukraine while maritime incidents spread beyond the Black Sea. A suspected drone attack on a Russian warship in Libya and the towing of a drone-damaged Russian cargo ship from Finnish waters increase the probability of tighter monitoring of ports, shipping and critical infrastructure, even as negotiations remain divided over territory and Moscow's willingness to compromise.",
+      "assessment": "European security risks are likely to remain acute after Russian missiles landed in Poland and NATO authorised a forward AWACS deployment, while Ukraine acknowledged attacking Russian naval and logistics assets in Libya. The incidents make additional surveillance, air-defence and maritime-protection measures more likely and increase the danger of miscalculation across NATO’s eastern flank and the Mediterranean.",
       "likelyDevelopments": [
-        "EU and NATO members will increase monitoring and protection of maritime routes, ports, airspace and critical infrastructure.",
-        "European authorities will place greater emphasis on rapid attribution and coordinated responses to drone, sabotage, cyber and other hybrid incidents.",
-        "Military support for Ukraine and European defence readiness will remain central to EU deliberations.",
-        "Incidents involving Russian military or commercial vessels will continue to create escalation and attribution risks even if all sides seek to avoid direct NATO–Russia conflict."
+        "NATO will strengthen surveillance and operational awareness in Poland while assessing additional eastern-flank assets.",
+        "European governments will intensify protection of airspace, ports, shipping and critical infrastructure.",
+        "Ukraine will continue targeting Russian logistics beyond the immediate front where operational opportunities arise.",
+        "Attribution disputes and cross-border incidents will keep escalation risk high even as all sides seek to avoid direct NATO–Russia conflict."
       ],
       "upcomingEvents": [
         {
@@ -1240,24 +1252,32 @@
         {
           "label": "Drone-damaged Russian cargo ship towed from Finnish waters",
           "url": "https://www.reuters.com/world/europe/russian-cargo-ship-still-fire-off-finland-after-attack-2026-11-22/"
+        },
+        {
+          "label": "NATO deploys AWACS aircraft to Poland",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-send-early-warning-system-aircraft-poland-after-missiles-incident-2026-11-23/"
+        },
+        {
+          "label": "Ukraine acknowledges Libya naval strike",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-23",
-      "materiallyUpdated": "2026-11-23",
-      "validUntil": "2026-11-30",
-      "nextReview": "2026-11-24",
+      "reviewed": "2026-11-24",
+      "materiallyUpdated": "2026-11-24",
+      "validUntil": "2026-12-01",
+      "nextReview": "2026-11-25",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to continue long-range attacks on Ukrainian infrastructure while seeking territorial concessions and preserving leverage in negotiations. The loss of a Russian warship in Benghazi in a suspected drone attack and damage to a Russian cargo ship near Finland show that pressure on Russian-linked maritime assets is widening geographically; continued fighting and contested attribution therefore remain more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to sustain attacks on Ukraine while expanding protection of its military and logistics network after Kyiv acknowledged sinking a Russian corvette in Libya. Russian missiles landing in Poland have prompted a NATO surveillance reinforcement, increasing pressure on Moscow’s relations with the alliance; continued fighting and contested escalation remain more likely than a comprehensive settlement during the forecast period.",
       "likelyDevelopments": [
-        "Russian drone and missile operations against Ukraine will continue, placing sustained pressure on Ukrainian air defences.",
-        "Russia will strengthen protection of military and commercial vessels as drone threats extend across the Mediterranean and northern European waters.",
-        "Diplomatic activity will probably continue through selective contacts, but a comprehensive settlement remains unlikely during the forecast period.",
-        "Moscow will use disputed attribution of maritime incidents to shape escalation narratives and justify additional security measures."
+        "Russian drone and missile operations against Ukraine will continue, with heightened scrutiny of any objects entering NATO airspace.",
+        "Russia will strengthen protection of military and commercial vessels as Ukrainian operations reach the Mediterranean and northern European waters.",
+        "NATO’s enhanced surveillance in Poland will raise operational awareness but also political sensitivity around future incursions.",
+        "Diplomatic contacts will continue selectively, but a comprehensive settlement remains unlikely during the forecast period."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1611,24 +1631,32 @@
         {
           "label": "Drone-damaged Russian cargo ship towed from Finnish waters",
           "url": "https://www.reuters.com/world/europe/russian-cargo-ship-still-fire-off-finland-after-attack-2026-11-22/"
+        },
+        {
+          "label": "NATO deploys AWACS aircraft to Poland",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-send-early-warning-system-aircraft-poland-after-missiles-incident-2026-11-23/"
+        },
+        {
+          "label": "Ukraine acknowledges Libya naval strike",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-23",
-      "materiallyUpdated": "2026-11-23",
-      "validUntil": "2026-11-30",
-      "nextReview": "2026-11-24",
+      "reviewed": "2026-11-24",
+      "materiallyUpdated": "2026-11-24",
+      "validUntil": "2026-12-01",
+      "nextReview": "2026-11-25",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran conflict is likely to continue through intermittent attacks and mediated diplomacy rather than a near-term comprehensive settlement. Multiple attacks on Gulf shipping over the weekend and a Houthi claim against a Saudi refinery show that Tehran and aligned forces retain escalation leverage, while Qatari contacts keep a narrow diplomatic channel open; operational pauses remain more plausible than a durable political settlement.",
+      "assessment": "The US–Iran conflict is likely to continue through economic pressure, intermittent attacks and mediated diplomacy rather than a near-term comprehensive settlement. Washington’s new sanctions on shadow-banking networks and Tehran’s pledge to use all available tools against the naval blockade harden both sides’ positions, while Qatar’s continuing mediation leaves a narrow channel for an operational arrangement.",
       "likelyDevelopments": [
-        "Tehran will continue indirect diplomacy while retaining pressure through shipping disruption and regional partners.",
-        "Iranian forces and aligned groups are likely to maintain intermittent attacks designed to raise economic and security costs without guaranteeing full-scale escalation.",
-        "The United States and Gulf partners will reinforce maritime protection while trying to limit fuel-price pressure.",
-        "A narrow shipping or sanctions arrangement remains more plausible than a comprehensive nuclear and regional settlement."
+        "Washington will continue targeting Iranian financial and shipping networks while maintaining the naval blockade.",
+        "Tehran will challenge the blockade through selective shipping, regional pressure and threats to restrict Strait of Hormuz transit.",
+        "Qatar and other mediators will keep pursuing a limited shipping or sanctions arrangement.",
+        "A narrow operational pause remains more plausible than a comprehensive nuclear and regional settlement, with escalation risk still high."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1922,6 +1950,18 @@
         {
           "label": "Gulf shipping attacks continue to support oil-risk premium",
           "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+        },
+        {
+          "label": "Iran vows to confront the US naval blockade",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+        },
+        {
+          "label": "US sanctions Iranian shadow-banking networks",
+          "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks-2026-11-23/"
+        },
+        {
+          "label": "US officials meet Qatari prime minister over Iran mediation",
+          "url": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f"
         }
       ]
     },
