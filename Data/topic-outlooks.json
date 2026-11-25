@@ -43,16 +43,16 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-24",
-      "mentions": 32,
+      "lastSeen": "2026-11-25",
+      "mentions": 33,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
     },
     "Ethiopia.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-19",
-      "mentions": 7,
+      "lastSeen": "2026-11-25",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -75,24 +75,24 @@
     },
     "Palestinian-Politics.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-23",
-      "mentions": 11,
+      "lastSeen": "2026-11-25",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-10"
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-24",
-      "mentions": 20,
+      "lastSeen": "2026-11-25",
+      "mentions": 21,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-24",
-      "mentions": 48,
+      "lastSeen": "2026-11-25",
+      "mentions": 49,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -179,40 +179,40 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-13",
-      "mentions": 10,
+      "lastSeen": "2026-11-25",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-24",
-      "mentions": 26,
+      "lastSeen": "2026-11-25",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Houthis.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 22,
+      "lastSeen": "2026-11-25",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-21",
-      "mentions": 23,
+      "lastSeen": "2026-11-25",
+      "mentions": 24,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
     },
     "Red-Sea-Shipping.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-24",
-      "mentions": 17,
+      "lastSeen": "2026-11-25",
+      "mentions": 18,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -259,16 +259,16 @@
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-24",
-      "mentions": 32,
+      "lastSeen": "2026-11-25",
+      "mentions": 33,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Israel.md": {
       "firstSeen": "2026-09-28",
-      "lastSeen": "2026-11-23",
-      "mentions": 19,
+      "lastSeen": "2026-11-25",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-24",
-      "mentions": 42,
+      "lastSeen": "2026-11-25",
+      "mentions": 43,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -307,8 +307,8 @@
     },
     "Swiss-Banking-Regulation.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-08",
-      "mentions": 7,
+      "lastSeen": "2026-11-25",
+      "mentions": 8,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -347,24 +347,24 @@
     },
     "Swiss-Security-Policy.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-22",
-      "mentions": 22,
+      "lastSeen": "2026-11-25",
+      "mentions": 23,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "UBS.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-28",
-      "mentions": 5,
+      "lastSeen": "2026-11-25",
+      "mentions": 6,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-24",
-      "mentions": 61,
+      "lastSeen": "2026-11-25",
+      "mentions": 62,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-24",
-      "mentions": 30,
+      "lastSeen": "2026-11-25",
+      "mentions": 31,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -475,8 +475,8 @@
     },
     "Global-Health.md": {
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-24",
-      "mentions": 3,
+      "lastSeen": "2026-11-25",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
@@ -918,17 +918,17 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-24",
-      "materiallyUpdated": "2026-11-24",
-      "validUntil": "2026-12-01",
-      "nextReview": "2026-11-25",
+      "reviewed": "2026-11-25",
+      "materiallyUpdated": "2026-11-25",
+      "validUntil": "2026-12-02",
+      "nextReview": "2026-11-26",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute after Russian missiles landed in Poland and NATO authorised a forward AWACS deployment, while Ukraine acknowledged attacking Russian naval and logistics assets in Libya. The incidents make additional surveillance, air-defence and maritime-protection measures more likely and increase the danger of miscalculation across NATO’s eastern flank and the Mediterranean.",
+      "assessment": "European security risks are likely to remain acute as Russia continues heavy attacks on Ukrainian cities and Kyiv defends operations against Russian naval and logistics assets in Libya as lawful self-defence. NATO’s surveillance reinforcement in Poland and the widening geographical reach of the conflict make additional air-defence, maritime-protection and infrastructure-security measures likely, while increasing the danger of miscalculation.",
       "likelyDevelopments": [
         "NATO will strengthen surveillance and operational awareness in Poland while assessing additional eastern-flank assets.",
         "European governments will intensify protection of airspace, ports, shipping and critical infrastructure.",
-        "Ukraine will continue targeting Russian logistics beyond the immediate front where operational opportunities arise.",
+        "Ukraine will continue targeting Russian logistics beyond the immediate front where operational opportunities arise, prompting legal and diplomatic disputes with third countries.",
         "Attribution disputes and cross-border incidents will keep escalation risk high even as all sides seek to avoid direct NATO–Russia conflict."
       ],
       "upcomingEvents": [
@@ -1260,24 +1260,32 @@
         {
           "label": "Ukraine acknowledges Libya naval strike",
           "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/"
+        },
+        {
+          "label": "Russian strike on Zaporizhzhia and Ukrainian reinforcement plans",
+          "url": "https://apnews.com/article/bfff959fb4c7415f9473b34e78a4f750"
+        },
+        {
+          "label": "Ukraine defends Libya naval strike as self-defence",
+          "url": "https://www.reuters.com/world/europe/ukraine-insists-attack-russian-ships-libya-was-self-defence-2026-11-24/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-24",
-      "materiallyUpdated": "2026-11-24",
-      "validUntil": "2026-12-01",
-      "nextReview": "2026-11-25",
+      "reviewed": "2026-11-25",
+      "materiallyUpdated": "2026-11-25",
+      "validUntil": "2026-12-02",
+      "nextReview": "2026-11-26",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain attacks on Ukraine while expanding protection of its military and logistics network after Kyiv acknowledged sinking a Russian corvette in Libya. Russian missiles landing in Poland have prompted a NATO surveillance reinforcement, increasing pressure on Moscow’s relations with the alliance; continued fighting and contested escalation remain more likely than a comprehensive settlement during the forecast period.",
+      "assessment": "Russia is likely to sustain long-range attacks on Ukraine while tightening protection of military, energy and logistics assets after Ukrainian operations reached Libya, Finland and Russian refineries. The deadly strike on Zaporizhzhia and Moscow’s promise to respond to refinery attacks point to continued reciprocal escalation; selective diplomacy remains possible, but a comprehensive settlement is unlikely during the forecast period.",
       "likelyDevelopments": [
-        "Russian drone and missile operations against Ukraine will continue, with heightened scrutiny of any objects entering NATO airspace.",
-        "Russia will strengthen protection of military and commercial vessels as Ukrainian operations reach the Mediterranean and northern European waters.",
+        "Russian drone, missile and glide-bomb attacks against Ukraine will continue, particularly against cities, energy systems and front-line regions.",
+        "Russia will strengthen protection of refineries, military vessels and commercial logistics as Ukrainian operations extend beyond the immediate front.",
         "NATO’s enhanced surveillance in Poland will raise operational awareness but also political sensitivity around future incursions.",
-        "Diplomatic contacts will continue selectively, but a comprehensive settlement remains unlikely during the forecast period."
+        "Diplomatic contacts will continue selectively, but reciprocal attacks make a comprehensive settlement unlikely during the forecast period."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1639,24 +1647,36 @@
         {
           "label": "Ukraine acknowledges Libya naval strike",
           "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/"
+        },
+        {
+          "label": "Russian strike on Zaporizhzhia and Ukrainian reinforcement plans",
+          "url": "https://apnews.com/article/bfff959fb4c7415f9473b34e78a4f750"
+        },
+        {
+          "label": "Ukraine defends Libya naval strike as self-defence",
+          "url": "https://www.reuters.com/world/europe/ukraine-insists-attack-russian-ships-libya-was-self-defence-2026-11-24/"
+        },
+        {
+          "label": "Putin signals response to Ukrainian refinery attacks",
+          "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-24",
-      "materiallyUpdated": "2026-11-24",
-      "validUntil": "2026-12-01",
-      "nextReview": "2026-11-25",
+      "reviewed": "2026-11-25",
+      "materiallyUpdated": "2026-11-25",
+      "validUntil": "2026-12-02",
+      "nextReview": "2026-11-26",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran conflict is likely to continue through economic pressure, intermittent attacks and mediated diplomacy rather than a near-term comprehensive settlement. Washington’s new sanctions on shadow-banking networks and Tehran’s pledge to use all available tools against the naval blockade harden both sides’ positions, while Qatar’s continuing mediation leaves a narrow channel for an operational arrangement.",
+      "assessment": "The US–Iran conflict is likely to continue through economic pressure, maritime restrictions, proxy attacks and mediated diplomacy rather than a near-term settlement. Tehran has again ruled out talks until its conditions are met and is enforcing restricted passage through the Strait of Hormuz, while Iran-aligned Houthis have widened threats against Saudi infrastructure; Qatar’s mediation still provides a narrow channel for an operational arrangement.",
       "likelyDevelopments": [
-        "Washington will continue targeting Iranian financial and shipping networks while maintaining the naval blockade.",
-        "Tehran will challenge the blockade through selective shipping, regional pressure and threats to restrict Strait of Hormuz transit.",
-        "Qatar and other mediators will keep pursuing a limited shipping or sanctions arrangement.",
-        "A narrow operational pause remains more plausible than a comprehensive nuclear and regional settlement, with escalation risk still high."
+        "Washington will continue targeting Iranian financial and shipping networks while maintaining military protection for selected Gulf transit.",
+        "Tehran will enforce restricted passage through the Strait of Hormuz and use regional pressure while demanding sanctions relief and an end to the blockade.",
+        "Iran-aligned Houthi attacks and Saudi retaliation will amplify regional escalation risks beyond the Gulf.",
+        "Qatar and other mediators will keep pursuing a limited shipping or sanctions arrangement, but a comprehensive settlement remains unlikely."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1962,24 +1982,36 @@
         {
           "label": "US officials meet Qatari prime minister over Iran mediation",
           "url": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f"
+        },
+        {
+          "label": "Iran reiterates conditions for US talks as tanker mines are reported",
+          "url": "https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5"
+        },
+        {
+          "label": "New vessel attacks around the Strait of Hormuz",
+          "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+        },
+        {
+          "label": "Houthis threaten Saudi Red Sea ports",
+          "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-23",
-      "materiallyUpdated": "2026-11-23",
-      "validUntil": "2026-11-30",
-      "nextReview": "2026-11-24",
+      "reviewed": "2026-11-25",
+      "materiallyUpdated": "2026-11-25",
+      "validUntil": "2026-12-02",
+      "nextReview": "2026-11-26",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial traffic remains possible but highly volatile after multiple weekend attacks on Gulf shipping and renewed Houthi pressure on Saudi energy infrastructure. Selective transit and alternative routes may keep oil moving, but growing numbers of empty vessels relative to laden ships point to mounting flow constraints; insurance and security costs are likely to remain elevated without a verified operational agreement.",
+      "assessment": "Commercial traffic through the Strait of Hormuz is likely to remain possible but dangerous and expensive after three tankers and a container ship were reported struck or mined around the waterway. Higher transit volumes have not restored normal conditions: shuttling, ship-to-ship transfers and longer voyages are consuming tanker capacity, while Iran continues to restrict “unauthorised” routes and diplomacy remains stalled.",
       "likelyDevelopments": [
-        "Commercial traffic will continue selectively at high insurance and charter costs, with laden flows more vulnerable than ballast movements.",
-        "Regional mediators will keep seeking narrow arrangements while attacks and the nuclear dispute limit prospects for normalization.",
-        "Gulf states and shipping operators will intensify mine countermeasures, escorts and route monitoring.",
-        "Energy prices will remain highly sensitive to fresh attacks or evidence that loaded-vessel movements are falling."
+        "Commercial traffic will continue selectively at high insurance and charter costs, with ships using escorts, controlled routes and ship-to-ship transfers.",
+        "Iran will continue enforcing restrictions on passage while Gulf states and the United States protect selected transit.",
+        "Regional mediators will keep seeking a narrow operational arrangement, but attacks and the nuclear dispute will limit prospects for normalization.",
+        "Energy prices and tanker rates will remain highly sensitive to fresh attacks or evidence that laden-vessel movements are falling."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -2169,6 +2201,18 @@
         {
           "label": "Weekend Gulf shipping attacks limit oil-price losses",
           "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+        },
+        {
+          "label": "New vessel attacks around the Strait of Hormuz",
+          "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+        },
+        {
+          "label": "Tanker scarcity and ship-to-ship transfers around Hormuz",
+          "url": "https://www.reuters.com/business/energy/used-crude-tankers-top-newbuild-prices-cmbtech-says-2026-11-24/"
+        },
+        {
+          "label": "Iran reiterates conditions for US talks as tanker mines are reported",
+          "url": "https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5"
         }
       ]
     }
