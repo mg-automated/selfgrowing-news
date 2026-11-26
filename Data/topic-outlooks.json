@@ -19,8 +19,8 @@
     },
     "Spain.md": {
       "firstSeen": "2026-10-06",
-      "lastSeen": "2026-11-04",
-      "mentions": 3,
+      "lastSeen": "2026-11-26",
+      "mentions": 4,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-06"
@@ -43,8 +43,8 @@
     },
     "Cybersecurity.md": {
       "firstSeen": "2026-10-04",
-      "lastSeen": "2026-11-25",
-      "mentions": 33,
+      "lastSeen": "2026-11-26",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
@@ -67,8 +67,8 @@
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-24",
-      "mentions": 24,
+      "lastSeen": "2026-11-26",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -83,16 +83,16 @@
     },
     "Swiss-Federal-Council.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-25",
-      "mentions": 21,
+      "lastSeen": "2026-11-26",
+      "mentions": 22,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-25",
-      "mentions": 49,
+      "lastSeen": "2026-11-26",
+      "mentions": 50,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -179,8 +179,8 @@
     },
     "North-Korea.md": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-25",
-      "mentions": 11,
+      "lastSeen": "2026-11-26",
+      "mentions": 12,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-07"
@@ -235,8 +235,8 @@
     },
     "AI-Infrastructure.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-22",
-      "mentions": 52,
+      "lastSeen": "2026-11-26",
+      "mentions": 53,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -331,16 +331,16 @@
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-17",
-      "mentions": 18,
+      "lastSeen": "2026-11-26",
+      "mentions": 19,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "Swiss-EU-Relations.md": {
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-11-17",
-      "mentions": 10,
+      "lastSeen": "2026-11-26",
+      "mentions": 11,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-25",
-      "mentions": 62,
+      "lastSeen": "2026-11-26",
+      "mentions": 63,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-25",
-      "mentions": 31,
+      "lastSeen": "2026-11-26",
+      "mentions": 32,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -403,8 +403,8 @@
     },
     "European-Migration.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-24",
-      "mentions": 8,
+      "lastSeen": "2026-11-26",
+      "mentions": 9,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-12"
@@ -547,8 +547,8 @@
     },
     "Swiss-Product-Regulation.md": {
       "firstSeen": "2026-09-25",
-      "lastSeen": "2026-11-17",
-      "mentions": 2,
+      "lastSeen": "2026-11-26",
+      "mentions": 3,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-17"
@@ -566,18 +566,18 @@
     "Artificial-Intelligence.md": {
       "topic": "Topics/Artificial-Intelligence.md",
       "volatility": "medium",
-      "reviewed": "2026-11-24",
-      "materiallyUpdated": "2026-11-24",
-      "validUntil": "2026-12-08",
-      "nextReview": "2026-11-27",
+      "reviewed": "2026-11-26",
+      "materiallyUpdated": "2026-11-26",
+      "validUntil": "2026-12-10",
+      "nextReview": "2026-11-29",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "AI deployment and strategic investment are likely to keep expanding while governments tighten oversight of infrastructure, exports and democratic risks. Australia’s decision to make AI a foreign-policy priority, US scrutiny of Nvidia’s China-chip controls and CrowdStrike’s planned acquisition of Zscaler all point toward stronger links between AI adoption, national security and consolidated cyber-defence platforms.",
+      "assessment": "AI deployment and strategic investment are likely to keep expanding while governments tighten oversight of infrastructure, exports and operational resilience. Anthropic’s planned Zurich expansion shows frontier labs competing for specialised European research talent, while US scrutiny of Nvidia’s China-chip controls and Microsoft’s reliability overhaul reinforce the link between AI growth, national security and dependable cloud infrastructure.",
       "likelyDevelopments": [
-        "Governments will increasingly treat frontier AI, advanced chips and cyber resilience as connected foreign-policy and national-security issues.",
+        "Frontier AI companies will continue expanding research and engineering capacity in leading talent hubs such as Zurich.",
         "US lawmakers will press Nvidia and other chipmakers for stronger location tracking and export-control compliance.",
-        "Security vendors and large technology companies will expand runtime controls and automated defences for AI agents, with further platform consolidation likely.",
-        "Investment in chips, data centres and AI capabilities will continue, while policy disputes increasingly shape where systems can be built and sold."
+        "Cloud and security providers will invest in faster recovery, runtime controls and automated defences for AI-dependent systems.",
+        "Investment in chips, data centres and AI capabilities will continue, while policy and infrastructure constraints increasingly shape where systems can be built and sold."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -912,24 +912,36 @@
         {
           "label": "CrowdStrike agrees to acquire Zscaler",
           "url": "https://crowdstrike.gcs-web.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
+        },
+        {
+          "label": "Anthropic expands its Zurich research presence",
+          "url": "https://www.swissinfo.ch/eng/anthropic-expands-in-zurich-to-tap-citys-ai-talent-pool/92435062"
+        },
+        {
+          "label": "Microsoft launches Code Red reliability overhaul",
+          "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
+        },
+        {
+          "label": "US debate over tighter China AI-chip controls",
+          "url": "https://www.reuters.com/legal/government/jensen-huangs-return-nvidia-fuels-washington-fight-over-chinas-chip-access-2026-11-25/"
         }
       ]
     },
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-25",
-      "materiallyUpdated": "2026-11-25",
-      "validUntil": "2026-12-02",
-      "nextReview": "2026-11-26",
+      "reviewed": "2026-11-26",
+      "materiallyUpdated": "2026-11-26",
+      "validUntil": "2026-12-03",
+      "nextReview": "2026-11-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute as Russia continues heavy attacks on Ukrainian cities and Kyiv defends operations against Russian naval and logistics assets in Libya as lawful self-defence. NATO’s surveillance reinforcement in Poland and the widening geographical reach of the conflict make additional air-defence, maritime-protection and infrastructure-security measures likely, while increasing the danger of miscalculation.",
+      "assessment": "European security risks are likely to remain acute as Ukraine extends long-range attacks against Russian military aviation and Russia continues striking Ukrainian cities and energy infrastructure. A joint Trump–Rutte warning against actions that could widen the war signals renewed NATO attention to escalation control, but further air-defence, surveillance and infrastructure-protection measures remain likely.",
       "likelyDevelopments": [
-        "NATO will strengthen surveillance and operational awareness in Poland while assessing additional eastern-flank assets.",
+        "NATO will strengthen surveillance and operational awareness while urging Russia to avoid incidents that could widen the war.",
         "European governments will intensify protection of airspace, ports, shipping and critical infrastructure.",
-        "Ukraine will continue targeting Russian logistics beyond the immediate front where operational opportunities arise, prompting legal and diplomatic disputes with third countries.",
-        "Attribution disputes and cross-border incidents will keep escalation risk high even as all sides seek to avoid direct NATO–Russia conflict."
+        "Ukraine will continue targeting Russian aircraft, logistics and energy assets beyond the immediate front where operational opportunities arise.",
+        "Reciprocal long-range attacks and contested attribution will keep escalation risk high even as diplomatic contacts continue."
       ],
       "upcomingEvents": [
         {
@@ -1268,23 +1280,31 @@
         {
           "label": "Ukraine defends Libya naval strike as self-defence",
           "url": "https://www.reuters.com/world/europe/ukraine-insists-attack-russian-ships-libya-was-self-defence-2026-11-24/"
+        },
+        {
+          "label": "Ukraine reports five Russian aircraft damaged at Savasleyka",
+          "url": "https://www.reuters.com/business/aerospace-defense/ukraine-says-it-struck-major-russian-air-base-damaging-five-planes-2026-11-25/"
+        },
+        {
+          "label": "Trump and NATO chief urge Russia not to widen the war",
+          "url": "https://www.reuters.com/world/china/trump-nato-chief-urge-russia-avoid-actions-that-widen-ukraine-war-2026-11-26/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-25",
-      "materiallyUpdated": "2026-11-25",
-      "validUntil": "2026-12-02",
-      "nextReview": "2026-11-26",
+      "reviewed": "2026-11-26",
+      "materiallyUpdated": "2026-11-26",
+      "validUntil": "2026-12-03",
+      "nextReview": "2026-11-27",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain long-range attacks on Ukraine while tightening protection of military, energy and logistics assets after Ukrainian operations reached Libya, Finland and Russian refineries. The deadly strike on Zaporizhzhia and Moscow’s promise to respond to refinery attacks point to continued reciprocal escalation; selective diplomacy remains possible, but a comprehensive settlement is unlikely during the forecast period.",
+      "assessment": "Russia is likely to sustain long-range attacks on Ukraine while tightening protection of military, energy and logistics assets after Ukraine reported damaging five combat aircraft at Savasleyka air base. The joint US–NATO warning against actions that could widen the war highlights the risk of spillover, while continuing reciprocal strikes make a comprehensive settlement unlikely during the forecast period.",
       "likelyDevelopments": [
         "Russian drone, missile and glide-bomb attacks against Ukraine will continue, particularly against cities, energy systems and front-line regions.",
-        "Russia will strengthen protection of refineries, military vessels and commercial logistics as Ukrainian operations extend beyond the immediate front.",
-        "NATO’s enhanced surveillance in Poland will raise operational awareness but also political sensitivity around future incursions.",
+        "Russia will strengthen protection of air bases, refineries, military vessels and commercial logistics as Ukrainian operations extend deeper into Russian-controlled space.",
+        "NATO will monitor possible spillover more closely and press Moscow to avoid actions that could widen the war.",
         "Diplomatic contacts will continue selectively, but reciprocal attacks make a comprehensive settlement unlikely during the forecast period."
       ],
       "upcomingEvents": [],
@@ -1659,24 +1679,32 @@
         {
           "label": "Putin signals response to Ukrainian refinery attacks",
           "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+        },
+        {
+          "label": "Ukraine reports five Russian aircraft damaged at Savasleyka",
+          "url": "https://www.reuters.com/business/aerospace-defense/ukraine-says-it-struck-major-russian-air-base-damaging-five-planes-2026-11-25/"
+        },
+        {
+          "label": "Trump and NATO chief urge Russia not to widen the war",
+          "url": "https://www.reuters.com/world/china/trump-nato-chief-urge-russia-avoid-actions-that-widen-ukraine-war-2026-11-26/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-25",
-      "materiallyUpdated": "2026-11-25",
-      "validUntil": "2026-12-02",
-      "nextReview": "2026-11-26",
+      "reviewed": "2026-11-26",
+      "materiallyUpdated": "2026-11-26",
+      "validUntil": "2026-12-03",
+      "nextReview": "2026-11-27",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran conflict is likely to continue through economic pressure, maritime restrictions, proxy attacks and mediated diplomacy rather than a near-term settlement. Tehran has again ruled out talks until its conditions are met and is enforcing restricted passage through the Strait of Hormuz, while Iran-aligned Houthis have widened threats against Saudi infrastructure; Qatar’s mediation still provides a narrow channel for an operational arrangement.",
+      "assessment": "The US–Iran conflict is likely to continue through maritime restrictions, proxy attacks, economic pressure and mediated diplomacy rather than a near-term settlement. Iran has strengthened surveillance and route enforcement in the Strait of Hormuz after two more tankers reportedly hit mines, while Iran-aligned Houthis struck major Saudi energy infrastructure; Qatar’s mediation still provides a narrow channel for an operational shipping arrangement.",
       "likelyDevelopments": [
-        "Washington will continue targeting Iranian financial and shipping networks while maintaining military protection for selected Gulf transit.",
-        "Tehran will enforce restricted passage through the Strait of Hormuz and use regional pressure while demanding sanctions relief and an end to the blockade.",
-        "Iran-aligned Houthi attacks and Saudi retaliation will amplify regional escalation risks beyond the Gulf.",
-        "Qatar and other mediators will keep pursuing a limited shipping or sanctions arrangement, but a comprehensive settlement remains unlikely."
+        "Washington will maintain military protection for selected Gulf transit and economic pressure on Iranian networks.",
+        "Tehran will enforce restricted passage through the Strait of Hormuz while demanding sanctions relief and an end to the US blockade.",
+        "Iran-aligned Houthi attacks and Saudi retaliation will amplify regional escalation and energy-supply risks.",
+        "Qatar and other mediators will keep pursuing a limited shipping arrangement, but a comprehensive settlement remains unlikely."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -1994,6 +2022,14 @@
         {
           "label": "Houthis threaten Saudi Red Sea ports",
           "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/"
+        },
+        {
+          "label": "Iran reports two more tankers struck mines in Hormuz",
+          "url": "https://www.reuters.com/world/iran-says-ships-hit-mines-hormuz-warns-vessels-coordinate-passage-2026-11-25/"
+        },
+        {
+          "label": "Houthis claim attack on Saudi Arabia’s largest refinery",
+          "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
         }
       ]
     },
