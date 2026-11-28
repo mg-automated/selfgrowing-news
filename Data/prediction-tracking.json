@@ -1842,6 +1842,22 @@
             "url": "https://www.reuters.com/world/china/putin-says-russia-invited-europeans-moscow-clarify-position-ukraine-talks-2026-11-19/"
           }
         ]
+      },
+      "assessment": {
+        "result": "supported",
+        "assessed": "2026-11-28",
+        "evidenceThrough": "2026-11-27",
+        "explanation": "Reliable reporting through the end of November 27 documented continued large-scale reciprocal attacks and no comprehensive nationwide ceasefire. On November 27, Ukrainian air defences reported 155 Russian drones, with strikes across nine regions, while Russia reported intercepting 318 Ukrainian drones; Reuters also reported that an earlier limited energy ceasefire had broken down. This covers the full forecast window and satisfies the original success condition.",
+        "sources": [
+          {
+            "label": "AP reports reciprocal attacks continuing on November 27",
+            "url": "https://apnews.com/article/d891149b4cbd6521b83096a32bd5e53d"
+          },
+          {
+            "label": "Reuters reports breakdown of the limited energy ceasefire",
+            "url": "https://www.reuters.com/business/energy/russia-is-contact-with-us-diesel-supply-novak-says-2026-11-27/"
+          }
+        ]
       }
     }
   ],
@@ -3434,6 +3450,11 @@
         "assessments": 2,
         "creations": 1,
         "additionalLookups": 3
+      },
+      "outcome": {
+        "status": "assessed",
+        "explanation": "Reliable reporting through the end of November 27 documented continued large-scale reciprocal attacks and no comprehensive nationwide ceasefire. On November 27, Ukrainian air defences reported 155 Russian drones, with strikes across nine regions, while Russia reported intercepting 318 Ukrainian drones; Reuters also reported that an earlier limited energy ceasefire had broken down. This covers the full forecast window and satisfies the original success condition.",
+        "additionalLookups": 2
       }
     }
   ]

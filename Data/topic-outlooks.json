@@ -59,16 +59,16 @@
     },
     "Germany.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-27",
-      "mentions": 12,
+      "lastSeen": "2026-11-28",
+      "mentions": 13,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-04"
     },
     "Pacific-Security.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-27",
-      "mentions": 26,
+      "lastSeen": "2026-11-28",
+      "mentions": 27,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
@@ -91,16 +91,16 @@
     },
     "United-States.md": {
       "firstSeen": "2026-10-03",
-      "lastSeen": "2026-11-27",
-      "mentions": 51,
+      "lastSeen": "2026-11-28",
+      "mentions": 52,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-03"
     },
     "Taiwan.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-20",
-      "mentions": 15,
+      "lastSeen": "2026-11-28",
+      "mentions": 16,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-02"
@@ -187,8 +187,8 @@
     },
     "United-Nations.md": {
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-11-25",
-      "mentions": 27,
+      "lastSeen": "2026-11-28",
+      "mentions": 28,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -203,8 +203,8 @@
     },
     "Yemen-Conflict.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-25",
-      "mentions": 24,
+      "lastSeen": "2026-11-28",
+      "mentions": 25,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-30"
@@ -251,16 +251,16 @@
     },
     "China-Technology.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-27",
-      "mentions": 34,
+      "lastSeen": "2026-11-28",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
     },
     "China.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-27",
-      "mentions": 34,
+      "lastSeen": "2026-11-28",
+      "mentions": 35,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -283,8 +283,8 @@
     },
     "Semiconductors.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-27",
-      "mentions": 44,
+      "lastSeen": "2026-11-28",
+      "mentions": 45,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -323,16 +323,16 @@
     },
     "Swiss-Cybersecurity.md": {
       "firstSeen": "2026-09-26",
-      "lastSeen": "2026-11-27",
-      "mentions": 13,
+      "lastSeen": "2026-11-28",
+      "mentions": 14,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-29"
     },
     "Swiss-Direct-Democracy.md": {
       "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-26",
-      "mentions": 19,
+      "lastSeen": "2026-11-28",
+      "mentions": 20,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -363,8 +363,8 @@
     },
     "Ukraine.md": {
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-11-27",
-      "mentions": 64,
+      "lastSeen": "2026-11-28",
+      "mentions": 65,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-09-28"
@@ -379,8 +379,8 @@
     },
     "European-Union.md": {
       "firstSeen": "2026-10-11",
-      "lastSeen": "2026-11-27",
-      "mentions": 33,
+      "lastSeen": "2026-11-28",
+      "mentions": 34,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-10-11"
@@ -475,8 +475,8 @@
     },
     "Global-Health.md": {
       "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-25",
-      "mentions": 4,
+      "lastSeen": "2026-11-28",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-01"
@@ -523,8 +523,8 @@
     },
     "Sudan.md": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-23",
-      "mentions": 4,
+      "lastSeen": "2026-11-28",
+      "mentions": 5,
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-09"
@@ -560,6 +560,22 @@
       "attempts": 0,
       "lastAttempt": null,
       "eligibleAfter": "2026-11-18"
+    },
+    "Canada.md": {
+      "firstSeen": "2026-11-28",
+      "lastSeen": "2026-11-28",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-28"
+    },
+    "Niger.md": {
+      "firstSeen": "2026-11-28",
+      "lastSeen": "2026-11-28",
+      "mentions": 1,
+      "attempts": 0,
+      "lastAttempt": null,
+      "eligibleAfter": "2026-11-28"
     }
   },
   "outlooks": {
@@ -942,17 +958,17 @@
     "European-Security.md": {
       "topic": "Topics/European-Security.md",
       "volatility": "high",
-      "reviewed": "2026-11-27",
-      "materiallyUpdated": "2026-11-27",
-      "validUntil": "2026-12-04",
-      "nextReview": "2026-11-28",
+      "reviewed": "2026-11-28",
+      "materiallyUpdated": "2026-11-28",
+      "validUntil": "2026-12-05",
+      "nextReview": "2026-11-29",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "European security risks are likely to remain acute as Russia prepares further large-scale attacks on Ukraine and Kyiv continues striking Russian military and energy assets. Washington is pressing Moscow to reduce aggressive activity beyond Ukraine, while the EU is trying to settle long-term Ukraine funding; air-defence, surveillance and infrastructure-protection measures remain likely as diplomacy continues without a comprehensive settlement.",
+      "assessment": "European security risks are likely to remain acute as Russia sustains attacks on Ukraine and Kyiv demonstrates an ability to disrupt Russian military logistics well beyond the main battlefield. The diversion of a Russian convoy after the Benghazi naval strike adds a Mediterranean dimension, while NATO protection measures and diplomacy continue without a comprehensive settlement.",
       "likelyDevelopments": [
-        "Russia will sustain drone and missile attacks against Ukrainian cities and energy infrastructure, with Ukraine continuing retaliatory strikes on Russian military and energy assets.",
-        "NATO members will reinforce surveillance, air defence and protection of critical infrastructure while pressing Russia to avoid spillover beyond Ukraine.",
-        "EU leaders will seek agreement in December on long-term budget provisions that include Ukraine support.",
+        "Russia will sustain drone and missile attacks against Ukrainian cities and infrastructure, with Ukraine continuing strikes on Russian military and logistics assets.",
+        "Russia will increase protection or rerouting of naval and cargo movements after attacks in the Baltic and Mediterranean regions.",
+        "NATO members will reinforce surveillance, air defence and protection of critical infrastructure while seeking to prevent spillover.",
         "Diplomatic contacts will continue, but reciprocal attacks and disputed security guarantees will keep escalation risk high."
       ],
       "upcomingEvents": [
@@ -1312,23 +1328,27 @@
         {
           "label": "EU leaders target December agreement on long-term budget",
           "url": "https://www.reuters.com/world/eu-leaders-aim-budget-deal-before-end-year-merz-says-2026-11-26/"
+        },
+        {
+          "label": "Russian military convoy turns away from Libya after naval strike",
+          "url": "https://www.reuters.com/world/europe/russian-military-flotilla-bound-libya-turns-around-after-warship-sunk-nov-22-2026-11-27/"
         }
       ]
     },
     "Russia.md": {
       "topic": "Topics/Russia.md",
       "volatility": "high",
-      "reviewed": "2026-11-27",
-      "materiallyUpdated": "2026-11-27",
-      "validUntil": "2026-12-04",
-      "nextReview": "2026-11-28",
+      "reviewed": "2026-11-28",
+      "materiallyUpdated": "2026-11-28",
+      "validUntil": "2026-12-05",
+      "nextReview": "2026-11-29",
       "horizon": "the next 30 days",
       "confidence": "medium",
-      "assessment": "Russia is likely to sustain long-range attacks on Ukraine while strengthening protection of military, energy and logistics assets against Ukrainian strikes. Zelenskyy’s warning of another mass attack and Trump’s request that Putin reduce aggression across Europe underline the simultaneous risks of battlefield escalation and wider spillover; selective diplomacy will continue, but a comprehensive settlement remains unlikely during the forecast period.",
+      "assessment": "Russia is likely to sustain long-range attacks on Ukraine while strengthening protection and rerouting of military, energy and logistics assets against Ukrainian strikes. The diversion of a military convoy after the sinking of a Russian corvette in Libya shows that the conflict is disrupting Moscow’s overseas supply network; selective diplomacy will continue, but a comprehensive settlement remains unlikely during the forecast period.",
       "likelyDevelopments": [
         "Russian drone, missile and glide-bomb attacks against Ukrainian cities, energy systems and front-line regions will continue.",
-        "Russia will strengthen protection of air bases, refineries, military vessels and logistics as Ukrainian strikes reach deeper targets.",
-        "The United States and NATO allies will press Moscow to reduce spillover risks while maintaining diplomatic contact.",
+        "Russia will strengthen protection or alter movements of air bases, refineries, military vessels and overseas logistics after Ukrainian strikes.",
+        "Moscow will try to preserve support for partners and Africa Corps operations despite greater risks to Mediterranean supply routes.",
         "Reciprocal attacks and incompatible security demands will prevent a comprehensive settlement during the forecast period."
       ],
       "upcomingEvents": [],
@@ -1719,23 +1739,27 @@
         {
           "label": "Trump asks Putin to pull back military aggression across Europe",
           "url": "https://www.reuters.com/world/europe/trump-says-hed-like-see-putin-pull-back-military-aggression-europe-2026-11-26/"
+        },
+        {
+          "label": "Russian military convoy turns away from Libya after naval strike",
+          "url": "https://www.reuters.com/world/europe/russian-military-flotilla-bound-libya-turns-around-after-warship-sunk-nov-22-2026-11-27/"
         }
       ]
     },
     "Iran.md": {
       "topic": "Topics/Iran.md",
       "volatility": "high",
-      "reviewed": "2026-11-27",
-      "materiallyUpdated": "2026-11-27",
-      "validUntil": "2026-12-04",
-      "nextReview": "2026-11-28",
+      "reviewed": "2026-11-28",
+      "materiallyUpdated": "2026-11-28",
+      "validUntil": "2026-12-05",
+      "nextReview": "2026-11-29",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "The US–Iran conflict is likely to continue through maritime restrictions, proxy activity, economic pressure and mediated diplomacy rather than a near-term settlement. Australia’s sanctions against two alleged IRGC operatives show the dispute widening into attribution and counterterrorism measures beyond the Middle East, while tanker incidents and Houthi attacks keep Gulf shipping and energy infrastructure exposed.",
+      "assessment": "The US–Iran conflict is likely to continue through maritime enforcement, economic pressure, proxy activity and mediated diplomacy rather than a near-term settlement. The US disabling of a commercial ship leaving Bandar Abbas and Tehran’s vow to break the blockade increase the risk of direct encounters, while Iran is likely to keep the Strait of Hormuz restricted and seek ways to sustain escorted trade.",
       "likelyDevelopments": [
-        "Washington and partner governments will continue imposing financial and counterterrorism measures on Iranian state and proxy networks.",
-        "Tehran will maintain pressure around the Strait of Hormuz while demanding sanctions relief and an end to the US blockade.",
-        "Iran-aligned Houthi attacks and Saudi retaliation will sustain regional escalation and energy-supply risks.",
+        "The United States will continue enforcing the naval blockade and restrictions on sanctioned trade.",
+        "Tehran will maintain restrictions around the Strait of Hormuz while attempting escorts and demanding sanctions relief.",
+        "Further confrontations involving commercial shipping are likely, even as both sides seek to avoid uncontrolled escalation.",
         "Mediators will keep pursuing a limited shipping or sanctions arrangement, but a comprehensive settlement remains unlikely."
       ],
       "upcomingEvents": [],
@@ -2070,24 +2094,28 @@
         {
           "label": "Reuters report on Australian sanctions against alleged Iranian agents",
           "url": "https://www.reuters.com/world/asia-pacific/australia-sanctions-two-people-over-antisemitic-attacks-that-it-blames-iran-2026-11-27/"
+        },
+        {
+          "label": "US disables ship leaving Iran as Tehran vows to resist blockade",
+          "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/"
         }
       ]
     },
     "Strait-of-Hormuz.md": {
       "topic": "Topics/Strait-of-Hormuz.md",
       "volatility": "high",
-      "reviewed": "2026-11-25",
-      "materiallyUpdated": "2026-11-25",
-      "validUntil": "2026-12-02",
-      "nextReview": "2026-11-26",
+      "reviewed": "2026-11-28",
+      "materiallyUpdated": "2026-11-28",
+      "validUntil": "2026-12-05",
+      "nextReview": "2026-11-29",
       "horizon": "the next 30 days",
       "confidence": "low",
-      "assessment": "Commercial traffic through the Strait of Hormuz is likely to remain possible but dangerous and expensive after three tankers and a container ship were reported struck or mined around the waterway. Higher transit volumes have not restored normal conditions: shuttling, ship-to-ship transfers and longer voyages are consuming tanker capacity, while Iran continues to restrict “unauthorised” routes and diplomacy remains stalled.",
+      "assessment": "Commercial traffic through the Strait of Hormuz is likely to remain possible but dangerous and expensive as the United States enforces its blockade and Iran keeps the waterway closed to unauthorised traffic. The US disabling of a commercial ship leaving Bandar Abbas and Tehran’s vow to break the blockade make further confrontations more likely, while selective escorts and controlled routes will keep some shipping moving.",
       "likelyDevelopments": [
-        "Commercial traffic will continue selectively at high insurance and charter costs, with ships using escorts, controlled routes and ship-to-ship transfers.",
-        "Iran will continue enforcing restrictions on passage while Gulf states and the United States protect selected transit.",
-        "Regional mediators will keep seeking a narrow operational arrangement, but attacks and the nuclear dispute will limit prospects for normalization.",
-        "Energy prices and tanker rates will remain highly sensitive to fresh attacks or evidence that laden-vessel movements are falling."
+        "Commercial traffic will continue selectively at high insurance and charter costs, using escorts, controlled routes and ship-to-ship transfers.",
+        "The United States will continue enforcing its blockade while Iran attempts maritime escorts and maintains restrictions on passage.",
+        "Regional mediators will keep seeking a narrow operational arrangement, but direct enforcement actions and the nuclear dispute will limit prospects for normalization.",
+        "Energy prices and tanker rates will remain highly sensitive to fresh attacks or confrontations involving commercial vessels."
       ],
       "upcomingEvents": [],
       "changeSignals": [
@@ -2289,6 +2317,10 @@
         {
           "label": "Iran reiterates conditions for US talks as tanker mines are reported",
           "url": "https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5"
+        },
+        {
+          "label": "US disables ship leaving Iran as Tehran vows to resist blockade",
+          "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/"
         }
       ]
     }
